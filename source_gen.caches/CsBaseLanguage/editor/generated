@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-cdnpbak6p1wfuz01j66tnbcq7fubv9s">
+  <files names="ClassMember_Editor.java:ClassMember_EditorBuilder_a.java:ClassType_Editor.java:ClassType_EditorBuilder_a.java:ClassType_SubstituteMenu.java:Class_Editor.java:Class_EditorBuilder_a.java:CodeBlock_Editor.java:CodeBlock_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:IntType_Editor.java:IntType_EditorBuilder_a.java:MethodDefinition_Editor.java:MethodDefinition_EditorBuilder_a.java:PrivateVisibilityModifier_Editor.java:PrivateVisibilityModifier_EditorBuilder_a.java:ProtectedVisibilityModifier_Editor.java:ProtectedVisibilityModifier_EditorBuilder_a.java:PublicVisibilityModifier_Editor.java:PublicVisibilityModifier_EditorBuilder_a.java:Statement_Editor.java:Statement_EditorBuilder_a.java:StaticModifier_Editor.java:StaticModifier_EditorBuilder_a.java" />
+</product>
+
