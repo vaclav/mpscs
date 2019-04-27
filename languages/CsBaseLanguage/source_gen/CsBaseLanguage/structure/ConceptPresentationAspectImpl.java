@@ -445,7 +445,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Identifier:
         if (props_Identifier == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("!!!this needs to be revisited - method call!!!");
           cpb.rawPresentation("identifier");
           props_Identifier = cpb.create();
         }

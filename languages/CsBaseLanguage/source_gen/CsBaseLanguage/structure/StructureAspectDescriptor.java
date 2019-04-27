@@ -4,6 +4,8 @@ package CsBaseLanguage.structure;
 
 import jetbrains.mps.smodel.runtime.BaseStructureAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
+import jetbrains.mps.smodel.runtime.ConstrainedStringDatatypeDescriptor;
+import jetbrains.mps.smodel.runtime.ConstrainedStringDatatypeDescriptorImpl;
 import java.util.Collection;
 import java.util.Arrays;
 import org.jetbrains.annotations.Nullable;
@@ -11,6 +13,7 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
+import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptAndAssignExpression = createDescriptorForAndAssignExpression();
@@ -122,6 +125,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptVariableInitializer = createDescriptorForVariableInitializer();
   /*package*/ final ConceptDescriptor myConceptVoidType = createDescriptorForVoidType();
   /*package*/ final ConceptDescriptor myConceptXorAssignExpression = createDescriptorForXorAssignExpression();
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_BoolValue = new ConstrainedStringDatatypeDescriptorImpl(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dd2e80L, "_BoolValue", "r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290490496", "(true|false)");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_CharValue = new ConstrainedStringDatatypeDescriptorImpl(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872debbf0L, "_CharValue", "r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290592240", "'.?'");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_IdentifierValue = new ConstrainedStringDatatypeDescriptorImpl(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872e57d76L, "_IdentifierValue", "r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975291034998", "(_|[A-Za-z])([A-Za-z]|[0-9]|[-_])*");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_IntValue = new ConstrainedStringDatatypeDescriptorImpl(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872e3d464L, "_IntValue", "r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290926180", "([0-9]+|0[xX][0-9A-Fa-f]+)[Uu]?[Ll]?");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_RealValue = new ConstrainedStringDatatypeDescriptorImpl(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872e45f15L, "_RealValue", "r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290961685", "(((([0-9]*\\.[0-9]+([eE][+-]?[0-9]+)?)|([0-9]+[eE][+-]?[0-9]+))[Ff]?[Dd]?[Mm]?)|[0-9]+([Ff]|[Dd]|[Mm]))");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_StringValue = new ConstrainedStringDatatypeDescriptorImpl(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872e34e66L, "_StringValue", "r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290891878", "\".*\"");
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -362,7 +371,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList();
+    return Arrays.asList(myCSDatatype_BoolValue, myCSDatatype_CharValue, myCSDatatype_IdentifierValue, myCSDatatype_IntValue, myCSDatatype_RealValue, myCSDatatype_StringValue);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -514,6 +523,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("CsBaseLanguage.structure.Literal", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ca99e6L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190981613");
     b.version(2);
+    b.property("value", 0x2b6e5dd872dd2e81L).type(MetaIdFactory.dataTypeId(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dd2e80L)).origin("3129541975290490497").done();
     b.alias("BoolLiteral");
     return b.create();
   }
@@ -568,6 +578,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("CsBaseLanguage.structure.Literal", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ca99e6L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190981622");
     b.version(2);
+    b.property("value", 0x2b6e5dd872debbf1L).type(MetaIdFactory.dataTypeId(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872debbf0L)).origin("3129541975290592241").done();
     b.alias("CharLiteral");
     return b.create();
   }
@@ -766,6 +777,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("CsBaseLanguage.structure.PrimaryExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c937dcL);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562191001275");
     b.version(2);
+    b.property("value", 0x2b6e5dd872e57d77L).type(MetaIdFactory.dataTypeId(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872e57d76L)).origin("3129541975291034999").done();
     b.alias("identifier");
     return b.create();
   }
@@ -775,6 +787,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("CsBaseLanguage.structure.Literal", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ca99e6L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190981614");
     b.version(2);
+    b.property("value", 0x2b6e5dd872e3d465L).type(MetaIdFactory.dataTypeId(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872e3d464L)).origin("3129541975290926181").done();
     b.alias("IntLiteral");
     return b.create();
   }
@@ -1100,6 +1113,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("CsBaseLanguage.structure.NonArrayType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c706b6L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190878736");
     b.version(2);
+    b.aggregate("indentifier", 0x2b6e5dd872e7400bL).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4cae6bbL).optional(false).ordered(true).multiple(true).origin("3129541975291150347").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRankSpecifier() {
@@ -1116,6 +1130,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("CsBaseLanguage.structure.Literal", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ca99e6L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190981621");
     b.version(2);
+    b.property("value", 0x2b6e5dd872e45f16L).type(MetaIdFactory.dataTypeId(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872e45f15L)).origin("3129541975290961686").done();
     b.alias("RealLiteral");
     return b.create();
   }
@@ -1169,6 +1184,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("CsBaseLanguage.structure.Literal", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ca99e6L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190981623");
     b.version(2);
+    b.property("value", 0x2b6e5dd872e34e67L).type(MetaIdFactory.dataTypeId(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872e34e66L)).origin("3129541975290891879").done();
     b.alias("StringLiteral");
     return b.create();
   }

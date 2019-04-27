@@ -32,11 +32,11 @@ import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
 
-/*package*/ class Identifier_EditorBuilder_a extends AbstractEditorBuilder {
+/*package*/ class StringLiteral_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
   private SNode myNode;
 
-  public Identifier_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
+  public StringLiteral_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
     super(context);
     myNode = node;
   }
@@ -54,7 +54,7 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = MetaAdapterFactory.getProperty(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4cae6bbL, 0x2b6e5dd872e57d77L, "value");
+      final SProperty property = MetaAdapterFactory.getProperty(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ca99f7L, 0x2b6e5dd872e34e67L, "value");
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no value>");
@@ -65,7 +65,7 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
       setCellContext(editorCell);
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.red));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);

@@ -10,16 +10,24 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -592,8 +600,15 @@
     <property role="EcuMT" value="6843536562190878736" />
     <property role="TrG5h" value="QualifiedIdentifier" />
     <property role="R4oN_" value="!!!TODO!!! this will be revisited when working on identifiers" />
-    <property role="3GE5qa" value="Identifiers" />
+    <property role="3GE5qa" value="Identifiers.Concepts" />
     <ref role="1TJDcQ" node="5VT83U$LKqQ" resolve="NonArrayType" />
+    <node concept="1TJgyj" id="2HIntxMTO0b" role="1TKVEi">
+      <property role="IQ2ns" value="3129541975291150347" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="indentifier" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5VT83U$MIqV" resolve="Identifier" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$Mjvs">
     <property role="EcuMT" value="6843536562190890972" />
@@ -705,47 +720,72 @@
     <property role="EcuMT" value="6843536562190981606" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="Literal" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Concepts" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
   </node>
   <node concept="1TIwiD" id="5VT83U$MDBH">
     <property role="EcuMT" value="6843536562190981613" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Concepts" />
     <property role="TrG5h" value="BoolLiteral" />
     <property role="34LRSv" value="BoolLiteral" />
     <ref role="1TJDcQ" node="5VT83U$MDBA" resolve="Literal" />
+    <node concept="1TJgyi" id="2HIntxMRiU1" role="1TKVEl">
+      <property role="IQ2nx" value="3129541975290490497" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="2HIntxMRiU0" resolve="_BoolValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$MDBI">
     <property role="EcuMT" value="6843536562190981614" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Concepts" />
     <property role="TrG5h" value="IntLiteral" />
     <property role="34LRSv" value="IntLiteral" />
     <ref role="1TJDcQ" node="5VT83U$MDBA" resolve="Literal" />
+    <node concept="1TJgyi" id="2HIntxMSXh_" role="1TKVEl">
+      <property role="IQ2nx" value="3129541975290926181" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="2HIntxMSXh$" resolve="_IntValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$MDBP">
     <property role="EcuMT" value="6843536562190981621" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Concepts" />
     <property role="TrG5h" value="RealLiteral" />
     <property role="34LRSv" value="RealLiteral" />
     <ref role="1TJDcQ" node="5VT83U$MDBA" resolve="Literal" />
+    <node concept="1TJgyi" id="2HIntxMT5Wm" role="1TKVEl">
+      <property role="IQ2nx" value="3129541975290961686" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="2HIntxMT5Wl" resolve="_RealValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$MDBQ">
     <property role="EcuMT" value="6843536562190981622" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Concepts" />
     <property role="TrG5h" value="CharLiteral" />
     <property role="34LRSv" value="CharLiteral" />
     <ref role="1TJDcQ" node="5VT83U$MDBA" resolve="Literal" />
+    <node concept="1TJgyi" id="2HIntxMRFJL" role="1TKVEl">
+      <property role="IQ2nx" value="3129541975290592241" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="2HIntxMRFJK" resolve="_CharValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$MDBR">
     <property role="EcuMT" value="6843536562190981623" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Concepts" />
     <property role="TrG5h" value="StringLiteral" />
     <property role="34LRSv" value="StringLiteral" />
     <ref role="1TJDcQ" node="5VT83U$MDBA" resolve="Literal" />
+    <node concept="1TJgyi" id="2HIntxMSOTB" role="1TKVEl">
+      <property role="IQ2nx" value="3129541975290891879" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="2HIntxMSOTA" resolve="_StringValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$MDBS">
     <property role="EcuMT" value="6843536562190981624" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Concepts" />
     <property role="TrG5h" value="NullLiteral" />
     <property role="34LRSv" value="null" />
     <ref role="1TJDcQ" node="5VT83U$MDBA" resolve="Literal" />
@@ -754,9 +794,13 @@
     <property role="EcuMT" value="6843536562191001275" />
     <property role="TrG5h" value="Identifier" />
     <property role="34LRSv" value="identifier" />
-    <property role="R4oN_" value="!!!this needs to be revisited - method call!!!" />
-    <property role="3GE5qa" value="Identifiers" />
+    <property role="3GE5qa" value="Identifiers.Concepts" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
+    <node concept="1TJgyi" id="2HIntxMTnPR" role="1TKVEl">
+      <property role="IQ2nx" value="3129541975291034999" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="2HIntxMTnPQ" resolve="_IdentifierValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$MMHa">
     <property role="EcuMT" value="6843536562191018826" />
@@ -1165,6 +1209,36 @@
     <property role="TrG5h" value="RightShiftAssignExpression" />
     <property role="34LRSv" value="&gt;&gt;=" />
     <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="Az7Fb" id="2HIntxMRiU0">
+    <property role="3GE5qa" value="Literals.Definitions" />
+    <property role="TrG5h" value="_BoolValue" />
+    <property role="FLfZY" value="(true|false)" />
+  </node>
+  <node concept="Az7Fb" id="2HIntxMRFJK">
+    <property role="3GE5qa" value="Literals.Definitions" />
+    <property role="TrG5h" value="_CharValue" />
+    <property role="FLfZY" value="'.?'" />
+  </node>
+  <node concept="Az7Fb" id="2HIntxMSOTA">
+    <property role="3GE5qa" value="Literals.Definitions" />
+    <property role="TrG5h" value="_StringValue" />
+    <property role="FLfZY" value="&quot;.*&quot;" />
+  </node>
+  <node concept="Az7Fb" id="2HIntxMSXh$">
+    <property role="3GE5qa" value="Literals.Definitions" />
+    <property role="TrG5h" value="_IntValue" />
+    <property role="FLfZY" value="([0-9]+|0[xX][0-9A-Fa-f]+)[Uu]?[Ll]?" />
+  </node>
+  <node concept="Az7Fb" id="2HIntxMT5Wl">
+    <property role="3GE5qa" value="Literals.Definitions" />
+    <property role="TrG5h" value="_RealValue" />
+    <property role="FLfZY" value="(((([0-9]*\\.[0-9]+([eE][+-]?[0-9]+)?)|([0-9]+[eE][+-]?[0-9]+))[Ff]?[Dd]?[Mm]?)|[0-9]+([Ff]|[Dd]|[Mm]))" />
+  </node>
+  <node concept="Az7Fb" id="2HIntxMTnPQ">
+    <property role="3GE5qa" value="Identifiers.Definitions" />
+    <property role="TrG5h" value="_IdentifierValue" />
+    <property role="FLfZY" value="(_|[A-Za-z])([A-Za-z]|[0-9]|[-_])*" />
   </node>
 </model>
 
