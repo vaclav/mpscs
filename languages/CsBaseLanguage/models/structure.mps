@@ -42,7 +42,7 @@
     <property role="EcuMT" value="6843536562190617628" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="Expression" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <ref role="1TJDcQ" node="5VT83U$Mmmk" resolve="VariableInitializer" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LgKv">
@@ -78,7 +78,7 @@
     <property role="EcuMT" value="6843536562190643045" />
     <property role="TrG5h" value="ExpressionTest" />
     <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Dummy" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5VT83U$LmXA" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190643046" />
@@ -92,7 +92,7 @@
     <property role="EcuMT" value="6843536562190644901" />
     <property role="TrG5h" value="DummyExpression" />
     <property role="34LRSv" value="dummy" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Dummy" />
     <ref role="1TJDcQ" node="5VT83U$LgKs" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LpyQ">
@@ -109,7 +109,7 @@
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="abstract binary operation" />
     <property role="34LRSv" value="&lt;?&gt;" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <ref role="1TJDcQ" node="5VT83U$LgKs" resolve="Expression" />
     <node concept="1TJgyj" id="5VT83U$LpyU" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190653626" />
@@ -265,7 +265,7 @@
     <property role="34LRSv" value="sbyte" />
     <property role="R4oN_" value="8-bit signed integer" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6P">
     <property role="EcuMT" value="6843536562190680501" />
@@ -273,7 +273,7 @@
     <property role="34LRSv" value="byte" />
     <property role="R4oN_" value="8-bit unsigned integer" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6Q">
     <property role="EcuMT" value="6843536562190680502" />
@@ -281,7 +281,7 @@
     <property role="34LRSv" value="short" />
     <property role="R4oN_" value="16-bit signed integer" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6R">
     <property role="EcuMT" value="6843536562190680503" />
@@ -289,7 +289,7 @@
     <property role="34LRSv" value="ushort" />
     <property role="R4oN_" value="16-bit unsigned integer" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6S">
     <property role="EcuMT" value="6843536562190680504" />
@@ -297,7 +297,7 @@
     <property role="34LRSv" value="int" />
     <property role="R4oN_" value="32-bit signed integer" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6T">
     <property role="EcuMT" value="6843536562190680505" />
@@ -305,7 +305,7 @@
     <property role="34LRSv" value="uint" />
     <property role="R4oN_" value="32-bit unsigned integer" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6U">
     <property role="EcuMT" value="6843536562190680506" />
@@ -313,7 +313,7 @@
     <property role="34LRSv" value="long" />
     <property role="R4oN_" value="64-bit signed integer" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6V">
     <property role="EcuMT" value="6843536562190680507" />
@@ -321,7 +321,7 @@
     <property role="34LRSv" value="ulong" />
     <property role="R4oN_" value="64-bit unsigned integer" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lw6W">
     <property role="EcuMT" value="6843536562190680508" />
@@ -329,7 +329,7 @@
     <property role="34LRSv" value="char" />
     <property role="R4oN_" value="character" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LxVC">
     <property role="EcuMT" value="6843536562190687976" />
@@ -337,7 +337,7 @@
     <property role="34LRSv" value="object" />
     <property role="R4oN_" value="ancestor of all types" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LxVD">
     <property role="EcuMT" value="6843536562190687977" />
@@ -345,7 +345,7 @@
     <property role="34LRSv" value="string" />
     <property role="R4oN_" value="String" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+    <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LzAW">
     <property role="EcuMT" value="6843536562190694844" />
@@ -400,7 +400,7 @@
     <property role="TrG5h" value="PlusExpression" />
     <property role="34LRSv" value="+" />
     <property role="R4oN_" value="plus operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LBkT">
@@ -408,7 +408,7 @@
     <property role="TrG5h" value="MinusExpression" />
     <property role="34LRSv" value="-" />
     <property role="R4oN_" value="minus operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LBkU">
@@ -416,7 +416,7 @@
     <property role="TrG5h" value="MultiplicationExpression" />
     <property role="34LRSv" value="*" />
     <property role="R4oN_" value="multiplication operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LBkV">
@@ -424,7 +424,7 @@
     <property role="TrG5h" value="DivisionExpression" />
     <property role="34LRSv" value="/" />
     <property role="R4oN_" value="division operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LBkW">
@@ -432,21 +432,21 @@
     <property role="TrG5h" value="ModuloExpression" />
     <property role="34LRSv" value="%" />
     <property role="R4oN_" value="modulo operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Arithmetic" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpw">
     <property role="EcuMT" value="6843536562190726752" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="UnaryExpression" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="1TJDcQ" node="5VT83U$LgKs" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpz">
     <property role="EcuMT" value="6843536562190726755" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="UnaryExpressionWithOperator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="1TJDcQ" node="5VT83U$LFpw" resolve="UnaryExpression" />
     <node concept="1TJgyj" id="5VT83U$LFpC" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190726760" />
@@ -461,7 +461,7 @@
     <property role="TrG5h" value="UnaryPlusExpression" />
     <property role="34LRSv" value="+" />
     <property role="R4oN_" value="unary plus" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpV">
@@ -469,7 +469,7 @@
     <property role="TrG5h" value="UnaryMinusExpression" />
     <property role="34LRSv" value="-" />
     <property role="R4oN_" value="unary minus" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpW">
@@ -493,7 +493,7 @@
     <property role="TrG5h" value="UnaryNotExpression" />
     <property role="34LRSv" value="!" />
     <property role="R4oN_" value="unary not" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpZ">
@@ -501,7 +501,7 @@
     <property role="TrG5h" value="UnaryTildeExpression" />
     <property role="34LRSv" value="~" />
     <property role="R4oN_" value="tilda" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LFq0">
@@ -509,14 +509,14 @@
     <property role="TrG5h" value="UnaryDereferenceExpression" />
     <property role="34LRSv" value="*" />
     <property role="R4oN_" value="dereference" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LHK$">
     <property role="EcuMT" value="6843536562190736420" />
     <property role="TrG5h" value="DummyUnaryExpression" />
     <property role="34LRSv" value="uDummy" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Dummy" />
     <ref role="1TJDcQ" node="5VT83U$LFpw" resolve="UnaryExpression" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LKqQ">
@@ -531,7 +531,7 @@
     <property role="TrG5h" value="UnaryTypedExpression" />
     <property role="34LRSv" value="(type) uExpr" />
     <property role="R4oN_" value="explicit conversion" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Unary" />
     <ref role="1TJDcQ" node="5VT83U$LFpw" resolve="UnaryExpression" />
     <node concept="1TJgyj" id="5VT83U$LMPX" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190757245" />
@@ -552,7 +552,7 @@
     <property role="EcuMT" value="6843536562190757247" />
     <property role="TrG5h" value="Type" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2HIntxMQ_98" resolve="TypeOrVoid" />
     <node concept="1TJgyj" id="5VT83U$LPp0" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190767680" />
       <property role="20lmBu" value="aggregation" />
@@ -583,26 +583,28 @@
   <node concept="1TIwiD" id="5VT83U$LPp5">
     <property role="EcuMT" value="6843536562190767685" />
     <property role="TrG5h" value="CommaConstant" />
-    <property role="34LRSv" value="," />
     <property role="R4oN_" value="comma" />
+    <property role="34LRSv" value="," />
+    <property role="3GE5qa" value="UtilityConstants" />
     <ref role="1TJDcQ" node="5VT83U$N0BB" resolve="ConstantUtility" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Mgwg">
     <property role="EcuMT" value="6843536562190878736" />
     <property role="TrG5h" value="QualifiedIdentifier" />
     <property role="R4oN_" value="!!!TODO!!! this will be revisited when working on identifiers" />
+    <property role="3GE5qa" value="Identifiers" />
     <ref role="1TJDcQ" node="5VT83U$LKqQ" resolve="NonArrayType" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Mjvs">
     <property role="EcuMT" value="6843536562190890972" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="PrimaryExpression" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <ref role="1TJDcQ" node="5VT83U$LFpw" resolve="UnaryExpression" />
   </node>
   <node concept="1TIwiD" id="5VT83U$MmlP">
     <property role="EcuMT" value="6843536562190902645" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.New" />
     <property role="TrG5h" value="NewNonArrayExpression" />
     <property role="34LRSv" value="new" />
     <property role="R4oN_" value="new non-array type" />
@@ -632,45 +634,34 @@
       <property role="IQ2ns" value="6843536562190902655" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="arrayInitializer" />
-      <ref role="20lvS9" node="5VT83U$Mmm4" resolve="ArrayInitializer" />
+      <ref role="20lvS9" node="5VT83U$Mmmn" resolve="ArrayInitializer" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="5VT83U$Mmm4">
-    <property role="EcuMT" value="6843536562190902660" />
-    <property role="TrG5h" value="ArrayInitializer" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="5VT83U$Mmmk" resolve="VariableInitializer" />
-  </node>
-  <node concept="1TIwiD" id="5VT83U$Mmm7">
-    <property role="EcuMT" value="6843536562190902663" />
-    <property role="TrG5h" value="EmptyArrayInitializer" />
-    <property role="34LRSv" value="{}" />
-    <property role="R4oN_" value="empty initializer" />
-    <ref role="1TJDcQ" node="5VT83U$Mmm4" resolve="ArrayInitializer" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Mmmk">
     <property role="EcuMT" value="6843536562190902676" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="VariableInitializer" />
+    <property role="3GE5qa" value="Initializers" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Mmmn">
     <property role="EcuMT" value="6843536562190902679" />
-    <property role="TrG5h" value="NonEmptyArrayInitializer" />
+    <property role="TrG5h" value="ArrayInitializer" />
     <property role="34LRSv" value="{init}" />
-    <property role="R4oN_" value="nonempty initializer" />
-    <ref role="1TJDcQ" node="5VT83U$Mmm4" resolve="ArrayInitializer" />
+    <property role="R4oN_" value="array initializer" />
+    <property role="3GE5qa" value="Initializers" />
+    <ref role="1TJDcQ" node="5VT83U$Mmmk" resolve="VariableInitializer" />
     <node concept="1TJgyj" id="5VT83U$Mmmo" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190902680" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="varibaleInitializer" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5VT83U$Mmmk" resolve="VariableInitializer" />
     </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$Mmn9">
     <property role="EcuMT" value="6843536562190902729" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <property role="TrG5h" value="ExpressionList" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5VT83U$Mmna" role="1TKVEi">
@@ -683,7 +674,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$Mxwu">
     <property role="EcuMT" value="6843536562190948382" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.New" />
     <property role="TrG5h" value="NewArrayTypeExpression" />
     <property role="34LRSv" value="new" />
     <property role="R4oN_" value="new array" />
@@ -707,7 +698,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="arrayInitializer" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5VT83U$Mmm4" resolve="ArrayInitializer" />
+      <ref role="20lvS9" node="5VT83U$Mmmn" resolve="ArrayInitializer" />
     </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$MDBA">
@@ -763,11 +754,13 @@
     <property role="EcuMT" value="6843536562191001275" />
     <property role="TrG5h" value="Identifier" />
     <property role="34LRSv" value="identifier" />
+    <property role="R4oN_" value="!!!this needs to be revisited - method call!!!" />
+    <property role="3GE5qa" value="Identifiers" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
   </node>
   <node concept="1TIwiD" id="5VT83U$MMHa">
     <property role="EcuMT" value="6843536562191018826" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <property role="TrG5h" value="ExpressionInBraces" />
     <property role="34LRSv" value="(expr)" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
@@ -781,7 +774,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$MR2u">
     <property role="EcuMT" value="6843536562191036574" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.DotAccess" />
     <property role="TrG5h" value="PrimaryDotExpression" />
     <property role="R4oN_" value="acces a member in expression result" />
     <property role="34LRSv" value="." />
@@ -803,7 +796,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$MR38">
     <property role="EcuMT" value="6843536562191036616" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.DotAccess" />
     <property role="TrG5h" value="PredefinedDotExpression" />
     <property role="34LRSv" value="." />
     <property role="R4oN_" value="??? extension method ???" />
@@ -825,9 +818,10 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$N0Bc">
     <property role="EcuMT" value="6843536562191075788" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <property role="TrG5h" value="FunctionCallExpression" />
     <property role="34LRSv" value="expr(args)" />
+    <property role="R4oN_" value="method call" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
     <node concept="1TJgyj" id="5VT83U$N0Bd" role="1TKVEi">
       <property role="IQ2ns" value="6843536562191075789" />
@@ -847,6 +841,7 @@
   <node concept="1TIwiD" id="5VT83U$N0Bi">
     <property role="EcuMT" value="6843536562191075794" />
     <property role="TrG5h" value="ArgumentsList" />
+    <property role="3GE5qa" value="Arguments" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5VT83U$N0Bk" role="1TKVEi">
       <property role="IQ2ns" value="6843536562191075796" />
@@ -859,6 +854,7 @@
   <node concept="1TIwiD" id="5VT83U$N0Bj">
     <property role="EcuMT" value="6843536562191075795" />
     <property role="TrG5h" value="Argument" />
+    <property role="3GE5qa" value="Arguments" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5VT83U$N0BN" role="1TKVEi">
       <property role="IQ2ns" value="6843536562191075827" />
@@ -878,11 +874,12 @@
     <property role="EcuMT" value="6843536562191075815" />
     <property role="TrG5h" value="ConstantUtility" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="UtilityConstants" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="5VT83U$N0BI">
     <property role="EcuMT" value="6843536562191075822" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="UtilityConstants" />
     <property role="TrG5h" value="RefConstant" />
     <property role="34LRSv" value="ref" />
     <property role="R4oN_" value="ref keyword" />
@@ -890,7 +887,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$N0BJ">
     <property role="EcuMT" value="6843536562191075823" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="UtilityConstants" />
     <property role="TrG5h" value="OutConstant" />
     <property role="34LRSv" value="out" />
     <property role="R4oN_" value="out keyword" />
@@ -898,14 +895,14 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$N0BK">
     <property role="EcuMT" value="6843536562191075824" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="UtilityConstants" />
     <property role="TrG5h" value="RefOutConstant" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="5VT83U$N0BB" resolve="ConstantUtility" />
   </node>
   <node concept="1TIwiD" id="5VT83U$N66h">
     <property role="EcuMT" value="6843536562191098257" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <property role="TrG5h" value="ExpressionListExpression" />
     <property role="34LRSv" value="expr[list]" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
@@ -926,7 +923,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$NbDY">
     <property role="EcuMT" value="6843536562191121022" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <property role="TrG5h" value="ThisExpression" />
     <property role="34LRSv" value="this" />
     <property role="R4oN_" value="reference to &quot;this&quot; object" />
@@ -934,7 +931,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$NhjI">
     <property role="EcuMT" value="6843536562191144174" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.DotAccess" />
     <property role="TrG5h" value="BaseAccessExpression" />
     <property role="34LRSv" value="base" />
     <property role="R4oN_" value="access a memeber of the base class" />
@@ -979,7 +976,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$Nta5">
     <property role="EcuMT" value="6843536562191192709" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.New" />
     <property role="TrG5h" value="NewTypeExpression" />
     <property role="34LRSv" value="new" />
     <property role="R4oN_" value="create new instance" />
@@ -989,14 +986,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5VT83U$LKqQ" resolve="NonArrayType" />
-    </node>
-    <node concept="1TJgyj" id="5VT83U$Nta8" role="1TKVEi">
-      <property role="IQ2ns" value="6843536562191192712" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="rankSpecifier" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5VT83U$LPp2" resolve="RankSpecifier" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
     <node concept="1TJgyj" id="5VT83U$Ntab" role="1TKVEi">
       <property role="IQ2ns" value="6843536562191192715" />
@@ -1008,8 +998,8 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$NzvA">
     <property role="EcuMT" value="6843536562191218662" />
-    <property role="3GE5qa" value="Expressions" />
-    <property role="TrG5h" value="TypeTypeOf" />
+    <property role="3GE5qa" value="Expressions.Others" />
+    <property role="TrG5h" value="TypeOf" />
     <property role="34LRSv" value="typeof" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
     <node concept="1TJgyj" id="5VT83U$NzvB" role="1TKVEi">
@@ -1017,27 +1007,12 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5VT83U$LKqQ" resolve="NonArrayType" />
+      <ref role="20lvS9" node="2HIntxMQ_98" resolve="TypeOrVoid" />
     </node>
-    <node concept="1TJgyj" id="5VT83U$NzvD" role="1TKVEi">
-      <property role="IQ2ns" value="6843536562191218665" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="rankSpecifier" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5VT83U$LPp2" resolve="RankSpecifier" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5VT83U$NE1o">
-    <property role="EcuMT" value="6843536562191245400" />
-    <property role="3GE5qa" value="Expressions" />
-    <property role="TrG5h" value="VoidTypeOf" />
-    <property role="34LRSv" value="typeof" />
-    <property role="R4oN_" value="typeof(void)" />
-    <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
   </node>
   <node concept="1TIwiD" id="5VT83U$NKKc">
     <property role="EcuMT" value="6843536562191272972" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.(Un)checked" />
     <property role="TrG5h" value="CheckedOrUncheckedExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
@@ -1051,7 +1026,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$NKL9">
     <property role="EcuMT" value="6843536562191273033" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.(Un)checked" />
     <property role="TrG5h" value="CheckedExpression" />
     <property role="34LRSv" value="checked" />
     <property role="R4oN_" value="checked block" />
@@ -1059,11 +1034,137 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$NKLa">
     <property role="EcuMT" value="6843536562191273034" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.(Un)checked" />
     <property role="TrG5h" value="UncheckedExpression" />
     <property role="34LRSv" value="unchecked" />
     <property role="R4oN_" value="unchecked block" />
     <ref role="1TJDcQ" node="5VT83U$NKKc" resolve="CheckedOrUncheckedExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMH_qL">
+    <property role="EcuMT" value="3129541975287944881" />
+    <property role="3GE5qa" value="Types" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="IntegralType" />
+    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMH_qO">
+    <property role="EcuMT" value="3129541975287944884" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="BuiltInClassType" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="5VT83U$LuL9" resolve="BuiltInType" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQ_98">
+    <property role="EcuMT" value="3129541975290303048" />
+    <property role="3GE5qa" value="Types" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="TypeOrVoid" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQ_9b">
+    <property role="EcuMT" value="3129541975290303051" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="VoidType" />
+    <property role="34LRSv" value="void" />
+    <ref role="1TJDcQ" node="2HIntxMQ_98" resolve="TypeOrVoid" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUvq">
+    <property role="EcuMT" value="3129541975290390490" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="AssignmentExpression" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <ref role="1TJDcQ" node="5VT83U$LgKs" resolve="Expression" />
+    <node concept="1TJgyj" id="2HIntxMQUvt" role="1TKVEi">
+      <property role="IQ2ns" value="3129541975290390493" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="leftSide" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5VT83U$LFpw" resolve="UnaryExpression" />
+    </node>
+    <node concept="1TJgyj" id="2HIntxMQUvv" role="1TKVEi">
+      <property role="IQ2ns" value="3129541975290390495" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rightSide" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw0">
+    <property role="EcuMT" value="3129541975290390528" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="AssignExpression" />
+    <property role="34LRSv" value="=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw1">
+    <property role="EcuMT" value="3129541975290390529" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="PlusAssignExpression" />
+    <property role="34LRSv" value="+=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw2">
+    <property role="EcuMT" value="3129541975290390530" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="MinusAssignExpression" />
+    <property role="34LRSv" value="-=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw3">
+    <property role="EcuMT" value="3129541975290390531" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="MultiplyAssignExpression" />
+    <property role="34LRSv" value="*=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw4">
+    <property role="EcuMT" value="3129541975290390532" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="DivideAssignExpression" />
+    <property role="34LRSv" value="/=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw5">
+    <property role="EcuMT" value="3129541975290390533" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="ModuloAssignExpression" />
+    <property role="34LRSv" value="%=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw6">
+    <property role="EcuMT" value="3129541975290390534" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="AndAssignExpression" />
+    <property role="34LRSv" value="&amp;=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw7">
+    <property role="EcuMT" value="3129541975290390535" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="OrAssignExpression" />
+    <property role="34LRSv" value="|=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw8">
+    <property role="EcuMT" value="3129541975290390536" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="XorAssignExpression" />
+    <property role="34LRSv" value="^=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUw9">
+    <property role="EcuMT" value="3129541975290390537" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="LeftShiftAssignExpression" />
+    <property role="34LRSv" value="&lt;&lt;=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
+  </node>
+  <node concept="1TIwiD" id="2HIntxMQUwa">
+    <property role="EcuMT" value="3129541975290390538" />
+    <property role="3GE5qa" value="Expressions.Assignments" />
+    <property role="TrG5h" value="RightShiftAssignExpression" />
+    <property role="34LRSv" value="&gt;&gt;=" />
+    <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
   </node>
 </model>
 

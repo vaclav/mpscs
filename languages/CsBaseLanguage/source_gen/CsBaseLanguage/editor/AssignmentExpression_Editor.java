@@ -7,8 +7,8 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class EmptyArrayInitializer_Editor extends DefaultNodeEditor {
+public class AssignmentExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new EmptyArrayInitializer_EditorBuilder_a(editorContext, node).createCell();
+    return new AssignmentExpression_EditorBuilder_a(editorContext, node).createCell();
   }
 }

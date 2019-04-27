@@ -13,11 +13,14 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
+  /*package*/ final ConceptDescriptor myConceptAndAssignExpression = createDescriptorForAndAssignExpression();
   /*package*/ final ConceptDescriptor myConceptAndExpression = createDescriptorForAndExpression();
   /*package*/ final ConceptDescriptor myConceptArgument = createDescriptorForArgument();
   /*package*/ final ConceptDescriptor myConceptArgumentsList = createDescriptorForArgumentsList();
   /*package*/ final ConceptDescriptor myConceptArrayInitializer = createDescriptorForArrayInitializer();
   /*package*/ final ConceptDescriptor myConceptAsOperator = createDescriptorForAsOperator();
+  /*package*/ final ConceptDescriptor myConceptAssignExpression = createDescriptorForAssignExpression();
+  /*package*/ final ConceptDescriptor myConceptAssignmentExpression = createDescriptorForAssignmentExpression();
   /*package*/ final ConceptDescriptor myConceptBaseAccessExpression = createDescriptorForBaseAccessExpression();
   /*package*/ final ConceptDescriptor myConceptBinaryOperation = createDescriptorForBinaryOperation();
   /*package*/ final ConceptDescriptor myConceptBitwiseAndExpression = createDescriptorForBitwiseAndExpression();
@@ -27,6 +30,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptBitwiseXorExpression = createDescriptorForBitwiseXorExpression();
   /*package*/ final ConceptDescriptor myConceptBoolLiteral = createDescriptorForBoolLiteral();
   /*package*/ final ConceptDescriptor myConceptBoolType = createDescriptorForBoolType();
+  /*package*/ final ConceptDescriptor myConceptBuiltInClassType = createDescriptorForBuiltInClassType();
   /*package*/ final ConceptDescriptor myConceptBuiltInIsExpression = createDescriptorForBuiltInIsExpression();
   /*package*/ final ConceptDescriptor myConceptBuiltInType = createDescriptorForBuiltInType();
   /*package*/ final ConceptDescriptor myConceptByteType = createDescriptorForByteType();
@@ -37,11 +41,11 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptCommaConstant = createDescriptorForCommaConstant();
   /*package*/ final ConceptDescriptor myConceptConstantUtility = createDescriptorForConstantUtility();
   /*package*/ final ConceptDescriptor myConceptDecimalType = createDescriptorForDecimalType();
+  /*package*/ final ConceptDescriptor myConceptDivideAssignExpression = createDescriptorForDivideAssignExpression();
   /*package*/ final ConceptDescriptor myConceptDivisionExpression = createDescriptorForDivisionExpression();
   /*package*/ final ConceptDescriptor myConceptDoubleType = createDescriptorForDoubleType();
   /*package*/ final ConceptDescriptor myConceptDummyExpression = createDescriptorForDummyExpression();
   /*package*/ final ConceptDescriptor myConceptDummyUnaryExpression = createDescriptorForDummyUnaryExpression();
-  /*package*/ final ConceptDescriptor myConceptEmptyArrayInitializer = createDescriptorForEmptyArrayInitializer();
   /*package*/ final ConceptDescriptor myConceptEqualsExpression = createDescriptorForEqualsExpression();
   /*package*/ final ConceptDescriptor myConceptExpression = createDescriptorForExpression();
   /*package*/ final ConceptDescriptor myConceptExpressionInBraces = createDescriptorForExpressionInBraces();
@@ -55,25 +59,31 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptIdentifier = createDescriptorForIdentifier();
   /*package*/ final ConceptDescriptor myConceptIntLiteral = createDescriptorForIntLiteral();
   /*package*/ final ConceptDescriptor myConceptIntType = createDescriptorForIntType();
+  /*package*/ final ConceptDescriptor myConceptIntegralType = createDescriptorForIntegralType();
   /*package*/ final ConceptDescriptor myConceptIsExpression = createDescriptorForIsExpression();
+  /*package*/ final ConceptDescriptor myConceptLeftShiftAssignExpression = createDescriptorForLeftShiftAssignExpression();
   /*package*/ final ConceptDescriptor myConceptLessThanExpression = createDescriptorForLessThanExpression();
   /*package*/ final ConceptDescriptor myConceptLessThanOrEqualToExpression = createDescriptorForLessThanOrEqualToExpression();
   /*package*/ final ConceptDescriptor myConceptLiteral = createDescriptorForLiteral();
   /*package*/ final ConceptDescriptor myConceptLongType = createDescriptorForLongType();
+  /*package*/ final ConceptDescriptor myConceptMinusAssignExpression = createDescriptorForMinusAssignExpression();
   /*package*/ final ConceptDescriptor myConceptMinusExpression = createDescriptorForMinusExpression();
+  /*package*/ final ConceptDescriptor myConceptModuloAssignExpression = createDescriptorForModuloAssignExpression();
   /*package*/ final ConceptDescriptor myConceptModuloExpression = createDescriptorForModuloExpression();
   /*package*/ final ConceptDescriptor myConceptMultiplicationExpression = createDescriptorForMultiplicationExpression();
+  /*package*/ final ConceptDescriptor myConceptMultiplyAssignExpression = createDescriptorForMultiplyAssignExpression();
   /*package*/ final ConceptDescriptor myConceptNewArrayTypeExpression = createDescriptorForNewArrayTypeExpression();
   /*package*/ final ConceptDescriptor myConceptNewNonArrayExpression = createDescriptorForNewNonArrayExpression();
   /*package*/ final ConceptDescriptor myConceptNewTypeExpression = createDescriptorForNewTypeExpression();
   /*package*/ final ConceptDescriptor myConceptNonArrayType = createDescriptorForNonArrayType();
-  /*package*/ final ConceptDescriptor myConceptNonEmptyArrayInitializer = createDescriptorForNonEmptyArrayInitializer();
   /*package*/ final ConceptDescriptor myConceptNotEqualsExpression = createDescriptorForNotEqualsExpression();
   /*package*/ final ConceptDescriptor myConceptNullCoalescingExpression = createDescriptorForNullCoalescingExpression();
   /*package*/ final ConceptDescriptor myConceptNullLiteral = createDescriptorForNullLiteral();
   /*package*/ final ConceptDescriptor myConceptObjectType = createDescriptorForObjectType();
+  /*package*/ final ConceptDescriptor myConceptOrAssignExpression = createDescriptorForOrAssignExpression();
   /*package*/ final ConceptDescriptor myConceptOrExpression = createDescriptorForOrExpression();
   /*package*/ final ConceptDescriptor myConceptOutConstant = createDescriptorForOutConstant();
+  /*package*/ final ConceptDescriptor myConceptPlusAssignExpression = createDescriptorForPlusAssignExpression();
   /*package*/ final ConceptDescriptor myConceptPlusExpression = createDescriptorForPlusExpression();
   /*package*/ final ConceptDescriptor myConceptPostDecrementExpression = createDescriptorForPostDecrementExpression();
   /*package*/ final ConceptDescriptor myConceptPostIncrementExpression = createDescriptorForPostIncrementExpression();
@@ -87,6 +97,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptRealLiteral = createDescriptorForRealLiteral();
   /*package*/ final ConceptDescriptor myConceptRefConstant = createDescriptorForRefConstant();
   /*package*/ final ConceptDescriptor myConceptRefOutConstant = createDescriptorForRefOutConstant();
+  /*package*/ final ConceptDescriptor myConceptRightShiftAssignExpression = createDescriptorForRightShiftAssignExpression();
   /*package*/ final ConceptDescriptor myConceptSByteType = createDescriptorForSByteType();
   /*package*/ final ConceptDescriptor myConceptShortType = createDescriptorForShortType();
   /*package*/ final ConceptDescriptor myConceptStringLiteral = createDescriptorForStringLiteral();
@@ -94,7 +105,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptTernaryOperatorExpression = createDescriptorForTernaryOperatorExpression();
   /*package*/ final ConceptDescriptor myConceptThisExpression = createDescriptorForThisExpression();
   /*package*/ final ConceptDescriptor myConceptType = createDescriptorForType();
-  /*package*/ final ConceptDescriptor myConceptTypeTypeOf = createDescriptorForTypeTypeOf();
+  /*package*/ final ConceptDescriptor myConceptTypeOf = createDescriptorForTypeOf();
+  /*package*/ final ConceptDescriptor myConceptTypeOrVoid = createDescriptorForTypeOrVoid();
   /*package*/ final ConceptDescriptor myConceptUIntType = createDescriptorForUIntType();
   /*package*/ final ConceptDescriptor myConceptULongType = createDescriptorForULongType();
   /*package*/ final ConceptDescriptor myConceptUShortType = createDescriptorForUShortType();
@@ -108,7 +120,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptUnaryTypedExpression = createDescriptorForUnaryTypedExpression();
   /*package*/ final ConceptDescriptor myConceptUncheckedExpression = createDescriptorForUncheckedExpression();
   /*package*/ final ConceptDescriptor myConceptVariableInitializer = createDescriptorForVariableInitializer();
-  /*package*/ final ConceptDescriptor myConceptVoidTypeOf = createDescriptorForVoidTypeOf();
+  /*package*/ final ConceptDescriptor myConceptVoidType = createDescriptorForVoidType();
+  /*package*/ final ConceptDescriptor myConceptXorAssignExpression = createDescriptorForXorAssignExpression();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -117,13 +130,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAndExpression, myConceptArgument, myConceptArgumentsList, myConceptArrayInitializer, myConceptAsOperator, myConceptBaseAccessExpression, myConceptBinaryOperation, myConceptBitwiseAndExpression, myConceptBitwiseLeftShiftExpression, myConceptBitwiseOrExpression, myConceptBitwiseRightExpression, myConceptBitwiseXorExpression, myConceptBoolLiteral, myConceptBoolType, myConceptBuiltInIsExpression, myConceptBuiltInType, myConceptByteType, myConceptCharLiteral, myConceptCharType, myConceptCheckedExpression, myConceptCheckedOrUncheckedExpression, myConceptCommaConstant, myConceptConstantUtility, myConceptDecimalType, myConceptDivisionExpression, myConceptDoubleType, myConceptDummyExpression, myConceptDummyUnaryExpression, myConceptEmptyArrayInitializer, myConceptEqualsExpression, myConceptExpression, myConceptExpressionInBraces, myConceptExpressionList, myConceptExpressionListExpression, myConceptExpressionTest, myConceptFloatType, myConceptFunctionCallExpression, myConceptGreaterThanExpression, myConceptGreaterThanOrEqualToExpression, myConceptIdentifier, myConceptIntLiteral, myConceptIntType, myConceptIsExpression, myConceptLessThanExpression, myConceptLessThanOrEqualToExpression, myConceptLiteral, myConceptLongType, myConceptMinusExpression, myConceptModuloExpression, myConceptMultiplicationExpression, myConceptNewArrayTypeExpression, myConceptNewNonArrayExpression, myConceptNewTypeExpression, myConceptNonArrayType, myConceptNonEmptyArrayInitializer, myConceptNotEqualsExpression, myConceptNullCoalescingExpression, myConceptNullLiteral, myConceptObjectType, myConceptOrExpression, myConceptOutConstant, myConceptPlusExpression, myConceptPostDecrementExpression, myConceptPostIncrementExpression, myConceptPreDecrementExpression, myConceptPreIncrementExpression, myConceptPredefinedDotExpression, myConceptPrimaryDotExpression, myConceptPrimaryExpression, myConceptQualifiedIdentifier, myConceptRankSpecifier, myConceptRealLiteral, myConceptRefConstant, myConceptRefOutConstant, myConceptSByteType, myConceptShortType, myConceptStringLiteral, myConceptStringType, myConceptTernaryOperatorExpression, myConceptThisExpression, myConceptType, myConceptTypeTypeOf, myConceptUIntType, myConceptULongType, myConceptUShortType, myConceptUnaryDereferenceExpression, myConceptUnaryExpression, myConceptUnaryExpressionWithOperator, myConceptUnaryMinusExpression, myConceptUnaryNotExpression, myConceptUnaryPlusExpression, myConceptUnaryTildeExpression, myConceptUnaryTypedExpression, myConceptUncheckedExpression, myConceptVariableInitializer, myConceptVoidTypeOf);
+    return Arrays.asList(myConceptAndAssignExpression, myConceptAndExpression, myConceptArgument, myConceptArgumentsList, myConceptArrayInitializer, myConceptAsOperator, myConceptAssignExpression, myConceptAssignmentExpression, myConceptBaseAccessExpression, myConceptBinaryOperation, myConceptBitwiseAndExpression, myConceptBitwiseLeftShiftExpression, myConceptBitwiseOrExpression, myConceptBitwiseRightExpression, myConceptBitwiseXorExpression, myConceptBoolLiteral, myConceptBoolType, myConceptBuiltInClassType, myConceptBuiltInIsExpression, myConceptBuiltInType, myConceptByteType, myConceptCharLiteral, myConceptCharType, myConceptCheckedExpression, myConceptCheckedOrUncheckedExpression, myConceptCommaConstant, myConceptConstantUtility, myConceptDecimalType, myConceptDivideAssignExpression, myConceptDivisionExpression, myConceptDoubleType, myConceptDummyExpression, myConceptDummyUnaryExpression, myConceptEqualsExpression, myConceptExpression, myConceptExpressionInBraces, myConceptExpressionList, myConceptExpressionListExpression, myConceptExpressionTest, myConceptFloatType, myConceptFunctionCallExpression, myConceptGreaterThanExpression, myConceptGreaterThanOrEqualToExpression, myConceptIdentifier, myConceptIntLiteral, myConceptIntType, myConceptIntegralType, myConceptIsExpression, myConceptLeftShiftAssignExpression, myConceptLessThanExpression, myConceptLessThanOrEqualToExpression, myConceptLiteral, myConceptLongType, myConceptMinusAssignExpression, myConceptMinusExpression, myConceptModuloAssignExpression, myConceptModuloExpression, myConceptMultiplicationExpression, myConceptMultiplyAssignExpression, myConceptNewArrayTypeExpression, myConceptNewNonArrayExpression, myConceptNewTypeExpression, myConceptNonArrayType, myConceptNotEqualsExpression, myConceptNullCoalescingExpression, myConceptNullLiteral, myConceptObjectType, myConceptOrAssignExpression, myConceptOrExpression, myConceptOutConstant, myConceptPlusAssignExpression, myConceptPlusExpression, myConceptPostDecrementExpression, myConceptPostIncrementExpression, myConceptPreDecrementExpression, myConceptPreIncrementExpression, myConceptPredefinedDotExpression, myConceptPrimaryDotExpression, myConceptPrimaryExpression, myConceptQualifiedIdentifier, myConceptRankSpecifier, myConceptRealLiteral, myConceptRefConstant, myConceptRefOutConstant, myConceptRightShiftAssignExpression, myConceptSByteType, myConceptShortType, myConceptStringLiteral, myConceptStringType, myConceptTernaryOperatorExpression, myConceptThisExpression, myConceptType, myConceptTypeOf, myConceptTypeOrVoid, myConceptUIntType, myConceptULongType, myConceptUShortType, myConceptUnaryDereferenceExpression, myConceptUnaryExpression, myConceptUnaryExpressionWithOperator, myConceptUnaryMinusExpression, myConceptUnaryNotExpression, myConceptUnaryPlusExpression, myConceptUnaryTildeExpression, myConceptUnaryTypedExpression, myConceptUncheckedExpression, myConceptVariableInitializer, myConceptVoidType, myConceptXorAssignExpression);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
+      case LanguageConceptSwitch.AndAssignExpression:
+        return myConceptAndAssignExpression;
       case LanguageConceptSwitch.AndExpression:
         return myConceptAndExpression;
       case LanguageConceptSwitch.Argument:
@@ -134,6 +149,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptArrayInitializer;
       case LanguageConceptSwitch.AsOperator:
         return myConceptAsOperator;
+      case LanguageConceptSwitch.AssignExpression:
+        return myConceptAssignExpression;
+      case LanguageConceptSwitch.AssignmentExpression:
+        return myConceptAssignmentExpression;
       case LanguageConceptSwitch.BaseAccessExpression:
         return myConceptBaseAccessExpression;
       case LanguageConceptSwitch.BinaryOperation:
@@ -152,6 +171,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptBoolLiteral;
       case LanguageConceptSwitch.BoolType:
         return myConceptBoolType;
+      case LanguageConceptSwitch.BuiltInClassType:
+        return myConceptBuiltInClassType;
       case LanguageConceptSwitch.BuiltInIsExpression:
         return myConceptBuiltInIsExpression;
       case LanguageConceptSwitch.BuiltInType:
@@ -172,6 +193,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptConstantUtility;
       case LanguageConceptSwitch.DecimalType:
         return myConceptDecimalType;
+      case LanguageConceptSwitch.DivideAssignExpression:
+        return myConceptDivideAssignExpression;
       case LanguageConceptSwitch.DivisionExpression:
         return myConceptDivisionExpression;
       case LanguageConceptSwitch.DoubleType:
@@ -180,8 +203,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptDummyExpression;
       case LanguageConceptSwitch.DummyUnaryExpression:
         return myConceptDummyUnaryExpression;
-      case LanguageConceptSwitch.EmptyArrayInitializer:
-        return myConceptEmptyArrayInitializer;
       case LanguageConceptSwitch.EqualsExpression:
         return myConceptEqualsExpression;
       case LanguageConceptSwitch.Expression:
@@ -208,8 +229,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptIntLiteral;
       case LanguageConceptSwitch.IntType:
         return myConceptIntType;
+      case LanguageConceptSwitch.IntegralType:
+        return myConceptIntegralType;
       case LanguageConceptSwitch.IsExpression:
         return myConceptIsExpression;
+      case LanguageConceptSwitch.LeftShiftAssignExpression:
+        return myConceptLeftShiftAssignExpression;
       case LanguageConceptSwitch.LessThanExpression:
         return myConceptLessThanExpression;
       case LanguageConceptSwitch.LessThanOrEqualToExpression:
@@ -218,12 +243,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptLiteral;
       case LanguageConceptSwitch.LongType:
         return myConceptLongType;
+      case LanguageConceptSwitch.MinusAssignExpression:
+        return myConceptMinusAssignExpression;
       case LanguageConceptSwitch.MinusExpression:
         return myConceptMinusExpression;
+      case LanguageConceptSwitch.ModuloAssignExpression:
+        return myConceptModuloAssignExpression;
       case LanguageConceptSwitch.ModuloExpression:
         return myConceptModuloExpression;
       case LanguageConceptSwitch.MultiplicationExpression:
         return myConceptMultiplicationExpression;
+      case LanguageConceptSwitch.MultiplyAssignExpression:
+        return myConceptMultiplyAssignExpression;
       case LanguageConceptSwitch.NewArrayTypeExpression:
         return myConceptNewArrayTypeExpression;
       case LanguageConceptSwitch.NewNonArrayExpression:
@@ -232,8 +263,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptNewTypeExpression;
       case LanguageConceptSwitch.NonArrayType:
         return myConceptNonArrayType;
-      case LanguageConceptSwitch.NonEmptyArrayInitializer:
-        return myConceptNonEmptyArrayInitializer;
       case LanguageConceptSwitch.NotEqualsExpression:
         return myConceptNotEqualsExpression;
       case LanguageConceptSwitch.NullCoalescingExpression:
@@ -242,10 +271,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptNullLiteral;
       case LanguageConceptSwitch.ObjectType:
         return myConceptObjectType;
+      case LanguageConceptSwitch.OrAssignExpression:
+        return myConceptOrAssignExpression;
       case LanguageConceptSwitch.OrExpression:
         return myConceptOrExpression;
       case LanguageConceptSwitch.OutConstant:
         return myConceptOutConstant;
+      case LanguageConceptSwitch.PlusAssignExpression:
+        return myConceptPlusAssignExpression;
       case LanguageConceptSwitch.PlusExpression:
         return myConceptPlusExpression;
       case LanguageConceptSwitch.PostDecrementExpression:
@@ -272,6 +305,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptRefConstant;
       case LanguageConceptSwitch.RefOutConstant:
         return myConceptRefOutConstant;
+      case LanguageConceptSwitch.RightShiftAssignExpression:
+        return myConceptRightShiftAssignExpression;
       case LanguageConceptSwitch.SByteType:
         return myConceptSByteType;
       case LanguageConceptSwitch.ShortType:
@@ -286,8 +321,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptThisExpression;
       case LanguageConceptSwitch.Type:
         return myConceptType;
-      case LanguageConceptSwitch.TypeTypeOf:
-        return myConceptTypeTypeOf;
+      case LanguageConceptSwitch.TypeOf:
+        return myConceptTypeOf;
+      case LanguageConceptSwitch.TypeOrVoid:
+        return myConceptTypeOrVoid;
       case LanguageConceptSwitch.UIntType:
         return myConceptUIntType;
       case LanguageConceptSwitch.ULongType:
@@ -314,8 +351,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptUncheckedExpression;
       case LanguageConceptSwitch.VariableInitializer:
         return myConceptVariableInitializer;
-      case LanguageConceptSwitch.VoidTypeOf:
-        return myConceptVoidTypeOf;
+      case LanguageConceptSwitch.VoidType:
+        return myConceptVoidType;
+      case LanguageConceptSwitch.XorAssignExpression:
+        return myConceptXorAssignExpression;
       default:
         return null;
     }
@@ -330,6 +369,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myIndexSwitch.index(c);
   }
 
+  private static ConceptDescriptor createDescriptorForAndAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "AndAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba806L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390534");
+    b.version(2);
+    b.alias("&=");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForAndExpression() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "AndExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5a473L);
     b.class_(false, false, false);
@@ -357,11 +405,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForArrayInitializer() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "ArrayInitializer", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96584L);
-    b.class_(false, true, false);
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "ArrayInitializer", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96597L);
+    b.class_(false, false, false);
     b.super_("CsBaseLanguage.structure.VariableInitializer", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96594L);
-    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190902660");
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190902679");
     b.version(2);
+    b.aggregate("varibaleInitializer", 0x5ef9203ea4c96598L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96594L).optional(true).ordered(true).multiple(true).origin("6843536562190902680").done();
+    b.alias("{init}");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForAsOperator() {
@@ -371,6 +421,25 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190670250");
     b.version(2);
     b.alias("as");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "AssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba800L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390528");
+    b.version(2);
+    b.alias("=");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForAssignmentExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.class_(false, true, false);
+    b.super_("CsBaseLanguage.structure.Expression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c50c1cL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390490");
+    b.version(2);
+    b.aggregate("leftSide", 0x2b6e5dd872dba7ddL).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c6b660L).optional(false).ordered(true).multiple(false).origin("3129541975290390493").done();
+    b.aggregate("rightSide", 0x2b6e5dd872dba7dfL).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c50c1cL).optional(false).ordered(true).multiple(false).origin("3129541975290390495").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForBaseAccessExpression() {
@@ -457,6 +526,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("bool");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForBuiltInClassType() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "BuiltInClassType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b4L);
+    b.class_(false, true, false);
+    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975287944884");
+    b.version(2);
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForBuiltInIsExpression() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "BuiltInIsExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec43L);
     b.class_(false, false, false);
@@ -479,7 +556,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForByteType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "ByteType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c601b5L);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190680501");
     b.version(2);
     b.alias("byte");
@@ -497,7 +574,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForCharType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "CharType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c601bcL);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190680508");
     b.version(2);
     b.alias("char");
@@ -546,6 +623,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("decimal");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForDivideAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "DivideAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba804L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390532");
+    b.version(2);
+    b.alias("/=");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForDivisionExpression() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "DivisionExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c6753bL);
     b.class_(false, false, false);
@@ -580,15 +666,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190736420");
     b.version(2);
     b.alias("uDummy");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForEmptyArrayInitializer() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "EmptyArrayInitializer", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96587L);
-    b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.ArrayInitializer", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96584L);
-    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190902663");
-    b.version(2);
-    b.alias("{}");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForEqualsExpression() {
@@ -704,10 +781,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForIntType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "IntType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c601b8L);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190680504");
     b.version(2);
     b.alias("int");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForIntegralType() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
+    b.class_(false, true, false);
+    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975287944881");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIsExpression() {
@@ -717,6 +802,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190670249");
     b.version(2);
     b.alias("is");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForLeftShiftAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "LeftShiftAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba809L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390537");
+    b.version(2);
+    b.alias("<<=");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLessThanExpression() {
@@ -748,10 +842,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForLongType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "LongType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c601baL);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190680506");
     b.version(2);
     b.alias("long");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForMinusAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "MinusAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba802L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390530");
+    b.version(2);
+    b.alias("-=");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForMinusExpression() {
@@ -761,6 +864,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190710073");
     b.version(2);
     b.alias("-");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForModuloAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "ModuloAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba805L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390533");
+    b.version(2);
+    b.alias("%=");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForModuloExpression() {
@@ -781,6 +893,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("*");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForMultiplyAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "MultiplyAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba803L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390531");
+    b.version(2);
+    b.alias("*=");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForNewArrayTypeExpression() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "NewArrayTypeExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ca181eL);
     b.class_(false, false, false);
@@ -789,7 +910,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("type", 0x5ef9203ea4ca181fL).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c706b6L).optional(false).ordered(true).multiple(false).origin("6843536562190948383").done();
     b.aggregate("rankSpecifier", 0x5ef9203ea4ca1821L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c75642L).optional(false).ordered(true).multiple(true).origin("6843536562190948385").done();
-    b.aggregate("arrayInitializer", 0x5ef9203ea4ca1824L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96584L).optional(false).ordered(true).multiple(false).origin("6843536562190948388").done();
+    b.aggregate("arrayInitializer", 0x5ef9203ea4ca1824L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96597L).optional(false).ordered(true).multiple(false).origin("6843536562190948388").done();
     b.alias("new");
     return b.create();
   }
@@ -802,7 +923,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("type", 0x5ef9203ea4c96576L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c706b6L).optional(false).ordered(true).multiple(false).origin("6843536562190902646").done();
     b.aggregate("expressionList", 0x5ef9203ea4c96578L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c965c9L).optional(false).ordered(true).multiple(false).origin("6843536562190902648").done();
     b.aggregate("rankSpecifier", 0x5ef9203ea4c9657bL).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c75642L).optional(true).ordered(true).multiple(true).origin("6843536562190902651").done();
-    b.aggregate("arrayInitializer", 0x5ef9203ea4c9657fL).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96584L).optional(true).ordered(true).multiple(false).origin("6843536562190902655").done();
+    b.aggregate("arrayInitializer", 0x5ef9203ea4c9657fL).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96597L).optional(true).ordered(true).multiple(false).origin("6843536562190902655").done();
     b.alias("new");
     return b.create();
   }
@@ -812,8 +933,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("CsBaseLanguage.structure.PrimaryExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c937dcL);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562191192709");
     b.version(2);
-    b.aggregate("type", 0x5ef9203ea4cdd286L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c706b6L).optional(false).ordered(true).multiple(false).origin("6843536562191192710").done();
-    b.aggregate("rankSpecifier", 0x5ef9203ea4cdd288L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c75642L).optional(true).ordered(true).multiple(true).origin("6843536562191192712").done();
+    b.aggregate("type", 0x5ef9203ea4cdd286L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c72d7fL).optional(false).ordered(true).multiple(false).origin("6843536562191192710").done();
     b.aggregate("argumentsList", 0x5ef9203ea4cdd28bL).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4cc09d2L).optional(false).ordered(true).multiple(false).origin("6843536562191192715").done();
     b.alias("new");
     return b.create();
@@ -823,16 +943,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, true, false);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190747318");
     b.version(2);
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForNonEmptyArrayInitializer() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "NonEmptyArrayInitializer", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96597L);
-    b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.ArrayInitializer", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96584L);
-    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190902679");
-    b.version(2);
-    b.aggregate("varibaleInitializer", 0x5ef9203ea4c96598L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c96594L).optional(false).ordered(true).multiple(true).origin("6843536562190902680").done();
-    b.alias("{init}");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForNotEqualsExpression() {
@@ -865,10 +975,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForObjectType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "ObjectType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c61ee8L);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.BuiltInClassType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b4L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190687976");
     b.version(2);
     b.alias("object");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForOrAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "OrAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba807L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390535");
+    b.version(2);
+    b.alias("|=");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForOrExpression() {
@@ -887,6 +1006,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562191075823");
     b.version(2);
     b.alias("out");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPlusAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "PlusAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba801L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390529");
+    b.version(2);
+    b.alias("+=");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPlusExpression() {
@@ -1008,10 +1136,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForRightShiftAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "RightShiftAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba80aL);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390538");
+    b.version(2);
+    b.alias(">>=");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForSByteType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "SByteType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec7bL);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190675067");
     b.version(2);
     b.alias("sbyte");
@@ -1020,7 +1157,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForShortType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "ShortType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c601b6L);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190680502");
     b.version(2);
     b.alias("short");
@@ -1038,7 +1175,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForStringType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "StringType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c61ee9L);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.BuiltInClassType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b4L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190687977");
     b.version(2);
     b.alias("string");
@@ -1068,27 +1205,34 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "Type", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c72d7fL);
     b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.TypeOrVoid", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872da5248L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190757247");
     b.version(2);
     b.aggregate("nonArrayType", 0x5ef9203ea4c75640L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c706b6L).optional(false).ordered(true).multiple(false).origin("6843536562190767680").done();
     b.aggregate("rankSpecifier", 0x5ef9203ea4c75681L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c75642L).optional(true).ordered(true).multiple(true).origin("6843536562190767745").done();
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForTypeTypeOf() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "TypeTypeOf", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ce37e6L);
+  private static ConceptDescriptor createDescriptorForTypeOf() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "TypeOf", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ce37e6L);
     b.class_(false, false, false);
     b.super_("CsBaseLanguage.structure.PrimaryExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c937dcL);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562191218662");
     b.version(2);
-    b.aggregate("type", 0x5ef9203ea4ce37e7L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c706b6L).optional(false).ordered(true).multiple(false).origin("6843536562191218663").done();
-    b.aggregate("rankSpecifier", 0x5ef9203ea4ce37e9L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c75642L).optional(true).ordered(true).multiple(true).origin("6843536562191218665").done();
+    b.aggregate("type", 0x5ef9203ea4ce37e7L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872da5248L).optional(false).ordered(true).multiple(false).origin("6843536562191218663").done();
     b.alias("typeof");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTypeOrVoid() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "TypeOrVoid", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872da5248L);
+    b.class_(false, true, false);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290303048");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForUIntType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "UIntType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c601b9L);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190680505");
     b.version(2);
     b.alias("uint");
@@ -1097,7 +1241,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForULongType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "ULongType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c601bbL);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190680507");
     b.version(2);
     b.alias("ulong");
@@ -1106,7 +1250,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForUShortType() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "UShortType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c601b7L);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.BuiltInType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c5ec49L);
+    b.super_("CsBaseLanguage.structure.IntegralType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872b656b1L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190680503");
     b.version(2);
     b.alias("ushort");
@@ -1201,13 +1345,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForVoidTypeOf() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "VoidTypeOf", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4cea058L);
+  private static ConceptDescriptor createDescriptorForVoidType() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "VoidType", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872da524bL);
     b.class_(false, false, false);
-    b.super_("CsBaseLanguage.structure.PrimaryExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c937dcL);
-    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562191245400");
+    b.super_("CsBaseLanguage.structure.TypeOrVoid", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872da5248L);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290303051");
     b.version(2);
-    b.alias("typeof");
+    b.alias("void");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForXorAssignExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "XorAssignExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba808L);
+    b.class_(false, false, false);
+    b.super_("CsBaseLanguage.structure.AssignmentExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x2b6e5dd872dba7daL);
+    b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/3129541975290390536");
+    b.version(2);
+    b.alias("^=");
     return b.create();
   }
 }

@@ -7,8 +7,8 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class NonEmptyArrayInitializer_Editor extends DefaultNodeEditor {
+public class NullLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new NonEmptyArrayInitializer_EditorBuilder_a(editorContext, node).createCell();
+    return new NullLiteral_EditorBuilder_a(editorContext, node).createCell();
   }
 }
