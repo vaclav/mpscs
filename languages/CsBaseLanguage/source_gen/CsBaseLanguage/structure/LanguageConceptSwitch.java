@@ -100,7 +100,7 @@ public final class LanguageConceptSwitch {
   public static final int UnaryMinusExpression = 88;
   public static final int UnaryNotExpression = 89;
   public static final int UnaryPlusExpression = 90;
-  public static final int UnaryTildaExpression = 91;
+  public static final int UnaryTildeExpression = 91;
   public static final int UnaryTypedExpression = 92;
   public static final int UncheckedExpression = 93;
   public static final int VariableInitializer = 94;
@@ -199,7 +199,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x5ef9203ea4c6b67bL, UnaryMinusExpression);
     builder.put(0x5ef9203ea4c6b67eL, UnaryNotExpression);
     builder.put(0x5ef9203ea4c6b67aL, UnaryPlusExpression);
-    builder.put(0x5ef9203ea4c6b67fL, UnaryTildaExpression);
+    builder.put(0x5ef9203ea4c6b67fL, UnaryTildeExpression);
     builder.put(0x5ef9203ea4c72d7cL, UnaryTypedExpression);
     builder.put(0x5ef9203ea4cf0c4aL, UncheckedExpression);
     builder.put(0x5ef9203ea4c96594L, VariableInitializer);

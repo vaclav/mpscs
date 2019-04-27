@@ -1812,7 +1812,7 @@
   </root>
   <root nodeRef="r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190726783">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="6843536562190726783" at="103,0,104,0" concept="1" trace="props_UnaryTildaExpression" />
+      <node id="6843536562190726783" at="103,0,104,0" concept="1" trace="props_UnaryTildeExpression" />
       <node id="6843536562190726783" at="801,49,802,76" concept="3" />
       <node id="6843536562190726783" at="802,76,803,33" concept="0" />
       <node id="6843536562190726783" at="803,33,804,35" concept="0" />
@@ -1825,11 +1825,11 @@
       <scope id="6843536562190726783" at="800,54,807,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6843536562190726783" at="103,0,104,0" concept="5" trace="UnaryTildaExpression" />
+      <node id="6843536562190726783" at="103,0,104,0" concept="5" trace="UnaryTildeExpression" />
       <node id="6843536562190726783" at="201,58,202,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="6843536562190726783" at="107,0,108,0" concept="1" trace="myConceptUnaryTildaExpression" />
+      <node id="6843536562190726783" at="107,0,108,0" concept="1" trace="myConceptUnaryTildeExpression" />
       <node id="6843536562190726783" at="309,54,310,45" concept="4" />
       <node id="6843536562190726783" at="1168,78,1169,169" concept="3" />
       <node id="6843536562190726783" at="1169,169,1170,34" concept="0" />
@@ -1838,7 +1838,7 @@
       <node id="6843536562190726783" at="1172,101,1173,17" concept="0" />
       <node id="6843536562190726783" at="1173,17,1174,17" concept="0" />
       <node id="6843536562190726783" at="1174,17,1175,22" concept="4" />
-      <node id="6843536562190726783" at="1168,0,1177,0" concept="6" trace="createDescriptorForUnaryTildaExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="6843536562190726783" at="1168,0,1177,0" concept="6" trace="createDescriptorForUnaryTildeExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="6843536562190726783" at="309,54,310,45" />
       <scope id="6843536562190726783" at="1168,78,1175,22">
         <var name="b" id="6843536562190726783" />

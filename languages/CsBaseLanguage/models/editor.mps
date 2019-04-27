@@ -25,6 +25,11 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
+      <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
+        <property id="1186414551515" name="flag" index="VOm3f" />
+      </concept>
+      <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -34,6 +39,9 @@
       </concept>
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
         <property id="1073389577007" name="text" index="3F0ifm" />
+      </concept>
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+        <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
@@ -48,7 +56,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="5VT83U$LgKD">
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Conditional" />
     <ref role="1XX52x" to="80bi:5VT83U$LgKv" resolve="TernaryOperatorExpression" />
     <node concept="3EZMnI" id="5VT83U$LnZ2" role="2wV5jI">
       <node concept="l2Vlx" id="5VT83U$LnZ3" role="2iSdaV" />
@@ -103,7 +111,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5VT83U$LuLv">
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Type" />
     <ref role="1XX52x" to="80bi:5VT83U$LuL3" resolve="BuiltInIsExpression" />
     <node concept="3EZMnI" id="5VT83U$LuLx" role="2wV5jI">
       <node concept="3F1sOY" id="5VT83U$LuLC" role="3EZMnx">
@@ -440,20 +448,24 @@
     </node>
   </node>
   <node concept="24kQdi" id="5VT83U$Nn31">
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
     <ref role="1XX52x" to="80bi:5VT83U$Nn2Q" resolve="PostIncrementExpression" />
     <node concept="3EZMnI" id="5VT83U$Nn3f" role="2wV5jI">
       <node concept="3F1sOY" id="5VT83U$Nn3w" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:5VT83U$Nn2R" resolve="primaryExpression" />
       </node>
       <node concept="l2Vlx" id="5VT83U$Nn3i" role="2iSdaV" />
-      <node concept="3F0ifn" id="5VT83U$Nn3s" role="3EZMnx">
+      <node concept="3F0ifn" id="24Oa_yeGmHW" role="3EZMnx">
         <property role="3F0ifm" value="++" />
+        <node concept="Vb9p2" id="24Oa_yeG$4_" role="3F10Kt" />
+        <node concept="11L4FC" id="24Oa_yeGttP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="5VT83U$Nn3J">
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
     <ref role="1XX52x" to="80bi:5VT83U$Nn3$" resolve="PostDecrementExpression" />
     <node concept="3EZMnI" id="5VT83U$Nn3L" role="2wV5jI">
       <node concept="3F1sOY" id="5VT83U$Nn42" role="3EZMnx">

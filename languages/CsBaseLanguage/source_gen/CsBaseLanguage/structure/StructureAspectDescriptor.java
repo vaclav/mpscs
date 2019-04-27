@@ -104,7 +104,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptUnaryMinusExpression = createDescriptorForUnaryMinusExpression();
   /*package*/ final ConceptDescriptor myConceptUnaryNotExpression = createDescriptorForUnaryNotExpression();
   /*package*/ final ConceptDescriptor myConceptUnaryPlusExpression = createDescriptorForUnaryPlusExpression();
-  /*package*/ final ConceptDescriptor myConceptUnaryTildaExpression = createDescriptorForUnaryTildaExpression();
+  /*package*/ final ConceptDescriptor myConceptUnaryTildeExpression = createDescriptorForUnaryTildeExpression();
   /*package*/ final ConceptDescriptor myConceptUnaryTypedExpression = createDescriptorForUnaryTypedExpression();
   /*package*/ final ConceptDescriptor myConceptUncheckedExpression = createDescriptorForUncheckedExpression();
   /*package*/ final ConceptDescriptor myConceptVariableInitializer = createDescriptorForVariableInitializer();
@@ -117,7 +117,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAndExpression, myConceptArgument, myConceptArgumentsList, myConceptArrayInitializer, myConceptAsOperator, myConceptBaseAccessExpression, myConceptBinaryOperation, myConceptBitwiseAndExpression, myConceptBitwiseLeftShiftExpression, myConceptBitwiseOrExpression, myConceptBitwiseRightExpression, myConceptBitwiseXorExpression, myConceptBoolLiteral, myConceptBoolType, myConceptBuiltInIsExpression, myConceptBuiltInType, myConceptByteType, myConceptCharLiteral, myConceptCharType, myConceptCheckedExpression, myConceptCheckedOrUncheckedExpression, myConceptCommaConstant, myConceptConstantUtility, myConceptDecimalType, myConceptDivisionExpression, myConceptDoubleType, myConceptDummyExpression, myConceptDummyUnaryExpression, myConceptEmptyArrayInitializer, myConceptEqualsExpression, myConceptExpression, myConceptExpressionInBraces, myConceptExpressionList, myConceptExpressionListExpression, myConceptExpressionTest, myConceptFloatType, myConceptFunctionCallExpression, myConceptGreaterThanExpression, myConceptGreaterThanOrEqualToExpression, myConceptIdentifier, myConceptIntLiteral, myConceptIntType, myConceptIsExpression, myConceptLessThanExpression, myConceptLessThanOrEqualToExpression, myConceptLiteral, myConceptLongType, myConceptMinusExpression, myConceptModuloExpression, myConceptMultiplicationExpression, myConceptNewArrayTypeExpression, myConceptNewNonArrayExpression, myConceptNewTypeExpression, myConceptNonArrayType, myConceptNonEmptyArrayInitializer, myConceptNotEqualsExpression, myConceptNullCoalescingExpression, myConceptNullLiteral, myConceptObjectType, myConceptOrExpression, myConceptOutConstant, myConceptPlusExpression, myConceptPostDecrementExpression, myConceptPostIncrementExpression, myConceptPreDecrementExpression, myConceptPreIncrementExpression, myConceptPredefinedDotExpression, myConceptPrimaryDotExpression, myConceptPrimaryExpression, myConceptQualifiedIdentifier, myConceptRankSpecifier, myConceptRealLiteral, myConceptRefConstant, myConceptRefOutConstant, myConceptSByteType, myConceptShortType, myConceptStringLiteral, myConceptStringType, myConceptTernaryOperatorExpression, myConceptThisExpression, myConceptType, myConceptTypeTypeOf, myConceptUIntType, myConceptULongType, myConceptUShortType, myConceptUnaryDereferenceExpression, myConceptUnaryExpression, myConceptUnaryExpressionWithOperator, myConceptUnaryMinusExpression, myConceptUnaryNotExpression, myConceptUnaryPlusExpression, myConceptUnaryTildaExpression, myConceptUnaryTypedExpression, myConceptUncheckedExpression, myConceptVariableInitializer, myConceptVoidTypeOf);
+    return Arrays.asList(myConceptAndExpression, myConceptArgument, myConceptArgumentsList, myConceptArrayInitializer, myConceptAsOperator, myConceptBaseAccessExpression, myConceptBinaryOperation, myConceptBitwiseAndExpression, myConceptBitwiseLeftShiftExpression, myConceptBitwiseOrExpression, myConceptBitwiseRightExpression, myConceptBitwiseXorExpression, myConceptBoolLiteral, myConceptBoolType, myConceptBuiltInIsExpression, myConceptBuiltInType, myConceptByteType, myConceptCharLiteral, myConceptCharType, myConceptCheckedExpression, myConceptCheckedOrUncheckedExpression, myConceptCommaConstant, myConceptConstantUtility, myConceptDecimalType, myConceptDivisionExpression, myConceptDoubleType, myConceptDummyExpression, myConceptDummyUnaryExpression, myConceptEmptyArrayInitializer, myConceptEqualsExpression, myConceptExpression, myConceptExpressionInBraces, myConceptExpressionList, myConceptExpressionListExpression, myConceptExpressionTest, myConceptFloatType, myConceptFunctionCallExpression, myConceptGreaterThanExpression, myConceptGreaterThanOrEqualToExpression, myConceptIdentifier, myConceptIntLiteral, myConceptIntType, myConceptIsExpression, myConceptLessThanExpression, myConceptLessThanOrEqualToExpression, myConceptLiteral, myConceptLongType, myConceptMinusExpression, myConceptModuloExpression, myConceptMultiplicationExpression, myConceptNewArrayTypeExpression, myConceptNewNonArrayExpression, myConceptNewTypeExpression, myConceptNonArrayType, myConceptNonEmptyArrayInitializer, myConceptNotEqualsExpression, myConceptNullCoalescingExpression, myConceptNullLiteral, myConceptObjectType, myConceptOrExpression, myConceptOutConstant, myConceptPlusExpression, myConceptPostDecrementExpression, myConceptPostIncrementExpression, myConceptPreDecrementExpression, myConceptPreIncrementExpression, myConceptPredefinedDotExpression, myConceptPrimaryDotExpression, myConceptPrimaryExpression, myConceptQualifiedIdentifier, myConceptRankSpecifier, myConceptRealLiteral, myConceptRefConstant, myConceptRefOutConstant, myConceptSByteType, myConceptShortType, myConceptStringLiteral, myConceptStringType, myConceptTernaryOperatorExpression, myConceptThisExpression, myConceptType, myConceptTypeTypeOf, myConceptUIntType, myConceptULongType, myConceptUShortType, myConceptUnaryDereferenceExpression, myConceptUnaryExpression, myConceptUnaryExpressionWithOperator, myConceptUnaryMinusExpression, myConceptUnaryNotExpression, myConceptUnaryPlusExpression, myConceptUnaryTildeExpression, myConceptUnaryTypedExpression, myConceptUncheckedExpression, myConceptVariableInitializer, myConceptVoidTypeOf);
   }
 
   @Override
@@ -306,8 +306,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptUnaryNotExpression;
       case LanguageConceptSwitch.UnaryPlusExpression:
         return myConceptUnaryPlusExpression;
-      case LanguageConceptSwitch.UnaryTildaExpression:
-        return myConceptUnaryTildaExpression;
+      case LanguageConceptSwitch.UnaryTildeExpression:
+        return myConceptUnaryTildeExpression;
       case LanguageConceptSwitch.UnaryTypedExpression:
         return myConceptUnaryTypedExpression;
       case LanguageConceptSwitch.UncheckedExpression:
@@ -1165,8 +1165,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("+");
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForUnaryTildaExpression() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "UnaryTildaExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c6b67fL);
+  private static ConceptDescriptor createDescriptorForUnaryTildeExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CsBaseLanguage", "UnaryTildeExpression", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c6b67fL);
     b.class_(false, false, false);
     b.super_("CsBaseLanguage.structure.UnaryExpressionWithOperator", 0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4c6b663L);
     b.origin("r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)/6843536562190726783");

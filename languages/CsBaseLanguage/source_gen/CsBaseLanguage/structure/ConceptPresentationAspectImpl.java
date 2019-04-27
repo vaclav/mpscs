@@ -100,7 +100,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_UnaryMinusExpression;
   private ConceptPresentation props_UnaryNotExpression;
   private ConceptPresentation props_UnaryPlusExpression;
-  private ConceptPresentation props_UnaryTildaExpression;
+  private ConceptPresentation props_UnaryTildeExpression;
   private ConceptPresentation props_UnaryTypedExpression;
   private ConceptPresentation props_UncheckedExpression;
   private ConceptPresentation props_VariableInitializer;
@@ -797,14 +797,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_UnaryPlusExpression = cpb.create();
         }
         return props_UnaryPlusExpression;
-      case LanguageConceptSwitch.UnaryTildaExpression:
-        if (props_UnaryTildaExpression == null) {
+      case LanguageConceptSwitch.UnaryTildeExpression:
+        if (props_UnaryTildeExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.shortDesc("tilda");
           cpb.rawPresentation("~");
-          props_UnaryTildaExpression = cpb.create();
+          props_UnaryTildeExpression = cpb.create();
         }
-        return props_UnaryTildaExpression;
+        return props_UnaryTildeExpression;
       case LanguageConceptSwitch.UnaryTypedExpression:
         if (props_UnaryTypedExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

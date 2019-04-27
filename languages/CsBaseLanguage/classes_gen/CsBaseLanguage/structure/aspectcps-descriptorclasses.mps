@@ -1107,7 +1107,7 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="false" />
-      <property role="TrG5h" value="props_UnaryTildaExpression" />
+      <property role="TrG5h" value="props_UnaryTildeExpression" />
       <node concept="3uibUv" id="4r" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptPresentation" resolve="ConceptPresentation" />
       </node>
@@ -8519,7 +8519,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="Nb" role="37vLTJ">
-                        <ref role="3cqZAo" node="1t" resolve="props_UnaryTildaExpression" />
+                        <ref role="3cqZAo" node="1t" resolve="props_UnaryTildeExpression" />
                       </node>
                     </node>
                   </node>
@@ -8527,19 +8527,19 @@
                 <node concept="3clFbC" id="MO" role="3clFbw">
                   <node concept="10Nm6u" id="Ne" role="3uHU7w" />
                   <node concept="37vLTw" id="Nf" role="3uHU7B">
-                    <ref role="3cqZAo" node="1t" resolve="props_UnaryTildaExpression" />
+                    <ref role="3cqZAo" node="1t" resolve="props_UnaryTildeExpression" />
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="MM" role="3cqZAp">
                 <node concept="37vLTw" id="Ng" role="3cqZAk">
-                  <ref role="3cqZAo" node="1t" resolve="props_UnaryTildaExpression" />
+                  <ref role="3cqZAo" node="1t" resolve="props_UnaryTildeExpression" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="MK" role="3Kbmr1">
               <ref role="1PxDUh" node="Pj" resolve="LanguageConceptSwitch" />
-              <ref role="3cqZAo" node="QK" resolve="UnaryTildaExpression" />
+              <ref role="3cqZAo" node="QK" resolve="UnaryTildeExpression" />
             </node>
           </node>
           <node concept="3KbdKl" id="6k" role="3KbHQx">
@@ -9908,7 +9908,7 @@
       <property role="2dlcS1" value="false" />
       <property role="2dld4O" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="UnaryTildaExpression" />
+      <property role="TrG5h" value="UnaryTildeExpression" />
       <node concept="3Tm1VV" id="Vf" role="1B3o_S" />
       <node concept="10Oyi0" id="Vg" role="1tU5fm" />
       <node concept="3cmrfG" id="Vh" role="33vP2m">
@@ -11450,7 +11450,7 @@
                 <property role="1adDun" value="0x5ef9203ea4c6b67fL" />
               </node>
               <node concept="37vLTw" id="14k" role="37wK5m">
-                <ref role="3cqZAo" node="QK" resolve="UnaryTildaExpression" />
+                <ref role="3cqZAo" node="QK" resolve="UnaryTildeExpression" />
               </node>
             </node>
           </node>
@@ -12692,12 +12692,12 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="myConceptUnaryTildaExpression" />
+      <property role="TrG5h" value="myConceptUnaryTildeExpression" />
       <node concept="3uibUv" id="1b6" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptDescriptor" resolve="ConceptDescriptor" />
       </node>
       <node concept="1rXfSq" id="1b7" role="33vP2m">
-        <ref role="37wK5l" node="18b" resolve="createDescriptorForUnaryTildaExpression" />
+        <ref role="37wK5l" node="18b" resolve="createDescriptorForUnaryTildeExpression" />
       </node>
     </node>
     <node concept="312cEg" id="16v" role="jymVt">
@@ -13061,7 +13061,7 @@
               <ref role="3cqZAo" node="16t" resolve="myConceptUnaryPlusExpression" />
             </node>
             <node concept="37vLTw" id="1cV" role="37wK5m">
-              <ref role="3cqZAo" node="16u" resolve="myConceptUnaryTildaExpression" />
+              <ref role="3cqZAo" node="16u" resolve="myConceptUnaryTildeExpression" />
             </node>
             <node concept="37vLTw" id="1cW" role="37wK5m">
               <ref role="3cqZAo" node="16v" resolve="myConceptUnaryTypedExpression" />
@@ -14291,13 +14291,13 @@
             <node concept="3clFbS" id="1kn" role="3Kbo56">
               <node concept="3cpWs6" id="1kp" role="3cqZAp">
                 <node concept="37vLTw" id="1kq" role="3cqZAk">
-                  <ref role="3cqZAo" node="16u" resolve="myConceptUnaryTildaExpression" />
+                  <ref role="3cqZAo" node="16u" resolve="myConceptUnaryTildeExpression" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="1ko" role="3Kbmr1">
               <ref role="1PxDUh" node="Pj" resolve="LanguageConceptSwitch" />
-              <ref role="3cqZAo" node="QK" resolve="UnaryTildaExpression" />
+              <ref role="3cqZAo" node="QK" resolve="UnaryTildeExpression" />
             </node>
           </node>
           <node concept="3KbdKl" id="1e_" role="3KbHQx">
@@ -28017,7 +28017,7 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="createDescriptorForUnaryTildaExpression" />
+      <property role="TrG5h" value="createDescriptorForUnaryTildeExpression" />
       <node concept="3clFbS" id="2_P" role="3clF47">
         <node concept="3cpWs8" id="2_S" role="3cqZAp">
           <node concept="3cpWsn" id="2_Z" role="3cpWs9">
@@ -28032,7 +28032,7 @@
                   <property role="Xl_RC" value="CsBaseLanguage" />
                 </node>
                 <node concept="Xl_RD" id="2A4" role="37wK5m">
-                  <property role="Xl_RC" value="UnaryTildaExpression" />
+                  <property role="Xl_RC" value="UnaryTildeExpression" />
                 </node>
                 <node concept="1adDum" id="2A5" role="37wK5m">
                   <property role="1adDun" value="0xd74e25c94d9143b6L" />

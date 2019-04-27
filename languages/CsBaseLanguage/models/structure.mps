@@ -50,7 +50,7 @@
     <property role="TrG5h" value="TernaryOperatorExpression" />
     <property role="R4oN_" value="ternary operator" />
     <property role="34LRSv" value="expr ? expr : expr" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Conditional" />
     <ref role="1TJDcQ" node="5VT83U$LgKs" resolve="Expression" />
     <node concept="1TJgyj" id="5VT83U$LgKw" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190617632" />
@@ -100,7 +100,7 @@
     <property role="TrG5h" value="OrExpression" />
     <property role="R4oN_" value="logical OR" />
     <property role="34LRSv" value="||" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Conditional" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LpyR">
@@ -131,7 +131,7 @@
     <property role="TrG5h" value="AndExpression" />
     <property role="34LRSv" value="&amp;&amp;" />
     <property role="R4oN_" value="logical AND" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Conditional" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lr2B">
@@ -139,7 +139,7 @@
     <property role="TrG5h" value="BitwiseOrExpression" />
     <property role="34LRSv" value="|" />
     <property role="R4oN_" value="bitwise OR" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Bitwise" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Lr2C">
@@ -147,7 +147,7 @@
     <property role="TrG5h" value="BitwiseAndExpression" />
     <property role="34LRSv" value="&amp;" />
     <property role="R4oN_" value="bitwise AND" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Bitwise" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LrPB">
@@ -155,7 +155,7 @@
     <property role="TrG5h" value="BitwiseXorExpression" />
     <property role="34LRSv" value="^" />
     <property role="R4oN_" value="bitwise XOR" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Bitwise" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LrPC">
@@ -163,7 +163,7 @@
     <property role="TrG5h" value="NullCoalescingExpression" />
     <property role="34LRSv" value="??" />
     <property role="R4oN_" value="null coalescing operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Conditional" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LsGh">
@@ -171,7 +171,7 @@
     <property role="TrG5h" value="EqualsExpression" />
     <property role="34LRSv" value="==" />
     <property role="R4oN_" value="equality operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Equality" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LsGi">
@@ -179,7 +179,7 @@
     <property role="TrG5h" value="NotEqualsExpression" />
     <property role="34LRSv" value="!=" />
     <property role="R4oN_" value="inequality operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Equality" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LtA_">
@@ -187,7 +187,7 @@
     <property role="TrG5h" value="LessThanExpression" />
     <property role="34LRSv" value="&lt;" />
     <property role="R4oN_" value="less than operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Relational" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LtAA">
@@ -195,7 +195,7 @@
     <property role="TrG5h" value="GreaterThanExpression" />
     <property role="34LRSv" value="&gt;" />
     <property role="R4oN_" value="greater than operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Relational" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LtAB">
@@ -203,7 +203,7 @@
     <property role="TrG5h" value="LessThanOrEqualToExpression" />
     <property role="34LRSv" value="&lt;=" />
     <property role="R4oN_" value="less than or equal to operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Relational" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LtAC">
@@ -211,7 +211,7 @@
     <property role="TrG5h" value="GreaterThanOrEqualToExpression" />
     <property role="34LRSv" value="&gt;=" />
     <property role="R4oN_" value="greater than or equal to operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Relational" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LtAD">
@@ -219,7 +219,7 @@
     <property role="TrG5h" value="IsExpression" />
     <property role="34LRSv" value="is" />
     <property role="R4oN_" value="is operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Type" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LtAE">
@@ -227,7 +227,7 @@
     <property role="TrG5h" value="AsOperator" />
     <property role="34LRSv" value="as" />
     <property role="R4oN_" value="as operator" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Type" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LuL3">
@@ -235,7 +235,7 @@
     <property role="TrG5h" value="BuiltInIsExpression" />
     <property role="34LRSv" value="is" />
     <property role="R4oN_" value="is with built-in type" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Type" />
     <ref role="1TJDcQ" node="5VT83U$LgKs" resolve="Expression" />
     <node concept="1TJgyj" id="5VT83U$LuL4" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190675012" />
@@ -384,7 +384,7 @@
     <property role="TrG5h" value="BitwiseLeftShiftExpression" />
     <property role="34LRSv" value="&lt;&lt;" />
     <property role="R4oN_" value="left shift" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Bitwise" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$L_sF">
@@ -392,7 +392,7 @@
     <property role="TrG5h" value="BitwiseRightExpression" />
     <property role="34LRSv" value="&gt;&gt;" />
     <property role="R4oN_" value="right shift" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Bitwise" />
     <ref role="1TJDcQ" node="5VT83U$LpyR" resolve="BinaryOperation" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LBkS">
@@ -477,7 +477,7 @@
     <property role="TrG5h" value="PreIncrementExpression" />
     <property role="34LRSv" value="++" />
     <property role="R4oN_" value="pre-increment" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
     <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpX">
@@ -485,7 +485,7 @@
     <property role="TrG5h" value="PreDecrementExpression" />
     <property role="34LRSv" value="--" />
     <property role="R4oN_" value="pre-decrement" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
     <ref role="1TJDcQ" node="5VT83U$LFpz" resolve="UnaryExpressionWithOperator" />
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpY">
@@ -498,7 +498,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpZ">
     <property role="EcuMT" value="6843536562190726783" />
-    <property role="TrG5h" value="UnaryTildaExpression" />
+    <property role="TrG5h" value="UnaryTildeExpression" />
     <property role="34LRSv" value="~" />
     <property role="R4oN_" value="tilda" />
     <property role="3GE5qa" value="Expressions" />
@@ -949,7 +949,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$Nn2Q">
     <property role="EcuMT" value="6843536562191167670" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
     <property role="TrG5h" value="PostIncrementExpression" />
     <property role="34LRSv" value="++" />
     <property role="R4oN_" value="post-increment" />
@@ -964,7 +964,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$Nn3$">
     <property role="EcuMT" value="6843536562191167716" />
-    <property role="3GE5qa" value="Expressions" />
+    <property role="3GE5qa" value="Expressions.Prefix/Postfix" />
     <property role="TrG5h" value="PostDecrementExpression" />
     <property role="34LRSv" value="--" />
     <property role="R4oN_" value="post-decrement" />
