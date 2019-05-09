@@ -978,7 +978,7 @@
     <property role="3GE5qa" value="Expressions.DotAccess" />
     <property role="TrG5h" value="BaseAccessExpression" />
     <property role="34LRSv" value="base" />
-    <property role="R4oN_" value="access a memeber of the base class" />
+    <property role="R4oN_" value="access a member of the base class" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
     <node concept="1TJgyj" id="5VT83U$NhjJ" role="1TKVEi">
       <property role="IQ2ns" value="6843536562191144175" />
