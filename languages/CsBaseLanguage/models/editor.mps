@@ -61,6 +61,11 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="24kQdi" id="6vAOG1ABwRS">
     <ref role="1XX52x" to="80bi:6hv6i2_AqOA" resolve="File" />
@@ -116,6 +121,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6vAOG1ABYl2">
+    <property role="3GE5qa" value="Namespace" />
     <ref role="1XX52x" to="80bi:6hv6i2_AzRh" resolve="NamespaceDeclaration" />
     <node concept="3EZMnI" id="6vAOG1ABYl4" role="2wV5jI">
       <node concept="3F0ifn" id="6vAOG1ABYlE" role="3EZMnx">
@@ -153,6 +159,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6vAOG1ACaK4">
+    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
     <node concept="3EZMnI" id="6vAOG1ACmDo" role="2wV5jI">
       <node concept="3F0ifn" id="6vAOG1ACqLu" role="3EZMnx">
