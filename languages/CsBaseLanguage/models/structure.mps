@@ -99,18 +99,18 @@
   <node concept="1TIwiD" id="6hv6i2_AxlB">
     <property role="EcuMT" value="7232527154588292455" />
     <property role="TrG5h" value="ExternAliasDirective" />
-    <property role="3GE5qa" value="not_implemented" />
+    <property role="3GE5qa" value="Namespace" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_Axqh">
     <property role="EcuMT" value="7232527154588292753" />
     <property role="TrG5h" value="UsingDirective" />
-    <property role="3GE5qa" value="not_implemented" />
+    <property role="3GE5qa" value="Namespace" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_AyhB">
     <property role="EcuMT" value="7232527154588296295" />
-    <property role="3GE5qa" value="not_implemented" />
+    <property role="3GE5qa" value="Attributes" />
     <property role="TrG5h" value="GlobalAttribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -118,6 +118,7 @@
     <property role="EcuMT" value="7232527154588300034" />
     <property role="TrG5h" value="TypeDeclaration" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6hv6i2_AzRi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -133,6 +134,7 @@
     <property role="EcuMT" value="7232527154588300035" />
     <property role="TrG5h" value="ClassDeclaration" />
     <property role="34LRSv" value="class" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
     <node concept="1TJgyj" id="6hv6i2_ABc5" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588316421" />
@@ -203,29 +205,33 @@
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc4">
     <property role="EcuMT" value="7232527154588300036" />
-    <property role="3GE5qa" value="not_implemented" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
     <property role="TrG5h" value="DelegateDeclaration" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc5">
     <property role="EcuMT" value="7232527154588300037" />
     <property role="TrG5h" value="StructDeclaration" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc6">
     <property role="EcuMT" value="7232527154588300038" />
     <property role="TrG5h" value="InterfaceDeclaration" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc7">
     <property role="EcuMT" value="7232527154588300039" />
     <property role="TrG5h" value="EnumDeclaration" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_AzRh">
     <property role="EcuMT" value="7232527154588302801" />
     <property role="TrG5h" value="NamespaceDeclaration" />
     <property role="34LRSv" value="namespace" />
+    <property role="3GE5qa" value="Namespace" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hv6i2_A_I2" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588310402" />
@@ -257,13 +263,14 @@
   </node>
   <node concept="1TIwiD" id="6hv6i2_ABc4">
     <property role="EcuMT" value="7232527154588316420" />
-    <property role="3GE5qa" value="not_implemented" />
+    <property role="3GE5qa" value="Attributes" />
     <property role="TrG5h" value="Attribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_ABc8">
     <property role="EcuMT" value="7232527154588316424" />
     <property role="TrG5h" value="Visibility" />
+    <property role="3GE5qa" value="Modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6hv6i2_ABd8" role="1TKVEl">
       <property role="IQ2nx" value="7232527154588316488" />
@@ -274,6 +281,7 @@
   <node concept="AxPO7" id="6hv6i2_ABc9">
     <property role="TrG5h" value="VisibilityEnum" />
     <property role="PDuV0" value="true" />
+    <property role="3GE5qa" value="Modifier" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="6hv6i2_ABca" role="M5hS2">
       <property role="1uS6qo" value="public" />
@@ -293,6 +301,7 @@
   </node>
   <node concept="AxPO7" id="6hv6i2_ARIv">
     <property role="TrG5h" value="StaticAbstractSealedEnum" />
+    <property role="3GE5qa" value="Modifier" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="6hv6i2_ARIw" role="M5hS2">
       <property role="1uS6qo" value="static" />
@@ -307,6 +316,7 @@
   <node concept="1TIwiD" id="6hv6i2_ARIS">
     <property role="EcuMT" value="7232527154588384184" />
     <property role="TrG5h" value="StaticAbstractSealed" />
+    <property role="3GE5qa" value="Modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6hv6i2_ARIT" role="1TKVEl">
       <property role="IQ2nx" value="7232527154588384185" />
@@ -317,18 +327,19 @@
   <node concept="1TIwiD" id="6hv6i2_ATMC">
     <property role="EcuMT" value="7232527154588392616" />
     <property role="TrG5h" value="Partial" />
-    <property role="3GE5qa" value="not_implemented" />
+    <property role="3GE5qa" value="Modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_ATMO">
     <property role="EcuMT" value="7232527154588392628" />
-    <property role="3GE5qa" value="not_implemented" />
+    <property role="3GE5qa" value="Modifier" />
     <property role="TrG5h" value="New" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_AXOM">
     <property role="EcuMT" value="7232527154588409138" />
     <property role="TrG5h" value="TypeParameter" />
+    <property role="3GE5qa" value="Generics" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hv6i2_AXON" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588409139" />
@@ -344,7 +355,7 @@
   <node concept="1TIwiD" id="6hv6i2_AXOQ">
     <property role="EcuMT" value="7232527154588409142" />
     <property role="TrG5h" value="TypeParameterConstraintsClause" />
-    <property role="3GE5qa" value="not_implemented" />
+    <property role="3GE5qa" value="Generics" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_AZDJ">
@@ -362,14 +373,17 @@
   <node concept="PlHQZ" id="6hv6i2_AZFf">
     <property role="EcuMT" value="7232527154588416719" />
     <property role="TrG5h" value="INamespaceMemberDeclaration" />
+    <property role="3GE5qa" value="Namespace" />
   </node>
   <node concept="PlHQZ" id="6hv6i2_B0DQ">
     <property role="EcuMT" value="7232527154588420726" />
     <property role="TrG5h" value="IClassMemberDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_B47j">
     <property role="EcuMT" value="7232527154588434899" />
     <property role="TrG5h" value="ConstantDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.Constants" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6hv6i2_B47k" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
@@ -413,10 +427,14 @@
     <property role="EcuMT" value="7232527154588434985" />
     <property role="TrG5h" value="TypeRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="t5JxF" id="1hOkzGkKro_" role="lGtFl">
+      <property role="t5JxN" value="Join with Type from expression branch" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_B48E">
     <property role="EcuMT" value="7232527154588434986" />
     <property role="TrG5h" value="ConstantDeclarator" />
+    <property role="3GE5qa" value="Class / Struct.Constants" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hv6i2_B48U" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588435002" />
@@ -438,7 +456,7 @@
   <node concept="1TIwiD" id="6hv6i2_B6aE">
     <property role="EcuMT" value="7232527154588443306" />
     <property role="TrG5h" value="FieldDeclaration" />
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6hv6i2_B6aF" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
@@ -475,6 +493,7 @@
   <node concept="1TIwiD" id="6hv6i2_B6b6">
     <property role="EcuMT" value="7232527154588443334" />
     <property role="TrG5h" value="VariableDeclarator" />
+    <property role="3GE5qa" value="Class / Struct.Variable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6hv6i2_B6b7" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -495,6 +514,7 @@
   <node concept="1TIwiD" id="6hv6i2_B6ci">
     <property role="EcuMT" value="7232527154588443410" />
     <property role="TrG5h" value="MethodDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hv6i2_B6cq" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588443418" />
@@ -563,6 +583,7 @@
   <node concept="1TIwiD" id="6hv6i2_B6cm">
     <property role="EcuMT" value="7232527154588443414" />
     <property role="TrG5h" value="Statement" />
+    <property role="3GE5qa" value="Statements" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6vAOG1ABqK6" role="1TKVEl">
       <property role="IQ2nx" value="7486903154347191302" />
@@ -584,6 +605,7 @@
   </node>
   <node concept="AxPO7" id="6hv6i2_B6eI">
     <property role="TrG5h" value="ParameterModifierEnum" />
+    <property role="3GE5qa" value="Class / Struct.Parameters" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="6hv6i2_B6eJ" role="M5hS2">
       <property role="1uS6qo" value="ref" />
@@ -598,6 +620,7 @@
   <node concept="1TIwiD" id="6hv6i2_B6eW">
     <property role="EcuMT" value="7232527154588443580" />
     <property role="TrG5h" value="ParameterModifier" />
+    <property role="3GE5qa" value="Class / Struct.Parameters" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6hv6i2_B6eX" role="1TKVEl">
       <property role="IQ2nx" value="7232527154588443581" />
@@ -608,7 +631,7 @@
   <node concept="1TIwiD" id="6hv6i2_Becz">
     <property role="EcuMT" value="7232527154588476195" />
     <property role="TrG5h" value="FormalParameter" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="Class / Struct.Parameters" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hv6i2_Bec$" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588476196" />
@@ -624,6 +647,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcab">
     <property role="EcuMT" value="7486903154347131531" />
     <property role="TrG5h" value="TypeParameterConstraintsClauseList" />
+    <property role="3GE5qa" value="Generics" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcac" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131532" />
@@ -636,6 +660,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcaf">
     <property role="EcuMT" value="7486903154347131535" />
     <property role="TrG5h" value="AttributeList" />
+    <property role="3GE5qa" value="Attributes" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcag" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131536" />
@@ -648,6 +673,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcaj">
     <property role="EcuMT" value="7486903154347131539" />
     <property role="TrG5h" value="TypeParameterList" />
+    <property role="3GE5qa" value="Generics" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcan" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131543" />
@@ -660,6 +686,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcaq">
     <property role="EcuMT" value="7486903154347131546" />
     <property role="TrG5h" value="InterfaceTypeList" />
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcar" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131547" />
@@ -672,6 +699,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcau">
     <property role="EcuMT" value="7486903154347131550" />
     <property role="TrG5h" value="ConstantDeclaratorList" />
+    <property role="3GE5qa" value="Class / Struct.Constants" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcav" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131551" />
@@ -684,6 +712,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcay">
     <property role="EcuMT" value="7486903154347131554" />
     <property role="TrG5h" value="VariableDeclaratorList" />
+    <property role="3GE5qa" value="Class / Struct.Variable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcaz" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131555" />
@@ -696,6 +725,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcaA">
     <property role="EcuMT" value="7486903154347131558" />
     <property role="TrG5h" value="ExternAliasDirectiveList" />
+    <property role="3GE5qa" value="Namespace" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcaB" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131559" />
@@ -708,6 +738,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcaE">
     <property role="EcuMT" value="7486903154347131562" />
     <property role="TrG5h" value="UsingDirectiveList" />
+    <property role="3GE5qa" value="Namespace" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcaF" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131563" />
@@ -720,6 +751,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcaI">
     <property role="EcuMT" value="7486903154347131566" />
     <property role="TrG5h" value="FormalParameterList" />
+    <property role="3GE5qa" value="Class / Struct.Parameters" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcaJ" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131567" />
@@ -732,6 +764,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcaM">
     <property role="EcuMT" value="7486903154347131570" />
     <property role="TrG5h" value="Block" />
+    <property role="3GE5qa" value="Statements" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcaN" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131571" />
@@ -744,6 +777,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcaT">
     <property role="EcuMT" value="7486903154347131577" />
     <property role="TrG5h" value="PropertyDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.Properties" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABcaU" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -788,6 +822,7 @@
   <node concept="PlHQZ" id="6vAOG1ABcbs">
     <property role="EcuMT" value="7486903154347131612" />
     <property role="TrG5h" value="IAccessorDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.Properties" />
     <node concept="1TJgyj" id="6vAOG1ABcbC" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131624" />
       <property role="20lmBu" value="aggregation" />
@@ -811,6 +846,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcbt">
     <property role="EcuMT" value="7486903154347131613" />
     <property role="TrG5h" value="GetAccessorDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.Properties" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABcbu" role="PzmwI">
       <ref role="PrY4T" node="6vAOG1ABcbs" resolve="IAccessorDeclaration" />
@@ -819,6 +855,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcbx">
     <property role="EcuMT" value="7486903154347131617" />
     <property role="TrG5h" value="SetAccessorDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.Properties" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABcby" role="PzmwI">
       <ref role="PrY4T" node="6vAOG1ABcbs" resolve="IAccessorDeclaration" />
@@ -833,6 +870,7 @@
   <node concept="1TIwiD" id="6vAOG1ABnEK">
     <property role="EcuMT" value="7486903154347178672" />
     <property role="TrG5h" value="ConstructorDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.Constructor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABnET" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178681" />
@@ -887,6 +925,7 @@
   <node concept="1TIwiD" id="6vAOG1ABnF5">
     <property role="EcuMT" value="7486903154347178693" />
     <property role="TrG5h" value="StaticConstructorDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABnF9" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178697" />
@@ -916,6 +955,7 @@
   <node concept="PlHQZ" id="6vAOG1ABnFn">
     <property role="EcuMT" value="7486903154347178711" />
     <property role="TrG5h" value="IConstructorInitializer" />
+    <property role="3GE5qa" value="Class / Struct.Constructor" />
     <node concept="1TJgyj" id="6vAOG1ABnFp" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178713" />
       <property role="20lmBu" value="aggregation" />
@@ -932,6 +972,7 @@
   <node concept="1TIwiD" id="6vAOG1ABnFB">
     <property role="EcuMT" value="7486903154347178727" />
     <property role="TrG5h" value="BaseConstructorInitializer" />
+    <property role="3GE5qa" value="Class / Struct.Constructor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABnFC" role="PzmwI">
       <ref role="PrY4T" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
@@ -940,6 +981,7 @@
   <node concept="1TIwiD" id="6vAOG1ABnFF">
     <property role="EcuMT" value="7486903154347178731" />
     <property role="TrG5h" value="ThisConstructorInitializer" />
+    <property role="3GE5qa" value="Class / Struct.Constructor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABnFG" role="PzmwI">
       <ref role="PrY4T" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
