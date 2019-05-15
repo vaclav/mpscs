@@ -959,7 +959,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6$wrg4A_Pfl">
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration.Enum" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc7" resolve="EnumDeclaration" />
     <node concept="3EZMnI" id="6$wrg4A_Pfn" role="2wV5jI">
       <node concept="3F0ifn" id="6$wrg4A_Pfo" role="3EZMnx">

@@ -1298,7 +1298,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6hv6i2_B48D" resolve="TypeRef" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
     <node concept="1TJgyj" id="6vAOG1ABcc1" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131649" />
@@ -1310,14 +1310,14 @@
   </node>
   <node concept="1TIwiD" id="6$wrg4A_PeM">
     <property role="EcuMT" value="7575174424947020722" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="EnumModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6$wrg4AAmeZ">
     <property role="EcuMT" value="7575174424947155903" />
     <property role="TrG5h" value="InterfaceMethodDeclaration" />
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="Interface" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6$wrg4AAmf4" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947155908" />
@@ -1336,7 +1336,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="returnType" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6hv6i2_B48D" resolve="TypeRef" />
+      <ref role="20lvS9" node="2HIntxMQ_98" resolve="TypeOrVoid" />
       <node concept="t5JxF" id="6$wrg4AAmfs" role="lGtFl">
         <property role="t5JxN" value="should be interface: IReturnType which should be implemented by TypeRef and Void " />
       </node>
@@ -1433,24 +1433,24 @@
   <node concept="1TIwiD" id="6hv6i2_B6bJ">
     <property role="EcuMT" value="7232527154588443375" />
     <property role="TrG5h" value="FieldModifier" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnEP">
     <property role="EcuMT" value="7486903154347178677" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="ConstructorModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6$wrg4AA2AR">
     <property role="EcuMT" value="7575174424947075511" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="InterfaceModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnEO">
     <property role="EcuMT" value="7486903154347178676" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="StaticConstructorModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -1511,14 +1511,10 @@
       <ref role="20lvS9" node="6hv6i2_AxlB" resolve="ExternAliasDirective" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6$wrg4A_UKC">
-    <property role="EcuMT" value="7575174424947043368" />
-    <property role="TrG5h" value="IntegralTypeRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
   <node concept="1TIwiD" id="6$wrg4A_UKD">
     <property role="EcuMT" value="7575174424947043369" />
     <property role="TrG5h" value="EnumMemberDeclaration" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration.Enum" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6$wrg4A_UKE" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947043370" />
@@ -1585,7 +1581,7 @@
   </node>
   <node concept="1TIwiD" id="6hv6i2_B6d6">
     <property role="EcuMT" value="7232527154588443462" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="MethodModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -1640,7 +1636,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6hv6i2_B48D" resolve="TypeRef" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_B48F" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588434987" />
@@ -1712,6 +1708,7 @@
   </node>
   <node concept="AxPO7" id="6$wrg4AAh$1">
     <property role="TrG5h" value="VarianceAnnotationEnum" />
+    <property role="3GE5qa" value="Generics" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="6$wrg4AAjTf" role="M5hS2">
       <property role="1uS6qo" value="none" />
@@ -1819,7 +1816,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6hv6i2_B48D" resolve="TypeRef" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_B6bd" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588443341" />
@@ -1829,17 +1826,9 @@
       <ref role="20lvS9" node="6vAOG1ABcay" resolve="VariableDeclaratorList" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6hv6i2_B48D">
-    <property role="EcuMT" value="7232527154588434985" />
-    <property role="TrG5h" value="TypeRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="t5JxF" id="1hOkzGkKro_" role="lGtFl">
-      <property role="t5JxN" value="Join with Type from expression branch" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6vAOG1ABcbK">
     <property role="EcuMT" value="7486903154347131632" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="AccessorModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -1892,7 +1881,7 @@
   </node>
   <node concept="1TIwiD" id="6$wrg4AAmhE">
     <property role="EcuMT" value="7575174424947156074" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="DelegateModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -1922,7 +1911,7 @@
   </node>
   <node concept="1TIwiD" id="6$wrg4A_l_G">
     <property role="EcuMT" value="7575174424946891116" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="StructModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -2047,9 +2036,9 @@
     <node concept="1TJgyj" id="6$wrg4AAmgL" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947156017" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="returnType" />
+      <property role="20kJfa" value="returnTypeOrVoid" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6hv6i2_B48D" resolve="TypeRef" />
+      <ref role="20lvS9" node="2HIntxMQ_98" resolve="TypeOrVoid" />
       <node concept="t5JxF" id="6$wrg4AAmgM" role="lGtFl">
         <property role="t5JxN" value="should be interface: IReturnType which should be implemented by TypeRef and Void " />
       </node>
@@ -2087,7 +2076,7 @@
   <node concept="1TIwiD" id="6hv6i2_Azc7">
     <property role="EcuMT" value="7232527154588300039" />
     <property role="TrG5h" value="EnumDeclaration" />
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Namespace.TypeDeclaration.Enum" />
     <property role="34LRSv" value="enum" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
     <node concept="1TJgyj" id="6$wrg4A_PeP" role="1TKVEi">
@@ -2107,7 +2096,7 @@
       <property role="IQ2ns" value="7575174424947043364" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="base" />
-      <ref role="20lvS9" node="6$wrg4A_UKC" resolve="IntegralTypeRef" />
+      <ref role="20lvS9" node="2HIntxMH_qL" resolve="IntegralType" />
     </node>
     <node concept="1TJgyj" id="6$wrg4A_UKL" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947043377" />
@@ -2168,12 +2157,6 @@
     <node concept="PrWs8" id="6$wrg4AA2AK" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6vAOG1ABnFo">
-    <property role="EcuMT" value="7486903154347178712" />
-    <property role="3GE5qa" value="dummy_expression" />
-    <property role="TrG5h" value="DummyArgumentList" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_AZE1">
     <property role="EcuMT" value="7232527154588416641" />
@@ -2332,7 +2315,7 @@
       <property role="IQ2ns" value="7486903154347178713" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="argumentList" />
-      <ref role="20lvS9" node="6vAOG1ABnFo" resolve="DummyArgumentList" />
+      <ref role="20lvS9" node="5VT83U$N0Bi" resolve="ArgumentsList" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_ABc8">
@@ -2383,7 +2366,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="returnType" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6hv6i2_B48D" resolve="TypeRef" />
+      <ref role="20lvS9" node="2HIntxMQ_98" resolve="TypeOrVoid" />
       <node concept="t5JxF" id="6hv6i2_B6dr" role="lGtFl">
         <property role="t5JxN" value="should be interface: IReturnType which should be implemented by TypeRef and Void " />
       </node>
@@ -2418,6 +2401,7 @@
   <node concept="PlHQZ" id="6$wrg4AA8Vb">
     <property role="EcuMT" value="7575174424947101387" />
     <property role="TrG5h" value="IInterfaceMemberDeclaration" />
+    <property role="3GE5qa" value="Interface" />
     <node concept="t5JxF" id="6$wrg4AAT8f" role="lGtFl">
       <property role="t5JxN" value="not yet implemented: interface-property-declaration interface-event-declaration interface-indexer-declaration" />
     </node>
@@ -2441,7 +2425,7 @@
   </node>
   <node concept="1TIwiD" id="6vAOG1ABcb0">
     <property role="EcuMT" value="7486903154347131584" />
-    <property role="3GE5qa" value="TODOs" />
+    <property role="3GE5qa" value="TODOs_modifiers" />
     <property role="TrG5h" value="PropertyModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
