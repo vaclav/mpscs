@@ -1097,7 +1097,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="6$wrg4A_JoK" role="3EZMnx">
-        <ref role="1NtTu8" to="80bi:6$wrg4A_Hjq" resolve="structMemberDeclaration" />
+        <ref role="1NtTu8" to="80bi:3h4LMeIQH$O" resolve="structMemberDeclaration" />
         <node concept="pVoyu" id="6$wrg4A_JoL" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1120,7 +1120,7 @@
     <ref role="1XX52x" to="80bi:6hv6i2_B6ci" resolve="MethodDeclaration" />
     <node concept="3EZMnI" id="3x25Ph9Gc_m" role="2wV5jI">
       <node concept="3F1sOY" id="3x25Ph9Gc_D" role="3EZMnx">
-        <ref role="1NtTu8" to="80bi:3FP3q7KeKvm" resolve="returnType" />
+        <ref role="1NtTu8" to="80bi:3h4LMeIQRqV" resolve="returnTypeOrVoid" />
       </node>
       <node concept="l2Vlx" id="3x25Ph9Gc_p" role="2iSdaV" />
       <node concept="3F0A7n" id="3x25Ph9Gc_M" role="3EZMnx">
@@ -1130,7 +1130,7 @@
         <property role="3F0ifm" value="(" />
       </node>
       <node concept="3F1sOY" id="3x25Ph9He4S" role="3EZMnx">
-        <ref role="1NtTu8" to="80bi:6hv6i2_B6ep" resolve="formalParameterList" />
+        <ref role="1NtTu8" to="80bi:6$wrg4AAmgO" resolve="formalParameter" />
       </node>
       <node concept="3F0ifn" id="3x25Ph9He5k" role="3EZMnx">
         <property role="3F0ifm" value=")" />
