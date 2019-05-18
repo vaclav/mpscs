@@ -1692,7 +1692,7 @@
       <property role="IQ2ns" value="7486903154347131547" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="interfaceTypeList" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6hv6i2_AZE1" resolve="InterfaceType" />
     </node>
   </node>
@@ -2598,6 +2598,7 @@
       <property role="IQ2ns" value="7232527154588416624" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="baseClassType" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="6hv6i2_AZDJ" resolve="ClassType" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_AZE2" role="1TKVEi">
@@ -3670,87 +3671,14 @@
     <property role="EcuMT" value="3766354144459905655" />
     <property role="TrG5h" value="IStructDeclaration" />
   </node>
-  <node concept="PlHQZ" id="3h4LMeIUreI">
-    <property role="EcuMT" value="3766354144460911534" />
-    <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IFieldModifier" />
-  </node>
-  <node concept="1TIwiD" id="3h4LMeIYZuN">
-    <property role="EcuMT" value="3766354144462108595" />
-    <property role="3GE5qa" value="Modifiers" />
-    <property role="TrG5h" value="Override" />
-    <property role="34LRSv" value="override" />
+  <node concept="1TIwiD" id="3h4LMeIRHqY">
+    <property role="EcuMT" value="3766354144460199614" />
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <property role="TrG5h" value="Public" />
+    <property role="34LRSv" value="public" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIZxxO" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
-    </node>
-    <node concept="PrWs8" id="3h4LMeIZDUt" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3h4LMeIRWvZ">
-    <property role="EcuMT" value="3766354144460261375" />
-    <property role="3GE5qa" value="Modifiers" />
-    <property role="TrG5h" value="Static" />
-    <property role="34LRSv" value="static" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIRWw0" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
-    </node>
-    <node concept="PrWs8" id="3h4LMeIUOob" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIUreI" resolve="IFieldModifier" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3h4LMeIRWvH">
-    <property role="EcuMT" value="3766354144460261357" />
-    <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IStaticAbstractSealed" />
-    <node concept="PrWs8" id="3h4LMeIRWvW" role="PrDN$">
-      <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
-    </node>
-    <node concept="PrWs8" id="3h4LMeIXmjj" role="PrDN$">
-      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
-    </node>
-    <node concept="PrWs8" id="3h4LMeIZDU5" role="PrDN$">
-      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3h4LMeIXQnf">
-    <property role="EcuMT" value="3766354144461809103" />
-    <property role="3GE5qa" value="Modifiers" />
-    <property role="TrG5h" value="Async" />
-    <property role="34LRSv" value="async" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIZxxU" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3h4LMeIXmkc">
-    <property role="EcuMT" value="3766354144461677836" />
-    <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IStructModifier" />
-  </node>
-  <node concept="PlHQZ" id="3h4LMeIW9OU">
-    <property role="EcuMT" value="3766354144461364538" />
-    <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IInterfaceModifier" />
-  </node>
-  <node concept="PlHQZ" id="3h4LMeITU5S">
-    <property role="EcuMT" value="3766354144460775800" />
-    <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IEnumModifier" />
-  </node>
-  <node concept="1TIwiD" id="3h4LMeIYBdw">
-    <property role="EcuMT" value="3766354144462009184" />
-    <property role="3GE5qa" value="Modifiers" />
-    <property role="TrG5h" value="Virtual" />
-    <property role="34LRSv" value="virtual" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIZxxR" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
-    </node>
-    <node concept="PrWs8" id="3h4LMeIZDUi" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    <node concept="PrWs8" id="3h4LMeIRHs2" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
     </node>
   </node>
   <node concept="1TIwiD" id="3h4LMeIRHqZ">
@@ -3766,30 +3694,36 @@
       <ref role="PrY4T" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3h4LMeIRHqY">
-    <property role="EcuMT" value="3766354144460199614" />
+  <node concept="1TIwiD" id="3h4LMeIRHr0">
+    <property role="EcuMT" value="3766354144460199616" />
     <property role="3GE5qa" value="Modifiers.Visibility" />
-    <property role="TrG5h" value="Public" />
-    <property role="34LRSv" value="public" />
+    <property role="TrG5h" value="Internal" />
+    <property role="34LRSv" value="internal" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIRHs2" role="PzmwI">
+    <node concept="PrWs8" id="3h4LMeIRHrQ" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
     </node>
+    <node concept="PrWs8" id="3h4LMeIXmk6" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
+    </node>
   </node>
-  <node concept="PlHQZ" id="3h4LMeIXAq8">
-    <property role="EcuMT" value="3766354144461743752" />
-    <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IDelegateModifier" />
+  <node concept="1TIwiD" id="3h4LMeIRHr1">
+    <property role="EcuMT" value="3766354144460199617" />
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <property role="TrG5h" value="Protected" />
+    <property role="34LRSv" value="protected" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRHrW" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXmjK" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
+    </node>
   </node>
-  <node concept="PlHQZ" id="3h4LMeIXmif">
-    <property role="EcuMT" value="3766354144461677711" />
+  <node concept="PlHQZ" id="3h4LMeIRHr3">
+    <property role="EcuMT" value="3766354144460199619" />
     <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IMethodModifier" />
-  </node>
-  <node concept="PlHQZ" id="3h4LMeIXmjp">
-    <property role="EcuMT" value="3766354144461677785" />
-    <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IAccessorVisibility" />
+    <property role="TrG5h" value="IClassModifier" />
   </node>
   <node concept="PlHQZ" id="3h4LMeIRHrP">
     <property role="EcuMT" value="3766354144460199669" />
@@ -3829,41 +3763,62 @@
       <ref role="PrY4T" node="3h4LMeIVAFK" resolve="IConstantModifier" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3h4LMeIRHr1">
-    <property role="EcuMT" value="3766354144460199617" />
-    <property role="3GE5qa" value="Modifiers.Visibility" />
-    <property role="TrG5h" value="Protected" />
-    <property role="34LRSv" value="protected" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIRHrW" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
-    </node>
-    <node concept="PrWs8" id="3h4LMeIXmjK" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3h4LMeIRHr0">
-    <property role="EcuMT" value="3766354144460199616" />
-    <property role="3GE5qa" value="Modifiers.Visibility" />
-    <property role="TrG5h" value="Internal" />
-    <property role="34LRSv" value="internal" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIRHrQ" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
-    </node>
-    <node concept="PrWs8" id="3h4LMeIXmk6" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3h4LMeIVAFK">
-    <property role="EcuMT" value="3766354144461220592" />
+  <node concept="PlHQZ" id="3h4LMeIRWvH">
+    <property role="EcuMT" value="3766354144460261357" />
     <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IConstantModifier" />
+    <property role="TrG5h" value="IStaticAbstractSealed" />
+    <node concept="PrWs8" id="3h4LMeIRWvW" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXmjj" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDU5" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
   </node>
-  <node concept="PlHQZ" id="3h4LMeIRHr3">
-    <property role="EcuMT" value="3766354144460199619" />
+  <node concept="1TIwiD" id="3h4LMeIRWvZ">
+    <property role="EcuMT" value="3766354144460261375" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Static" />
+    <property role="34LRSv" value="static" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRWw0" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIUOob" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIUreI" resolve="IFieldModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRWw3">
+    <property role="EcuMT" value="3766354144460261379" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Abstract" />
+    <property role="34LRSv" value="abstract" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRWw4" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRWw7">
+    <property role="EcuMT" value="3766354144460261383" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Sealed" />
+    <property role="34LRSv" value="sealed" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRWw8" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeITU5S">
+    <property role="EcuMT" value="3766354144460775800" />
     <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IClassModifier" />
+    <property role="TrG5h" value="IEnumModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIUreI">
+    <property role="EcuMT" value="3766354144460911534" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IFieldModifier" />
   </node>
   <node concept="PlHQZ" id="3h4LMeIUOo5">
     <property role="EcuMT" value="3766354144461014533" />
@@ -3883,21 +3838,6 @@
       <ref role="PrY4T" node="3h4LMeIUOo5" resolve="IReadonlyVolatile" />
     </node>
   </node>
-  <node concept="PlHQZ" id="3h4LMeIZDSJ">
-    <property role="EcuMT" value="3766354144462282287" />
-    <property role="3GE5qa" value="Modifiers.Sets" />
-    <property role="TrG5h" value="IPropertyModifier" />
-  </node>
-  <node concept="1TIwiD" id="3h4LMeIRWw3">
-    <property role="EcuMT" value="3766354144460261379" />
-    <property role="3GE5qa" value="Modifiers" />
-    <property role="TrG5h" value="Abstract" />
-    <property role="34LRSv" value="abstract" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIRWw4" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3h4LMeIUOoR">
     <property role="EcuMT" value="3766354144461014583" />
     <property role="3GE5qa" value="Modifiers" />
@@ -3905,16 +3845,6 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIUOoS" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIUOo5" resolve="IReadonlyVolatile" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3h4LMeIRWw7">
-    <property role="EcuMT" value="3766354144460261383" />
-    <property role="3GE5qa" value="Modifiers" />
-    <property role="TrG5h" value="Sealed" />
-    <property role="34LRSv" value="sealed" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIRWw8" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
     </node>
   </node>
   <node concept="PlHQZ" id="3h4LMeIV$Tu">
@@ -3936,6 +3866,104 @@
     </node>
     <node concept="PrWs8" id="3h4LMeIZDUM" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIVAFK">
+    <property role="EcuMT" value="3766354144461220592" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IConstantModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIW9OU">
+    <property role="EcuMT" value="3766354144461364538" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IInterfaceModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIXmif">
+    <property role="EcuMT" value="3766354144461677711" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IMethodModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIXmjp">
+    <property role="EcuMT" value="3766354144461677785" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IAccessorVisibility" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIXmkc">
+    <property role="EcuMT" value="3766354144461677836" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IStructModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIXAq8">
+    <property role="EcuMT" value="3766354144461743752" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IDelegateModifier" />
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIXQnf">
+    <property role="EcuMT" value="3766354144461809103" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Async" />
+    <property role="34LRSv" value="async" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIZxxU" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIYBdw">
+    <property role="EcuMT" value="3766354144462009184" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Virtual" />
+    <property role="34LRSv" value="virtual" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIZxxR" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDUi" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIYZuN">
+    <property role="EcuMT" value="3766354144462108595" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Override" />
+    <property role="34LRSv" value="override" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIZxxO" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDUt" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIZDSJ">
+    <property role="EcuMT" value="3766354144462282287" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IPropertyModifier" />
+  </node>
+  <node concept="1TIwiD" id="7IPlf6q1V6y">
+    <property role="EcuMT" value="8914124434097811874" />
+    <property role="TrG5h" value="InterfaceIndexerDeclaration" />
+    <property role="3GE5qa" value="Interface" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7IPlf6q1V76" role="PzmwI">
+      <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7IPlf6q1V6x">
+    <property role="EcuMT" value="8914124434097811873" />
+    <property role="TrG5h" value="InterfaceEventDeclaration" />
+    <property role="3GE5qa" value="Interface" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7IPlf6q1V74" role="PzmwI">
+      <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7IPlf6q1V6w">
+    <property role="EcuMT" value="8914124434097811872" />
+    <property role="TrG5h" value="InterfacePropertyDeclaration" />
+    <property role="3GE5qa" value="Interface" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7IPlf6q1V78" role="PzmwI">
+      <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
     </node>
   </node>
 </model>
