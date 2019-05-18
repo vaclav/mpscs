@@ -2375,19 +2375,16 @@
     <node concept="1TJgyj" id="6hv6i2_B6cn" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588443415" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <property role="20kJfa" value="body" />
-      <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
+      <ref role="20lvS9" node="1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
     </node>
-    <node concept="1TJgyj" id="6hv6i2_B6dg" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588443472" />
+    <node concept="1TJgyj" id="3FP3q7KeKvm" role="1TKVEi">
+      <property role="IQ2ns" value="4248316812665227222" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="returnType" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2HIntxMQ_98" resolve="TypeOrVoid" />
-      <node concept="t5JxF" id="6hv6i2_B6dr" role="lGtFl">
-        <property role="t5JxN" value="should be interface: IReturnType which should be implemented by TypeRef and Void " />
-      </node>
     </node>
     <node concept="1TJgyj" id="6hv6i2_B6dT" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588443513" />
