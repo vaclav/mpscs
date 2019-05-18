@@ -2,13 +2,19 @@
 <model ref="r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="a23383a3-9564-4399-8643-72063c6111dc" name="jetbrains.mps.LangDoc" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="a23383a3-9564-4399-8643-72063c6111dc" name="jetbrains.mps.LangDoc">
+      <concept id="6914907434145664119" name="jetbrains.mps.LangDoc.structure.DocBit" flags="ng" index="3H0Qfr">
+        <child id="6914907434145664126" name="text" index="3H0Qfi" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
@@ -62,6 +68,17 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="ng" index="1Pa9Pv">
+        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -1287,12 +1304,65 @@
     <property role="TrG5h" value="ExternAliasDirective" />
     <property role="3GE5qa" value="Namespace" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="6Y0EU3Z5OUJ" role="lGtFl">
+      <node concept="1Pa9Pv" id="6Y0EU3Z5OUK" role="3H0Qfi">
+        <node concept="1PaTwC" id="6Y0EU3Z5OVO" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OW1" role="1PaTwD">
+            <property role="3oM_SC" value="Represents an extern alias directive." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OW6" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OW5" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OWc" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OWb" role="1PaTwD">
+            <property role="3oM_SC" value="Note that this concept is not implemented. It is a place for extension of the C#" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OWk" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OWj" role="1PaTwD">
+            <property role="3oM_SC" value="base language in the future development." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OWG" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OWF" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OWS" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OWR" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: extern-alias-directive" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_AyhB">
     <property role="EcuMT" value="7232527154588296295" />
     <property role="3GE5qa" value="Attributes" />
     <property role="TrG5h" value="GlobalAttribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="6Y0EU3Z5OYx" role="lGtFl">
+      <node concept="1Pa9Pv" id="6Y0EU3Z5OYy" role="3H0Qfi">
+        <node concept="1PaTwC" id="6Y0EU3Z5OYz" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OY$" role="1PaTwD">
+            <property role="3oM_SC" value="Represents a global attribute." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OYK" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OYJ" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OYQ" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OYP" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: global-attribute-section" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABcaT">
     <property role="EcuMT" value="7486903154347131577" />
@@ -1462,6 +1532,40 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6hv6i2_Axqh" resolve="UsingDirective" />
     </node>
+    <node concept="3H0Qfr" id="6Y0EU3Z5OX5" role="lGtFl">
+      <node concept="1Pa9Pv" id="6Y0EU3Z5OX6" role="3H0Qfi">
+        <node concept="1PaTwC" id="6Y0EU3Z5OX7" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OX8" role="1PaTwD">
+            <property role="3oM_SC" value="A list of UsingDirective nodes." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OXk" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OXj" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OXG" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OXF" role="1PaTwD">
+            <property role="3oM_SC" value="This concept serves for encapsulation of the list Editor, which can then be reused" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OXS" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OXR" role="1PaTwD">
+            <property role="3oM_SC" value="at different locations." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OXq" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OXp" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OXy" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OXx" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: using-directives" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABcaI">
     <property role="EcuMT" value="7486903154347131566" />
@@ -1508,6 +1612,40 @@
       <property role="20kJfa" value="ExternAliasDirective" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6hv6i2_AxlB" resolve="ExternAliasDirective" />
+    </node>
+    <node concept="3H0Qfr" id="6Y0EU3Z5OTX" role="lGtFl">
+      <node concept="1Pa9Pv" id="6Y0EU3Z5OTY" role="3H0Qfi">
+        <node concept="1PaTwC" id="6Y0EU3Z5OTZ" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OU0" role="1PaTwD">
+            <property role="3oM_SC" value="A list of ExternAliasDirective nodes." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OUc" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OUb" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OUi" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OUh" role="1PaTwD">
+            <property role="3oM_SC" value="This concept serves for encapsulation of the list Editor, which can then be reused" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OWu" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OWt" role="1PaTwD">
+            <property role="3oM_SC" value="at different locations." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OUq" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OUp" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OU$" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OUz" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: extern-alias-directives" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="6$wrg4A_UKD">
@@ -1586,6 +1724,48 @@
     <property role="EcuMT" value="7232527154588416719" />
     <property role="TrG5h" value="INamespaceMemberDeclaration" />
     <property role="3GE5qa" value="Namespace" />
+    <node concept="3H0Qfr" id="6Y0EU3Z5P12" role="lGtFl">
+      <node concept="1Pa9Pv" id="6Y0EU3Z5OYY" role="3H0Qfi">
+        <node concept="1PaTwC" id="6Y0EU3Z5OYZ" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OZ0" role="1PaTwD">
+            <property role="3oM_SC" value="Represents a member of a namespace." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OZc" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OZb" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OZK" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OZJ" role="1PaTwD">
+            <property role="3oM_SC" value="Note that this is an" />
+          </node>
+          <node concept="3oM_SD" id="6Y0EU3Z5P0d" role="1PaTwD">
+            <property role="3oM_SC" value="interface and not an abstract concept because the TypeDeclaration" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OZq" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OZp" role="1PaTwD">
+            <property role="3oM_SC" value="concept must be a sub-concept of this interface and for example the IClassMemberDeclaration" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OZ$" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OZz" role="1PaTwD">
+            <property role="3oM_SC" value="interface while multiple concept inheritance is not allowed." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OZi" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OZh" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OZY" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OZX" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: namespace-member-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_B47j">
     <property role="EcuMT" value="7232527154588434899" />
@@ -1676,6 +1856,25 @@
     <node concept="PrWs8" id="6vAOG1ABYlY" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="3H0Qfr" id="6Y0EU3Z5P1w" role="lGtFl">
+      <node concept="1Pa9Pv" id="6Y0EU3Z5P1x" role="3H0Qfi">
+        <node concept="1PaTwC" id="6Y0EU3Z5P1y" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5P1z" role="1PaTwD">
+            <property role="3oM_SC" value="Represents a namespace." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5P1J" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5P1I" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5P1P" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5P1O" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: namespace-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABcaf">
     <property role="EcuMT" value="7486903154347131535" />
@@ -1739,6 +1938,35 @@
       <property role="20kJfa" value="namespaceMemberDeclaration" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="3H0Qfr" id="6Y0EU3Z5JR7" role="lGtFl">
+      <node concept="1Pa9Pv" id="6Y0EU3Z5OS_" role="3H0Qfi">
+        <node concept="1PaTwC" id="6Y0EU3Z5OTg" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OTl" role="1PaTwD">
+            <property role="3oM_SC" value="Represents a C# source file." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OTq" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OTp" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OTw" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OTv" role="1PaTwD">
+            <property role="3oM_SC" value="This is the top-level concept in the C# base language Structure." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OTC" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OTB" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OTM" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OTL" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: compilation-unit" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Becz">
@@ -2339,6 +2567,25 @@
     <property role="TrG5h" value="UsingDirective" />
     <property role="3GE5qa" value="Namespace" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="6Y0EU3Z5OY5" role="lGtFl">
+      <node concept="1Pa9Pv" id="6Y0EU3Z5OY6" role="3H0Qfi">
+        <node concept="1PaTwC" id="6Y0EU3Z5OY7" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OY8" role="1PaTwD">
+            <property role="3oM_SC" value="Represents a using directive." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OYk" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OYj" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="6Y0EU3Z5OYq" role="1PaQFQ">
+          <node concept="3oM_SD" id="6Y0EU3Z5OYp" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: using-directive" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_B6cm">
     <property role="EcuMT" value="7232527154588443414" />
@@ -3097,14 +3344,6 @@
       <ref role="20lvS9" node="1FYNzU$y5eq" resolve="FinallyClause" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3h4LMeIQ_DY">
-    <property role="EcuMT" value="3766354144459905662" />
-    <property role="TrG5h" value="FixedSizeBufferDeclaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3h4LMeIQ_DZ" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructDeclaration" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="3h4LMeIQtuQ">
     <property role="EcuMT" value="3766354144459872182" />
     <property role="TrG5h" value="IFunctionHeader" />
@@ -3120,23 +3359,31 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="typeParameterList" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6vAOG1ABcaj" resolve="TypeParameterList" />
+      <ref role="20lvS9" node="6vAOG1ABcaj" />
     </node>
     <node concept="1TJgyj" id="6$wrg4AAmgO" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947156020" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="formalParameter" />
-      <ref role="20lvS9" node="6vAOG1ABcaI" resolve="FormalParameterList" />
+      <ref role="20lvS9" node="6vAOG1ABcaI" />
     </node>
     <node concept="1TJgyj" id="6$wrg4AAmgP" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947156021" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="typeParameterConstraintsClauseList" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
+      <ref role="20lvS9" node="6vAOG1ABcab" />
     </node>
     <node concept="PrWs8" id="3h4LMeIQtv5" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIQ_DY">
+    <property role="EcuMT" value="3766354144459905662" />
+    <property role="TrG5h" value="FixedSizeBufferDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIQ_DZ" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructDeclaration" />
     </node>
   </node>
   <node concept="PlHQZ" id="3h4LMeIQ_DR">
