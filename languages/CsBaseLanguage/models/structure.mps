@@ -1825,7 +1825,10 @@
       <node concept="1Pa9Pv" id="6Y0EU3Z5P1x" role="3H0Qfi">
         <node concept="1PaTwC" id="6Y0EU3Z5P1y" role="1PaQFQ">
           <node concept="3oM_SD" id="6Y0EU3Z5P1z" role="1PaTwD">
-            <property role="3oM_SC" value="Represents a namespace." />
+            <property role="3oM_SC" value="Represents a namespace" />
+          </node>
+          <node concept="3oM_SD" id="6Y0EU3Z5PfJ" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
           </node>
         </node>
         <node concept="1PaTwC" id="6Y0EU3Z5P1J" role="1PaQFQ">
@@ -2212,7 +2215,10 @@
             <property role="3oM_SC" value="struct" />
           </node>
           <node concept="3oM_SD" id="6Y0EU3Z5PeH" role="1PaTwD">
-            <property role="3oM_SC" value="type." />
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="6Y0EU3Z5PfD" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
           </node>
         </node>
         <node concept="1PaTwC" id="6Y0EU3Z5PeI" role="1PaQFQ">
@@ -2265,7 +2271,10 @@
             <property role="3oM_SC" value="delegate" />
           </node>
           <node concept="3oM_SD" id="6Y0EU3Z5P3L" role="1PaTwD">
-            <property role="3oM_SC" value="type." />
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="6Y0EU3Z5Pfn" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
           </node>
         </node>
         <node concept="1PaTwC" id="6Y0EU3Z5Pc9" role="1PaQFQ">
@@ -2351,7 +2360,10 @@
             <property role="3oM_SC" value="enum" />
           </node>
           <node concept="3oM_SD" id="6Y0EU3Z5Pdi" role="1PaTwD">
-            <property role="3oM_SC" value="type." />
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="6Y0EU3Z5Pft" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
           </node>
         </node>
         <node concept="1PaTwC" id="6Y0EU3Z5Pdo" role="1PaQFQ">
@@ -2429,7 +2441,10 @@
             <property role="3oM_SC" value="interface" />
           </node>
           <node concept="3oM_SD" id="6Y0EU3Z5PdX" role="1PaTwD">
-            <property role="3oM_SC" value="type." />
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="6Y0EU3Z5Pfz" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
           </node>
         </node>
         <node concept="1PaTwC" id="6Y0EU3Z5PdY" role="1PaQFQ">
@@ -2519,7 +2534,10 @@
             <property role="3oM_SC" value="class" />
           </node>
           <node concept="3oM_SD" id="6Y0EU3Z5P4a" role="1PaTwD">
-            <property role="3oM_SC" value="type." />
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="6Y0EU3Z5Pfh" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
           </node>
         </node>
         <node concept="1PaTwC" id="6Y0EU3Z5P3b" role="1PaQFQ">
@@ -2589,7 +2607,10 @@
             <property role="3oM_SC" value="user-defined" />
           </node>
           <node concept="3oM_SD" id="6Y0EU3Z5P2J" role="1PaTwD">
-            <property role="3oM_SC" value="type." />
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="6Y0EU3Z5PfM" role="1PaTwD">
+            <property role="3oM_SC" value="definition." />
           </node>
         </node>
         <node concept="1PaTwC" id="6Y0EU3Z5P2s" role="1PaQFQ">
