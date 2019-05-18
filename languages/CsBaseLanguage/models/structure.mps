@@ -20,7 +20,6 @@
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
-        <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
@@ -1386,9 +1385,9 @@
     <node concept="1TJgyj" id="6vAOG1ABcb1" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131585" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="propertyModifier" />
+      <property role="20kJfa" value="iPropertyModifier" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6vAOG1ABcb0" resolve="PropertyModifier" />
+      <ref role="20lvS9" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
     </node>
     <node concept="1TJgyj" id="6vAOG1ABcb6" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131590" />
@@ -1404,12 +1403,6 @@
       <property role="20kJfa" value="accessorDeclaration" />
       <ref role="20lvS9" node="6vAOG1ABcbs" resolve="IAccessorDeclaration" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6$wrg4A_PeM">
-    <property role="EcuMT" value="7575174424947020722" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="EnumModifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6$wrg4AAmeZ">
     <property role="EcuMT" value="7575174424947155903" />
@@ -1475,9 +1468,9 @@
     <node concept="1TJgyj" id="6vAOG1ABnEQ" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178678" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="modifier" />
+      <property role="20kJfa" value="iConstructorModifier" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6vAOG1ABnEP" resolve="ConstructorModifier" />
+      <ref role="20lvS9" node="3h4LMeIV$Tu" resolve="IConstructorModifier" />
     </node>
     <node concept="1TJgyj" id="6vAOG1ABnFe" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178702" />
@@ -1497,30 +1490,6 @@
       <property role="20kJfa" value="constructorInitializer" />
       <ref role="20lvS9" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6hv6i2_B6bJ">
-    <property role="EcuMT" value="7232527154588443375" />
-    <property role="TrG5h" value="FieldModifier" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="6vAOG1ABnEP">
-    <property role="EcuMT" value="7486903154347178677" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="ConstructorModifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="6$wrg4AA2AR">
-    <property role="EcuMT" value="7575174424947075511" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="InterfaceModifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="6vAOG1ABnEO">
-    <property role="EcuMT" value="7486903154347178676" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="StaticConstructorModifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6vAOG1ABcaE">
     <property role="EcuMT" value="7486903154347131562" />
@@ -1672,12 +1641,6 @@
       <property role="20kJfa" value="attributeList" />
       <ref role="20lvS9" node="6vAOG1ABcaf" resolve="AttributeList" />
     </node>
-    <node concept="1TJgyj" id="6$wrg4AA2AW" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424947075516" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="interfaceModifier" />
-      <ref role="20lvS9" node="6$wrg4AA2AR" resolve="InterfaceModifier" />
-    </node>
     <node concept="1TJgyj" id="6$wrg4A_UKI" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947043374" />
       <property role="20lmBu" value="aggregation" />
@@ -1713,12 +1676,6 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6hv6i2_B48E" resolve="ConstantDeclarator" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6hv6i2_B6d6">
-    <property role="EcuMT" value="7232527154588443462" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="MethodModifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6vAOG1ABcaj">
     <property role="EcuMT" value="7486903154347131539" />
@@ -1798,15 +1755,9 @@
     <node concept="1TJgyj" id="6hv6i2_B47x" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588434913" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="visibility" />
+      <property role="20kJfa" value="iConstantModifier" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6hv6i2_ABc8" resolve="Visibility" />
-    </node>
-    <node concept="1TJgyj" id="6hv6i2_B47A" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588434918" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="new" />
-      <ref role="20lvS9" node="6hv6i2_ATMO" resolve="New" />
+      <ref role="20lvS9" node="3h4LMeIVAFK" resolve="IConstantModifier" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_B48w" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588434976" />
@@ -2041,9 +1992,9 @@
     <node concept="1TJgyj" id="6hv6i2_B6c9" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588443401" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="fieldModifier" />
+      <property role="20kJfa" value="iFieldModifier" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6hv6i2_B6bJ" resolve="FieldModifier" />
+      <ref role="20lvS9" node="3h4LMeIUreI" resolve="IFieldModifier" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_B6aQ" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588443318" />
@@ -2060,17 +2011,15 @@
       <ref role="20lvS9" node="6vAOG1ABcay" resolve="VariableDeclaratorList" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6vAOG1ABcbK">
-    <property role="EcuMT" value="7486903154347131632" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="AccessorModifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
   <node concept="1TIwiD" id="6hv6i2_ATMC">
     <property role="EcuMT" value="7232527154588392616" />
     <property role="TrG5h" value="Partial" />
-    <property role="3GE5qa" value="Modifier" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="34LRSv" value="partial" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRHrA" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
+    </node>
   </node>
   <node concept="AxPO7" id="6hv6i2_B6eI">
     <property role="TrG5h" value="ParameterModifierEnum" />
@@ -2094,9 +2043,37 @@
   </node>
   <node concept="1TIwiD" id="6hv6i2_ATMO">
     <property role="EcuMT" value="7232527154588392628" />
-    <property role="3GE5qa" value="Modifier" />
+    <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="New" />
+    <property role="34LRSv" value="new" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRHrD" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeITU60" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeITU5S" resolve="IEnumModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIUreV" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIUreI" resolve="IFieldModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIWhRW" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIW9OU" resolve="IInterfaceModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXuoM" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmkc" resolve="IStructModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXmit" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXAqZ" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXAq8" resolve="IDelegateModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDTG" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeJ0kbU" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIVAFK" resolve="IConstantModifier" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnFF">
     <property role="EcuMT" value="7486903154347178731" />
@@ -2111,12 +2088,6 @@
     <property role="EcuMT" value="7232527154588409142" />
     <property role="TrG5h" value="TypeParameterConstraintsClause" />
     <property role="3GE5qa" value="Generics" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="6$wrg4AAmhE">
-    <property role="EcuMT" value="7575174424947156074" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="DelegateModifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_AXOM">
@@ -2143,12 +2114,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="6$wrg4A_l_G">
-    <property role="EcuMT" value="7575174424946891116" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="StructModifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
   <node concept="1TIwiD" id="6vAOG1ABcbx">
     <property role="EcuMT" value="7486903154347131617" />
     <property role="TrG5h" value="SetAccessorDeclaration" />
@@ -2156,17 +2121,6 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABcby" role="PzmwI">
       <ref role="PrY4T" node="6vAOG1ABcbs" resolve="IAccessorDeclaration" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6hv6i2_ARIS">
-    <property role="EcuMT" value="7232527154588384184" />
-    <property role="TrG5h" value="StaticAbstractSealed" />
-    <property role="3GE5qa" value="Modifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6hv6i2_ARIT" role="1TKVEl">
-      <property role="IQ2nx" value="7232527154588384185" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="6hv6i2_ARIv" resolve="StaticAbstractSealedEnum" />
     </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnFB">
@@ -2205,8 +2159,9 @@
     <node concept="1TJgyj" id="6$wrg4A_oG0" role="1TKVEi">
       <property role="IQ2ns" value="7575174424946903808" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="structModifier" />
-      <ref role="20lvS9" node="6$wrg4A_l_G" resolve="StructModifier" />
+      <property role="20kJfa" value="iStructModifier" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3h4LMeIXmkc" resolve="IStructModifier" />
     </node>
     <node concept="1TJgyj" id="6$wrg4A_l_H" role="1TKVEi">
       <property role="IQ2ns" value="7575174424946891117" />
@@ -2290,9 +2245,9 @@
     <node concept="1TJgyj" id="6$wrg4AAmhy" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947156066" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="delegateModifier" />
+      <property role="20kJfa" value="iDelegateModifier" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6$wrg4AAmhE" resolve="DelegateModifier" />
+      <ref role="20lvS9" node="3h4LMeIXAq8" resolve="IDelegateModifier" />
     </node>
     <node concept="PrWs8" id="3h4LMeIQtvi" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIQtuQ" resolve="IFunctionHeader" />
@@ -2363,9 +2318,9 @@
     <node concept="1TJgyj" id="6$wrg4A_PeN" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947020723" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="enumModifier" />
+      <property role="20kJfa" value="iEnumModifier" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6$wrg4A_PeM" resolve="EnumModifier" />
+      <ref role="20lvS9" node="3h4LMeITU5S" resolve="IEnumModifier" />
     </node>
     <node concept="1TJgyj" id="6$wrg4A_UK$" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947043364" />
@@ -2429,9 +2384,9 @@
     <node concept="1TJgyj" id="6$wrg4AA2B2" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947075522" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="interfaceModifier" />
+      <property role="20kJfa" value="iInterfaceModifier" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6$wrg4AA2AR" resolve="InterfaceModifier" />
+      <ref role="20lvS9" node="3h4LMeIW9OU" resolve="IInterfaceModifier" />
     </node>
     <node concept="1TJgyj" id="6$wrg4AA2AO" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947075508" />
@@ -2513,27 +2468,9 @@
     <node concept="1TJgyj" id="6hv6i2_ARIq" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588384154" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="visibility" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6hv6i2_ABc8" resolve="Visibility" />
-    </node>
-    <node concept="1TJgyj" id="6hv6i2_ATMo" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588392600" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="staticAbstractSealed" />
-      <ref role="20lvS9" node="6hv6i2_ARIS" resolve="StaticAbstractSealed" />
-    </node>
-    <node concept="1TJgyj" id="6hv6i2_ATMv" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588392607" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="partial" />
-      <ref role="20lvS9" node="6hv6i2_ATMC" resolve="Partial" />
-    </node>
-    <node concept="1TJgyj" id="6hv6i2_ATMD" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588392617" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="new" />
-      <ref role="20lvS9" node="6hv6i2_ATMO" resolve="New" />
+      <property role="20kJfa" value="iClassModifier" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3h4LMeIRHr3" resolve="IClassModifier" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_AXO_" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588409125" />
@@ -2611,9 +2548,9 @@
     <node concept="1TJgyj" id="6vAOG1ABcbF" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131627" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="accessorModifier" />
+      <property role="20kJfa" value="iAccessorVisibility" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6vAOG1ABcbK" resolve="AccessorModifier" />
+      <ref role="20lvS9" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
     </node>
     <node concept="1TJgyj" id="6vAOG1ABcbL" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131633" />
@@ -2677,27 +2614,6 @@
       <ref role="PrY4T" node="6vAOG1ABcbs" resolve="IAccessorDeclaration" />
     </node>
   </node>
-  <node concept="AxPO7" id="6hv6i2_ABc9">
-    <property role="TrG5h" value="VisibilityEnum" />
-    <property role="PDuV0" value="true" />
-    <property role="3GE5qa" value="Modifier" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="6hv6i2_ABca" role="M5hS2">
-      <property role="1uS6qo" value="public" />
-    </node>
-    <node concept="M4N5e" id="6hv6i2_ABce" role="M5hS2">
-      <property role="1uS6qo" value="private" />
-    </node>
-    <node concept="M4N5e" id="6hv6i2_ABcj" role="M5hS2">
-      <property role="1uS6qo" value="internal" />
-    </node>
-    <node concept="M4N5e" id="6hv6i2_ABcq" role="M5hS2">
-      <property role="1uS6qo" value="protected" />
-    </node>
-    <node concept="M4N5e" id="6hv6i2_ABcz" role="M5hS2">
-      <property role="1uS6qo" value="protected internal" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="6vAOG1ABnFn">
     <property role="EcuMT" value="7486903154347178711" />
     <property role="TrG5h" value="IConstructorInitializer" />
@@ -2707,17 +2623,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="argumentList" />
       <ref role="20lvS9" node="5VT83U$N0Bi" resolve="ArgumentsList" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6hv6i2_ABc8">
-    <property role="EcuMT" value="7232527154588316424" />
-    <property role="TrG5h" value="Visibility" />
-    <property role="3GE5qa" value="Modifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6hv6i2_ABd8" role="1TKVEl">
-      <property role="IQ2nx" value="7232527154588316488" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="6hv6i2_ABc9" resolve="VisibilityEnum" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_B6ci">
@@ -2735,9 +2640,9 @@
     <node concept="1TJgyj" id="6hv6i2_B6d7" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588443463" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="methodModifier" />
+      <property role="20kJfa" value="iMethodModifier" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6hv6i2_B6d6" resolve="MethodModifier" />
+      <ref role="20lvS9" node="3h4LMeIXmif" resolve="IMethodModifier" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_B6cE" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588443434" />
@@ -2800,26 +2705,6 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="1TIwiD" id="6vAOG1ABcb0">
-    <property role="EcuMT" value="7486903154347131584" />
-    <property role="3GE5qa" value="TODOs_modifiers" />
-    <property role="TrG5h" value="PropertyModifier" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="AxPO7" id="6hv6i2_ARIv">
-    <property role="TrG5h" value="StaticAbstractSealedEnum" />
-    <property role="3GE5qa" value="Modifier" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="6hv6i2_ARIw" role="M5hS2">
-      <property role="1uS6qo" value="static" />
-    </node>
-    <node concept="M4N5e" id="6hv6i2_ARIx" role="M5hS2">
-      <property role="1uS6qo" value="abstract" />
-    </node>
-    <node concept="M4N5e" id="6hv6i2_ARIA" role="M5hS2">
-      <property role="1uS6qo" value="sealed" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6vAOG1ABnF5">
     <property role="EcuMT" value="7486903154347178693" />
     <property role="TrG5h" value="StaticConstructorDeclaration" />
@@ -2834,8 +2719,8 @@
     <node concept="1TJgyj" id="6vAOG1ABnF6" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178694" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="modifier" />
-      <ref role="20lvS9" node="6vAOG1ABnEO" resolve="StaticConstructorModifier" />
+      <property role="20kJfa" value="extern" />
+      <ref role="20lvS9" node="3h4LMeIV$TQ" resolve="Extern" />
     </node>
     <node concept="1TJgyj" id="6vAOG1ABnGl" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178773" />
@@ -3595,6 +3480,274 @@
   <node concept="PlHQZ" id="3h4LMeIQ_DR">
     <property role="EcuMT" value="3766354144459905655" />
     <property role="TrG5h" value="IStructDeclaration" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIUreI">
+    <property role="EcuMT" value="3766354144460911534" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IFieldModifier" />
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIYZuN">
+    <property role="EcuMT" value="3766354144462108595" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Override" />
+    <property role="34LRSv" value="override" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIZxxO" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDUt" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRWvZ">
+    <property role="EcuMT" value="3766354144460261375" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Static" />
+    <property role="34LRSv" value="static" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRWw0" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIUOob" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIUreI" resolve="IFieldModifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIRWvH">
+    <property role="EcuMT" value="3766354144460261357" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IStaticAbstractSealed" />
+    <node concept="PrWs8" id="3h4LMeIRWvW" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXmjj" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDU5" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIXQnf">
+    <property role="EcuMT" value="3766354144461809103" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Async" />
+    <property role="34LRSv" value="async" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIZxxU" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIXmkc">
+    <property role="EcuMT" value="3766354144461677836" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IStructModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIW9OU">
+    <property role="EcuMT" value="3766354144461364538" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IInterfaceModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeITU5S">
+    <property role="EcuMT" value="3766354144460775800" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IEnumModifier" />
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIYBdw">
+    <property role="EcuMT" value="3766354144462009184" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Virtual" />
+    <property role="34LRSv" value="virtual" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIZxxR" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDUi" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRHqZ">
+    <property role="EcuMT" value="3766354144460199615" />
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <property role="TrG5h" value="Private" />
+    <property role="34LRSv" value="private" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRHrT" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXmjV" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRHqY">
+    <property role="EcuMT" value="3766354144460199614" />
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <property role="TrG5h" value="Public" />
+    <property role="34LRSv" value="public" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRHs2" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIXAq8">
+    <property role="EcuMT" value="3766354144461743752" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IDelegateModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIXmif">
+    <property role="EcuMT" value="3766354144461677711" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IMethodModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIXmjp">
+    <property role="EcuMT" value="3766354144461677785" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IAccessorVisibility" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIRHrP">
+    <property role="EcuMT" value="3766354144460199669" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IVisibility" />
+    <node concept="PrWs8" id="3h4LMeIVAbS" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIV$Tu" resolve="IConstructorModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIROO1" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIU1lY" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeITU5S" resolve="IEnumModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIVsBs" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIUreI" resolve="IFieldModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIV$TE" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIV$Tu" resolve="IConstructorModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIW9P8" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIW9OU" resolve="IInterfaceModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXuow" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIXmkc" resolve="IStructModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXmiW" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXAqs" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIXAq8" resolve="IDelegateModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDT5" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeJ0kc_" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIVAFK" resolve="IConstantModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRHr1">
+    <property role="EcuMT" value="3766354144460199617" />
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <property role="TrG5h" value="Protected" />
+    <property role="34LRSv" value="protected" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRHrW" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXmjK" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRHr0">
+    <property role="EcuMT" value="3766354144460199616" />
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <property role="TrG5h" value="Internal" />
+    <property role="34LRSv" value="internal" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRHrQ" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIXmk6" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIVAFK">
+    <property role="EcuMT" value="3766354144461220592" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IConstantModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIRHr3">
+    <property role="EcuMT" value="3766354144460199619" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IClassModifier" />
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIUOo5">
+    <property role="EcuMT" value="3766354144461014533" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IReadonlyVolatile" />
+    <node concept="PrWs8" id="3h4LMeJ0cxy" role="PrDN$">
+      <ref role="PrY4T" node="3h4LMeIUreI" resolve="IFieldModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIUOoh">
+    <property role="EcuMT" value="3766354144461014545" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Volatile" />
+    <property role="34LRSv" value="volatile" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIUOoi" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIUOo5" resolve="IReadonlyVolatile" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIZDSJ">
+    <property role="EcuMT" value="3766354144462282287" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IPropertyModifier" />
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRWw3">
+    <property role="EcuMT" value="3766354144460261379" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Abstract" />
+    <property role="34LRSv" value="abstract" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRWw4" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIUOoR">
+    <property role="EcuMT" value="3766354144461014583" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Readonly" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIUOoS" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIUOo5" resolve="IReadonlyVolatile" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIRWw7">
+    <property role="EcuMT" value="3766354144460261383" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Sealed" />
+    <property role="34LRSv" value="sealed" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIRWw8" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3h4LMeIV$Tu">
+    <property role="EcuMT" value="3766354144461213278" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IConstructorModifier" />
+  </node>
+  <node concept="1TIwiD" id="3h4LMeIV$TQ">
+    <property role="EcuMT" value="3766354144461213302" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="Extern" />
+    <property role="34LRSv" value="extern" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3h4LMeIV$TR" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIV$Tu" resolve="IConstructorModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZxy2" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
+    </node>
+    <node concept="PrWs8" id="3h4LMeIZDUM" role="PzmwI">
+      <ref role="PrY4T" node="3h4LMeIZDSJ" resolve="IPropertyModifier" />
+    </node>
   </node>
 </model>
 

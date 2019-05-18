@@ -922,6 +922,10 @@
     <property role="3GE5qa" value="Namespace.TypeDeclaration" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
     <node concept="3EZMnI" id="6vAOG1ACmDo" role="2wV5jI">
+      <node concept="3F2HdR" id="3h4LMeIS428" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+        <node concept="l2Vlx" id="3h4LMeIS42a" role="2czzBx" />
+      </node>
       <node concept="3F0ifn" id="6vAOG1ACqLu" role="3EZMnx">
         <property role="3F0ifm" value="class" />
       </node>
@@ -957,6 +961,10 @@
     <property role="3GE5qa" value="Namespace.TypeDeclaration.Enum" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc7" resolve="EnumDeclaration" />
     <node concept="3EZMnI" id="6$wrg4A_Pfn" role="2wV5jI">
+      <node concept="3F2HdR" id="3h4LMeIVcsV" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6$wrg4A_PeN" resolve="iEnumModifier" />
+        <node concept="l2Vlx" id="3h4LMeIVcsX" role="2czzBx" />
+      </node>
       <node concept="3F0ifn" id="6$wrg4A_Pfo" role="3EZMnx">
         <property role="3F0ifm" value="enum" />
       </node>
@@ -1856,6 +1864,142 @@
         <ref role="1NtTu8" to="80bi:1FYNzU$y59J" resolve="block" />
       </node>
       <node concept="l2Vlx" id="1FYNzU$y5a0" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS$Zc">
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <ref role="1XX52x" to="80bi:3h4LMeIRHqY" resolve="Public" />
+    <node concept="PMmxH" id="3h4LMeIS$Zi" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS$ZI">
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <ref role="1XX52x" to="80bi:3h4LMeIRHqZ" resolve="Private" />
+    <node concept="PMmxH" id="3h4LMeIS$ZK" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS_0c">
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <ref role="1XX52x" to="80bi:3h4LMeIRHr0" resolve="Internal" />
+    <node concept="PMmxH" id="3h4LMeIS_0e" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS_0E">
+    <property role="3GE5qa" value="Modifiers.Visibility" />
+    <ref role="1XX52x" to="80bi:3h4LMeIRHr1" resolve="Protected" />
+    <node concept="PMmxH" id="3h4LMeIS_0G" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS_18">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:6hv6i2_ATMC" resolve="Partial" />
+    <node concept="PMmxH" id="3h4LMeIS_1a" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS_1A">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:6hv6i2_ATMO" resolve="New" />
+    <node concept="PMmxH" id="3h4LMeIS_1C" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS_2t">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIRWvZ" resolve="Static" />
+    <node concept="PMmxH" id="3h4LMeIS_2v" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS_2V">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIRWw3" resolve="Abstract" />
+    <node concept="PMmxH" id="3h4LMeIS_2X" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIS_3p">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIRWw7" resolve="Sealed" />
+    <node concept="PMmxH" id="3h4LMeIS_3r" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIUOoI">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIUOoh" resolve="Volatile" />
+    <node concept="PMmxH" id="3h4LMeIUOoO" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIUOpk">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIUOoR" resolve="Readonly" />
+    <node concept="PMmxH" id="3h4LMeIUOpq" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIV$Uj">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIV$TQ" resolve="Extern" />
+    <node concept="PMmxH" id="3h4LMeIV$Up" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIWDSu">
+    <property role="3GE5qa" value="Class / Struct" />
+    <ref role="1XX52x" to="80bi:6vAOG1ABnF5" resolve="StaticConstructorDeclaration" />
+    <node concept="3EZMnI" id="3h4LMeIWDSw" role="2wV5jI">
+      <node concept="3F0ifn" id="3h4LMeIWDTh" role="3EZMnx">
+        <property role="3F0ifm" value="static" />
+      </node>
+      <node concept="3F0A7n" id="3h4LMeIWDSE" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="3h4LMeIWDSN" role="3EZMnx">
+        <property role="3F0ifm" value="()" />
+      </node>
+      <node concept="3F0ifn" id="3h4LMeIWDT0" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="pVoyu" id="3h4LMeIWDTr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3h4LMeIWDU6" role="3EZMnx">
+        <property role="3F0ifm" value="TODO: add block" />
+      </node>
+      <node concept="3F0ifn" id="3h4LMeIWDUz" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="pVoyu" id="3h4LMeIWDUN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3h4LMeIWDSz" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIYdD0">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIXQnf" resolve="Async" />
+    <node concept="PMmxH" id="3h4LMeIYdD6" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIYIRf">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIYBdw" resolve="Virtual" />
+    <node concept="PMmxH" id="3h4LMeIYIRl" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3h4LMeIZ0cn">
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1XX52x" to="80bi:3h4LMeIYZuN" resolve="Override" />
+    <node concept="PMmxH" id="3h4LMeIZ0ct" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>
