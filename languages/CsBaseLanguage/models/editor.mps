@@ -1710,13 +1710,6 @@
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
-  <node concept="24kQdi" id="3x25Ph9H3S8">
-    <property role="3GE5qa" value="Statements" />
-    <ref role="1XX52x" to="80bi:6hv6i2_B6cm" resolve="Statement" />
-    <node concept="3F0A7n" id="3x25Ph9H3Sa" role="2wV5jI">
-      <ref role="1NtTu8" to="80bi:6vAOG1ABqK6" resolve="dummyCommand" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1FYNzU$y5d0">
     <property role="3GE5qa" value="Statements.Try" />
     <ref role="1XX52x" to="80bi:1FYNzU$y59z" resolve="OptionalGeneralCatch" />
