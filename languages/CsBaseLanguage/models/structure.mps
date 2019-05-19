@@ -1551,7 +1551,7 @@
       <property role="IQ2ns" value="7486903154347131567" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="FormalParameter" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6hv6i2_Becz" resolve="FormalParameter" />
     </node>
   </node>
@@ -1718,7 +1718,7 @@
       <property role="IQ2ns" value="7486903154347131543" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="typeParameter" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6hv6i2_AXOM" resolve="TypeParameter" />
     </node>
   </node>
@@ -2758,7 +2758,7 @@
     <property role="EcuMT" value="7232527154588443410" />
     <property role="TrG5h" value="MethodDeclaration" />
     <property role="3GE5qa" value="Class / Struct" />
-    <property role="R4oN_" value="Method definition" />
+    <property role="R4oN_" value="Method declaration" />
     <property role="34LRSv" value="method" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hv6i2_B6cq" role="1TKVEi">
@@ -3646,13 +3646,14 @@
       <property role="IQ2ns" value="7575174424947156019" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="typeParameterList" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcaj" resolve="TypeParameterList" />
     </node>
     <node concept="1TJgyj" id="6$wrg4AAmgO" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947156020" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="formalParameter" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcaI" resolve="FormalParameterList" />
     </node>
     <node concept="1TJgyj" id="6$wrg4AAmgP" role="1TKVEi">
