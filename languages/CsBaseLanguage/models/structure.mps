@@ -2013,8 +2013,15 @@
       <property role="IQ2ns" value="7232527154588476196" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="attributeList" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="6vAOG1ABcaf" resolve="AttributeList" />
+    </node>
+    <node concept="1TJgyj" id="7yZ_CF2xDX3" role="1TKVEi">
+      <property role="IQ2ns" value="8700838527816343363" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="type" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
     <node concept="PrWs8" id="6hv6i2_BecG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
