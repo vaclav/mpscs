@@ -2133,7 +2133,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIWDSu">
-    <property role="3GE5qa" value="Class / Struct" />
+    <property role="3GE5qa" value="Class / Struct.Constructor" />
     <ref role="1XX52x" to="80bi:6vAOG1ABnF5" resolve="StaticConstructorDeclaration" />
     <node concept="3EZMnI" id="3h4LMeIWDSw" role="2wV5jI">
       <node concept="3F0ifn" id="3h4LMeIWDTh" role="3EZMnx">
