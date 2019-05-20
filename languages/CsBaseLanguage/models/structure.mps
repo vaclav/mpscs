@@ -3214,7 +3214,7 @@
     <node concept="1TJgyj" id="6hv6i2_AXO_" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588409125" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <property role="20kJfa" value="typeParameterList" />
       <ref role="20lvS9" node="6vAOG1ABcaj" resolve="TypeParameterList" />
     </node>
@@ -4889,6 +4889,63 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7IPlf6q1V78" role="PzmwI">
       <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4oSbvdvXqKV">
+    <property role="EcuMT" value="5059844704660991035" />
+    <property role="3GE5qa" value="Comments" />
+    <property role="TrG5h" value="CommentSingleLine" />
+    <property role="34LRSv" value="//" />
+    <property role="R4oN_" value="Single-line comment" />
+    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="1TJgyi" id="4oSbvdvYjC8" role="1TKVEl">
+      <property role="IQ2nx" value="5059844704661223944" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4oSbvdvXqKW">
+    <property role="EcuMT" value="5059844704660991036" />
+    <property role="3GE5qa" value="Comments" />
+    <property role="TrG5h" value="CommentMultiLine" />
+    <property role="34LRSv" value="/*" />
+    <property role="R4oN_" value="Multi-line statement" />
+    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="1TJgyj" id="4oSbvdw2QGd" role="1TKVEi">
+      <property role="IQ2ns" value="5059844704662416141" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="commentLine" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4oSbvdw2QGa" resolve="CommentLine" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="4oSbvdvXRdm">
+    <property role="3GE5qa" value="Comments" />
+    <property role="TrG5h" value="_MultiLineCommentValue" />
+    <property role="FLfZY" value="((?!\\*/).)*" />
+  </node>
+  <node concept="1TIwiD" id="4oSbvdvZW8b">
+    <property role="EcuMT" value="5059844704661651979" />
+    <property role="3GE5qa" value="Comments" />
+    <property role="TrG5h" value="CommentDocumentation" />
+    <property role="34LRSv" value="///" />
+    <property role="R4oN_" value="Comment used for documentation" />
+    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="1TJgyi" id="4oSbvdvZW8c" role="1TKVEl">
+      <property role="IQ2nx" value="5059844704661651980" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4oSbvdw2QGa">
+    <property role="EcuMT" value="5059844704662416138" />
+    <property role="3GE5qa" value="Comments" />
+    <property role="TrG5h" value="CommentLine" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4oSbvdw2QGb" role="1TKVEl">
+      <property role="IQ2nx" value="5059844704662416139" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="4oSbvdvXRdm" resolve="_MultiLineCommentValue" />
     </node>
   </node>
 </model>
