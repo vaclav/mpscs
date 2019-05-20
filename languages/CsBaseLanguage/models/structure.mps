@@ -1475,7 +1475,14 @@
     <property role="EcuMT" value="7232527154588416623" />
     <property role="3GE5qa" value="not_implemented" />
     <property role="TrG5h" value="ClassType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3grCvve1Pjw" resolve="InheritedType" />
+    <node concept="1TJgyj" id="3grCvve2fMD" role="1TKVEi">
+      <property role="IQ2ns" value="3754772800029129897" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="classDeclaration" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6hv6i2_Azc3" resolve="ClassDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnEK">
     <property role="EcuMT" value="7486903154347178672" />
@@ -1829,101 +1836,6 @@
         <node concept="1PaTwC" id="6Y0EU3Z5PiZ" role="1PaQFQ">
           <node concept="3oM_SD" id="6Y0EU3Z5Pj0" role="1PaTwD">
             <property role="3oM_SC" value="Original name in the C# grammar: enum-member-declaration" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6vAOG1ABcaq">
-    <property role="EcuMT" value="7486903154347131546" />
-    <property role="TrG5h" value="InterfaceTypeList" />
-    <property role="3GE5qa" value="Class / Struct" />
-    <property role="R4oN_" value="References to implemented interfaces" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6vAOG1ABcar" role="1TKVEi">
-      <property role="IQ2ns" value="7486903154347131547" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="interfaceTypeList" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6hv6i2_AZE1" resolve="InterfaceType" />
-    </node>
-    <node concept="3H0Qfr" id="3rKHSnCrkDs" role="lGtFl">
-      <node concept="1Pa9Pv" id="3rKHSnCrkDt" role="3H0Qfi">
-        <node concept="1PaTwC" id="3rKHSnCrkDu" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkDv" role="1PaTwD">
-            <property role="3oM_SC" value="A" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkEM" role="1PaTwD">
-            <property role="3oM_SC" value="list" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkEP" role="1PaTwD">
-            <property role="3oM_SC" value="of" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkFU" role="1PaTwD">
-            <property role="3oM_SC" value="references" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkG4" role="1PaTwD">
-            <property role="3oM_SC" value="to" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkFL" role="1PaTwD">
-            <property role="3oM_SC" value="interfaces" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkF9" role="1PaTwD">
-            <property role="3oM_SC" value="implemented" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkFf" role="1PaTwD">
-            <property role="3oM_SC" value="by" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkFm" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkFu" role="1PaTwD">
-            <property role="3oM_SC" value="class" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkGf" role="1PaTwD">
-            <property role="3oM_SC" value="used" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrldh" role="1PaTwD">
-            <property role="3oM_SC" value="in" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrldV" role="1PaTwD">
-            <property role="3oM_SC" value="the" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkGQ" role="1PaTwD">
-            <property role="3oM_SC" value="class" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrlec" role="1PaTwD">
-            <property role="3oM_SC" value="inheritance" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrlet" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrles" role="1PaTwD">
-            <property role="3oM_SC" value="section." />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkJv" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkKs" role="1PaTwD">
-            <property role="3oM_SC" value="" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkJU" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkJV" role="1PaTwD">
-            <property role="3oM_SC" value="This concept serves for encapsulation of the list's Editor, which can then be reused" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkJW" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkJX" role="1PaTwD">
-            <property role="3oM_SC" value="at different locations." />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkIn" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkIm" role="1PaTwD">
-            <property role="3oM_SC" value="" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkIH" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkIG" role="1PaTwD">
-            <property role="3oM_SC" value="Original name in the C# grammar: interface-type-list" />
           </node>
         </node>
       </node>
@@ -2879,8 +2791,8 @@
       <property role="IQ2ns" value="7575174424946903819" />
       <property role="20lmBu" value="aggregation" />
       <property role="20lbJX" value="0..1" />
-      <property role="20kJfa" value="interfaceTypeList" />
-      <ref role="20lvS9" node="6vAOG1ABcaq" resolve="InterfaceTypeList" />
+      <property role="20kJfa" value="inheritedTypeList" />
+      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
     </node>
     <node concept="PrWs8" id="6$wrg4A_l_E" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -3133,8 +3045,8 @@
     <node concept="1TJgyj" id="6$wrg4AA8UH" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947101357" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="interfaceTypeList" />
-      <ref role="20lvS9" node="6vAOG1ABcaq" resolve="InterfaceTypeList" />
+      <property role="20kJfa" value="inheritedTypeList" />
+      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
     </node>
     <node concept="1TJgyj" id="6$wrg4AA8UM" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947101362" />
@@ -3188,7 +3100,14 @@
     <property role="EcuMT" value="7232527154588416641" />
     <property role="3GE5qa" value="not_implemented" />
     <property role="TrG5h" value="InterfaceType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3grCvve1Pjw" resolve="InheritedType" />
+    <node concept="1TJgyj" id="3grCvve2fMA" role="1TKVEi">
+      <property role="IQ2ns" value="3754772800029129894" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="interfaceDeclaration" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6hv6i2_Azc6" resolve="InterfaceDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc3">
     <property role="EcuMT" value="7232527154588300035" />
@@ -3218,19 +3137,11 @@
       <property role="20kJfa" value="typeParameterList" />
       <ref role="20lvS9" node="6vAOG1ABcaj" resolve="TypeParameterList" />
     </node>
-    <node concept="1TJgyj" id="6hv6i2_AZDK" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588416624" />
+    <node concept="1TJgyj" id="3grCvve1PjI" role="1TKVEi">
+      <property role="IQ2ns" value="3754772800029021422" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="baseClassType" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6hv6i2_AZDJ" resolve="ClassType" />
-    </node>
-    <node concept="1TJgyj" id="6hv6i2_AZE2" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588416642" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20kJfa" value="interfaceTypeList" />
-      <ref role="20lvS9" node="6vAOG1ABcaq" resolve="InterfaceTypeList" />
+      <property role="20kJfa" value="inheritedTypeList" />
+      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_AXOR" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588409143" />
@@ -4891,19 +4802,6 @@
       <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4oSbvdvXqKV">
-    <property role="EcuMT" value="5059844704660991035" />
-    <property role="3GE5qa" value="Comments" />
-    <property role="TrG5h" value="CommentSingleLine" />
-    <property role="34LRSv" value="//" />
-    <property role="R4oN_" value="Single-line comment" />
-    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
-    <node concept="1TJgyi" id="4oSbvdvYjC8" role="1TKVEl">
-      <property role="IQ2nx" value="5059844704661223944" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4oSbvdvXqKW">
     <property role="EcuMT" value="5059844704660991036" />
     <property role="3GE5qa" value="Comments" />
@@ -4919,10 +4817,18 @@
       <ref role="20lvS9" node="4oSbvdw2QGa" resolve="CommentLine" />
     </node>
   </node>
-  <node concept="Az7Fb" id="4oSbvdvXRdm">
+  <node concept="1TIwiD" id="4oSbvdvXqKV">
+    <property role="EcuMT" value="5059844704660991035" />
     <property role="3GE5qa" value="Comments" />
-    <property role="TrG5h" value="_MultiLineCommentValue" />
-    <property role="FLfZY" value="((?!\\*/).)*" />
+    <property role="TrG5h" value="CommentSingleLine" />
+    <property role="34LRSv" value="//" />
+    <property role="R4oN_" value="Single-line comment" />
+    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="1TJgyi" id="4oSbvdvYjC8" role="1TKVEl">
+      <property role="IQ2nx" value="5059844704661223944" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4oSbvdvZW8b">
     <property role="EcuMT" value="5059844704661651979" />
@@ -4947,6 +4853,29 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" node="4oSbvdvXRdm" resolve="_MultiLineCommentValue" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="4oSbvdvXRdm">
+    <property role="3GE5qa" value="Comments" />
+    <property role="TrG5h" value="_MultiLineCommentValue" />
+    <property role="FLfZY" value="((?!\\*/).)*" />
+  </node>
+  <node concept="1TIwiD" id="3grCvve1P7L">
+    <property role="EcuMT" value="3754772800029020657" />
+    <property role="TrG5h" value="InheritedTypeList" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3grCvve1Pjx" role="1TKVEi">
+      <property role="IQ2ns" value="3754772800029021409" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="inheritedTypeList" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3grCvve1Pjw" resolve="InheritedType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3grCvve1Pjw">
+    <property role="EcuMT" value="3754772800029021408" />
+    <property role="TrG5h" value="InheritedType" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
