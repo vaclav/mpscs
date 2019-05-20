@@ -39,6 +39,7 @@
       </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
+        <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
       <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
         <property id="1186403771423" name="style" index="Vbekb" />
@@ -51,6 +52,9 @@
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
+      <concept id="1225456267680" name="jetbrains.mps.lang.editor.structure.RGBColor" flags="ng" index="1iSF2X">
+        <property id="1225456424731" name="value" index="1iTho6" />
+      </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
@@ -1067,6 +1071,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="6vAOG1ACsSx" role="3EZMnx">
+        <property role="2czwfO" value=" " />
         <ref role="1NtTu8" to="80bi:6hv6i2_AZEU" resolve="classMemberDeclaration" />
         <node concept="pVoyu" id="6vAOG1ACsTs" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -2321,6 +2326,9 @@
       <node concept="3F0ifn" id="4oSbvdvXqLF" role="3EZMnx">
         <property role="3F0ifm" value="/*" />
         <node concept="VPxyj" id="4oSbvdw4Aqz" role="3F10Kt" />
+        <node concept="VechU" id="4oSbvdw8ZrJ" role="3F10Kt">
+          <property role="Vb096" value="DARK_GREEN" />
+        </node>
       </node>
       <node concept="3F2HdR" id="4oSbvdw2Yd$" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:4oSbvdw2QGd" resolve="commentLine" />
@@ -2331,6 +2339,9 @@
         <node concept="lj46D" id="4oSbvdw3kgW" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="VechU" id="4oSbvdw8ZrA" role="3F10Kt">
+          <property role="Vb096" value="DARK_GREEN" />
+        </node>
         <node concept="3F0ifn" id="4oSbvdw3EfJ" role="2czzBI" />
       </node>
       <node concept="3F0ifn" id="4oSbvdvXqLL" role="3EZMnx">
@@ -2339,6 +2350,9 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VPxyj" id="4oSbvdw4AqJ" role="3F10Kt" />
+        <node concept="VechU" id="4oSbvdw8ZrR" role="3F10Kt">
+          <property role="Vb096" value="DARK_GREEN" />
+        </node>
       </node>
       <node concept="l2Vlx" id="4oSbvdvXqLB" role="2iSdaV" />
     </node>
@@ -2349,9 +2363,15 @@
     <node concept="3EZMnI" id="4oSbvdvXqLt" role="2wV5jI">
       <node concept="3F0ifn" id="4oSbvdvXqLv" role="3EZMnx">
         <property role="3F0ifm" value="//" />
+        <node concept="VechU" id="4oSbvdw9lXy" role="3F10Kt">
+          <property role="Vb096" value="DARK_GREEN" />
+        </node>
       </node>
       <node concept="3F0A7n" id="4oSbvdvYjCw" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:4oSbvdvYjC8" resolve="value" />
+        <node concept="VechU" id="4oSbvdw9lX$" role="3F10Kt">
+          <property role="Vb096" value="DARK_GREEN" />
+        </node>
       </node>
       <node concept="l2Vlx" id="4oSbvdvXqLw" role="2iSdaV" />
     </node>
@@ -2362,9 +2382,19 @@
     <node concept="3EZMnI" id="4oSbvdw0pOq" role="2wV5jI">
       <node concept="3F0ifn" id="4oSbvdw0pOx" role="3EZMnx">
         <property role="3F0ifm" value="///" />
+        <node concept="VechU" id="4oSbvdw9HIx" role="3F10Kt">
+          <node concept="1iSF2X" id="4oSbvdw9HIz" role="VblUZ">
+            <property role="1iTho6" value="ccc800" />
+          </node>
+        </node>
       </node>
       <node concept="3F0A7n" id="4oSbvdw0pOF" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:4oSbvdvZW8c" resolve="value" />
+        <node concept="VechU" id="4oSbvdwa4d5" role="3F10Kt">
+          <node concept="1iSF2X" id="4oSbvdwa4d7" role="VblUZ">
+            <property role="1iTho6" value="ccc800" />
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="4oSbvdw0pOt" role="2iSdaV" />
     </node>
