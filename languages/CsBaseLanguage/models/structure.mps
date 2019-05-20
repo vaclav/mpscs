@@ -3745,7 +3745,6 @@
     <property role="EcuMT" value="7232527154588443414" />
     <property role="TrG5h" value="Statement" />
     <property role="3GE5qa" value="Statements.Other" />
-    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnF5">
