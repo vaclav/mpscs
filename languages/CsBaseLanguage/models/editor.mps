@@ -2391,7 +2391,7 @@
   </node>
   <node concept="24kQdi" id="4oSbvdvXqLo">
     <property role="3GE5qa" value="Comments" />
-    <ref role="1XX52x" to="80bi:4oSbvdvXqKV" resolve="CommentSingleLine" />
+    <ref role="1XX52x" to="80bi:4oSbvdvXqKV" resolve="SingleLineComment" />
     <node concept="3EZMnI" id="4oSbvdvXqLt" role="2wV5jI">
       <node concept="3F0ifn" id="4oSbvdvXqLv" role="3EZMnx">
         <property role="3F0ifm" value="//" />
@@ -2410,14 +2410,14 @@
   </node>
   <node concept="24kQdi" id="4oSbvdw5Eu8">
     <property role="3GE5qa" value="Comments" />
-    <ref role="1XX52x" to="80bi:4oSbvdw2QGa" resolve="CommentLine" />
+    <ref role="1XX52x" to="80bi:4oSbvdw2QGa" resolve="MultiLineCommentLine" />
     <node concept="3F0A7n" id="4oSbvdw5Eua" role="2wV5jI">
       <ref role="1NtTu8" to="80bi:4oSbvdw2QGb" resolve="value" />
     </node>
   </node>
   <node concept="24kQdi" id="4oSbvdvXqKX">
     <property role="3GE5qa" value="Comments" />
-    <ref role="1XX52x" to="80bi:4oSbvdvXqKW" resolve="CommentMultiLine" />
+    <ref role="1XX52x" to="80bi:4oSbvdvXqKW" resolve="MultiLineComment" />
     <node concept="3EZMnI" id="4oSbvdvXqL$" role="2wV5jI">
       <node concept="3F0ifn" id="4oSbvdvXqLF" role="3EZMnx">
         <property role="3F0ifm" value="/*" />
@@ -2455,7 +2455,7 @@
   </node>
   <node concept="24kQdi" id="4oSbvdw0pOo">
     <property role="3GE5qa" value="Comments" />
-    <ref role="1XX52x" to="80bi:4oSbvdvZW8b" resolve="CommentDocumentation" />
+    <ref role="1XX52x" to="80bi:4oSbvdvZW8b" resolve="DocumentationComment" />
     <node concept="3EZMnI" id="4oSbvdw0pOq" role="2wV5jI">
       <node concept="3F0ifn" id="4oSbvdw0pOx" role="3EZMnx">
         <property role="3F0ifm" value="///" />

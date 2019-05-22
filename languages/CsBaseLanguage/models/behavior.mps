@@ -74,7 +74,7 @@
   </registry>
   <node concept="13h7C7" id="4oSbvdw7eTb">
     <property role="3GE5qa" value="Comments" />
-    <ref role="13h7C2" to="80bi:4oSbvdw2QGa" resolve="CommentLine" />
+    <ref role="13h7C2" to="80bi:4oSbvdw2QGa" resolve="MultiLineCommentLine" />
     <node concept="13hLZK" id="4oSbvdw7eTc" role="13h7CW">
       <node concept="3clFbS" id="4oSbvdw7eTd" role="2VODD2">
         <node concept="3clFbF" id="4oSbvdw7eY0" role="3cqZAp">
@@ -95,7 +95,7 @@
   </node>
   <node concept="13h7C7" id="4oSbvdw8qjc">
     <property role="3GE5qa" value="Comments" />
-    <ref role="13h7C2" to="80bi:4oSbvdvXqKW" resolve="CommentMultiLine" />
+    <ref role="13h7C2" to="80bi:4oSbvdvXqKW" resolve="MultiLineComment" />
     <node concept="13hLZK" id="4oSbvdw8qjd" role="13h7CW">
       <node concept="3clFbS" id="4oSbvdw8qje" role="2VODD2">
         <node concept="3clFbF" id="4oSbvdw8qjo" role="3cqZAp">
@@ -110,7 +110,7 @@
               <node concept="2ShNRf" id="4oSbvdw8xL1" role="25WWJ7">
                 <node concept="3zrR0B" id="4oSbvdw8y0A" role="2ShVmc">
                   <node concept="3Tqbb2" id="4oSbvdw8y0C" role="3zrR0E">
-                    <ref role="ehGHo" to="80bi:4oSbvdw2QGa" resolve="CommentLine" />
+                    <ref role="ehGHo" to="80bi:4oSbvdw2QGa" resolve="MultiLineCommentLine" />
                   </node>
                 </node>
               </node>
