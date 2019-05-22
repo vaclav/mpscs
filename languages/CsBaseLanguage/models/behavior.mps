@@ -2,7 +2,7 @@
 <model ref="r:87569a15-2e04-4705-b4d1-423b59bfb8a0(CsBaseLanguage.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -121,7 +121,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="4oSbvdw8zr7">
-    <property role="3GE5qa" value="Class / Struct" />
+    <property role="3GE5qa" value="Class / Struct.Methods" />
     <ref role="13h7C2" to="80bi:6hv6i2_B6ci" resolve="MethodDeclaration" />
     <node concept="13hLZK" id="4oSbvdw8zr8" role="13h7CW">
       <node concept="3clFbS" id="4oSbvdw8zr9" role="2VODD2" />
