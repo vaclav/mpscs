@@ -1369,7 +1369,7 @@
     <property role="EcuMT" value="7486903154347131577" />
     <property role="TrG5h" value="PropertyDeclaration" />
     <property role="3GE5qa" value="Class / Struct.Properties" />
-    <property role="R4oN_" value="Property declaration" />
+    <property role="R4oN_" value="Class property declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABcaU" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -1417,7 +1417,16 @@
             <property role="3oM_SC" value="property" />
           </node>
           <node concept="3oM_SD" id="3rKHSnCrkN0" role="1PaTwD">
-            <property role="3oM_SC" value="definition." />
+            <property role="3oM_SC" value="definition" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7zb" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7zh" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7zo" role="1PaTwD">
+            <property role="3oM_SC" value="class." />
           </node>
         </node>
         <node concept="1PaTwC" id="3rKHSnCrkN6" role="1PaQFQ">
@@ -1436,7 +1445,9 @@
   <node concept="1TIwiD" id="6$wrg4AAmeZ">
     <property role="EcuMT" value="7575174424947155903" />
     <property role="TrG5h" value="InterfaceMethodDeclaration" />
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="Interface.Methods" />
+    <property role="34LRSv" value="method" />
+    <property role="R4oN_" value="Interface method declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6$wrg4AAmf4" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947155908" />
@@ -1455,6 +1466,43 @@
     </node>
     <node concept="PrWs8" id="6$wrg4AAmf0" role="PzmwI">
       <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
+    </node>
+    <node concept="3H0Qfr" id="2pqoNIAe7y6" role="lGtFl">
+      <node concept="1Pa9Pv" id="2pqoNIAe7yk" role="3H0Qfi">
+        <node concept="1PaTwC" id="2pqoNIAe7yl" role="1PaQFQ">
+          <node concept="3oM_SD" id="2pqoNIAe7ym" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7yn" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7yo" role="1PaTwD">
+            <property role="3oM_SC" value="method" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7yp" role="1PaTwD">
+            <property role="3oM_SC" value="declaration" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7yq" role="1PaTwD">
+            <property role="3oM_SC" value="inside" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7yI" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7yP" role="1PaTwD">
+            <property role="3oM_SC" value="interface." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2pqoNIAe7yt" role="1PaQFQ">
+          <node concept="3oM_SD" id="2pqoNIAe7yu" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2pqoNIAe7yv" role="1PaQFQ">
+          <node concept="3oM_SD" id="2pqoNIAe7yw" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: interface-method-declaration" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABcaM">
@@ -1487,7 +1535,7 @@
   <node concept="1TIwiD" id="6vAOG1ABnEK">
     <property role="EcuMT" value="7486903154347178672" />
     <property role="TrG5h" value="ConstructorDeclaration" />
-    <property role="3GE5qa" value="Class / Struct.Constructor" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
     <property role="R4oN_" value="Constructor definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABnET" role="1TKVEi">
@@ -1668,7 +1716,7 @@
   <node concept="1TIwiD" id="6vAOG1ABcay">
     <property role="EcuMT" value="7486903154347131554" />
     <property role="TrG5h" value="VariableDeclaratorList" />
-    <property role="3GE5qa" value="Class / Struct.Variable" />
+    <property role="3GE5qa" value="Class / Struct.Variables" />
     <property role="R4oN_" value="Variable declaration list" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABcaz" role="1TKVEi">
@@ -2315,7 +2363,7 @@
   <node concept="1TIwiD" id="6hv6i2_B6aE">
     <property role="EcuMT" value="7232527154588443306" />
     <property role="TrG5h" value="FieldDeclaration" />
-    <property role="3GE5qa" value="Class / Struct" />
+    <property role="3GE5qa" value="Class / Struct.Fields" />
     <property role="34LRSv" value="field" />
     <property role="R4oN_" value="Field declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -2507,7 +2555,7 @@
   <node concept="1TIwiD" id="6vAOG1ABnFF">
     <property role="EcuMT" value="7486903154347178731" />
     <property role="TrG5h" value="ThisConstructorInitializer" />
-    <property role="3GE5qa" value="Class / Struct.Constructor" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
     <property role="R4oN_" value="Call of a different constructor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABnFG" role="PzmwI">
@@ -2643,7 +2691,7 @@
   <node concept="1TIwiD" id="6vAOG1ABnFB">
     <property role="EcuMT" value="7486903154347178727" />
     <property role="TrG5h" value="BaseConstructorInitializer" />
-    <property role="3GE5qa" value="Class / Struct.Constructor" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
     <property role="R4oN_" value="Call of a base constructor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABnFC" role="PzmwI">
@@ -3504,7 +3552,7 @@
   <node concept="PlHQZ" id="6vAOG1ABnFn">
     <property role="EcuMT" value="7486903154347178711" />
     <property role="TrG5h" value="IConstructorInitializer" />
-    <property role="3GE5qa" value="Class / Struct.Constructor" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
     <node concept="1TJgyj" id="6vAOG1ABnFp" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178713" />
       <property role="20lmBu" value="aggregation" />
@@ -3552,8 +3600,8 @@
   <node concept="1TIwiD" id="6hv6i2_B6ci">
     <property role="EcuMT" value="7232527154588443410" />
     <property role="TrG5h" value="MethodDeclaration" />
-    <property role="3GE5qa" value="Class / Struct" />
-    <property role="R4oN_" value="Method declaration" />
+    <property role="3GE5qa" value="Class / Struct.Methods" />
+    <property role="R4oN_" value="Class method declaration" />
     <property role="34LRSv" value="method" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hv6i2_B6cq" role="1TKVEi">
@@ -3602,7 +3650,16 @@
             <property role="3oM_SC" value="method" />
           </node>
           <node concept="3oM_SD" id="6Y0EU3Z5THh" role="1PaTwD">
-            <property role="3oM_SC" value="definition." />
+            <property role="3oM_SC" value="definition" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7xL" role="1PaTwD">
+            <property role="3oM_SC" value="inside" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7xR" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7xY" role="1PaTwD">
+            <property role="3oM_SC" value="class." />
           </node>
         </node>
         <node concept="1PaTwC" id="6Y0EU3Z5THw" role="1PaQFQ">
@@ -3661,7 +3718,7 @@
   <node concept="1TIwiD" id="6vAOG1ABnF5">
     <property role="EcuMT" value="7486903154347178693" />
     <property role="TrG5h" value="StaticConstructorDeclaration" />
-    <property role="3GE5qa" value="Class / Struct.Constructor" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
     <property role="R4oN_" value="Static constructor definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABnF9" role="1TKVEi">
@@ -3800,7 +3857,7 @@
   </node>
   <node concept="PlHQZ" id="1FYNzU$mBn3">
     <property role="EcuMT" value="1945218857511318979" />
-    <property role="3GE5qa" value="Class / Struct.Variable" />
+    <property role="3GE5qa" value="Class / Struct.Variables" />
     <property role="TrG5h" value="IVariableDeclarator" />
     <node concept="PrWs8" id="1FYNzU$mBn4" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -4796,10 +4853,48 @@
   <node concept="1TIwiD" id="7IPlf6q1V6w">
     <property role="EcuMT" value="8914124434097811872" />
     <property role="TrG5h" value="InterfacePropertyDeclaration" />
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="Interface.Properties" />
+    <property role="R4oN_" value="Interface property declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7IPlf6q1V78" role="PzmwI">
       <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
+    </node>
+    <node concept="3H0Qfr" id="2pqoNIAe7yX" role="lGtFl">
+      <node concept="1Pa9Pv" id="2pqoNIAe7zw" role="3H0Qfi">
+        <node concept="1PaTwC" id="2pqoNIAe7zx" role="1PaQFQ">
+          <node concept="3oM_SD" id="2pqoNIAe7zy" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7zz" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7z$" role="1PaTwD">
+            <property role="3oM_SC" value="property" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7z_" role="1PaTwD">
+            <property role="3oM_SC" value="declaration" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7zA" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7zU" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="2pqoNIAe7$1" role="1PaTwD">
+            <property role="3oM_SC" value="interface." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2pqoNIAe7zD" role="1PaQFQ">
+          <node concept="3oM_SD" id="2pqoNIAe7zE" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2pqoNIAe7zF" role="1PaQFQ">
+          <node concept="3oM_SD" id="2pqoNIAe7zG" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: interface-property-declaration" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="4oSbvdvXqKW">

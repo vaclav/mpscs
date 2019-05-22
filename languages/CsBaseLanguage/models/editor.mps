@@ -2,7 +2,7 @@
 <model ref="r:c3a662b8-7aa3-4b01-af89-32513e44ae75(CsBaseLanguage.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1243,7 +1243,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3x25Ph9Gc_k">
-    <property role="3GE5qa" value="Class / Struct" />
+    <property role="3GE5qa" value="Class / Struct.Methods" />
     <ref role="1XX52x" to="80bi:6hv6i2_B6ci" resolve="MethodDeclaration" />
     <node concept="3EZMnI" id="3x25Ph9Gc_m" role="2wV5jI">
       <node concept="3F2HdR" id="7yZ_CF2x2WP" role="3EZMnx">
@@ -2116,7 +2116,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIWDSu">
-    <property role="3GE5qa" value="Class / Struct.Constructor" />
+    <property role="3GE5qa" value="Class / Struct.Constructors" />
     <ref role="1XX52x" to="80bi:6vAOG1ABnF5" resolve="StaticConstructorDeclaration" />
     <node concept="3EZMnI" id="3h4LMeIWDSw" role="2wV5jI">
       <node concept="3F0ifn" id="3h4LMeIWDTh" role="3EZMnx">
