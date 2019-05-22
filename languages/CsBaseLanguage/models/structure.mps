@@ -2482,6 +2482,7 @@
     <property role="TrG5h" value="Partial" />
     <property role="3GE5qa" value="Modifiers" />
     <property role="34LRSv" value="partial" />
+    <property role="R4oN_" value="Partial modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRHrA" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
@@ -2752,6 +2753,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="New" />
     <property role="34LRSv" value="new" />
+    <property role="R4oN_" value="New modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRHrD" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRHr3" resolve="IClassModifier" />
@@ -5165,6 +5167,7 @@
     <property role="3GE5qa" value="Modifiers.Visibility" />
     <property role="TrG5h" value="Public" />
     <property role="34LRSv" value="public" />
+    <property role="R4oN_" value="Public visibility modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRHs2" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
@@ -5375,6 +5378,7 @@
     <property role="3GE5qa" value="Modifiers.Visibility" />
     <property role="TrG5h" value="Private" />
     <property role="34LRSv" value="private" />
+    <property role="R4oN_" value="Private visibility modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRHrT" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
@@ -5588,6 +5592,7 @@
     <property role="3GE5qa" value="Modifiers.Visibility" />
     <property role="TrG5h" value="Internal" />
     <property role="34LRSv" value="internal" />
+    <property role="R4oN_" value="Internal visibility modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRHrQ" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
@@ -5801,6 +5806,7 @@
     <property role="3GE5qa" value="Modifiers.Visibility" />
     <property role="TrG5h" value="Protected" />
     <property role="34LRSv" value="protected" />
+    <property role="R4oN_" value="Protected visibility modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRHrW" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRHrP" resolve="IVisibility" />
@@ -6940,6 +6946,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Static" />
     <property role="34LRSv" value="static" />
+    <property role="R4oN_" value="Static modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRWw0" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
@@ -7150,6 +7157,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Abstract" />
     <property role="34LRSv" value="abstract" />
+    <property role="R4oN_" value="Abstract modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRWw4" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
@@ -7357,6 +7365,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Sealed" />
     <property role="34LRSv" value="sealed" />
+    <property role="R4oN_" value="Sealed modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIRWw8" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIRWvH" resolve="IStaticAbstractSealed" />
@@ -8451,6 +8460,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Volatile" />
     <property role="34LRSv" value="volatile" />
+    <property role="R4oN_" value="Volatile modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIUOoi" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIUOo5" resolve="IReadonlyVolatile" />
@@ -8657,6 +8667,7 @@
     <property role="EcuMT" value="3766354144461014583" />
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Readonly" />
+    <property role="R4oN_" value="Readonly modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIUOoS" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIUOo5" resolve="IReadonlyVolatile" />
@@ -9121,6 +9132,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Extern" />
     <property role="34LRSv" value="extern" />
+    <property role="R4oN_" value="Extern modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIV$TR" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIV$Tu" resolve="IConstructorModifier" />
@@ -10879,6 +10891,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Async" />
     <property role="34LRSv" value="async" />
+    <property role="R4oN_" value="Async modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIZxxU" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
@@ -11086,6 +11099,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Virtual" />
     <property role="34LRSv" value="virtual" />
+    <property role="R4oN_" value="Virtual modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIZxxR" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
@@ -11296,6 +11310,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Override" />
     <property role="34LRSv" value="override" />
+    <property role="R4oN_" value="Override modifier" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIZxxO" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIXmif" resolve="IMethodModifier" />
