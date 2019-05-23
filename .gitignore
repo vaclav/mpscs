@@ -1,5 +1,8 @@
-/languages/CsBaseLanguage/source_gen
-/languages/CsBaseLanguage/source_gen.caches
-/languages/CsBaseLanguage/classes_gen
-/languages/CsBaseLanguage/generator/
-/.mps/workspace.xml
+/CsBaseLanguage/languages/CsBaseLanguage/source_gen
+/CsBaseLanguage/languages/CsBaseLanguage/source_gen.caches
+/CsBaseLanguage/languages/CsBaseLanguage/classes_gen
+/CsBaseLanguage/languages/CsBaseLanguage/generator/
+/CsBaseLanguage/.mps/workspace.xml
+/CsBaseLanguage/solutions/CsBaseLanguage.sandbox/source_gen.caches
+/CsBaseLanguage/solutions/CsBaseLanguage.sandbox/source_gen
+/CsBaseLanguage/solutions/CsBaseLanguage.sandbox/classes_gen
