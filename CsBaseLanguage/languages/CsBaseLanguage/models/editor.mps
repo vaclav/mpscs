@@ -31,6 +31,9 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="784421273959492578" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_IncludeMenu" flags="ng" index="mvV$s">
+        <child id="6718020819487784677" name="menuReference" index="A14EM" />
+      </concept>
       <concept id="709996738298806197" name="jetbrains.mps.lang.editor.structure.QueryFunction_SeparatorText" flags="in" index="2o9xnK" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
@@ -150,6 +153,9 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
+        <reference id="1139877738879" name="concept" index="1A0vxQ" />
+      </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
@@ -174,6 +180,7 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
@@ -1007,7 +1014,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6vAOG1ACaK4">
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
     <node concept="3EZMnI" id="6vAOG1ACmDo" role="2wV5jI">
       <node concept="3F2HdR" id="3h4LMeIS428" role="3EZMnx">
@@ -1024,11 +1031,14 @@
       <node concept="3F0A7n" id="6vAOG1ACsPQ" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <node concept="A1WHu" id="3grCvve5z3N" role="3vIgyS">
-          <ref role="A1WHt" node="3grCvve5z3$" resolve="InheritedTypeListCreation" />
+          <ref role="A1WHt" node="2vo5eZuFHQa" resolve="RightSideTransformationsOnName" />
         </node>
       </node>
       <node concept="PMmxH" id="5moKU4Y5OOC" role="3EZMnx">
         <ref role="PMmxG" node="5moKU4Y5smx" resolve="IGenericTypeListComponent" />
+        <node concept="A1WHu" id="2vo5eZuG52x" role="3vIgyS">
+          <ref role="A1WHt" node="3grCvve5z3$" resolve="InheritedTypeListCreation" />
+        </node>
       </node>
       <node concept="3F1sOY" id="3grCvve2fOy" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:3grCvve1PjI" resolve="inheritedTypeList" />
@@ -1084,7 +1094,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6$wrg4A_Pfl">
-    <property role="3GE5qa" value="Namespace.TypeDeclaration.Enum" />
+    <property role="3GE5qa" value="Enum" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc7" resolve="EnumDeclaration" />
     <node concept="3EZMnI" id="6$wrg4A_Pfn" role="2wV5jI">
       <node concept="3F2HdR" id="3h4LMeIVcsV" role="3EZMnx">
@@ -1123,7 +1133,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6$wrg4AA2Bv">
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Interface" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc6" resolve="InterfaceDeclaration" />
     <node concept="3EZMnI" id="6$wrg4AA2Bx" role="2wV5jI">
       <node concept="3F0ifn" id="6$wrg4AA2By" role="3EZMnx">
@@ -1205,7 +1215,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6$wrg4AAmi4">
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Delegate" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc4" resolve="DelegateDeclaration" />
     <node concept="3EZMnI" id="6$wrg4AAmi6" role="2wV5jI">
       <node concept="l2Vlx" id="6$wrg4AAxKQ" role="2iSdaV" />
@@ -1224,7 +1234,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6$wrg4A_JoD">
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="1XX52x" to="80bi:6hv6i2_Azc5" resolve="StructDeclaration" />
     <node concept="3EZMnI" id="6$wrg4A_JoF" role="2wV5jI">
       <node concept="3F0ifn" id="6$wrg4A_JoG" role="3EZMnx">
@@ -2316,7 +2326,7 @@
     </node>
   </node>
   <node concept="3ICXOK" id="3grCvve5z3$">
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
     <property role="TrG5h" value="InheritedTypeListCreation" />
     <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
     <node concept="1Qtc8_" id="3grCvve5z3_" role="IW6Ez">
@@ -2517,6 +2527,100 @@
         </node>
         <node concept="11L4FC" id="5moKU4Y7Amx" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="pkWqt" id="2vo5eZuEKRX" role="pqm2j">
+        <node concept="3clFbS" id="2vo5eZuEKRY" role="2VODD2">
+          <node concept="3clFbF" id="2vo5eZuEL3o" role="3cqZAp">
+            <node concept="2OqwBi" id="2vo5eZuENG7" role="3clFbG">
+              <node concept="2OqwBi" id="2vo5eZuELfI" role="2Oq$k0">
+                <node concept="pncrf" id="2vo5eZuEL3n" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="2vo5eZuEL$8" role="2OqNvi">
+                  <ref role="3TtcxE" to="80bi:5moKU4Y5slA" resolve="typeParameter" />
+                </node>
+              </node>
+              <node concept="3GX2aA" id="2vo5eZuERW9" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3ICXOK" id="2vo5eZuESDh">
+    <property role="3GE5qa" value="Class / Struct" />
+    <property role="TrG5h" value="GenericTypeListCreation" />
+    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <node concept="1Qtc8_" id="2vo5eZuESDi" role="IW6Ez">
+      <node concept="3cWJ9i" id="2vo5eZuESDm" role="1Qtc8$">
+        <node concept="CtIbL" id="2vo5eZuESDo" role="CtIbM">
+          <property role="CtIbK" value="RIGHT" />
+        </node>
+      </node>
+      <node concept="aenpk" id="2vo5eZuESDs" role="1Qtc8A">
+        <node concept="IWgqT" id="2vo5eZuESDu" role="aenpr">
+          <node concept="1hCUdq" id="2vo5eZuESDv" role="1hCUd6">
+            <node concept="3clFbS" id="2vo5eZuESDw" role="2VODD2">
+              <node concept="3clFbF" id="2vo5eZuETgl" role="3cqZAp">
+                <node concept="Xl_RD" id="2vo5eZuETgk" role="3clFbG">
+                  <property role="Xl_RC" value="&lt;" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="IWg2L" id="2vo5eZuESDx" role="IWgqQ">
+            <node concept="3clFbS" id="2vo5eZuESDy" role="2VODD2">
+              <node concept="3clFbF" id="2vo5eZuF1ne" role="3cqZAp">
+                <node concept="2OqwBi" id="2vo5eZuF5Ux" role="3clFbG">
+                  <node concept="2OqwBi" id="2vo5eZuF1ye" role="2Oq$k0">
+                    <node concept="7Obwk" id="2vo5eZuF1nd" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="2vo5eZuF1WS" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:5moKU4Y5slA" resolve="typeParameter" />
+                    </node>
+                  </node>
+                  <node concept="WFELt" id="2vo5eZuF9Vp" role="2OqNvi">
+                    <ref role="1A0vxQ" to="80bi:6hv6i2_AXOM" resolve="TypeParameter" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="27VH4U" id="2vo5eZuETNg" role="aenpu">
+          <node concept="3clFbS" id="2vo5eZuETNh" role="2VODD2">
+            <node concept="3clFbF" id="2vo5eZuETUG" role="3cqZAp">
+              <node concept="2OqwBi" id="2vo5eZuEX0d" role="3clFbG">
+                <node concept="2OqwBi" id="2vo5eZuEUbP" role="2Oq$k0">
+                  <node concept="7Obwk" id="2vo5eZuETUF" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="2vo5eZuEUAL" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:5moKU4Y5slA" resolve="typeParameter" />
+                  </node>
+                </node>
+                <node concept="1v1jN8" id="2vo5eZuF18L" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3ICXOK" id="2vo5eZuFHQa">
+    <property role="3GE5qa" value="Class / Struct" />
+    <property role="TrG5h" value="RightSideTransformationsOnName" />
+    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <node concept="1Qtc8_" id="2vo5eZuFHKC" role="IW6Ez">
+      <node concept="3cWJ9i" id="2vo5eZuFHKG" role="1Qtc8$">
+        <node concept="CtIbL" id="2vo5eZuFHKI" role="CtIbM">
+          <property role="CtIbK" value="RIGHT" />
+        </node>
+      </node>
+      <node concept="mvV$s" id="2vo5eZuFHKM" role="1Qtc8A">
+        <node concept="A1WHu" id="2vo5eZuFHKO" role="A14EM">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
+        </node>
+      </node>
+      <node concept="mvV$s" id="2vo5eZuFHQ3" role="1Qtc8A">
+        <node concept="A1WHu" id="2vo5eZuFHQ8" role="A14EM">
+          <ref role="A1WHt" node="3grCvve5z3$" resolve="InheritedTypeListCreation" />
         </node>
       </node>
     </node>

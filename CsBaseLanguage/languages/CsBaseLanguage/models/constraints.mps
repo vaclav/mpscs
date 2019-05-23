@@ -131,7 +131,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="3grCvve6NV9">
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
     <ref role="1M2myG" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
     <node concept="EnEH3" id="3grCvve6NVa" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
