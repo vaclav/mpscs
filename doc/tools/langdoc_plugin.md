@@ -20,6 +20,13 @@ Documentation Bits in the Main Editor` to show the documentation bits directly i
 
 ## Advanced usage
 
+### Make documentation bits always visible in the main editor
+
+1. Go to *Settings*
+2. Go to *Editor*
+3. Go to *Editor hints*
+4. Check *Inline Doc Bits*
+
 ### Add a piece of AST into the documentation
 
 1. Hit *Control + Space*
