@@ -4191,20 +4191,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="1FYNzU$kFC0">
-    <property role="EcuMT" value="1945218857510812160" />
-    <property role="3GE5qa" value="Statements.Dummy" />
-    <property role="TrG5h" value="StatementTest" />
-    <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1FYNzU$kFC1" role="1TKVEi">
-      <property role="IQ2ns" value="1945218857510812161" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="statement" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6hv6i2_B6cm" resolve="Statement" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1FYNzU$lhJs">
     <property role="EcuMT" value="1945218857510968284" />
     <property role="3GE5qa" value="Statements.Other" />
@@ -4225,13 +4211,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6hv6i2_B6cm" resolve="Statement" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="1FYNzU$lhJv">
-    <property role="EcuMT" value="1945218857510968287" />
-    <property role="3GE5qa" value="Statements.Dummy" />
-    <property role="TrG5h" value="DummyStatement" />
-    <property role="34LRSv" value="dummy" />
-    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
   </node>
   <node concept="1TIwiD" id="1FYNzU$mBmN">
     <property role="EcuMT" value="1945218857511318963" />
