@@ -3,9 +3,10 @@
 /CsBaseLanguage/languages/CsBaseLanguage/classes_gen
 /CsBaseLanguage/languages/CsBaseLanguage/generator/
 /CsBaseLanguage/.mps/workspace.xml
-/CsBaseLanguage/.mps/misc.xml
-/CsBaseLanguage/.mps/modules.xml
-/CsBaseLanguage/.mps/vcs.xml
+/.mps/migration.xml
+/.mps/misc.xml
+/.mps/modules.xml
+/.mps/vcs.xml
 /CsBaseLanguage/solutions/CsBaseLanguage.sandbox/source_gen.caches
 /CsBaseLanguage/solutions/CsBaseLanguage.sandbox/source_gen
 /CsBaseLanguage/solutions/CsBaseLanguage.sandbox/classes_gen
