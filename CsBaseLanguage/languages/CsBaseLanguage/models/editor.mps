@@ -1317,7 +1317,11 @@
         <ref role="1NtTu8" to="80bi:6vAOG1ABcaN" resolve="statement" />
         <node concept="2iRkQZ" id="1FYNzU$srN2" role="2czzBx" />
         <node concept="VPM3Z" id="1FYNzU$srN3" role="3F10Kt" />
-        <node concept="3F0ifn" id="1FYNzU$srNa" role="2czzBI" />
+        <node concept="3F0ifn" id="1FYNzU$srNa" role="2czzBI">
+          <node concept="VPxyj" id="4ciUzdZ0Os" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="lj46D" id="1FYNzU$srNf" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1342,7 +1346,7 @@
   </node>
   <node concept="24kQdi" id="1FYNzU$mBna">
     <property role="3GE5qa" value="Statements.Declaration" />
-    <ref role="1XX52x" to="80bi:1FYNzU$mBmR" resolve="LocalVariableDeclaration" />
+    <ref role="1XX52x" to="80bi:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
     <node concept="3EZMnI" id="1FYNzU$mBnc" role="2wV5jI">
       <node concept="3F1sOY" id="1FYNzU$mBnj" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:1FYNzU$mBmS" resolve="type" />
@@ -1419,12 +1423,18 @@
       </node>
       <node concept="3F0ifn" id="1FYNzU$tiTV" role="3EZMnx">
         <property role="3F0ifm" value="(" />
+        <node concept="11LMrY" id="4ciUzdZIZT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F1sOY" id="1FYNzU$tiU3" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:1FYNzU$tiSX" resolve="expression" />
       </node>
       <node concept="3F0ifn" id="1FYNzU$tiUd" role="3EZMnx">
         <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="4ciUzdZIZV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F1sOY" id="1FYNzU$tiUp" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:1FYNzU$tiSZ" resolve="embeddedStatement" />
@@ -1471,12 +1481,18 @@
       </node>
       <node concept="3F0ifn" id="1FYNzU$v7zn" role="3EZMnx">
         <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="3zXINoFRJy5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F1sOY" id="1FYNzU$v7zz" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:1FYNzU$v7yy" resolve="expression" />
       </node>
       <node concept="3F0ifn" id="1FYNzU$v7zL" role="3EZMnx">
         <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="3zXINoFRJy7" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F1sOY" id="1FYNzU$v7$1" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:1FYNzU$v7y_" resolve="statementExpressionList" />
@@ -1484,6 +1500,9 @@
       <node concept="3F0ifn" id="1FYNzU$v7$j" role="3EZMnx">
         <property role="3F0ifm" value=")" />
         <node concept="11L4FC" id="7g1lbrSH3jp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="4ciUzdZpkj" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
