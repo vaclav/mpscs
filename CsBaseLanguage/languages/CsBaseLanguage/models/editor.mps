@@ -2,7 +2,7 @@
 <model ref="r:c3a662b8-7aa3-4b01-af89-32513e44ae75(CsBaseLanguage.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1408,7 +1408,6 @@
         <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="80bi:1FYNzU$pBHD" resolve="constantDeclarator" />
         <node concept="l2Vlx" id="1FYNzU$pTzW" role="2czzBx" />
-        <node concept="3F0ifn" id="1FYNzU$pT$2" role="2czzBI" />
       </node>
       <node concept="3F0ifn" id="1FYNzU$pTzO" role="3EZMnx">
         <property role="3F0ifm" value=";" />
@@ -2468,6 +2467,28 @@
       <node concept="l2Vlx" id="4oSbvdw0pOt" role="2iSdaV" />
     </node>
   </node>
+  <node concept="3ICXOK" id="2vo5eZuFHQa">
+    <property role="3GE5qa" value="Class / Struct" />
+    <property role="TrG5h" value="RightSideTransformationsOnName" />
+    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <node concept="1Qtc8_" id="2vo5eZuFHKC" role="IW6Ez">
+      <node concept="3cWJ9i" id="2vo5eZuFHKG" role="1Qtc8$">
+        <node concept="CtIbL" id="2vo5eZuFHKI" role="CtIbM">
+          <property role="CtIbK" value="RIGHT" />
+        </node>
+      </node>
+      <node concept="mvV$s" id="2vo5eZuFHKM" role="1Qtc8A">
+        <node concept="A1WHu" id="2vo5eZuFHKO" role="A14EM">
+          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
+        </node>
+      </node>
+      <node concept="mvV$s" id="2vo5eZuFHQ3" role="1Qtc8A">
+        <node concept="A1WHu" id="2vo5eZuFHQ8" role="A14EM">
+          <ref role="A1WHt" node="3grCvve5z3$" resolve="InheritedTypeListCreation" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="PKFIW" id="5moKU4Y5smx">
     <property role="TrG5h" value="IGenericTypeListComponent" />
     <ref role="1XX52x" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
@@ -2598,26 +2619,177 @@
       </node>
     </node>
   </node>
-  <node concept="3ICXOK" id="2vo5eZuFHQa">
-    <property role="3GE5qa" value="Class / Struct" />
-    <property role="TrG5h" value="RightSideTransformationsOnName" />
-    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
-    <node concept="1Qtc8_" id="2vo5eZuFHKC" role="IW6Ez">
-      <node concept="3cWJ9i" id="2vo5eZuFHKG" role="1Qtc8$">
-        <node concept="CtIbL" id="2vo5eZuFHKI" role="CtIbM">
-          <property role="CtIbK" value="RIGHT" />
+  <node concept="24kQdi" id="3zXINoFT1X2">
+    <property role="3GE5qa" value="Class / Struct.Constants" />
+    <ref role="1XX52x" to="80bi:6hv6i2_B47j" resolve="ConstantDeclaration" />
+    <node concept="3EZMnI" id="3zXINoFT1Xg" role="2wV5jI">
+      <node concept="3F2HdR" id="3zXINoFT1XT" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6hv6i2_B47x" resolve="iConstantModifier" />
+        <node concept="2iRfu4" id="3zXINoFT1XW" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3zXINoFT1Xn" role="3EZMnx">
+        <property role="3F0ifm" value="const" />
+      </node>
+      <node concept="3F1sOY" id="3zXINoFT1Y5" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6hv6i2_B48w" resolve="type" />
+      </node>
+      <node concept="3F1sOY" id="3zXINoFT2_u" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6hv6i2_B48F" resolve="constantDeclaratorList" />
+      </node>
+      <node concept="3F0ifn" id="3zXINoFTQY9" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="3zXINoFTQYh" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="mvV$s" id="2vo5eZuFHKM" role="1Qtc8A">
-        <node concept="A1WHu" id="2vo5eZuFHKO" role="A14EM">
-          <ref role="A1WHt" node="2vo5eZuESDh" resolve="GenericTypeListCreation" />
+      <node concept="l2Vlx" id="3zXINoFT1Xj" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3zXINoFYMYB">
+    <property role="3GE5qa" value="Class / Struct.Properties" />
+    <ref role="1XX52x" to="80bi:6vAOG1ABcbt" resolve="GetAccessorDeclaration" />
+    <node concept="3EZMnI" id="3zXINoFYMYD" role="2wV5jI">
+      <node concept="3F2HdR" id="3zXINoFZboD" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:3zXINoFWW$2" resolve="iAccessorVisibility" />
+        <node concept="l2Vlx" id="3zXINoFZboF" role="2czzBx" />
+        <node concept="3F0ifn" id="3zXINoFZSRG" role="2czzBI">
+          <node concept="VPxyj" id="3zXINoG2uHH" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
       </node>
-      <node concept="mvV$s" id="2vo5eZuFHQ3" role="1Qtc8A">
-        <node concept="A1WHu" id="2vo5eZuFHQ8" role="A14EM">
-          <ref role="A1WHt" node="3grCvve5z3$" resolve="InheritedTypeListCreation" />
+      <node concept="3F0ifn" id="3zXINoG0AJ1" role="3EZMnx">
+        <node concept="pkWqt" id="3zXINoG0AJc" role="pqm2j">
+          <node concept="3clFbS" id="3zXINoG0AJd" role="2VODD2">
+            <node concept="3clFbF" id="3zXINoG0AQy" role="3cqZAp">
+              <node concept="2OqwBi" id="3zXINoG0DJE" role="3clFbG">
+                <node concept="2OqwBi" id="3zXINoG0B7w" role="2Oq$k0">
+                  <node concept="pncrf" id="3zXINoG0AQx" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="3zXINoG0Bt9" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:3zXINoFWW$2" resolve="iAccessorVisibility" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="3zXINoG0Fkz" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
+      <node concept="PMmxH" id="3zXINoFYMYE" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <node concept="11LMrY" id="3zXINoFYMYF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPxyj" id="3zXINoFYMYG" role="3F10Kt" />
+        <node concept="11L4FC" id="3zXINoG0fBT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="3zXINoG1pHA" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="3zXINoFYMYH" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:3zXINoFWW$3" resolve="body" />
+      </node>
+      <node concept="l2Vlx" id="3zXINoFYMYI" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3zXINoFT1YN">
+    <property role="3GE5qa" value="Class / Struct.Constants" />
+    <ref role="1XX52x" to="80bi:6vAOG1ABcau" resolve="ConstantDeclaratorList" />
+    <node concept="3F2HdR" id="3zXINoFT1YP" role="2wV5jI">
+      <property role="2czwfO" value="," />
+      <ref role="1NtTu8" to="80bi:6vAOG1ABcav" resolve="constantDeclarator" />
+      <node concept="l2Vlx" id="3zXINoFT1YQ" role="2czzBx" />
+      <node concept="3F0ifn" id="3zXINoFT1YR" role="2czzBI" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3zXINoFUcVI">
+    <property role="3GE5qa" value="Class / Struct.Properties" />
+    <ref role="1XX52x" to="80bi:6vAOG1ABcaT" resolve="PropertyDeclaration" />
+    <node concept="3EZMnI" id="3zXINoFUcVK" role="2wV5jI">
+      <node concept="3F2HdR" id="3zXINoFUcVR" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6vAOG1ABcb1" resolve="iPropertyModifier" />
+        <node concept="2iRfu4" id="3zXINoFUcVU" role="2czzBx" />
+        <node concept="3F0ifn" id="3zXINoFVSpp" role="2czzBI">
+          <property role="3F0ifm" value="/* modifiers */" />
+          <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="3zXINoFUcW1" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6vAOG1ABcb6" resolve="type" />
+      </node>
+      <node concept="3F0A7n" id="3zXINoFUz4H" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="3zXINoFUz4X" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="pVoyu" id="3zXINoFVxtc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="3zXINoFUcWb" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6vAOG1ABcc1" resolve="accessorDeclaration" />
+        <node concept="2iRkQZ" id="3zXINoFXSij" role="2czzBx" />
+        <node concept="pVoyu" id="3zXINoFVxtg" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="3zXINoFVxti" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3zXINoFUz5f" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="pVoyu" id="3zXINoFVxte" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3zXINoFUcVN" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3zXINoFYMZB">
+    <property role="3GE5qa" value="Class / Struct.Properties" />
+    <ref role="1XX52x" to="80bi:6vAOG1ABcbx" resolve="SetAccessorDeclaration" />
+    <node concept="3EZMnI" id="3zXINoG2Qjq" role="2wV5jI">
+      <node concept="3F2HdR" id="3zXINoG2Qjr" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:3zXINoFWW$2" resolve="iAccessorVisibility" />
+        <node concept="l2Vlx" id="3zXINoG2Qjs" role="2czzBx" />
+        <node concept="3F0ifn" id="3zXINoG2Qjt" role="2czzBI">
+          <node concept="VPxyj" id="3zXINoG2Qju" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3zXINoG2Qjv" role="3EZMnx">
+        <node concept="pkWqt" id="3zXINoG2Qjw" role="pqm2j">
+          <node concept="3clFbS" id="3zXINoG2Qjx" role="2VODD2">
+            <node concept="3clFbF" id="3zXINoG2Qjy" role="3cqZAp">
+              <node concept="2OqwBi" id="3zXINoG2Qjz" role="3clFbG">
+                <node concept="2OqwBi" id="3zXINoG2Qj$" role="2Oq$k0">
+                  <node concept="pncrf" id="3zXINoG2Qj_" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="3zXINoG2QjA" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:3zXINoFWW$2" resolve="iAccessorVisibility" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="3zXINoG2QjB" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="3zXINoG2QjC" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <node concept="11LMrY" id="3zXINoG2QjD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPxyj" id="3zXINoG2QjE" role="3F10Kt" />
+        <node concept="11L4FC" id="3zXINoG2QjF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="3zXINoG2QjG" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="3zXINoG2QjH" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:3zXINoFWW$3" resolve="body" />
+      </node>
+      <node concept="l2Vlx" id="3zXINoG2QjI" role="2iSdaV" />
     </node>
   </node>
 </model>
