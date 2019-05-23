@@ -4923,13 +4923,46 @@
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="IterationStatement" />
+    <property role="R4oN_" value="Abstract loop statement" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
+    <node concept="3H0Qfr" id="2vo5eZuIbQN" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbR1" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbR2" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbR3" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbRl" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbRp" role="1PaTwD">
+            <property role="3oM_SC" value="iteration" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbRQ" role="1PaTwD">
+            <property role="3oM_SC" value="(loop)" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbRL" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbR7" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbR8" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbR9" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbRa" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: iteration-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$uw43">
     <property role="EcuMT" value="1945218857513386243" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="WhileStatement" />
     <property role="34LRSv" value="while" />
+    <property role="R4oN_" value="While statement" />
     <ref role="1TJDcQ" node="1FYNzU$uw3Y" resolve="IterationStatement" />
     <node concept="1TJgyj" id="1FYNzU$uw44" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513386244" />
@@ -4945,12 +4978,41 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuIbPd" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbPr" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbPs" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbPt" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbPu" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbPv" role="1PaTwD">
+            <property role="3oM_SC" value="while" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbPw" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbPx" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbPy" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbPz" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbP$" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: while-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$uNCZ">
     <property role="EcuMT" value="1945218857513466431" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="DoStatement" />
     <property role="34LRSv" value="do" />
+    <property role="R4oN_" value="Do-while statement" />
     <ref role="1TJDcQ" node="1FYNzU$uw3Y" resolve="IterationStatement" />
     <node concept="1TJgyj" id="1FYNzU$uND0" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513466432" />
@@ -4966,12 +5028,41 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuIbPJ" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbPX" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbPY" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbPZ" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQ0" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQ1" role="1PaTwD">
+            <property role="3oM_SC" value="do-while" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQ2" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbQ3" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQ4" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbQ5" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQ6" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: do-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$v7xW">
     <property role="EcuMT" value="1945218857513547900" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="ForStatement" />
     <property role="34LRSv" value="for" />
+    <property role="R4oN_" value="For statement" />
     <ref role="1TJDcQ" node="1FYNzU$uw3Y" resolve="IterationStatement" />
     <node concept="1TJgyj" id="1FYNzU$v7yw" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513547936" />
@@ -4998,11 +5089,73 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuIbNQ" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbO4" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbO5" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbO6" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbO7" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbOw" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbP8" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbOe" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbOf" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbOg" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbOh" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: for-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="PlHQZ" id="1FYNzU$v7xY">
     <property role="EcuMT" value="1945218857513547902" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="IForInitializer" />
+    <node concept="3H0Qfr" id="2vo5eZuIbRW" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbRX" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbRY" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbRZ" role="1PaTwD">
+            <property role="3oM_SC" value="Initializer" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSa" role="1PaTwD">
+            <property role="3oM_SC" value="section" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSd" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSh" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSm" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSs" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbS$" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbSz" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbSJ" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbSI" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: for-initializer" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$v7y1">
     <property role="EcuMT" value="1945218857513547905" />
@@ -5025,6 +5178,7 @@
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="ForeachStatement" />
     <property role="34LRSv" value="foreach" />
+    <property role="R4oN_" value="Foreach statement" />
     <ref role="1TJDcQ" node="1FYNzU$uw3Y" resolve="IterationStatement" />
     <node concept="1TJgyj" id="1FYNzU$vKki" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513714962" />
@@ -5053,6 +5207,34 @@
       <property role="20kJfa" value="embeddedStatement" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
+    </node>
+    <node concept="3H0Qfr" id="2vo5eZuIbQh" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbQv" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbQw" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQx" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQy" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQz" role="1PaTwD">
+            <property role="3oM_SC" value="foreach" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQ$" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbQ_" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQA" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbQB" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQC" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: foreach-statement" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$w5Bf">
