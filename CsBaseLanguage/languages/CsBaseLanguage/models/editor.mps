@@ -1102,9 +1102,36 @@
       <node concept="3F2HdR" id="3h4LMeIVcsV" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:6$wrg4A_PeN" resolve="iEnumModifier" />
         <node concept="l2Vlx" id="3h4LMeIVcsX" role="2czzBx" />
+        <node concept="3F0ifn" id="2a8$IxLY_hl" role="2czzBI">
+          <node concept="VPxyj" id="2a8$IxLY_hn" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2a8$IxM0C9c" role="3EZMnx">
+        <node concept="pkWqt" id="2a8$IxM0C9w" role="pqm2j">
+          <node concept="3clFbS" id="2a8$IxM0C9x" role="2VODD2">
+            <node concept="3clFbF" id="2a8$IxM0CgQ" role="3cqZAp">
+              <node concept="2OqwBi" id="2a8$IxM0Fij" role="3clFbG">
+                <node concept="2OqwBi" id="2a8$IxM0Cxm" role="2Oq$k0">
+                  <node concept="pncrf" id="2a8$IxM0CgP" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="2a8$IxM0DmP" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:6$wrg4A_PeN" resolve="iEnumModifier" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="2a8$IxM0GS6" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="6$wrg4A_Pfo" role="3EZMnx">
         <property role="3F0ifm" value="enum" />
+        <node concept="VPxyj" id="2a8$IxLZpx0" role="3F10Kt" />
+        <node concept="VPM3Z" id="2a8$IxLZNCK" role="3F10Kt" />
+        <node concept="11L4FC" id="2a8$IxM0dV3" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="6$wrg4A_Pfp" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -1252,6 +1279,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="6$wrg4A_JoK" role="3EZMnx">
+        <property role="2czwfO" value=" " />
         <ref role="1NtTu8" to="80bi:3h4LMeIQH$O" resolve="structMemberDeclaration" />
         <node concept="pVoyu" id="6$wrg4A_JoL" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -2818,6 +2846,21 @@
       </node>
       <node concept="3F0ifn" id="2a8$IxLSS_E" role="3EZMnx">
         <property role="3F0ifm" value=":" />
+        <node concept="pkWqt" id="2a8$IxLY8uz" role="pqm2j">
+          <node concept="3clFbS" id="2a8$IxLY8u$" role="2VODD2">
+            <node concept="3clFbF" id="2a8$IxLY8_T" role="3cqZAp">
+              <node concept="2OqwBi" id="2a8$IxLY9VK" role="3clFbG">
+                <node concept="2OqwBi" id="2a8$IxLY8OI" role="2Oq$k0">
+                  <node concept="pncrf" id="2a8$IxLY8_S" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2a8$IxLY9dV" role="2OqNvi">
+                    <ref role="3Tt5mk" to="80bi:6vAOG1ABnFs" resolve="constructorInitializer" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="2a8$IxLYap0" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="2a8$IxLSS$O" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:6vAOG1ABnFs" resolve="constructorInitializer" />
@@ -2882,6 +2925,69 @@
         </node>
       </node>
       <node concept="l2Vlx" id="2a8$IxLW8ff" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2a8$IxM17_u">
+    <property role="3GE5qa" value="Enum" />
+    <ref role="1XX52x" to="80bi:6$wrg4A_UKD" resolve="EnumMemberDeclaration" />
+    <node concept="3EZMnI" id="2a8$IxM17_I" role="2wV5jI">
+      <node concept="3F0A7n" id="2a8$IxM17_P" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="2a8$IxM17_Z" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="2a8$IxM17A7" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6$wrg4A_UKI" resolve="value" />
+      </node>
+      <node concept="3F0ifn" id="2a8$IxM1XCQ" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+        <node concept="11L4FC" id="2a8$IxM2oj$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2a8$IxM17_L" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2a8$IxM2NfI">
+    <property role="3GE5qa" value="Class / Struct.Fields" />
+    <ref role="1XX52x" to="80bi:6hv6i2_B6aE" resolve="FieldDeclaration" />
+    <node concept="3EZMnI" id="2a8$IxM2NfK" role="2wV5jI">
+      <node concept="3F2HdR" id="2a8$IxM2NfR" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6hv6i2_B6c9" resolve="iFieldModifier" />
+        <node concept="l2Vlx" id="2a8$IxM2NfT" role="2czzBx" />
+      </node>
+      <node concept="3F1sOY" id="2a8$IxM2Ng0" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6hv6i2_B6aQ" resolve="type" />
+      </node>
+      <node concept="3F1sOY" id="2a8$IxM2Nga" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:6hv6i2_B6bd" resolve="variableDeclaratorList" />
+      </node>
+      <node concept="3F0ifn" id="2a8$IxM3LLM" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="2a8$IxM3LLT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2a8$IxM2NfN" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2a8$IxM3mLw">
+    <property role="3GE5qa" value="Class / Struct.Variables" />
+    <ref role="1XX52x" to="80bi:6vAOG1ABcay" resolve="VariableDeclaratorList" />
+    <node concept="3EZMnI" id="2a8$IxM3mLy" role="2wV5jI">
+      <node concept="3F2HdR" id="2a8$IxM3mLD" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="80bi:6vAOG1ABcaz" resolve="VariableDeclarator" />
+        <node concept="l2Vlx" id="2a8$IxM3mLF" role="2czzBx" />
+      </node>
+      <node concept="l2Vlx" id="2a8$IxM3mL_" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2a8$IxM4loO">
+    <ref role="1XX52x" to="80bi:3h4LMeIQ_DY" resolve="FixedSizeBufferDeclaration" />
+    <node concept="3F0ifn" id="2a8$IxM4loQ" role="2wV5jI">
+      <property role="3F0ifm" value="/* FixedSizeBufferDeclaration Not Implemented */" />
     </node>
   </node>
 </model>

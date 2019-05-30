@@ -2417,7 +2417,7 @@
       <property role="IQ2ns" value="7232527154588443341" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="variableDeclaratorList" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcay" resolve="VariableDeclaratorList" />
     </node>
     <node concept="3H0Qfr" id="3rKHSnCrfT7" role="lGtFl">
@@ -8848,6 +8848,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Readonly" />
     <property role="R4oN_" value="Readonly modifier" />
+    <property role="34LRSv" value="readonly" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIUOoS" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIUOo5" resolve="IReadonlyVolatile" />
