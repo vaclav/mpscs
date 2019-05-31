@@ -2,8 +2,8 @@
 <model ref="r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
-    <use id="a23383a3-9564-4399-8643-72063c6111dc" name="jetbrains.mps.LangDoc" version="0" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="a23383a3-9564-4399-8643-72063c6111dc" name="jetbrains.mps.LangDoc" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -2094,19 +2094,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="6vAOG1ABcab">
-    <property role="EcuMT" value="7486903154347131531" />
-    <property role="TrG5h" value="TypeParameterConstraintsClauseList" />
-    <property role="3GE5qa" value="Generics" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6vAOG1ABcac" role="1TKVEi">
-      <property role="IQ2ns" value="7486903154347131532" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClause" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6hv6i2_AXOQ" resolve="TypeParameterConstraintsClause" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6hv6i2_AzRh">
     <property role="EcuMT" value="7232527154588302801" />
     <property role="TrG5h" value="NamespaceDeclaration" />
@@ -3240,20 +3227,6 @@
       <property role="20kJfa" value="partial" />
       <ref role="20lvS9" node="6hv6i2_ATMC" resolve="Partial" />
     </node>
-    <node concept="1TJgyj" id="6$wrg4A_oG5" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424946903813" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClauseList" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
-    </node>
-    <node concept="1TJgyj" id="6$wrg4A_oGb" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424946903819" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20kJfa" value="inheritedTypeList" />
-      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
-    </node>
     <node concept="PrWs8" id="6$wrg4A_l_E" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -3297,6 +3270,9 @@
     </node>
     <node concept="PrWs8" id="5moKU4Y5soc" role="PzmwI">
       <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
+    </node>
+    <node concept="PrWs8" id="eRR5GNb0cO" role="PzmwI">
+      <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc4">
@@ -3505,18 +3481,6 @@
       <property role="20kJfa" value="partial" />
       <ref role="20lvS9" node="6hv6i2_ATMC" resolve="Partial" />
     </node>
-    <node concept="1TJgyj" id="6$wrg4AA8UH" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424947101357" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inheritedTypeList" />
-      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
-    </node>
-    <node concept="1TJgyj" id="6$wrg4AA8UM" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424947101362" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClauseList" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
-    </node>
     <node concept="1TJgyj" id="6$wrg4AA8US" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947101368" />
       <property role="20lmBu" value="aggregation" />
@@ -3558,6 +3522,12 @@
         </node>
       </node>
     </node>
+    <node concept="PrWs8" id="eRR5GN5AVc" role="PzmwI">
+      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
+    </node>
+    <node concept="PrWs8" id="eRR5GNb0d1" role="PzmwI">
+      <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_AZE1">
     <property role="EcuMT" value="7232527154588416641" />
@@ -3592,19 +3562,6 @@
       <property role="20kJfa" value="iClassModifier" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3h4LMeIRHr3" resolve="IClassModifier" />
-    </node>
-    <node concept="1TJgyj" id="3grCvve1PjI" role="1TKVEi">
-      <property role="IQ2ns" value="3754772800029021422" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inheritedTypeList" />
-      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
-    </node>
-    <node concept="1TJgyj" id="6hv6i2_AXOR" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588409143" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClauseList" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_AZEU" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588416698" />
@@ -3646,6 +3603,9 @@
     </node>
     <node concept="PrWs8" id="5moKU4Y5snt" role="PzmwI">
       <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
+    </node>
+    <node concept="PrWs8" id="eRR5GNaXSz" role="PzmwI">
+      <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc2">
@@ -5630,13 +5590,6 @@
       <property role="20kJfa" value="formalParameter" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcaI" resolve="FormalParameterList" />
-    </node>
-    <node concept="1TJgyj" id="6$wrg4AAmgP" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424947156021" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClauseList" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
     </node>
     <node concept="PrWs8" id="3h4LMeIQtv5" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -13148,18 +13101,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="3grCvve1P7L">
-    <property role="EcuMT" value="3754772800029020657" />
-    <property role="TrG5h" value="InheritedTypeList" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3grCvve1Pjx" role="1TKVEi">
-      <property role="IQ2ns" value="3754772800029021409" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inheritedTypeList" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="3grCvve1Pjw" resolve="InheritedType" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3grCvve1Pjw">
     <property role="EcuMT" value="3754772800029021408" />
     <property role="TrG5h" value="InheritedType" />
@@ -13532,6 +13473,13 @@
         </node>
       </node>
     </node>
+    <node concept="1TJgyj" id="6hv6i2_AXOR" role="1TKVEi">
+      <property role="IQ2ns" value="7232527154588409143" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeParameterConstraintsClause" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6hv6i2_AXOQ" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3zXINoFWW$0">
     <property role="EcuMT" value="4106644276571785472" />
@@ -13559,6 +13507,17 @@
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="eRR5GNaXSm">
+    <property role="EcuMT" value="267924987110481430" />
+    <property role="TrG5h" value="IInheritedTypeList" />
+    <node concept="1TJgyj" id="3grCvve1Pjx" role="1TKVEi">
+      <property role="IQ2ns" value="3754772800029021409" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="inheritedType" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3grCvve1Pjw" resolve="InheritedType" />
     </node>
   </node>
 </model>

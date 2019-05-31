@@ -152,10 +152,10 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="3grCvve8DLg">
-    <ref role="1M2myG" to="80bi:3grCvve1P7L" resolve="InheritedTypeList" />
-    <node concept="9SLcT" id="3grCvve9OfP" role="9SGkU">
-      <node concept="3clFbS" id="3grCvve9OfQ" role="2VODD2">
+  <node concept="1M2fIO" id="eRR5GNn9ui">
+    <ref role="1M2myG" to="80bi:eRR5GNaXSm" resolve="IInheritedTypeList" />
+    <node concept="9SLcT" id="eRR5GNna1F" role="9SGkU">
+      <node concept="3clFbS" id="eRR5GNna1G" role="2VODD2">
         <node concept="3clFbJ" id="3grCvve8II0" role="3cqZAp">
           <node concept="3clFbS" id="3grCvve8II2" role="3clFbx">
             <node concept="3SKdUt" id="3grCvveatkZ" role="3cqZAp">
@@ -178,7 +178,7 @@
                     <node concept="2OqwBi" id="3grCvve8KVJ" role="2Oq$k0">
                       <node concept="EsrRn" id="3grCvve8KKZ" role="2Oq$k0" />
                       <node concept="3Tsc0h" id="3grCvve8Lak" role="2OqNvi">
-                        <ref role="3TtcxE" to="80bi:3grCvve1Pjx" resolve="inheritedTypeList" />
+                        <ref role="3TtcxE" to="80bi:3grCvve1Pjx" resolve="inheritedType" />
                       </node>
                     </node>
                     <node concept="3zZkjj" id="3grCvvea0pX" role="2OqNvi">
@@ -227,7 +227,7 @@
                   <node concept="2OqwBi" id="5moKU4XYR88" role="2Oq$k0">
                     <node concept="EsrRn" id="5moKU4XYQM_" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="5moKU4XYRMX" role="2OqNvi">
-                      <ref role="3TtcxE" to="80bi:3grCvve1Pjx" resolve="inheritedTypeList" />
+                      <ref role="3TtcxE" to="80bi:3grCvve1Pjx" resolve="inheritedType" />
                     </node>
                   </node>
                   <node concept="2WmjW8" id="5moKU4XZ1Gn" role="2OqNvi">
