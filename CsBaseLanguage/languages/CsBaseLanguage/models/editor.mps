@@ -1014,9 +1014,6 @@
       </node>
       <node concept="3F0ifn" id="6vAOG1ACqLu" role="3EZMnx">
         <property role="3F0ifm" value="class" />
-        <node concept="A1WHu" id="eRR5GNgPOI" role="3vIgyS">
-          <ref role="A1WHt" node="eRR5GN4q4r" resolve="WhereClauseCreation" />
-        </node>
       </node>
       <node concept="3F0A7n" id="6vAOG1ACsPQ" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -1026,19 +1023,48 @@
       </node>
       <node concept="PMmxH" id="5moKU4Y5OOC" role="3EZMnx">
         <ref role="PMmxG" node="5moKU4Y5smx" resolve="GenericTypeListComponent" />
-        <node concept="A1WHu" id="2vo5eZuG52x" role="3vIgyS">
-          <ref role="A1WHt" node="eRR5GNiUSn" resolve="InheritedTypeListCreation" />
+        <node concept="pkWqt" id="x$3LfZgGLl" role="pqm2j">
+          <node concept="3clFbS" id="x$3LfZgGLm" role="2VODD2">
+            <node concept="3clFbF" id="x$3LfZgGLn" role="3cqZAp">
+              <node concept="2OqwBi" id="x$3LfZgGLo" role="3clFbG">
+                <node concept="2OqwBi" id="x$3LfZgGLp" role="2Oq$k0">
+                  <node concept="pncrf" id="x$3LfZgGLq" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="x$3LfZgGLr" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:5moKU4Y5slA" resolve="typeParameter" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="x$3LfZgGLs" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
-      <node concept="PMmxH" id="eRR5GNc00y" role="3EZMnx">
+      <node concept="3F0ifn" id="x$3LfZbRRC" role="3EZMnx">
+        <node concept="A1WHu" id="x$3LfZdqpP" role="3vIgyS">
+          <ref role="A1WHt" node="x$3LfZfvHy" resolve="LeftInheritedTypeListCreation" />
+        </node>
+        <node concept="pkWqt" id="x$3LfZg4MZ" role="pqm2j">
+          <node concept="3clFbS" id="x$3LfZg4N0" role="2VODD2">
+            <node concept="3clFbF" id="x$3LfZg4N1" role="3cqZAp">
+              <node concept="2OqwBi" id="x$3LfZg4N2" role="3clFbG">
+                <node concept="2OqwBi" id="x$3LfZg4N3" role="2Oq$k0">
+                  <node concept="pncrf" id="x$3LfZg4N4" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="x$3LfZg4N5" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:5moKU4Y5slA" resolve="typeParameter" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="x$3LfZg4N6" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="x$3LfZgLNj" role="3EZMnx">
         <ref role="PMmxG" node="eRR5GNbZZs" resolve="InheritedTypeListComponent" />
       </node>
-      <node concept="PMmxH" id="eRR5GN52Eo" role="3EZMnx">
+      <node concept="PMmxH" id="x$3LfZgMpq" role="3EZMnx">
         <ref role="PMmxG" node="eRR5GN52ht" resolve="WhereClauseComponent" />
-        <node concept="pVoyu" id="22$iYM01FZL" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="22$iYM01Yvb" role="3F10Kt">
+        <node concept="pVoyu" id="x$3LfZgMA7" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -2302,6 +2328,23 @@
       </node>
     </node>
   </node>
+  <node concept="3ICXOK" id="3grCvve5z3$">
+    <property role="3GE5qa" value="Class / Struct" />
+    <property role="TrG5h" value="RightInheritedTypeListCreation" />
+    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <node concept="1Qtc8_" id="3grCvve5z3_" role="IW6Ez">
+      <node concept="3cWJ9i" id="3grCvve5z3F" role="1Qtc8$">
+        <node concept="CtIbL" id="x$3LfZeWGu" role="CtIbM">
+          <property role="CtIbK" value="RIGHT" />
+        </node>
+      </node>
+      <node concept="mvV$s" id="x$3LfZfyKv" role="1Qtc8A">
+        <node concept="A1WHu" id="x$3LfZfyKy" role="A14EM">
+          <ref role="A1WHt" node="x$3LfZfwJh" resolve="InheritedTypeListCreation" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="24kQdi" id="4oSbvdvXqLo">
     <property role="3GE5qa" value="Comments" />
     <ref role="1XX52x" to="80bi:4oSbvdvXqKV" resolve="SingleLineComment" />
@@ -2406,7 +2449,7 @@
       </node>
       <node concept="mvV$s" id="2vo5eZuFHQ3" role="1Qtc8A">
         <node concept="A1WHu" id="2vo5eZuFHQ8" role="A14EM">
-          <ref role="A1WHt" node="eRR5GNiUSn" resolve="InheritedTypeListCreation" />
+          <ref role="A1WHt" node="3grCvve5z3$" resolve="RightInheritedTypeListCreation" />
         </node>
       </node>
     </node>
@@ -2435,21 +2478,6 @@
         <property role="3F0ifm" value="&gt;" />
         <node concept="11L4FC" id="5moKU4Y7Amx" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="pkWqt" id="2vo5eZuEKRX" role="pqm2j">
-        <node concept="3clFbS" id="2vo5eZuEKRY" role="2VODD2">
-          <node concept="3clFbF" id="2vo5eZuEL3o" role="3cqZAp">
-            <node concept="2OqwBi" id="2vo5eZuENG7" role="3clFbG">
-              <node concept="2OqwBi" id="2vo5eZuELfI" role="2Oq$k0">
-                <node concept="pncrf" id="2vo5eZuEL3n" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="2vo5eZuEL$8" role="2OqNvi">
-                  <ref role="3TtcxE" to="80bi:5moKU4Y5slA" resolve="typeParameter" />
-                </node>
-              </node>
-              <node concept="3GX2aA" id="2vo5eZuERW9" role="2OqNvi" />
-            </node>
-          </node>
         </node>
       </node>
     </node>
@@ -2860,33 +2888,49 @@
       <property role="3F0ifm" value="/* FixedSizeBufferDeclaration Not Implemented */" />
     </node>
   </node>
-  <node concept="3ICXOK" id="eRR5GN4q4r">
-    <property role="TrG5h" value="WhereClauseCreation" />
-    <ref role="aqKnT" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
-    <node concept="1Qtc8_" id="eRR5GN4q4s" role="IW6Ez">
-      <node concept="aenpk" id="eRR5GN4q4C" role="1Qtc8A">
-        <node concept="IWgqT" id="eRR5GN4q4J" role="aenpr">
-          <node concept="1hCUdq" id="eRR5GN4q4K" role="1hCUd6">
-            <node concept="3clFbS" id="eRR5GN4q4L" role="2VODD2">
-              <node concept="3clFbF" id="eRR5GN4qd_" role="3cqZAp">
-                <node concept="Xl_RD" id="eRR5GN4qd$" role="3clFbG">
-                  <property role="Xl_RC" value="where" />
+  <node concept="3ICXOK" id="x$3LfZfwJh">
+    <property role="3GE5qa" value="Class / Struct" />
+    <property role="TrG5h" value="InheritedTypeListCreation" />
+    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <node concept="1Qtc8_" id="x$3LfZfx4$" role="IW6Ez">
+      <node concept="aenpk" id="x$3LfZfxq9" role="1Qtc8A">
+        <node concept="27VH4U" id="x$3LfZfxqa" role="aenpu">
+          <node concept="3clFbS" id="x$3LfZfxqb" role="2VODD2">
+            <node concept="3clFbF" id="x$3LfZfxqc" role="3cqZAp">
+              <node concept="2OqwBi" id="x$3LfZfxqd" role="3clFbG">
+                <node concept="2OqwBi" id="x$3LfZfxqe" role="2Oq$k0">
+                  <node concept="7Obwk" id="x$3LfZfxqf" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="x$3LfZgNpl" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:3grCvve1Pjx" resolve="inheritedType" />
+                  </node>
+                </node>
+                <node concept="1v1jN8" id="x$3LfZgRkL" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="IWgqT" id="x$3LfZfxqi" role="aenpr">
+          <node concept="1hCUdq" id="x$3LfZfxqj" role="1hCUd6">
+            <node concept="3clFbS" id="x$3LfZfxqk" role="2VODD2">
+              <node concept="3clFbF" id="x$3LfZfxql" role="3cqZAp">
+                <node concept="Xl_RD" id="x$3LfZfxqm" role="3clFbG">
+                  <property role="Xl_RC" value=":" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="IWg2L" id="eRR5GN4q4M" role="IWgqQ">
-            <node concept="3clFbS" id="eRR5GN4q4N" role="2VODD2">
-              <node concept="3clFbF" id="eRR5GN6k3J" role="3cqZAp">
-                <node concept="2OqwBi" id="eRR5GN6lZ3" role="3clFbG">
-                  <node concept="2OqwBi" id="eRR5GN6kaH" role="2Oq$k0">
-                    <node concept="7Obwk" id="eRR5GN6k3I" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="eRR5GN6kjs" role="2OqNvi">
-                      <ref role="3TtcxE" to="80bi:6hv6i2_AXOR" resolve="typeParameterConstraintsClause" />
+          <node concept="IWg2L" id="x$3LfZfxqn" role="IWgqQ">
+            <node concept="3clFbS" id="x$3LfZfxqo" role="2VODD2">
+              <node concept="3clFbF" id="x$3LfZfxqp" role="3cqZAp">
+                <node concept="2OqwBi" id="x$3LfZgTfd" role="3clFbG">
+                  <node concept="2OqwBi" id="x$3LfZfxqu" role="2Oq$k0">
+                    <node concept="7Obwk" id="x$3LfZfxqv" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="x$3LfZgRVp" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:3grCvve1Pjx" resolve="inheritedType" />
                     </node>
                   </node>
-                  <node concept="WFELt" id="eRR5GN6umR" role="2OqNvi">
-                    <ref role="1A0vxQ" to="80bi:6hv6i2_AXOQ" resolve="TypeParameterConstraintsClause" />
+                  <node concept="WFELt" id="x$3LfZgWIT" role="2OqNvi">
+                    <ref role="1A0vxQ" to="80bi:3grCvve1Pjw" resolve="InheritedType" />
                   </node>
                 </node>
               </node>
@@ -2894,39 +2938,29 @@
           </node>
         </node>
       </node>
-      <node concept="3cWJ9i" id="eRR5GN4q4w" role="1Qtc8$">
-        <node concept="CtIbL" id="eRR5GN4q4y" role="CtIbM">
+      <node concept="3cWJ9i" id="x$3LfZfx4E" role="1Qtc8$">
+        <node concept="CtIbL" id="x$3LfZfx4G" role="CtIbM">
+          <property role="CtIbK" value="LEFT" />
+        </node>
+        <node concept="CtIbL" id="x$3LfZfx4M" role="CtIbM">
           <property role="CtIbK" value="RIGHT" />
         </node>
       </node>
     </node>
   </node>
-  <node concept="PKFIW" id="eRR5GN52ht">
-    <property role="TrG5h" value="WhereClauseComponent" />
-    <ref role="1XX52x" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
-    <node concept="3EZMnI" id="eRR5GN52tO" role="2wV5jI">
-      <node concept="3F0ifn" id="eRR5GN52u1" role="3EZMnx">
-        <property role="3F0ifm" value="where" />
+  <node concept="3ICXOK" id="x$3LfZfvHy">
+    <property role="3GE5qa" value="Class / Struct" />
+    <property role="TrG5h" value="LeftInheritedTypeListCreation" />
+    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <node concept="1Qtc8_" id="x$3LfZfzr9" role="IW6Ez">
+      <node concept="3cWJ9i" id="x$3LfZfzra" role="1Qtc8$">
+        <node concept="CtIbL" id="x$3LfZfzrb" role="CtIbM">
+          <property role="CtIbK" value="LEFT" />
+        </node>
       </node>
-      <node concept="3F2HdR" id="eRR5GN5B6l" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="80bi:6hv6i2_AXOR" resolve="typeParameterConstraintsClause" />
-        <node concept="l2Vlx" id="eRR5GN5B6n" role="2czzBx" />
-      </node>
-      <node concept="l2Vlx" id="eRR5GN52tR" role="2iSdaV" />
-      <node concept="pkWqt" id="eRR5GN70xS" role="pqm2j">
-        <node concept="3clFbS" id="eRR5GN70xT" role="2VODD2">
-          <node concept="3clFbF" id="eRR5GN70Dd" role="3cqZAp">
-            <node concept="2OqwBi" id="eRR5GN70De" role="3clFbG">
-              <node concept="2OqwBi" id="eRR5GN70Df" role="2Oq$k0">
-                <node concept="pncrf" id="eRR5GN70Dg" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="eRR5GN716w" role="2OqNvi">
-                  <ref role="3TtcxE" to="80bi:6hv6i2_AXOR" resolve="typeParameterConstraintsClause" />
-                </node>
-              </node>
-              <node concept="3GX2aA" id="eRR5GN70Di" role="2OqNvi" />
-            </node>
-          </node>
+      <node concept="mvV$s" id="x$3LfZfzrc" role="1Qtc8A">
+        <node concept="A1WHu" id="x$3LfZfzrd" role="A14EM">
+          <ref role="A1WHt" node="x$3LfZfwJh" resolve="InheritedTypeListCreation" />
         </node>
       </node>
     </node>
@@ -2968,48 +3002,63 @@
       </node>
     </node>
   </node>
-  <node concept="3ICXOK" id="eRR5GNiUSn">
-    <property role="TrG5h" value="InheritedTypeListCreation" />
-    <ref role="aqKnT" to="80bi:eRR5GNaXSm" resolve="IInheritedTypeList" />
-    <node concept="1Qtc8_" id="3grCvve5z3_" role="IW6Ez">
-      <node concept="aenpk" id="3grCvve5z40" role="1Qtc8A">
-        <node concept="27VH4U" id="3grCvve5z4z" role="aenpu">
-          <node concept="3clFbS" id="3grCvve5z4$" role="2VODD2">
-            <node concept="3clFbF" id="3grCvve5zf_" role="3cqZAp">
-              <node concept="2OqwBi" id="3grCvve5$JT" role="3clFbG">
-                <node concept="2OqwBi" id="3grCvve5zyc" role="2Oq$k0">
-                  <node concept="7Obwk" id="3grCvve5zf$" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="eRR5GNb3qe" role="2OqNvi">
-                    <ref role="3TtcxE" to="80bi:3grCvve1Pjx" resolve="inheritedType" />
-                  </node>
+  <node concept="PKFIW" id="eRR5GN52ht">
+    <property role="TrG5h" value="WhereClauseComponent" />
+    <ref role="1XX52x" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
+    <node concept="3EZMnI" id="eRR5GN52tO" role="2wV5jI">
+      <node concept="3F0ifn" id="eRR5GN52u1" role="3EZMnx">
+        <property role="3F0ifm" value="where" />
+      </node>
+      <node concept="3F2HdR" id="eRR5GN5B6l" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="80bi:6hv6i2_AXOR" resolve="typeParameterConstraintsClause" />
+        <node concept="l2Vlx" id="eRR5GN5B6n" role="2czzBx" />
+      </node>
+      <node concept="l2Vlx" id="eRR5GN52tR" role="2iSdaV" />
+      <node concept="pkWqt" id="eRR5GN70xS" role="pqm2j">
+        <node concept="3clFbS" id="eRR5GN70xT" role="2VODD2">
+          <node concept="3clFbF" id="eRR5GN70Dd" role="3cqZAp">
+            <node concept="2OqwBi" id="eRR5GN70De" role="3clFbG">
+              <node concept="2OqwBi" id="eRR5GN70Df" role="2Oq$k0">
+                <node concept="pncrf" id="eRR5GN70Dg" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="eRR5GN716w" role="2OqNvi">
+                  <ref role="3TtcxE" to="80bi:6hv6i2_AXOR" resolve="typeParameterConstraintsClause" />
                 </node>
-                <node concept="1v1jN8" id="eRR5GNbmmu" role="2OqNvi" />
               </node>
+              <node concept="3GX2aA" id="eRR5GN70Di" role="2OqNvi" />
             </node>
           </node>
         </node>
-        <node concept="IWgqT" id="3grCvve5_Ue" role="aenpr">
-          <node concept="1hCUdq" id="3grCvve5_Uf" role="1hCUd6">
-            <node concept="3clFbS" id="3grCvve5_Ug" role="2VODD2">
-              <node concept="3clFbF" id="3grCvve5AeP" role="3cqZAp">
-                <node concept="Xl_RD" id="3grCvve5AeO" role="3clFbG">
-                  <property role="Xl_RC" value=":" />
+      </node>
+    </node>
+  </node>
+  <node concept="3ICXOK" id="eRR5GN4q4r">
+    <property role="TrG5h" value="WhereClauseCreation" />
+    <ref role="aqKnT" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
+    <node concept="1Qtc8_" id="eRR5GN4q4s" role="IW6Ez">
+      <node concept="aenpk" id="eRR5GN4q4C" role="1Qtc8A">
+        <node concept="IWgqT" id="eRR5GN4q4J" role="aenpr">
+          <node concept="1hCUdq" id="eRR5GN4q4K" role="1hCUd6">
+            <node concept="3clFbS" id="eRR5GN4q4L" role="2VODD2">
+              <node concept="3clFbF" id="eRR5GN4qd_" role="3cqZAp">
+                <node concept="Xl_RD" id="eRR5GN4qd$" role="3clFbG">
+                  <property role="Xl_RC" value="where" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="IWg2L" id="3grCvve5_Uh" role="IWgqQ">
-            <node concept="3clFbS" id="3grCvve5_Ui" role="2VODD2">
-              <node concept="3clFbF" id="3grCvve8d5r" role="3cqZAp">
-                <node concept="2OqwBi" id="eRR5GNb68h" role="3clFbG">
-                  <node concept="2OqwBi" id="3grCvve8dfL" role="2Oq$k0">
-                    <node concept="7Obwk" id="3grCvve8d5q" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="eRR5GNb4eR" role="2OqNvi">
-                      <ref role="3TtcxE" to="80bi:3grCvve1Pjx" resolve="inheritedType" />
+          <node concept="IWg2L" id="eRR5GN4q4M" role="IWgqQ">
+            <node concept="3clFbS" id="eRR5GN4q4N" role="2VODD2">
+              <node concept="3clFbF" id="eRR5GN6k3J" role="3cqZAp">
+                <node concept="2OqwBi" id="eRR5GN6lZ3" role="3clFbG">
+                  <node concept="2OqwBi" id="eRR5GN6kaH" role="2Oq$k0">
+                    <node concept="7Obwk" id="eRR5GN6k3I" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="eRR5GN6kjs" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:6hv6i2_AXOR" resolve="typeParameterConstraintsClause" />
                     </node>
                   </node>
-                  <node concept="WFELt" id="eRR5GNb9Ec" role="2OqNvi">
-                    <ref role="1A0vxQ" to="80bi:3grCvve1Pjw" resolve="InheritedType" />
+                  <node concept="WFELt" id="eRR5GN6umR" role="2OqNvi">
+                    <ref role="1A0vxQ" to="80bi:6hv6i2_AXOQ" resolve="TypeParameterConstraintsClause" />
                   </node>
                 </node>
               </node>
@@ -3017,8 +3066,8 @@
           </node>
         </node>
       </node>
-      <node concept="3cWJ9i" id="3grCvve5z3F" role="1Qtc8$">
-        <node concept="CtIbL" id="3grCvve5z3H" role="CtIbM">
+      <node concept="3cWJ9i" id="eRR5GN4q4w" role="1Qtc8$">
+        <node concept="CtIbL" id="eRR5GN4q4y" role="CtIbM">
           <property role="CtIbK" value="RIGHT" />
         </node>
       </node>
