@@ -5892,13 +5892,43 @@
     <property role="3GE5qa" value="Statements.Try" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="TryStatement" />
+    <property role="R4oN_" value="Abstract try statement" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
+    <node concept="3H0Qfr" id="1dPlh42Z8YD" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8YE" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8YF" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8YG" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8YR" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8YU" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8YY" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Z4" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Z3" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Zd" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Zc" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: try-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$y59q">
     <property role="EcuMT" value="1945218857514324570" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="TryCatchFinallyStatement" />
     <property role="34LRSv" value="try" />
+    <property role="R4oN_" value="Try statement with catch" />
     <ref role="1TJDcQ" node="1FYNzU$y59n" resolve="TryStatement" />
     <node concept="1TJgyj" id="1FYNzU$y59r" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324571" />
@@ -5912,7 +5942,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="catchClauses" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1FYNzU$y59t" resolve="CatchClauses" />
+      <ref role="20lvS9" node="1FYNzU$y59t" resolve="CatchClause" />
     </node>
     <node concept="1TJgyj" id="1FYNzU$y5eR" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324919" />
@@ -5920,19 +5950,130 @@
       <property role="20kJfa" value="finallyClause" />
       <ref role="20lvS9" node="1FYNzU$y5eq" resolve="FinallyClause" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z8Zn" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8Zo" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8Zp" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8ZJ" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8ZL" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8ZO" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z97_" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z90a" role="1PaTwD">
+            <property role="3oM_SC" value="sections" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z90i" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z99Z" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z90r" role="1PaTwD">
+            <property role="3oM_SC" value="catch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z98R" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z9ac" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z992" role="1PaTwD">
+            <property role="3oM_SC" value="optional" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z99r" role="1PaTwD">
+            <property role="3oM_SC" value="finally" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z99N" role="1PaTwD">
+            <property role="3oM_SC" value="section." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z910" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z91z" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z91g" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z91h" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: try-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$y59t">
     <property role="EcuMT" value="1945218857514324573" />
     <property role="3GE5qa" value="Statements.Try" />
-    <property role="TrG5h" value="CatchClauses" />
+    <property role="TrG5h" value="CatchClause" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Catch section of a try statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="1dPlh42Z95e" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z95f" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z95g" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z95h" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95s" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95v" role="1PaTwD">
+            <property role="3oM_SC" value="catch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95z" role="1PaTwD">
+            <property role="3oM_SC" value="section" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95C" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95I" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95P" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95X" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z96k" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z96N" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z96y" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z96z" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: no" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z972" role="1PaTwD">
+            <property role="3oM_SC" value="corresponding" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z975" role="1PaTwD">
+            <property role="3oM_SC" value="entity" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z979" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z97e" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z97k" role="1PaTwD">
+            <property role="3oM_SC" value="grammar" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$y59z">
     <property role="EcuMT" value="1945218857514324579" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="OptionalGeneralCatch" />
-    <ref role="1TJDcQ" node="1FYNzU$y59t" resolve="CatchClauses" />
+    <ref role="1TJDcQ" node="1FYNzU$y59t" resolve="CatchClause" />
     <node concept="1TJgyj" id="1FYNzU$y59B" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324583" />
       <property role="20lmBu" value="aggregation" />
@@ -6027,7 +6168,7 @@
     <property role="EcuMT" value="1945218857514324842" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="MandatoryGeneralCatch" />
-    <ref role="1TJDcQ" node="1FYNzU$y59t" resolve="CatchClauses" />
+    <ref role="1TJDcQ" node="1FYNzU$y59t" resolve="CatchClause" />
     <node concept="1TJgyj" id="1FYNzU$y5dF" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324843" />
       <property role="20lmBu" value="aggregation" />
@@ -6048,6 +6189,7 @@
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="FinallyClause" />
     <property role="34LRSv" value="finally" />
+    <property role="R4oN_" value="Finally section of a try statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1FYNzU$y5er" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324891" />
@@ -6056,12 +6198,53 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z93q" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z93r" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z93s" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z93t" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93C" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93F" role="1PaTwD">
+            <property role="3oM_SC" value="finally" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93J" role="1PaTwD">
+            <property role="3oM_SC" value="section" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93O" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93U" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z941" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z949" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z94w" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z94Z" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z94I" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z94J" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: finally-clause" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$yNkf">
     <property role="EcuMT" value="1945218857514513679" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="TryFinallyStatement" />
     <property role="34LRSv" value="try" />
+    <property role="R4oN_" value="Try statement without catch" />
     <ref role="1TJDcQ" node="1FYNzU$y59n" resolve="TryStatement" />
     <node concept="1TJgyj" id="1FYNzU$yNkg" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514513680" />
@@ -6076,6 +6259,43 @@
       <property role="20kJfa" value="finallyClause" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$y5eq" resolve="FinallyClause" />
+    </node>
+    <node concept="3H0Qfr" id="1dPlh42Z91O" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z91P" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z91Q" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z91R" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z922" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z925" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z92G" role="1PaTwD">
+            <property role="3oM_SC" value="without" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z92Q" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z931" role="1PaTwD">
+            <property role="3oM_SC" value="catch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93d" role="1PaTwD">
+            <property role="3oM_SC" value="section." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z982" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z98v" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z98f" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z98g" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: try-statement" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="3h4LMeIQtuQ">
