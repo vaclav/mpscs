@@ -4849,6 +4849,7 @@
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="TrG5h" value="SwitchStatement" />
     <property role="34LRSv" value="switch" />
+    <property role="R4oN_" value="Switch statement" />
     <ref role="1TJDcQ" node="1FYNzU$tiST" resolve="SelectionStatement" />
     <node concept="1TJgyj" id="1FYNzU$t_Qp" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513147801" />
@@ -4864,11 +4865,40 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1FYNzU$t_Qr" resolve="SwitchSection" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z8Ob" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8Oc" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8Od" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Oe" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Op" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Os" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ow" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8OJ" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8P6" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8OT" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8OU" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$t_Qr">
     <property role="EcuMT" value="1945218857513147803" />
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="TrG5h" value="SwitchSection" />
+    <property role="R4oN_" value="Switch case(s) with one block of statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1FYNzU$t_Ub" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513148043" />
@@ -4884,18 +4914,121 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6hv6i2_B6cm" resolve="Statement" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z8Ph" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8Pi" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8Pj" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Pk" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8PQ" role="1PaTwD">
+            <property role="3oM_SC" value="one" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Qq" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Qu" role="1PaTwD">
+            <property role="3oM_SC" value="several" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Rs" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Qz" role="1PaTwD">
+            <property role="3oM_SC" value="case" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8QD" role="1PaTwD">
+            <property role="3oM_SC" value="branches" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Rk" role="1PaTwD">
+            <property role="3oM_SC" value="having" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8R_" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8RJ" role="1PaTwD">
+            <property role="3oM_SC" value="same" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8RU" role="1PaTwD">
+            <property role="3oM_SC" value="block" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8S6" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Sj" role="1PaTwD">
+            <property role="3oM_SC" value="statements." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Sy" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Sx" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8SO" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8SN" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-section" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$t_Sh">
     <property role="EcuMT" value="1945218857513147921" />
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="SwitchLabel" />
+    <property role="R4oN_" value="Switch case header" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="1dPlh42Z8T7" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8T8" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8T9" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Ta" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Tl" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8To" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ts" role="1PaTwD">
+            <property role="3oM_SC" value="case" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Tx" role="1PaTwD">
+            <property role="3oM_SC" value="header" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8TQ" role="1PaTwD">
+            <property role="3oM_SC" value="(the" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ue" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;case&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8TX" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8U5" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;default&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Uo" role="1PaTwD">
+            <property role="3oM_SC" value="line)." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8U$" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Uz" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8UN" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8UM" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-label" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$t_Sk">
     <property role="EcuMT" value="1945218857513147924" />
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="TrG5h" value="CaseLabel" />
+    <property role="R4oN_" value="Switch case line" />
     <ref role="1TJDcQ" node="1FYNzU$t_Sh" resolve="SwitchLabel" />
     <node concept="1TJgyj" id="1FYNzU$t_Sl" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513147925" />
@@ -4904,13 +5037,100 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z8V3" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8V4" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8V5" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8V6" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8WH" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8VP" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;case&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8VU" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8W0" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8W7" role="1PaTwD">
+            <property role="3oM_SC" value="code" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Wf" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Wo" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Wy" role="1PaTwD">
+            <property role="3oM_SC" value="switch." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8X6" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8XB" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Xl" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Xm" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-label" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$t_SX">
     <property role="EcuMT" value="1945218857513147965" />
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="TrG5h" value="DefaultLabel" />
     <property role="34LRSv" value="default:" />
+    <property role="R4oN_" value="Switch default line" />
     <ref role="1TJDcQ" node="1FYNzU$t_Sh" resolve="SwitchLabel" />
+    <node concept="3H0Qfr" id="1dPlh42Z8XR" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8Y5" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8Y6" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Y7" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Y8" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Y9" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;default&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ya" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Yb" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Yc" role="1PaTwD">
+            <property role="3oM_SC" value="code" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Yd" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ye" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Yf" role="1PaTwD">
+            <property role="3oM_SC" value="switch." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Yg" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Yh" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Yi" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Yj" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-label" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$uw3Y">
     <property role="EcuMT" value="1945218857513386238" />
