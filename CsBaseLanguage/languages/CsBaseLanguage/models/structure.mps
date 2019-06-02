@@ -3861,7 +3861,34 @@
     <property role="EcuMT" value="7232527154588443414" />
     <property role="TrG5h" value="Statement" />
     <property role="3GE5qa" value="Statements.Other" />
+    <property role="R4oN_" value="Abstract statement" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="1dPlh42YXz1" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42YXz2" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42YXz3" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42YXz4" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42YXzf" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42YXzi" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42YXzv" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42YXzO" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42YXzC" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42YXzD" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnF5">
     <property role="EcuMT" value="7486903154347178693" />
@@ -3938,6 +3965,7 @@
     <property role="3GE5qa" value="Statements.Other" />
     <property role="TrG5h" value="LabeledStatement" />
     <property role="34LRSv" value="label" />
+    <property role="R4oN_" value="Statement with a label" />
     <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
     <node concept="1TJgyj" id="1FYNzU$lyVP" role="1TKVEi">
       <property role="IQ2ns" value="1945218857511038709" />
@@ -3952,6 +3980,46 @@
       <property role="20kJfa" value="statement" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6hv6i2_B6cm" resolve="Statement" />
+    </node>
+    <node concept="3H0Qfr" id="1dPlh42Z6bP" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6bQ" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6bR" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6bS" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6c3" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6c6" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6cY" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6d3" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6d9" role="1PaTwD">
+            <property role="3oM_SC" value="label" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6dC" role="1PaTwD">
+            <property role="3oM_SC" value="before" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6dK" role="1PaTwD">
+            <property role="3oM_SC" value="it." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6dh" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6dg" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6ds" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6dr" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: labeled-statement" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$mBmN">
@@ -4255,7 +4323,57 @@
     <property role="3GE5qa" value="Statements.Other" />
     <property role="TrG5h" value="EmbeddedStatement" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Non-decleration non-labeled statement" />
     <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="3H0Qfr" id="1dPlh42Z6dT" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6dU" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6dV" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6dW" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6e7" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ea" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ee" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ej" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6fi" role="1PaTwD">
+            <property role="3oM_SC" value="neither" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ew" role="1PaTwD">
+            <property role="3oM_SC" value="labeled" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ft" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6eC" role="1PaTwD">
+            <property role="3oM_SC" value="nor" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6eL" role="1PaTwD">
+            <property role="3oM_SC" value="declaration" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6eV" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6fE" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6fD" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6fU" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6fT" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: embedded-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$qtcf">
     <property role="EcuMT" value="1945218857512325903" />
@@ -4444,7 +4562,8 @@
   <node concept="1TIwiD" id="1FYNzU$sHYQ">
     <property role="EcuMT" value="1945218857512918966" />
     <property role="3GE5qa" value="Statements.Other" />
-    <property role="TrG5h" value="StatementExpression" />
+    <property role="TrG5h" value="ExpressionStatement" />
+    <property role="R4oN_" value="Statement whose major part is an expression" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     <node concept="1TJgyj" id="1FYNzU$sHYR" role="1TKVEi">
       <property role="IQ2ns" value="1945218857512918967" />
@@ -4453,18 +4572,151 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$sHZz" resolve="IStatementExpression" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z6gb" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6gc" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6gd" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6ge" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gp" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gs" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gw" role="1PaTwD">
+            <property role="3oM_SC" value="whose" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6g_" role="1PaTwD">
+            <property role="3oM_SC" value="major" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gF" role="1PaTwD">
+            <property role="3oM_SC" value="part" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gM" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gU" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6h3" role="1PaTwD">
+            <property role="3oM_SC" value="expression." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6he" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6hd" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6hs" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6hr" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: expression-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="PlHQZ" id="1FYNzU$sHZz">
     <property role="EcuMT" value="1945218857512919011" />
     <property role="3GE5qa" value="Statements.Other" />
     <property role="TrG5h" value="IStatementExpression" />
+    <node concept="3H0Qfr" id="1dPlh42Z6jf" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6jg" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6jh" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6ji" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6j$" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jB" role="1PaTwD">
+            <property role="3oM_SC" value="expression" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jF" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jK" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jQ" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jX" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6k5" role="1PaTwD">
+            <property role="3oM_SC" value="major" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6lC" role="1PaTwD">
+            <property role="3oM_SC" value="part" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ke" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6kJ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6kU" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6l7" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6l6" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6ln" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6m_" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: statement-expression" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$tiST">
     <property role="EcuMT" value="1945218857513070137" />
     <property role="3GE5qa" value="Statements.Other" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="SelectionStatement" />
+    <property role="R4oN_" value="If or switch statement" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
+    <node concept="3H0Qfr" id="1dPlh42Z6mB" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6mC" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6mD" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6mE" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6mP" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6mS" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6mW" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6n1" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6n7" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ne" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6nn" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6nm" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6nz" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6ny" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: selection-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$tiSW">
     <property role="EcuMT" value="1945218857513070140" />
@@ -4903,6 +5155,7 @@
     <property role="EcuMT" value="1945218857513547905" />
     <property role="3GE5qa" value="Statements.Other" />
     <property role="TrG5h" value="StatementExpressionList" />
+    <property role="R4oN_" value="List of statement expressions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1FYNzU$v7y2" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$v7xY" resolve="IForInitializer" />
@@ -4913,6 +5166,37 @@
       <property role="20kJfa" value="statementExpression" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="1FYNzU$sHZz" resolve="IStatementExpression" />
+    </node>
+    <node concept="3H0Qfr" id="1dPlh42Z6nK" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6nL" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6ob" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6nN" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6nY" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6o1" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6oj" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ot" role="1PaTwD">
+            <property role="3oM_SC" value="expressions." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6o$" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6oz" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6oI" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6oH" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: statement-expression-list" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$vKkh">
