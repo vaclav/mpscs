@@ -188,6 +188,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="eRR5GNn9ui">
+    <property role="3GE5qa" value="Inheritance" />
     <ref role="1M2myG" to="80bi:eRR5GNaXSm" resolve="IInheritedTypeList" />
     <node concept="9SLcT" id="eRR5GNna1F" role="9SGkU">
       <node concept="3clFbS" id="eRR5GNna1G" role="2VODD2">

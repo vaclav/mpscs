@@ -1708,7 +1708,7 @@
     <property role="TrG5h" value="IClassMemberDeclaration" />
     <property role="3GE5qa" value="Class / Struct" />
     <node concept="PrWs8" id="3h4LMeIQ_DV" role="PrDN$">
-      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructDeclaration" />
+      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructMemberDeclaration" />
     </node>
     <node concept="3H0Qfr" id="3rKHSnCrfV2" role="lGtFl">
       <node concept="1Pa9Pv" id="3rKHSnCrfV3" role="3H0Qfi">
@@ -3235,7 +3235,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="structMemberDeclaration" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3h4LMeIQ_DR" resolve="IStructDeclaration" />
+      <ref role="20lvS9" node="3h4LMeIQ_DR" resolve="IStructMemberDeclaration" />
     </node>
     <node concept="3H0Qfr" id="6Y0EU3Z5Per" role="lGtFl">
       <node concept="1Pa9Pv" id="6Y0EU3Z5Pes" role="3H0Qfi">
@@ -5603,12 +5603,13 @@
     <property role="TrG5h" value="FixedSizeBufferDeclaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIQ_DZ" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructDeclaration" />
+      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructMemberDeclaration" />
     </node>
   </node>
   <node concept="PlHQZ" id="3h4LMeIQ_DR">
     <property role="EcuMT" value="3766354144459905655" />
-    <property role="TrG5h" value="IStructDeclaration" />
+    <property role="TrG5h" value="IStructMemberDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
   </node>
   <node concept="1TIwiD" id="3h4LMeIRHqY">
     <property role="EcuMT" value="3766354144460199614" />
@@ -13105,11 +13106,13 @@
     <property role="EcuMT" value="3754772800029021408" />
     <property role="TrG5h" value="InheritedType" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="Inheritance" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="PlHQZ" id="5moKU4Y5oYr">
     <property role="EcuMT" value="6167894786982645659" />
     <property role="TrG5h" value="IGenericTypeList" />
+    <property role="3GE5qa" value="Generics" />
     <node concept="1TJgyj" id="5moKU4Y5slA" role="1TKVEi">
       <property role="IQ2ns" value="6167894786982659430" />
       <property role="20lmBu" value="aggregation" />
@@ -13478,7 +13481,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="typeParameterConstraintsClause" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6hv6i2_AXOQ" />
+      <ref role="20lvS9" node="6hv6i2_AXOQ" resolve="TypeParameterConstraintsClause" />
     </node>
   </node>
   <node concept="1TIwiD" id="3zXINoFWW$0">
@@ -13512,6 +13515,7 @@
   <node concept="PlHQZ" id="eRR5GNaXSm">
     <property role="EcuMT" value="267924987110481430" />
     <property role="TrG5h" value="IInheritedTypeList" />
+    <property role="3GE5qa" value="Inheritance" />
     <node concept="1TJgyj" id="3grCvve1Pjx" role="1TKVEi">
       <property role="IQ2ns" value="3754772800029021409" />
       <property role="20lmBu" value="aggregation" />

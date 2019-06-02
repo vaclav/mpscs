@@ -2330,9 +2330,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="3grCvve5z3$">
-    <property role="3GE5qa" value="Class / Struct" />
+    <property role="3GE5qa" value="Inheritance" />
     <property role="TrG5h" value="RightInheritedTypeListCreation" />
-    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <ref role="aqKnT" to="80bi:eRR5GNaXSm" resolve="IInheritedTypeList" />
     <node concept="1Qtc8_" id="3grCvve5z3_" role="IW6Ez">
       <node concept="3cWJ9i" id="3grCvve5z3F" role="1Qtc8$">
         <node concept="CtIbL" id="x$3LfZeWGu" role="CtIbM">
@@ -2457,6 +2457,7 @@
   </node>
   <node concept="PKFIW" id="5moKU4Y5smx">
     <property role="TrG5h" value="GenericTypeListComponent" />
+    <property role="3GE5qa" value="Generics" />
     <ref role="1XX52x" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
     <node concept="3EZMnI" id="5moKU4Y5smz" role="2wV5jI">
       <node concept="3F0ifn" id="5moKU4Y5smV" role="3EZMnx">
@@ -2484,9 +2485,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="2vo5eZuESDh">
-    <property role="3GE5qa" value="Class / Struct" />
+    <property role="3GE5qa" value="Generics" />
     <property role="TrG5h" value="GenericTypeListCreation" />
-    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <ref role="aqKnT" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
     <node concept="1Qtc8_" id="2vo5eZuESDi" role="IW6Ez">
       <node concept="3cWJ9i" id="2vo5eZuESDm" role="1Qtc8$">
         <node concept="CtIbL" id="2vo5eZuESDo" role="CtIbM">
@@ -2903,9 +2904,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="x$3LfZfwJh">
-    <property role="3GE5qa" value="Class / Struct" />
+    <property role="3GE5qa" value="Inheritance" />
     <property role="TrG5h" value="InheritedTypeListCreation" />
-    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <ref role="aqKnT" to="80bi:eRR5GNaXSm" resolve="IInheritedTypeList" />
     <node concept="1Qtc8_" id="x$3LfZfx4$" role="IW6Ez">
       <node concept="aenpk" id="x$3LfZfxq9" role="1Qtc8A">
         <node concept="27VH4U" id="x$3LfZfxqa" role="aenpu">
@@ -2963,9 +2964,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="x$3LfZfvHy">
-    <property role="3GE5qa" value="Class / Struct" />
+    <property role="3GE5qa" value="Inheritance" />
     <property role="TrG5h" value="LeftInheritedTypeListCreation" />
-    <ref role="aqKnT" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <ref role="aqKnT" to="80bi:eRR5GNaXSm" resolve="IInheritedTypeList" />
     <node concept="1Qtc8_" id="x$3LfZfzr9" role="IW6Ez">
       <node concept="3cWJ9i" id="x$3LfZfzra" role="1Qtc8$">
         <node concept="CtIbL" id="x$3LfZfzrb" role="CtIbM">
@@ -2988,6 +2989,7 @@
   </node>
   <node concept="PKFIW" id="eRR5GNbZZs">
     <property role="TrG5h" value="InheritedTypeListComponent" />
+    <property role="3GE5qa" value="Inheritance" />
     <ref role="1XX52x" to="80bi:eRR5GNaXSm" resolve="IInheritedTypeList" />
     <node concept="3EZMnI" id="eRR5GNdyec" role="2wV5jI">
       <node concept="3F0ifn" id="eRR5GNdyej" role="3EZMnx">
@@ -3018,6 +3020,7 @@
   </node>
   <node concept="PKFIW" id="eRR5GN52ht">
     <property role="TrG5h" value="WhereClauseComponent" />
+    <property role="3GE5qa" value="Generics" />
     <ref role="1XX52x" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
     <node concept="3EZMnI" id="eRR5GN52tO" role="2wV5jI">
       <node concept="3F0ifn" id="eRR5GN52u1" role="3EZMnx">
@@ -3048,6 +3051,7 @@
   </node>
   <node concept="3ICXOK" id="eRR5GN4q4r">
     <property role="TrG5h" value="WhereClauseCreation" />
+    <property role="3GE5qa" value="Generics" />
     <ref role="aqKnT" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
     <node concept="1Qtc8_" id="eRR5GN4q4s" role="IW6Ez">
       <node concept="aenpk" id="eRR5GN4q4C" role="1Qtc8A">
