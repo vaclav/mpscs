@@ -68,6 +68,9 @@
       </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -586,6 +589,30 @@
               </node>
               <node concept="3cmrfG" id="2mA2D1nGuTs" role="3uHU7w">
                 <property role="3cmrfH" value="2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7TfmMh1Hzft">
+    <property role="3GE5qa" value="Generics" />
+    <ref role="1M2myG" to="80bi:6hv6i2_AXOM" resolve="TypeParameter" />
+    <node concept="EnEH3" id="7TfmMh1HzfQ" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="QB0g5" id="7TfmMh1Hzg4" role="QCWH9">
+        <node concept="3clFbS" id="7TfmMh1Hzg5" role="2VODD2">
+          <node concept="3clFbF" id="7TfmMh1H_vb" role="3cqZAp">
+            <node concept="3fqX7Q" id="7TfmMh1HB0Y" role="3clFbG">
+              <node concept="2OqwBi" id="7TfmMh1HB10" role="3fr31v">
+                <node concept="1Wqviy" id="7TfmMh1HB11" role="2Oq$k0" />
+                <node concept="liA8E" id="7TfmMh1HB12" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                  <node concept="Xl_RD" id="7TfmMh1HB13" role="37wK5m">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

@@ -67,6 +67,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -573,6 +576,27 @@
     </node>
     <node concept="13hLZK" id="2mA2D1nDMaS" role="13h7CW">
       <node concept="3clFbS" id="2mA2D1nDMaT" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7TfmMh1OG2E">
+    <property role="3GE5qa" value="Generics" />
+    <ref role="13h7C2" to="80bi:6hv6i2_AXOM" resolve="TypeParameter" />
+    <node concept="13hLZK" id="7TfmMh1OG2F" role="13h7CW">
+      <node concept="3clFbS" id="7TfmMh1OG2G" role="2VODD2">
+        <node concept="3clFbF" id="7TfmMh1OG2Q" role="3cqZAp">
+          <node concept="37vLTI" id="7TfmMh1OHeU" role="3clFbG">
+            <node concept="3clFbT" id="7TfmMh1OHkX" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="7TfmMh1OGaI" role="37vLTJ">
+              <node concept="13iPFW" id="7TfmMh1OG2P" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7TfmMh1OGy8" role="2OqNvi">
+                <ref role="3TsBF5" to="80bi:7TfmMh1NVbn" resolve="isVarianceAnnotatable" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

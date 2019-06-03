@@ -20,6 +20,7 @@
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
@@ -27,7 +28,9 @@
         <property id="1083066089218" name="constraint" index="FLfZY" />
       </concept>
       <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1192116978809" name="javaIdentifier" index="2fHolG" />
         <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -2201,15 +2204,22 @@
   <node concept="AxPO7" id="6$wrg4AAh$1">
     <property role="TrG5h" value="VarianceAnnotationEnum" />
     <property role="3GE5qa" value="Generics" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="6$wrg4AAjTf" role="M5hS2">
       <property role="1uS6qo" value="none" />
+      <property role="2fHolG" value="none" />
+      <property role="1uS6qv" value="none" />
     </node>
     <node concept="M4N5e" id="6$wrg4AAh$2" role="M5hS2">
+      <property role="2fHolG" value="in" />
       <property role="1uS6qo" value="in" />
+      <property role="1uS6qv" value="in" />
     </node>
     <node concept="M4N5e" id="6$wrg4AAh$3" role="M5hS2">
       <property role="1uS6qo" value="out" />
+      <property role="2fHolG" value="out" />
+      <property role="1uS6qv" value="out" />
     </node>
     <node concept="3H0Qfr" id="7TfmMh1pDJg" role="lGtFl">
       <node concept="1Pa9Pv" id="7TfmMh1pDJh" role="3H0Qfi">
@@ -3125,6 +3135,11 @@
     <property role="3GE5qa" value="Generics" />
     <property role="R4oN_" value="Generic type parameter" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7TfmMh1NVbn" role="1TKVEl">
+      <property role="IQ2nx" value="9101593583220142807" />
+      <property role="TrG5h" value="isVarianceAnnotatable" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="6hv6i2_AXON" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588409139" />
       <property role="20lmBu" value="aggregation" />
@@ -3139,9 +3154,6 @@
       <property role="IQ2nx" value="7575174424947136774" />
       <property role="TrG5h" value="varianceAnnotation" />
       <ref role="AX2Wp" node="6$wrg4AAh$1" resolve="VarianceAnnotationEnum" />
-      <node concept="t5JxF" id="6$wrg4AAh$8" role="lGtFl">
-        <property role="t5JxN" value="valid only for interface and delegaet type parameter" />
-      </node>
     </node>
     <node concept="3H0Qfr" id="7TfmMh1pDR_" role="lGtFl">
       <node concept="1Pa9Pv" id="7TfmMh1pDRA" role="3H0Qfi">
