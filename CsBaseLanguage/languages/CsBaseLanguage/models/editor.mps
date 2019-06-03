@@ -12,6 +12,8 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="1402906326896143883" name="jetbrains.mps.lang.editor.structure.CellKeyMap_FunctionParm_selectedNode" flags="nn" index="0GJ7k" />
+      <concept id="1402906326896143909" name="jetbrains.mps.lang.editor.structure.CellKeyMap_FunctionParm_selectedNodes" flags="nn" index="0GJ7U" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1597643335227097138" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_TransformationMenu_node" flags="ng" index="7Obwk" />
       <concept id="6516520003787916624" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Condition" flags="ig" index="27VH4U" />
@@ -54,6 +56,16 @@
         <child id="1638911550608610281" name="executeFunction" index="IWgqQ" />
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
+      <concept id="1136916919141" name="jetbrains.mps.lang.editor.structure.CellKeyMapItem" flags="lg" index="2PxR9H">
+        <property id="1141091278922" name="caretPolicy" index="2IlM53" />
+        <property id="1136916941877" name="description" index="2PxWOX" />
+        <child id="1136916998332" name="keystroke" index="2PyaAO" />
+        <child id="1136920925604" name="executeFunction" index="2PL9iG" />
+      </concept>
+      <concept id="1136916976737" name="jetbrains.mps.lang.editor.structure.CellKeyMapKeystroke" flags="ng" index="2Py5lD">
+        <property id="1136923970224" name="keycode" index="2PWKIS" />
+      </concept>
+      <concept id="1136917288805" name="jetbrains.mps.lang.editor.structure.CellKeyMap_ExecuteFunction" flags="in" index="2PzhpH" />
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
@@ -76,6 +88,10 @@
       </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
+      <concept id="1081293058843" name="jetbrains.mps.lang.editor.structure.CellKeyMapDeclaration" flags="ig" index="325Ffw">
+        <reference id="1139445935125" name="applicableConcept" index="1chiOs" />
+        <child id="1136930944870" name="item" index="2QnnpI" />
+      </concept>
       <concept id="2896773699153795590" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform" flags="ng" index="3cWJ9i">
         <child id="3473224453637651919" name="placeInCell" index="CtIbM" />
       </concept>
@@ -96,6 +112,7 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <reference id="1081339532145" name="keyMap" index="34QXea" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
         <child id="4202667662392416064" name="transformationMenu" index="3vIgyS" />
       </concept>
@@ -142,11 +159,24 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1143224066846" name="jetbrains.mps.lang.smodel.structure.Node_InsertNextSiblingOperation" flags="nn" index="HtI8k">
+        <child id="1143224066849" name="insertedNode" index="HtI8F" />
+      </concept>
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
         <reference id="1139877738879" name="concept" index="1A0vxQ" />
       </concept>
@@ -168,7 +198,13 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1227026094155" name="jetbrains.mps.baseLanguage.collections.structure.RemoveLastElementOperation" flags="nn" index="2Kt5_m" />
+      <concept id="1225621920911" name="jetbrains.mps.baseLanguage.collections.structure.InsertElementOperation" flags="nn" index="1sK_Qi">
+        <child id="1225621943565" name="element" index="1sKFgg" />
+        <child id="1225621960341" name="index" index="1sKJu8" />
+      </concept>
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
+      <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
@@ -1007,6 +1043,7 @@
     <node concept="3EZMnI" id="6vAOG1ACmDo" role="2wV5jI">
       <node concept="3F2HdR" id="3h4LMeIS428" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+        <ref role="34QXea" node="7TfmMh1qHev" resolve="NewModifierOnSpace" />
         <node concept="l2Vlx" id="3h4LMeIS42a" role="2czzBx" />
         <node concept="3F0ifn" id="22$iYM03i7Y" role="2czzBI">
           <property role="3F0ifm" value="/* modifiers */" />
@@ -3121,6 +3158,129 @@
       <node concept="3cWJ9i" id="eRR5GN4q4w" role="1Qtc8$">
         <node concept="CtIbL" id="eRR5GN4q4y" role="CtIbM">
           <property role="CtIbK" value="RIGHT" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="325Ffw" id="7TfmMh1qHev">
+    <property role="3GE5qa" value="Class / Struct" />
+    <property role="TrG5h" value="NewModifierOnSpace" />
+    <ref role="1chiOs" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <node concept="2PxR9H" id="7TfmMh1qHew" role="2QnnpI">
+      <property role="2PxWOX" value="Insert a new modifier before" />
+      <property role="2IlM53" value="caret_at_first_position" />
+      <node concept="2Py5lD" id="7TfmMh1qHex" role="2PyaAO">
+        <property role="2PWKIS" value="space char" />
+      </node>
+      <node concept="2PzhpH" id="7TfmMh1qHey" role="2PL9iG">
+        <node concept="3clFbS" id="7TfmMh1qHez" role="2VODD2">
+          <node concept="3SKdUt" id="7TfmMh1xFEW" role="3cqZAp">
+            <node concept="3SKdUq" id="7TfmMh1xFEY" role="3SKWNk">
+              <property role="3SKdUp" value="first create a null instance of IClassModifier (I found no better" />
+            </node>
+          </node>
+          <node concept="3SKdUt" id="7TfmMh1xFXh" role="3cqZAp">
+            <node concept="3SKdUq" id="7TfmMh1xFXi" role="3SKWNk">
+              <property role="3SKdUp" value="way than this as typing just &quot;null&quot; does not work)" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="7TfmMh1wV$$" role="3cqZAp">
+            <node concept="2OqwBi" id="7TfmMh1wXDK" role="3clFbG">
+              <node concept="2OqwBi" id="7TfmMh1wVKe" role="2Oq$k0">
+                <node concept="0GJ7k" id="7TfmMh1wV$y" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="7TfmMh1wW5Q" role="2OqNvi">
+                  <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                </node>
+              </node>
+              <node concept="WFELt" id="7TfmMh1x0D9" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="7TfmMh1yYx9" role="3cqZAp" />
+          <node concept="3SKdUt" id="7TfmMh1$FRa" role="3cqZAp">
+            <node concept="3SKdUq" id="7TfmMh1$FRc" role="3SKWNk">
+              <property role="3SKdUp" value="now we reorder the null instance to its right position" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="7TfmMh1AAvH" role="3cqZAp">
+            <node concept="2OqwBi" id="7TfmMh1BhIN" role="3clFbG">
+              <node concept="2OqwBi" id="7TfmMh1BfIx" role="2Oq$k0">
+                <node concept="0GJ7k" id="7TfmMh1BfyR" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="7TfmMh1BgvB" role="2OqNvi">
+                  <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                </node>
+              </node>
+              <node concept="1sK_Qi" id="7TfmMh1BkH$" role="2OqNvi">
+                <node concept="3cmrfG" id="7TfmMh1BkNn" role="1sKJu8">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="7TfmMh1z2gl" role="1sKFgg">
+                  <node concept="2OqwBi" id="7TfmMh1yZJX" role="2Oq$k0">
+                    <node concept="3Tsc0h" id="7TfmMh1z0_U" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                    </node>
+                    <node concept="0GJ7k" id="7TfmMh1zS$C" role="2Oq$k0" />
+                  </node>
+                  <node concept="2Kt5_m" id="7TfmMh1$VHD" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PxR9H" id="7TfmMh1BdkF" role="2QnnpI">
+      <property role="2PxWOX" value="Insert a new modifier after" />
+      <node concept="2Py5lD" id="7TfmMh1BdkG" role="2PyaAO">
+        <property role="2PWKIS" value="space char" />
+      </node>
+      <node concept="2PzhpH" id="7TfmMh1BeXa" role="2PL9iG">
+        <node concept="3clFbS" id="7TfmMh1BeXb" role="2VODD2">
+          <node concept="3SKdUt" id="7TfmMh1BeXc" role="3cqZAp">
+            <node concept="3SKdUq" id="7TfmMh1BeXd" role="3SKWNk">
+              <property role="3SKdUp" value="first create a null instance of IClassModifier (I found no better" />
+            </node>
+          </node>
+          <node concept="3SKdUt" id="7TfmMh1BeXe" role="3cqZAp">
+            <node concept="3SKdUq" id="7TfmMh1BeXf" role="3SKWNk">
+              <property role="3SKdUp" value="way than this as typing just &quot;null&quot; does not work)" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="7TfmMh1BeXg" role="3cqZAp">
+            <node concept="2OqwBi" id="7TfmMh1BeXh" role="3clFbG">
+              <node concept="2OqwBi" id="7TfmMh1BeXi" role="2Oq$k0">
+                <node concept="0GJ7k" id="7TfmMh1BeXj" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="7TfmMh1BeXk" role="2OqNvi">
+                  <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                </node>
+              </node>
+              <node concept="WFELt" id="7TfmMh1BeXl" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="7TfmMh1BeXm" role="3cqZAp" />
+          <node concept="3SKdUt" id="7TfmMh1BeXn" role="3cqZAp">
+            <node concept="3SKdUq" id="7TfmMh1BeXo" role="3SKWNk">
+              <property role="3SKdUp" value="now we reorder the null instance to its right position" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="7TfmMh1BeXp" role="3cqZAp">
+            <node concept="2OqwBi" id="7TfmMh1BeXq" role="3clFbG">
+              <node concept="2OqwBi" id="7TfmMh1BeXr" role="2Oq$k0">
+                <node concept="0GJ7U" id="7TfmMh1BeXs" role="2Oq$k0" />
+                <node concept="1yVyf7" id="7TfmMh1BeXt" role="2OqNvi" />
+              </node>
+              <node concept="HtI8k" id="7TfmMh1BeXu" role="2OqNvi">
+                <node concept="2OqwBi" id="7TfmMh1BeXv" role="HtI8F">
+                  <node concept="2OqwBi" id="7TfmMh1BeXw" role="2Oq$k0">
+                    <node concept="3Tsc0h" id="7TfmMh1BeXx" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                    </node>
+                    <node concept="0GJ7k" id="7TfmMh1BeXy" role="2Oq$k0" />
+                  </node>
+                  <node concept="2Kt5_m" id="7TfmMh1BeXz" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
