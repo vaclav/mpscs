@@ -3983,8 +3983,7 @@
     <property role="EcuMT" value="7232527154588443414" />
     <property role="TrG5h" value="Statement" />
     <property role="3GE5qa" value="Statements.Other" />
-    <property role="R4oN_" value="Abstract statement" />
-    <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Empty Statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="3H0Qfr" id="1dPlh42YXz1" role="lGtFl">
       <node concept="1Pa9Pv" id="1dPlh42YXz2" role="3H0Qfi">
@@ -6366,7 +6365,7 @@
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="TryFinallyStatement" />
     <property role="34LRSv" value="try" />
-    <property role="R4oN_" value="Try statement without catch" />
+    <property role="R4oN_" value="Try-finally statement without catch" />
     <ref role="1TJDcQ" node="1FYNzU$y59n" resolve="TryStatement" />
     <node concept="1TJgyj" id="1FYNzU$yNkg" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514513680" />
