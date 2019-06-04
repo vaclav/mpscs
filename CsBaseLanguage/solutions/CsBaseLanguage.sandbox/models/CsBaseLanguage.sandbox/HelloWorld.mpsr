@@ -10,6 +10,7 @@
       <concept id="7486903154347131570" name="CsBaseLanguage.structure.Block" flags="ng" index="1ux1M">
         <child id="7486903154347131571" name="statement" index="1ux1N" />
       </concept>
+      <concept id="3766354144460261375" name="CsBaseLanguage.structure.Static" flags="ng" index="2qAK3s" />
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
         <child id="3766354144459978427" name="returnTypeOrVoid" index="2qBV6o" />
         <child id="7575174424947156020" name="formalParameter" index="1fIg$P" />
@@ -19,6 +20,7 @@
       </concept>
       <concept id="7232527154588443410" name="CsBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />
+        <child id="7232527154588443463" name="iMethodModifier" index="31KRDB" />
       </concept>
       <concept id="7232527154588476195" name="CsBaseLanguage.structure.FormalParameter" flags="ng" index="31KZC3">
         <child id="8700838527816343363" name="type" index="2UegB9" />
@@ -109,6 +111,7 @@
               </node>
             </node>
           </node>
+          <node concept="2qAK3s" id="2Z1eavXWblC" role="31KRDB" />
         </node>
       </node>
     </node>
