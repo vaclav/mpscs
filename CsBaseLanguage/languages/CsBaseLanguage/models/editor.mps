@@ -2224,97 +2224,85 @@
   <node concept="24kQdi" id="3h4LMeIS$Zc">
     <property role="3GE5qa" value="Modifiers.Visibility" />
     <ref role="1XX52x" to="80bi:3h4LMeIRHqY" resolve="Public" />
-    <node concept="PMmxH" id="3h4LMeIS$Zi" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZo" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9yeqW" role="2wV5jI">
+      <property role="3F0ifm" value="public" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIS$ZI">
     <property role="3GE5qa" value="Modifiers.Visibility" />
     <ref role="1XX52x" to="80bi:3h4LMeIRHqZ" resolve="Private" />
-    <node concept="PMmxH" id="3h4LMeIS$ZK" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZq" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9yer1" role="2wV5jI">
+      <property role="3F0ifm" value="private" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIS_0c">
     <property role="3GE5qa" value="Modifiers.Visibility" />
     <ref role="1XX52x" to="80bi:3h4LMeIRHr0" resolve="Internal" />
-    <node concept="PMmxH" id="3h4LMeIS_0e" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZs" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9yer6" role="2wV5jI">
+      <property role="3F0ifm" value="internal" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIS_0E">
     <property role="3GE5qa" value="Modifiers.Visibility" />
     <ref role="1XX52x" to="80bi:3h4LMeIRHr1" resolve="Protected" />
-    <node concept="PMmxH" id="3h4LMeIS_0G" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZl" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9yerb" role="2wV5jI">
+      <property role="3F0ifm" value="protected" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIS_18">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:6hv6i2_ATMC" resolve="Partial" />
-    <node concept="PMmxH" id="3h4LMeIS_1a" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZU" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xINh" role="2wV5jI">
+      <property role="3F0ifm" value="partial" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIS_1A">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:6hv6i2_ATMO" resolve="New" />
-    <node concept="PMmxH" id="3h4LMeIS_1C" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZu" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xINm" role="2wV5jI">
+      <property role="3F0ifm" value="new" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIS_2t">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIRWvZ" resolve="Static" />
-    <node concept="PMmxH" id="3h4LMeIS_2v" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZw" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xINr" role="2wV5jI">
+      <property role="3F0ifm" value="static" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIS_2V">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIRWw3" resolve="Abstract" />
-    <node concept="PMmxH" id="3h4LMeIS_2X" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZy" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xINw" role="2wV5jI">
+      <property role="3F0ifm" value="abstract" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIS_3p">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIRWw7" resolve="Sealed" />
-    <node concept="PMmxH" id="3h4LMeIS_3r" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZ$" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xIN_" role="2wV5jI">
+      <property role="3F0ifm" value="sealed" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIUOoI">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIUOoh" resolve="Volatile" />
-    <node concept="PMmxH" id="3h4LMeIUOoO" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZA" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xIND" role="2wV5jI">
+      <property role="3F0ifm" value="volatile" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIUOpk">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIUOoR" resolve="Readonly" />
-    <node concept="PMmxH" id="3h4LMeIUOpq" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZC" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xINI" role="2wV5jI">
+      <property role="3F0ifm" value="readonly" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIV$Uj">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIV$TQ" resolve="Extern" />
-    <node concept="PMmxH" id="3h4LMeIV$Up" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZE" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xINN" role="2wV5jI">
+      <property role="3F0ifm" value="extern" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIWDSu">
@@ -2339,25 +2327,22 @@
   <node concept="24kQdi" id="3h4LMeIYdD0">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIXQnf" resolve="Async" />
-    <node concept="PMmxH" id="3h4LMeIYdD6" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZG" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xINS" role="2wV5jI">
+      <property role="3F0ifm" value="async" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIYIRf">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIYBdw" resolve="Virtual" />
-    <node concept="PMmxH" id="3h4LMeIYIRl" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZI" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xINW" role="2wV5jI">
+      <property role="3F0ifm" value="virtual" />
     </node>
   </node>
   <node concept="24kQdi" id="3h4LMeIZ0cn">
     <property role="3GE5qa" value="Modifiers" />
     <ref role="1XX52x" to="80bi:3h4LMeIYZuN" resolve="Override" />
-    <node concept="PMmxH" id="3h4LMeIZ0ct" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPxyj" id="7uI4EOiFAZK" role="3F10Kt" />
+    <node concept="3F0ifn" id="c1dsm9xIO0" role="2wV5jI">
+      <property role="3F0ifm" value="override" />
     </node>
   </node>
   <node concept="24kQdi" id="7yZ_CF2xmpH">
