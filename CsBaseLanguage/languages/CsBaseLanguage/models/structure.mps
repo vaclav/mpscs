@@ -639,6 +639,7 @@
     <property role="EcuMT" value="6843536562190757247" />
     <property role="TrG5h" value="Type" />
     <property role="3GE5qa" value="Types" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="2HIntxMQ_98" resolve="TypeOrVoid" />
     <node concept="1TJgyj" id="5VT83U$LPp0" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190767680" />
@@ -1195,7 +1196,7 @@
   <node concept="1TIwiD" id="5VT83U$LxVC">
     <property role="EcuMT" value="6843536562190687976" />
     <property role="TrG5h" value="ObjectType" />
-    <property role="34LRSv" value="object" />
+    <property role="34LRSv" value="Object" />
     <property role="R4oN_" value="ancestor of all types" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />

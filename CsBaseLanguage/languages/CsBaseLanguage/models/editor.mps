@@ -3577,5 +3577,110 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="2F2RyEHTSED">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$LxVD" resolve="StringType" />
+    <node concept="PMmxH" id="2F2RyEHTSEF" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSF6">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$LzAY" resolve="DoubleType" />
+    <node concept="PMmxH" id="2F2RyEHTSFb" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSFA">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$LzAZ" resolve="FloatType" />
+    <node concept="PMmxH" id="2F2RyEHTSFF" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSG6">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$LzAW" resolve="BoolType" />
+    <node concept="PMmxH" id="2F2RyEHTSG8" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSGz">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$Lw6W" resolve="CharType" />
+    <node concept="PMmxH" id="2F2RyEHTSG_" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSH0">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$LzAX" resolve="DecimalType" />
+    <node concept="PMmxH" id="2F2RyEHTSH2" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSHt">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$Lw6U" resolve="LongType" />
+    <node concept="PMmxH" id="2F2RyEHTSHv" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSHU">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$Lw6V" resolve="ULongType" />
+    <node concept="PMmxH" id="2F2RyEHTSHW" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSIn">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$Lw6S" resolve="IntType" />
+    <node concept="PMmxH" id="2F2RyEHTSIp" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSIO">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$Lw6T" resolve="UIntType" />
+    <node concept="PMmxH" id="2F2RyEHTSIQ" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSJh">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$Lw6Q" resolve="ShortType" />
+    <node concept="PMmxH" id="2F2RyEHTSJj" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSJI">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$Lw6R" resolve="UShortType" />
+    <node concept="PMmxH" id="2F2RyEHTSJK" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSKb">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$Lw6P" resolve="ByteType" />
+    <node concept="PMmxH" id="2F2RyEHTSKd" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSKE">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$LuLV" resolve="SByteType" />
+    <node concept="PMmxH" id="2F2RyEHTSKG" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2F2RyEHTSLy">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="80bi:5VT83U$LxVC" resolve="ObjectType" />
+    <node concept="PMmxH" id="2F2RyEHTSL$" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
 </model>
 
