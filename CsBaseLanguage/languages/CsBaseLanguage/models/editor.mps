@@ -170,16 +170,34 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
+        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
+      </concept>
+      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
+        <child id="5680397130376446158" name="type" index="1tU5fm" />
+      </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
+        <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
+      </concept>
+      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -299,6 +317,7 @@
     <property role="3GE5qa" value="Arguments" />
     <ref role="1XX52x" to="80bi:5VT83U$N0Bj" resolve="Argument" />
     <node concept="3EZMnI" id="5VT83U$N0C2" role="2wV5jI">
+      <node concept="l2Vlx" id="5VT83U$N0C5" role="2iSdaV" />
       <node concept="3F1sOY" id="5VT83U$N0C9" role="3EZMnx">
         <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="80bi:5VT83U$N0BN" resolve="keyword" />
@@ -306,7 +325,6 @@
           <property role="3F0ifm" value="" />
         </node>
       </node>
-      <node concept="l2Vlx" id="5VT83U$N0C5" role="2iSdaV" />
       <node concept="3F1sOY" id="5VT83U$N0Cf" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:5VT83U$N0BP" resolve="expression" />
       </node>
@@ -3246,54 +3264,69 @@
       </node>
       <node concept="2PzhpH" id="7TfmMh1qHey" role="2PL9iG">
         <node concept="3clFbS" id="7TfmMh1qHez" role="2VODD2">
-          <node concept="3SKdUt" id="7TfmMh1xFEW" role="3cqZAp">
-            <node concept="3SKdUq" id="7TfmMh1xFEY" role="3SKWNk">
-              <property role="3SKdUp" value="first create a null instance of IClassModifier (I found no better" />
+          <node concept="3cpWs8" id="c1dsm9CCOy" role="3cqZAp">
+            <node concept="3cpWsn" id="c1dsm9CCOz" role="3cpWs9">
+              <property role="TrG5h" value="wasEmpty" />
+              <node concept="10P_77" id="c1dsm9CCO$" role="1tU5fm" />
+              <node concept="2OqwBi" id="c1dsm9CCO_" role="33vP2m">
+                <node concept="2OqwBi" id="c1dsm9CCOA" role="2Oq$k0">
+                  <node concept="0GJ7k" id="c1dsm9CCOB" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="c1dsm9CCOC" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                  </node>
+                </node>
+                <node concept="1v1jN8" id="c1dsm9CCOD" role="2OqNvi" />
+              </node>
             </node>
           </node>
-          <node concept="3SKdUt" id="7TfmMh1xFXh" role="3cqZAp">
-            <node concept="3SKdUq" id="7TfmMh1xFXi" role="3SKWNk">
-              <property role="3SKdUp" value="way than this as typing just &quot;null&quot; does not work)" />
-            </node>
-          </node>
-          <node concept="3clFbF" id="7TfmMh1wV$$" role="3cqZAp">
-            <node concept="2OqwBi" id="7TfmMh1wXDK" role="3clFbG">
-              <node concept="2OqwBi" id="7TfmMh1wVKe" role="2Oq$k0">
-                <node concept="0GJ7k" id="7TfmMh1wV$y" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="7TfmMh1wW5Q" role="2OqNvi">
+          <node concept="3clFbH" id="c1dsm9CCOE" role="3cqZAp" />
+          <node concept="3clFbF" id="c1dsm9CCOF" role="3cqZAp">
+            <node concept="2OqwBi" id="c1dsm9CCOG" role="3clFbG">
+              <node concept="2OqwBi" id="c1dsm9CCOH" role="2Oq$k0">
+                <node concept="0GJ7k" id="c1dsm9CCOI" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="c1dsm9CCOJ" role="2OqNvi">
                   <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
                 </node>
               </node>
-              <node concept="WFELt" id="7TfmMh1x0D9" role="2OqNvi" />
+              <node concept="WFELt" id="c1dsm9CCOK" role="2OqNvi" />
             </node>
           </node>
-          <node concept="3clFbH" id="7TfmMh1yYx9" role="3cqZAp" />
-          <node concept="3SKdUt" id="7TfmMh1$FRa" role="3cqZAp">
-            <node concept="3SKdUq" id="7TfmMh1$FRc" role="3SKWNk">
-              <property role="3SKdUp" value="now we reorder the null instance to its right position" />
-            </node>
-          </node>
-          <node concept="3clFbF" id="7TfmMh1AAvH" role="3cqZAp">
-            <node concept="2OqwBi" id="7TfmMh1BhIN" role="3clFbG">
-              <node concept="2OqwBi" id="7TfmMh1BfIx" role="2Oq$k0">
-                <node concept="0GJ7k" id="7TfmMh1BfyR" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="7TfmMh1BgvB" role="2OqNvi">
-                  <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+          <node concept="3clFbH" id="c1dsm9CCOL" role="3cqZAp" />
+          <node concept="3clFbJ" id="c1dsm9CCOM" role="3cqZAp">
+            <node concept="3clFbS" id="c1dsm9CCON" role="3clFbx">
+              <node concept="3SKdUt" id="c1dsm9CCOO" role="3cqZAp">
+                <node concept="3SKdUq" id="c1dsm9CCOP" role="3SKWNk">
+                  <property role="3SKdUp" value="now we reorder the null instance to its right position" />
                 </node>
               </node>
-              <node concept="1sK_Qi" id="7TfmMh1BkH$" role="2OqNvi">
-                <node concept="3cmrfG" id="7TfmMh1BkNn" role="1sKJu8">
-                  <property role="3cmrfH" value="0" />
-                </node>
-                <node concept="2OqwBi" id="7TfmMh1z2gl" role="1sKFgg">
-                  <node concept="2OqwBi" id="7TfmMh1yZJX" role="2Oq$k0">
-                    <node concept="3Tsc0h" id="7TfmMh1z0_U" role="2OqNvi">
+              <node concept="3clFbF" id="7TfmMh1AAvH" role="3cqZAp">
+                <node concept="2OqwBi" id="7TfmMh1BhIN" role="3clFbG">
+                  <node concept="2OqwBi" id="7TfmMh1BfIx" role="2Oq$k0">
+                    <node concept="0GJ7k" id="7TfmMh1BfyR" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="7TfmMh1BgvB" role="2OqNvi">
                       <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
                     </node>
-                    <node concept="0GJ7k" id="7TfmMh1zS$C" role="2Oq$k0" />
                   </node>
-                  <node concept="2Kt5_m" id="7TfmMh1$VHD" role="2OqNvi" />
+                  <node concept="1sK_Qi" id="7TfmMh1BkH$" role="2OqNvi">
+                    <node concept="3cmrfG" id="7TfmMh1BkNn" role="1sKJu8">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="2OqwBi" id="7TfmMh1z2gl" role="1sKFgg">
+                      <node concept="2OqwBi" id="7TfmMh1yZJX" role="2Oq$k0">
+                        <node concept="3Tsc0h" id="7TfmMh1z0_U" role="2OqNvi">
+                          <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                        </node>
+                        <node concept="0GJ7k" id="7TfmMh1zS$C" role="2Oq$k0" />
+                      </node>
+                      <node concept="2Kt5_m" id="7TfmMh1$VHD" role="2OqNvi" />
+                    </node>
+                  </node>
                 </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="c1dsm9CCP1" role="3clFbw">
+              <node concept="37vLTw" id="c1dsm9CCP2" role="3fr31v">
+                <ref role="3cqZAo" node="c1dsm9CCOz" resolve="wasEmpty" />
               </node>
             </node>
           </node>
@@ -3307,16 +3340,22 @@
       </node>
       <node concept="2PzhpH" id="7TfmMh1BeXa" role="2PL9iG">
         <node concept="3clFbS" id="7TfmMh1BeXb" role="2VODD2">
-          <node concept="3SKdUt" id="7TfmMh1BeXc" role="3cqZAp">
-            <node concept="3SKdUq" id="7TfmMh1BeXd" role="3SKWNk">
-              <property role="3SKdUp" value="first create a null instance of IClassModifier (I found no better" />
+          <node concept="3cpWs8" id="c1dsm9CybZ" role="3cqZAp">
+            <node concept="3cpWsn" id="c1dsm9Cyc2" role="3cpWs9">
+              <property role="TrG5h" value="wasEmpty" />
+              <node concept="10P_77" id="c1dsm9CybX" role="1tU5fm" />
+              <node concept="2OqwBi" id="c1dsm9C$WL" role="33vP2m">
+                <node concept="2OqwBi" id="c1dsm9CyJd" role="2Oq$k0">
+                  <node concept="0GJ7k" id="c1dsm9CywZ" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="c1dsm9Czwj" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                  </node>
+                </node>
+                <node concept="1v1jN8" id="c1dsm9CBUM" role="2OqNvi" />
+              </node>
             </node>
           </node>
-          <node concept="3SKdUt" id="7TfmMh1BeXe" role="3cqZAp">
-            <node concept="3SKdUq" id="7TfmMh1BeXf" role="3SKWNk">
-              <property role="3SKdUp" value="way than this as typing just &quot;null&quot; does not work)" />
-            </node>
-          </node>
+          <node concept="3clFbH" id="c1dsm9CxRE" role="3cqZAp" />
           <node concept="3clFbF" id="7TfmMh1BeXg" role="3cqZAp">
             <node concept="2OqwBi" id="7TfmMh1BeXh" role="3clFbG">
               <node concept="2OqwBi" id="7TfmMh1BeXi" role="2Oq$k0">
@@ -3328,28 +3367,37 @@
               <node concept="WFELt" id="7TfmMh1BeXl" role="2OqNvi" />
             </node>
           </node>
-          <node concept="3clFbH" id="7TfmMh1BeXm" role="3cqZAp" />
-          <node concept="3SKdUt" id="7TfmMh1BeXn" role="3cqZAp">
-            <node concept="3SKdUq" id="7TfmMh1BeXo" role="3SKWNk">
-              <property role="3SKdUp" value="now we reorder the null instance to its right position" />
-            </node>
-          </node>
-          <node concept="3clFbF" id="7TfmMh1BeXp" role="3cqZAp">
-            <node concept="2OqwBi" id="7TfmMh1BeXq" role="3clFbG">
-              <node concept="2OqwBi" id="7TfmMh1BeXr" role="2Oq$k0">
-                <node concept="0GJ7U" id="7TfmMh1BeXs" role="2Oq$k0" />
-                <node concept="1yVyf7" id="7TfmMh1BeXt" role="2OqNvi" />
-              </node>
-              <node concept="HtI8k" id="7TfmMh1BeXu" role="2OqNvi">
-                <node concept="2OqwBi" id="7TfmMh1BeXv" role="HtI8F">
-                  <node concept="2OqwBi" id="7TfmMh1BeXw" role="2Oq$k0">
-                    <node concept="3Tsc0h" id="7TfmMh1BeXx" role="2OqNvi">
-                      <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
-                    </node>
-                    <node concept="0GJ7k" id="7TfmMh1BeXy" role="2Oq$k0" />
-                  </node>
-                  <node concept="2Kt5_m" id="7TfmMh1BeXz" role="2OqNvi" />
+          <node concept="3clFbH" id="c1dsm9BsQA" role="3cqZAp" />
+          <node concept="3clFbJ" id="c1dsm9AZkv" role="3cqZAp">
+            <node concept="3clFbS" id="c1dsm9AZkx" role="3clFbx">
+              <node concept="3SKdUt" id="7TfmMh1BeXn" role="3cqZAp">
+                <node concept="3SKdUq" id="7TfmMh1BeXo" role="3SKWNk">
+                  <property role="3SKdUp" value="now we reorder the null instance to its right position" />
                 </node>
+              </node>
+              <node concept="3clFbF" id="7TfmMh1BeXp" role="3cqZAp">
+                <node concept="2OqwBi" id="7TfmMh1BeXq" role="3clFbG">
+                  <node concept="2OqwBi" id="7TfmMh1BeXr" role="2Oq$k0">
+                    <node concept="0GJ7U" id="7TfmMh1BeXs" role="2Oq$k0" />
+                    <node concept="1yVyf7" id="7TfmMh1BeXt" role="2OqNvi" />
+                  </node>
+                  <node concept="HtI8k" id="7TfmMh1BeXu" role="2OqNvi">
+                    <node concept="2OqwBi" id="7TfmMh1BeXv" role="HtI8F">
+                      <node concept="2OqwBi" id="7TfmMh1BeXw" role="2Oq$k0">
+                        <node concept="3Tsc0h" id="7TfmMh1BeXx" role="2OqNvi">
+                          <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                        </node>
+                        <node concept="0GJ7k" id="7TfmMh1BeXy" role="2Oq$k0" />
+                      </node>
+                      <node concept="2Kt5_m" id="7TfmMh1BeXz" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="c1dsm9CCdy" role="3clFbw">
+              <node concept="37vLTw" id="c1dsm9CCve" role="3fr31v">
+                <ref role="3cqZAo" node="c1dsm9Cyc2" resolve="wasEmpty" />
               </node>
             </node>
           </node>
