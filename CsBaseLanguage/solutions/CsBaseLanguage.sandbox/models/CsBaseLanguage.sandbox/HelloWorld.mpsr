@@ -5,7 +5,7 @@
   <registry>
     <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
       <concept id="7486903154347131566" name="CsBaseLanguage.structure.FormalParameterList" flags="ng" index="1ux1I">
-        <child id="7486903154347131567" name="FormalParameter" index="1ux1J" />
+        <child id="7486903154347131567" name="formalParameter" index="1ux1J" />
       </concept>
       <concept id="7486903154347131570" name="CsBaseLanguage.structure.Block" flags="ng" index="1ux1M">
         <child id="7486903154347131571" name="statement" index="1ux1N" />
