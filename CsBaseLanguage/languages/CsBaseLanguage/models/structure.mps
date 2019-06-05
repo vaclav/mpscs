@@ -639,7 +639,6 @@
     <property role="EcuMT" value="6843536562190757247" />
     <property role="TrG5h" value="Type" />
     <property role="3GE5qa" value="Types" />
-    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="2HIntxMQ_98" resolve="TypeOrVoid" />
     <node concept="1TJgyj" id="5VT83U$LPp0" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190767680" />
