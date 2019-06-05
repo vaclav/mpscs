@@ -1701,7 +1701,7 @@
     <node concept="1TJgyj" id="6vAOG1ABcaJ" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131567" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="FormalParameter" />
+      <property role="20kJfa" value="formalParameter" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6hv6i2_Becz" resolve="FormalParameter" />
     </node>
