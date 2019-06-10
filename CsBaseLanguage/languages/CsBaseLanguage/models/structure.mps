@@ -20,6 +20,7 @@
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
@@ -27,7 +28,9 @@
         <property id="1083066089218" name="constraint" index="FLfZY" />
       </concept>
       <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1192116978809" name="javaIdentifier" index="2fHolG" />
         <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -1192,7 +1195,7 @@
   <node concept="1TIwiD" id="5VT83U$LxVC">
     <property role="EcuMT" value="6843536562190687976" />
     <property role="TrG5h" value="ObjectType" />
-    <property role="34LRSv" value="object" />
+    <property role="34LRSv" value="Object" />
     <property role="R4oN_" value="ancestor of all types" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
@@ -1402,7 +1405,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20lbJX" value="1..n" />
       <property role="20kJfa" value="accessorDeclaration" />
-      <ref role="20lvS9" node="6vAOG1ABcbs" resolve="IAccessorDeclaration" />
+      <ref role="20lvS9" node="3zXINoFWW$0" resolve="AcessorDeclaration" />
     </node>
     <node concept="3H0Qfr" id="3rKHSnCrkMF" role="lGtFl">
       <node concept="1Pa9Pv" id="3rKHSnCrkMG" role="3H0Qfi">
@@ -1569,6 +1572,7 @@
     <property role="TrG5h" value="ConstructorDeclaration" />
     <property role="3GE5qa" value="Class / Struct.Constructors" />
     <property role="R4oN_" value="Constructor definition" />
+    <property role="34LRSv" value="ctor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABnET" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178681" />
@@ -1593,13 +1597,15 @@
       <property role="IQ2ns" value="7486903154347178702" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="formalParameterList" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcaI" resolve="FormalParameterList" />
     </node>
     <node concept="1TJgyj" id="6vAOG1ABnEY" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178686" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />
-      <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
     </node>
     <node concept="1TJgyj" id="6vAOG1ABnFs" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178716" />
@@ -1695,7 +1701,7 @@
     <node concept="1TJgyj" id="6vAOG1ABcaJ" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347131567" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="FormalParameter" />
+      <property role="20kJfa" value="formalParameter" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6hv6i2_Becz" resolve="FormalParameter" />
     </node>
@@ -1705,7 +1711,7 @@
     <property role="TrG5h" value="IClassMemberDeclaration" />
     <property role="3GE5qa" value="Class / Struct" />
     <node concept="PrWs8" id="3h4LMeIQ_DV" role="PrDN$">
-      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructDeclaration" />
+      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructMemberDeclaration" />
     </node>
     <node concept="3H0Qfr" id="3rKHSnCrfV2" role="lGtFl">
       <node concept="1Pa9Pv" id="3rKHSnCrfV3" role="3H0Qfi">
@@ -1871,7 +1877,7 @@
   <node concept="1TIwiD" id="6$wrg4A_UKD">
     <property role="EcuMT" value="7575174424947043369" />
     <property role="TrG5h" value="EnumMemberDeclaration" />
-    <property role="3GE5qa" value="Namespace.TypeDeclaration.Enum" />
+    <property role="3GE5qa" value="Enum" />
     <property role="R4oN_" value="Enum member" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6$wrg4A_UKE" role="1TKVEi">
@@ -1978,19 +1984,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="6vAOG1ABcaj">
-    <property role="EcuMT" value="7486903154347131539" />
-    <property role="TrG5h" value="TypeParameterList" />
-    <property role="3GE5qa" value="Generics" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6vAOG1ABcan" role="1TKVEi">
-      <property role="IQ2ns" value="7486903154347131543" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameter" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6hv6i2_AXOM" resolve="TypeParameter" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="6hv6i2_AZFf">
     <property role="EcuMT" value="7232527154588416719" />
     <property role="TrG5h" value="INamespaceMemberDeclaration" />
@@ -2058,7 +2051,7 @@
       <property role="IQ2ns" value="7232527154588434913" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="iConstantModifier" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3h4LMeIVAFK" resolve="IConstantModifier" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_B48w" role="1TKVEi">
@@ -2071,7 +2064,7 @@
     <node concept="1TJgyj" id="6hv6i2_B48F" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588434987" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <property role="20kJfa" value="constantDeclaratorList" />
       <ref role="20lvS9" node="6vAOG1ABcau" resolve="ConstantDeclaratorList" />
     </node>
@@ -2102,19 +2095,6 @@
           </node>
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6vAOG1ABcab">
-    <property role="EcuMT" value="7486903154347131531" />
-    <property role="TrG5h" value="TypeParameterConstraintsClauseList" />
-    <property role="3GE5qa" value="Generics" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6vAOG1ABcac" role="1TKVEi">
-      <property role="IQ2ns" value="7486903154347131532" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClause" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6hv6i2_AXOQ" resolve="TypeParameterConstraintsClause" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_AzRh">
@@ -2224,15 +2204,65 @@
   <node concept="AxPO7" id="6$wrg4AAh$1">
     <property role="TrG5h" value="VarianceAnnotationEnum" />
     <property role="3GE5qa" value="Generics" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="6$wrg4AAjTf" role="M5hS2">
       <property role="1uS6qo" value="none" />
+      <property role="2fHolG" value="none" />
+      <property role="1uS6qv" value="none" />
     </node>
     <node concept="M4N5e" id="6$wrg4AAh$2" role="M5hS2">
+      <property role="2fHolG" value="in" />
       <property role="1uS6qo" value="in" />
+      <property role="1uS6qv" value="in" />
     </node>
     <node concept="M4N5e" id="6$wrg4AAh$3" role="M5hS2">
       <property role="1uS6qo" value="out" />
+      <property role="2fHolG" value="out" />
+      <property role="1uS6qv" value="out" />
+    </node>
+    <node concept="3H0Qfr" id="7TfmMh1pDJg" role="lGtFl">
+      <node concept="1Pa9Pv" id="7TfmMh1pDJh" role="3H0Qfi">
+        <node concept="1PaTwC" id="7TfmMh1pDJi" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDJj" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDJu" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDJx" role="1PaTwD">
+            <property role="3oM_SC" value="variance" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDJ_" role="1PaTwD">
+            <property role="3oM_SC" value="annotation" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDJE" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDJK" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDJR" role="1PaTwD">
+            <property role="3oM_SC" value="generic" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDJZ" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDK8" role="1PaTwD">
+            <property role="3oM_SC" value="parameter." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDKj" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDKi" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDKx" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDKw" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: variance-annotation" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_AqOA">
@@ -2427,7 +2457,7 @@
       <property role="IQ2ns" value="7232527154588443341" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="variableDeclaratorList" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcay" resolve="VariableDeclaratorList" />
     </node>
     <node concept="3H0Qfr" id="3rKHSnCrfT7" role="lGtFl">
@@ -2985,6 +3015,7 @@
     <property role="TrG5h" value="ThisConstructorInitializer" />
     <property role="3GE5qa" value="Class / Struct.Constructors" />
     <property role="R4oN_" value="Call of a different constructor" />
+    <property role="34LRSv" value="this" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABnFG" role="PzmwI">
       <ref role="PrY4T" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
@@ -3049,13 +3080,66 @@
     <property role="EcuMT" value="7232527154588409142" />
     <property role="TrG5h" value="TypeParameterConstraintsClause" />
     <property role="3GE5qa" value="Generics" />
+    <property role="R4oN_" value="Where clause" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="7TfmMh1pDKK" role="lGtFl">
+      <node concept="1Pa9Pv" id="7TfmMh1pDKL" role="3H0Qfi">
+        <node concept="1PaTwC" id="7TfmMh1pDKM" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDKN" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDKY" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDL1" role="1PaTwD">
+            <property role="3oM_SC" value="where" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDL5" role="1PaTwD">
+            <property role="3oM_SC" value="clause" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDLA" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDLG" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDLN" role="1PaTwD">
+            <property role="3oM_SC" value="generic" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDLV" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDM4" role="1PaTwD">
+            <property role="3oM_SC" value="parameter." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDMf" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDMe" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDMt" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDMs" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar:" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDMG" role="1PaTwD">
+            <property role="3oM_SC" value="type-parameter-constraints-clause" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_AXOM">
     <property role="EcuMT" value="7232527154588409138" />
     <property role="TrG5h" value="TypeParameter" />
     <property role="3GE5qa" value="Generics" />
+    <property role="R4oN_" value="Generic type parameter" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7TfmMh1NVbn" role="1TKVEl">
+      <property role="IQ2nx" value="9101593583220142807" />
+      <property role="TrG5h" value="isVarianceAnnotatable" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="6hv6i2_AXON" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588409139" />
       <property role="20lmBu" value="aggregation" />
@@ -3070,8 +3154,36 @@
       <property role="IQ2nx" value="7575174424947136774" />
       <property role="TrG5h" value="varianceAnnotation" />
       <ref role="AX2Wp" node="6$wrg4AAh$1" resolve="VarianceAnnotationEnum" />
-      <node concept="t5JxF" id="6$wrg4AAh$8" role="lGtFl">
-        <property role="t5JxN" value="valid only for interface and delegaet type parameter" />
+    </node>
+    <node concept="3H0Qfr" id="7TfmMh1pDR_" role="lGtFl">
+      <node concept="1Pa9Pv" id="7TfmMh1pDRA" role="3H0Qfi">
+        <node concept="1PaTwC" id="7TfmMh1pDRB" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDRC" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDRN" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDRQ" role="1PaTwD">
+            <property role="3oM_SC" value="generic" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDRU" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDRZ" role="1PaTwD">
+            <property role="3oM_SC" value="parameter." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDS6" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDS5" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDSg" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDSf" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: type-parameter" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -3080,10 +3192,8 @@
     <property role="TrG5h" value="SetAccessorDeclaration" />
     <property role="3GE5qa" value="Class / Struct.Properties" />
     <property role="R4oN_" value="Property set accessor" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6vAOG1ABcby" role="PzmwI">
-      <ref role="PrY4T" node="6vAOG1ABcbs" resolve="IAccessorDeclaration" />
-    </node>
+    <property role="34LRSv" value="set" />
+    <ref role="1TJDcQ" node="3zXINoFWW$0" resolve="AcessorDeclaration" />
     <node concept="3H0Qfr" id="3rKHSnCrkOT" role="lGtFl">
       <node concept="1Pa9Pv" id="3rKHSnCrkOU" role="3H0Qfi">
         <node concept="1PaTwC" id="3rKHSnCrkOV" role="1PaQFQ">
@@ -3121,6 +3231,7 @@
     <property role="TrG5h" value="BaseConstructorInitializer" />
     <property role="3GE5qa" value="Class / Struct.Constructors" />
     <property role="R4oN_" value="Call of a base constructor" />
+    <property role="34LRSv" value="base" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6vAOG1ABnFC" role="PzmwI">
       <ref role="PrY4T" node="6vAOG1ABnFn" resolve="IConstructorInitializer" />
@@ -3227,7 +3338,7 @@
   <node concept="1TIwiD" id="6hv6i2_Azc5">
     <property role="EcuMT" value="7232527154588300037" />
     <property role="TrG5h" value="StructDeclaration" />
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
     <property role="34LRSv" value="struct" />
     <property role="R4oN_" value="Struct type" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
@@ -3250,26 +3361,6 @@
       <property role="20kJfa" value="partial" />
       <ref role="20lvS9" node="6hv6i2_ATMC" resolve="Partial" />
     </node>
-    <node concept="1TJgyj" id="6$wrg4A_l_K" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424946891120" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterList" />
-      <ref role="20lvS9" node="6vAOG1ABcaj" resolve="TypeParameterList" />
-    </node>
-    <node concept="1TJgyj" id="6$wrg4A_oG5" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424946903813" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClauseList" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
-    </node>
-    <node concept="1TJgyj" id="6$wrg4A_oGb" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424946903819" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20kJfa" value="inheritedTypeList" />
-      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
-    </node>
     <node concept="PrWs8" id="6$wrg4A_l_E" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -3278,7 +3369,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="structMemberDeclaration" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3h4LMeIQ_DR" resolve="IStructDeclaration" />
+      <ref role="20lvS9" node="3h4LMeIQ_DR" resolve="IStructMemberDeclaration" />
     </node>
     <node concept="3H0Qfr" id="6Y0EU3Z5Per" role="lGtFl">
       <node concept="1Pa9Pv" id="6Y0EU3Z5Pes" role="3H0Qfi">
@@ -3311,10 +3402,16 @@
         </node>
       </node>
     </node>
+    <node concept="PrWs8" id="5moKU4Y5soc" role="PzmwI">
+      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
+    </node>
+    <node concept="PrWs8" id="eRR5GNb0cO" role="PzmwI">
+      <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc4">
     <property role="EcuMT" value="7232527154588300036" />
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Delegate" />
     <property role="TrG5h" value="DelegateDeclaration" />
     <property role="34LRSv" value="delegate" />
     <property role="R4oN_" value="Delegate type" />
@@ -3426,7 +3523,7 @@
   <node concept="1TIwiD" id="6hv6i2_Azc7">
     <property role="EcuMT" value="7232527154588300039" />
     <property role="TrG5h" value="EnumDeclaration" />
-    <property role="3GE5qa" value="Namespace.TypeDeclaration.Enum" />
+    <property role="3GE5qa" value="Enum" />
     <property role="34LRSv" value="enum" />
     <property role="R4oN_" value="Enum type" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
@@ -3494,7 +3591,7 @@
   <node concept="1TIwiD" id="6hv6i2_Azc6">
     <property role="EcuMT" value="7232527154588300038" />
     <property role="TrG5h" value="InterfaceDeclaration" />
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Interface" />
     <property role="34LRSv" value="interface" />
     <property role="R4oN_" value="Interface type" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
@@ -3517,18 +3614,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="partial" />
       <ref role="20lvS9" node="6hv6i2_ATMC" resolve="Partial" />
-    </node>
-    <node concept="1TJgyj" id="6$wrg4AA8UH" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424947101357" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inheritedTypeList" />
-      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
-    </node>
-    <node concept="1TJgyj" id="6$wrg4AA8UM" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424947101362" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClauseList" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
     </node>
     <node concept="1TJgyj" id="6$wrg4AA8US" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947101368" />
@@ -3571,6 +3656,12 @@
         </node>
       </node>
     </node>
+    <node concept="PrWs8" id="eRR5GN5AVc" role="PzmwI">
+      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
+    </node>
+    <node concept="PrWs8" id="eRR5GNb0d1" role="PzmwI">
+      <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_AZE1">
     <property role="EcuMT" value="7232527154588416641" />
@@ -3589,7 +3680,7 @@
     <property role="EcuMT" value="7232527154588300035" />
     <property role="TrG5h" value="ClassDeclaration" />
     <property role="34LRSv" value="class" />
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
     <property role="R4oN_" value="Class type" />
     <ref role="1TJDcQ" node="6hv6i2_Azc2" resolve="TypeDeclaration" />
     <node concept="1TJgyj" id="6hv6i2_ABc5" role="1TKVEi">
@@ -3605,26 +3696,6 @@
       <property role="20kJfa" value="iClassModifier" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3h4LMeIRHr3" resolve="IClassModifier" />
-    </node>
-    <node concept="1TJgyj" id="6hv6i2_AXO_" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588409125" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="typeParameterList" />
-      <ref role="20lvS9" node="6vAOG1ABcaj" resolve="TypeParameterList" />
-    </node>
-    <node concept="1TJgyj" id="3grCvve1PjI" role="1TKVEi">
-      <property role="IQ2ns" value="3754772800029021422" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inheritedTypeList" />
-      <ref role="20lvS9" node="3grCvve1P7L" resolve="InheritedTypeList" />
-    </node>
-    <node concept="1TJgyj" id="6hv6i2_AXOR" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588409143" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClauseList" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
     </node>
     <node concept="1TJgyj" id="6hv6i2_AZEU" role="1TKVEi">
       <property role="IQ2ns" value="7232527154588416698" />
@@ -3664,234 +3735,18 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="PlHQZ" id="6vAOG1ABcbs">
-    <property role="EcuMT" value="7486903154347131612" />
-    <property role="TrG5h" value="IAccessorDeclaration" />
-    <property role="3GE5qa" value="Class / Struct.Properties" />
-    <node concept="1TJgyj" id="6vAOG1ABcbC" role="1TKVEi">
-      <property role="IQ2ns" value="7486903154347131624" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="attributeList" />
-      <ref role="20lvS9" node="6vAOG1ABcaf" resolve="AttributeList" />
+    <node concept="PrWs8" id="5moKU4Y5snt" role="PzmwI">
+      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
     </node>
-    <node concept="1TJgyj" id="6vAOG1ABcbF" role="1TKVEi">
-      <property role="IQ2ns" value="7486903154347131627" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="iAccessorVisibility" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
-    </node>
-    <node concept="1TJgyj" id="6vAOG1ABcbL" role="1TKVEi">
-      <property role="IQ2ns" value="7486903154347131633" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="body" />
-      <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
-    </node>
-    <node concept="3H0Qfr" id="3rKHSnCrkNp" role="lGtFl">
-      <node concept="1Pa9Pv" id="3rKHSnCrkNq" role="3H0Qfi">
-        <node concept="1PaTwC" id="3rKHSnCrkNr" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkNs" role="1PaTwD">
-            <property role="3oM_SC" value="Represents" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkNB" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkNE" role="1PaTwD">
-            <property role="3oM_SC" value="property" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkNI" role="1PaTwD">
-            <property role="3oM_SC" value="accessor" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkNN" role="1PaTwD">
-            <property role="3oM_SC" value="definition." />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkQA" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkQ_" role="1PaTwD">
-            <property role="3oM_SC" value="" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkQV" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkQU" role="1PaTwD">
-            <property role="3oM_SC" value="This" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkRh" role="1PaTwD">
-            <property role="3oM_SC" value="concept" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkRk" role="1PaTwD">
-            <property role="3oM_SC" value="is" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkRo" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkRE" role="1PaTwD">
-            <property role="3oM_SC" value="super-concept" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkRK" role="1PaTwD">
-            <property role="3oM_SC" value="for" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkRR" role="1PaTwD">
-            <property role="3oM_SC" value="set-" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkRZ" role="1PaTwD">
-            <property role="3oM_SC" value="and" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkS8" role="1PaTwD">
-            <property role="3oM_SC" value="get-" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkSi" role="1PaTwD">
-            <property role="3oM_SC" value="accessor" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkSt" role="1PaTwD">
-            <property role="3oM_SC" value="definitions." />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkWY" role="1PaTwD">
-            <property role="3oM_SC" value="At" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkXb" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkXp" role="1PaTwD">
-            <property role="3oM_SC" value="property" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkXD" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkXC" role="1PaTwD">
-            <property role="3oM_SC" value="definition" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkYq" role="1PaTwD">
-            <property role="3oM_SC" value="concept," />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkYt" role="1PaTwD">
-            <property role="3oM_SC" value="we" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkYx" role="1PaTwD">
-            <property role="3oM_SC" value="use" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkYA" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkYG" role="1PaTwD">
-            <property role="3oM_SC" value="list" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkZ4" role="1PaTwD">
-            <property role="3oM_SC" value="of" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkZc" role="1PaTwD">
-            <property role="3oM_SC" value="this" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkZl" role="1PaTwD">
-            <property role="3oM_SC" value="concept's" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkZv" role="1PaTwD">
-            <property role="3oM_SC" value="instances" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkZE" role="1PaTwD">
-            <property role="3oM_SC" value="by" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkZQ" role="1PaTwD">
-            <property role="3oM_SC" value="which" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl03" role="1PaTwD">
-            <property role="3oM_SC" value="we" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl1K" role="1PaTwD">
-            <property role="3oM_SC" value="easily" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl21" role="1PaTwD">
-            <property role="3oM_SC" value="allow" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrl2i" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrl2h" role="1PaTwD">
-            <property role="3oM_SC" value="the" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl3j" role="1PaTwD">
-            <property role="3oM_SC" value="user" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl3m" role="1PaTwD">
-            <property role="3oM_SC" value="to" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl3q" role="1PaTwD">
-            <property role="3oM_SC" value="write" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl3v" role="1PaTwD">
-            <property role="3oM_SC" value="the" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl3_" role="1PaTwD">
-            <property role="3oM_SC" value="accessors" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl3G" role="1PaTwD">
-            <property role="3oM_SC" value="in" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl3O" role="1PaTwD">
-            <property role="3oM_SC" value="different" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl3X" role="1PaTwD">
-            <property role="3oM_SC" value="orders" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl53" role="1PaTwD">
-            <property role="3oM_SC" value="and" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl5e" role="1PaTwD">
-            <property role="3oM_SC" value="not" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl6k" role="1PaTwD">
-            <property role="3oM_SC" value="only" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl5q" role="1PaTwD">
-            <property role="3oM_SC" value="in" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl5B" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl5P" role="1PaTwD">
-            <property role="3oM_SC" value="prescribed" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrl64" role="1PaTwD">
-            <property role="3oM_SC" value="order." />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkNU" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkNT" role="1PaTwD">
-            <property role="3oM_SC" value="" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="3rKHSnCrkO4" role="1PaQFQ">
-          <node concept="3oM_SD" id="3rKHSnCrkO3" role="1PaTwD">
-            <property role="3oM_SC" value="Original name in the C# grammar: this" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkOf" role="1PaTwD">
-            <property role="3oM_SC" value="coencept" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkOi" role="1PaTwD">
-            <property role="3oM_SC" value="does" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkOm" role="1PaTwD">
-            <property role="3oM_SC" value="not" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkOr" role="1PaTwD">
-            <property role="3oM_SC" value="have" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkOx" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkOC" role="1PaTwD">
-            <property role="3oM_SC" value="grammar" />
-          </node>
-          <node concept="3oM_SD" id="3rKHSnCrkOK" role="1PaTwD">
-            <property role="3oM_SC" value="equivalent" />
-          </node>
-        </node>
-      </node>
+    <node concept="PrWs8" id="eRR5GNaXSz" role="PzmwI">
+      <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc2">
     <property role="EcuMT" value="7232527154588300034" />
     <property role="TrG5h" value="TypeDeclaration" />
     <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="Namespace.TypeDeclaration" />
+    <property role="3GE5qa" value="Namespace" />
     <property role="R4oN_" value="User-defined type" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6hv6i2_AzRi" role="PzmwI">
@@ -3941,10 +3796,8 @@
     <property role="TrG5h" value="GetAccessorDeclaration" />
     <property role="3GE5qa" value="Class / Struct.Properties" />
     <property role="R4oN_" value="Property get accessor" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6vAOG1ABcbu" role="PzmwI">
-      <ref role="PrY4T" node="6vAOG1ABcbs" resolve="IAccessorDeclaration" />
-    </node>
+    <property role="34LRSv" value="get" />
+    <ref role="1TJDcQ" node="3zXINoFWW$0" resolve="AcessorDeclaration" />
     <node concept="3H0Qfr" id="3rKHSnCrkPJ" role="lGtFl">
       <node concept="1Pa9Pv" id="3rKHSnCrkPK" role="3H0Qfi">
         <node concept="1PaTwC" id="3rKHSnCrkPL" role="1PaQFQ">
@@ -3985,6 +3838,7 @@
       <property role="IQ2ns" value="7486903154347178713" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="argumentList" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5VT83U$N0Bi" resolve="ArgumentsList" />
     </node>
     <node concept="3H0Qfr" id="3rKHSnCrlgr" role="lGtFl">
@@ -4141,13 +3995,40 @@
     <property role="EcuMT" value="7232527154588443414" />
     <property role="TrG5h" value="Statement" />
     <property role="3GE5qa" value="Statements.Other" />
+    <property role="R4oN_" value="Empty Statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="1dPlh42YXz1" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42YXz2" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42YXz3" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42YXz4" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42YXzf" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42YXzi" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42YXzv" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42YXzO" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42YXzC" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42YXzD" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnF5">
     <property role="EcuMT" value="7486903154347178693" />
     <property role="TrG5h" value="StaticConstructorDeclaration" />
     <property role="3GE5qa" value="Class / Struct.Constructors" />
     <property role="R4oN_" value="Static constructor definition" />
+    <property role="34LRSv" value="static-ctor" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6vAOG1ABnF9" role="1TKVEi">
       <property role="IQ2ns" value="7486903154347178697" />
@@ -4165,7 +4046,8 @@
       <property role="IQ2ns" value="7486903154347178773" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />
-      <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
     </node>
     <node concept="PrWs8" id="6vAOG1ABnG9" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -4211,25 +4093,12 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="1FYNzU$kFC0">
-    <property role="EcuMT" value="1945218857510812160" />
-    <property role="3GE5qa" value="Statements.Dummy" />
-    <property role="TrG5h" value="StatementTest" />
-    <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1FYNzU$kFC1" role="1TKVEi">
-      <property role="IQ2ns" value="1945218857510812161" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="statement" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6hv6i2_B6cm" resolve="Statement" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1FYNzU$lhJs">
     <property role="EcuMT" value="1945218857510968284" />
     <property role="3GE5qa" value="Statements.Other" />
     <property role="TrG5h" value="LabeledStatement" />
     <property role="34LRSv" value="label" />
+    <property role="R4oN_" value="Statement with a label" />
     <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
     <node concept="1TJgyj" id="1FYNzU$lyVP" role="1TKVEi">
       <property role="IQ2ns" value="1945218857511038709" />
@@ -4245,25 +4114,112 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6hv6i2_B6cm" resolve="Statement" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="1FYNzU$lhJv">
-    <property role="EcuMT" value="1945218857510968287" />
-    <property role="3GE5qa" value="Statements.Dummy" />
-    <property role="TrG5h" value="DummyStatement" />
-    <property role="34LRSv" value="dummy" />
-    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="3H0Qfr" id="1dPlh42Z6bP" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6bQ" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6bR" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6bS" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6c3" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6c6" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6cY" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6d3" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6d9" role="1PaTwD">
+            <property role="3oM_SC" value="label" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6dC" role="1PaTwD">
+            <property role="3oM_SC" value="before" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6dK" role="1PaTwD">
+            <property role="3oM_SC" value="it." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6dh" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6dg" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6ds" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6dr" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: labeled-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$mBmN">
     <property role="EcuMT" value="1945218857511318963" />
     <property role="3GE5qa" value="Statements.Declaration" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="DeclarationStatement" />
+    <property role="R4oN_" value="Local declaration of a variable or a constant" />
     <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="3H0Qfr" id="2vo5eZuI9be" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuI9bf" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuI9bg" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9bh" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9cj" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9cm" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9cq" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9cv" role="1PaTwD">
+            <property role="3oM_SC" value="declares" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9di" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9du" role="1PaTwD">
+            <property role="3oM_SC" value="defines" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9c_" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9cG" role="1PaTwD">
+            <property role="3oM_SC" value="variable" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9cO" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9cX" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9d7" role="1PaTwD">
+            <property role="3oM_SC" value="constant." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuI9dG" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9dF" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuI9dX" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9dW" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: declaration-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$mBmR">
     <property role="EcuMT" value="1945218857511318967" />
     <property role="3GE5qa" value="Statements.Declaration" />
-    <property role="TrG5h" value="LocalVariableDeclaration" />
+    <property role="TrG5h" value="LocalVariableDeclarationStatement" />
+    <property role="R4oN_" value="Local variable declaration" />
     <ref role="1TJDcQ" node="1FYNzU$mBmN" resolve="DeclarationStatement" />
     <node concept="1TJgyj" id="1FYNzU$mBmS" role="1TKVEi">
       <property role="IQ2ns" value="1945218857511318968" />
@@ -4281,6 +4237,46 @@
     </node>
     <node concept="PrWs8" id="1FYNzU$v7xZ" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$v7xY" resolve="IForInitializer" />
+    </node>
+    <node concept="3H0Qfr" id="2vo5eZuI9ef" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuI9eg" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuI9eh" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9f1" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9ev" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9ew" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9he" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9fv" role="1PaTwD">
+            <property role="3oM_SC" value="declares" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9fQ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9g0" role="1PaTwD">
+            <property role="3oM_SC" value="local" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9gu" role="1PaTwD">
+            <property role="3oM_SC" value="variable." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuI9eE" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9eF" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuI9eG" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9eH" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: local-variable-declaration" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="1FYNzU$mBn3">
@@ -4329,6 +4325,7 @@
     <property role="EcuMT" value="1945218857511602452" />
     <property role="3GE5qa" value="Statements.Declaration" />
     <property role="TrG5h" value="LocalVariableDeclarationWithInitialization" />
+    <property role="R4oN_" value="Local variable definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1FYNzU$nG$l" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$mBn3" resolve="IVariableDeclarator" />
@@ -4347,6 +4344,46 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$nG$p" resolve="IVariableInitializer" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuI9gA" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuI9gO" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuI9gP" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9gQ" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9gR" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9gS" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9hn" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9gT" role="1PaTwD">
+            <property role="3oM_SC" value="defines" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9gU" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9gV" role="1PaTwD">
+            <property role="3oM_SC" value="local" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9gW" role="1PaTwD">
+            <property role="3oM_SC" value="variable." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuI9gX" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9gY" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuI9gZ" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9h0" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: local-variable-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="PlHQZ" id="1FYNzU$nG$p">
     <property role="EcuMT" value="1945218857511602457" />
@@ -4357,6 +4394,7 @@
     <property role="EcuMT" value="1945218857512035115" />
     <property role="3GE5qa" value="Statements.Declaration" />
     <property role="TrG5h" value="LocalConstantDeclaration" />
+    <property role="R4oN_" value="Local constant definition" />
     <ref role="1TJDcQ" node="1FYNzU$mBmN" resolve="DeclarationStatement" />
     <node concept="1TJgyj" id="1FYNzU$pBGB" role="1TKVEi">
       <property role="IQ2ns" value="1945218857512106791" />
@@ -4372,13 +4410,103 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6hv6i2_B48E" resolve="ConstantDeclarator" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuI9hw" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuI9hI" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuI9hJ" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9hK" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9hL" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9hM" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9hN" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9hO" role="1PaTwD">
+            <property role="3oM_SC" value="defines" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9hP" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9hQ" role="1PaTwD">
+            <property role="3oM_SC" value="local" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuI9hR" role="1PaTwD">
+            <property role="3oM_SC" value="constant." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuI9hS" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9hT" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuI9hU" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuI9hV" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: local-constant-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$qtce">
     <property role="EcuMT" value="1945218857512325902" />
     <property role="3GE5qa" value="Statements.Other" />
     <property role="TrG5h" value="EmbeddedStatement" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Non-decleration non-labeled statement" />
     <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="3H0Qfr" id="1dPlh42Z6dT" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6dU" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6dV" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6dW" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6e7" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ea" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ee" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ej" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6fi" role="1PaTwD">
+            <property role="3oM_SC" value="neither" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ew" role="1PaTwD">
+            <property role="3oM_SC" value="labeled" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ft" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6eC" role="1PaTwD">
+            <property role="3oM_SC" value="nor" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6eL" role="1PaTwD">
+            <property role="3oM_SC" value="declaration" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6eV" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6fE" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6fD" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6fU" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6fT" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: embedded-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$qtcf">
     <property role="EcuMT" value="1945218857512325903" />
@@ -4567,7 +4695,8 @@
   <node concept="1TIwiD" id="1FYNzU$sHYQ">
     <property role="EcuMT" value="1945218857512918966" />
     <property role="3GE5qa" value="Statements.Other" />
-    <property role="TrG5h" value="StatementExpression" />
+    <property role="TrG5h" value="ExpressionStatement" />
+    <property role="R4oN_" value="Statement whose major part is an expression" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     <node concept="1TJgyj" id="1FYNzU$sHYR" role="1TKVEi">
       <property role="IQ2ns" value="1945218857512918967" />
@@ -4576,18 +4705,151 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$sHZz" resolve="IStatementExpression" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z6gb" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6gc" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6gd" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6ge" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gp" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gs" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gw" role="1PaTwD">
+            <property role="3oM_SC" value="whose" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6g_" role="1PaTwD">
+            <property role="3oM_SC" value="major" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gF" role="1PaTwD">
+            <property role="3oM_SC" value="part" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gM" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6gU" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6h3" role="1PaTwD">
+            <property role="3oM_SC" value="expression." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6he" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6hd" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6hs" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6hr" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: expression-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="PlHQZ" id="1FYNzU$sHZz">
     <property role="EcuMT" value="1945218857512919011" />
     <property role="3GE5qa" value="Statements.Other" />
     <property role="TrG5h" value="IStatementExpression" />
+    <node concept="3H0Qfr" id="1dPlh42Z6jf" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6jg" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6jh" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6ji" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6j$" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jB" role="1PaTwD">
+            <property role="3oM_SC" value="expression" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jF" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jK" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jQ" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6jX" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6k5" role="1PaTwD">
+            <property role="3oM_SC" value="major" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6lC" role="1PaTwD">
+            <property role="3oM_SC" value="part" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ke" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6kJ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6kU" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6l7" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6l6" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6ln" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6m_" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: statement-expression" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$tiST">
     <property role="EcuMT" value="1945218857513070137" />
     <property role="3GE5qa" value="Statements.Other" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="SelectionStatement" />
+    <property role="R4oN_" value="If or switch statement" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
+    <node concept="3H0Qfr" id="1dPlh42Z6mB" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6mC" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6mD" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6mE" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6mP" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6mS" role="1PaTwD">
+            <property role="3oM_SC" value="if" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6mW" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6n1" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6n7" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ne" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6nn" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6nm" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6nz" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6ny" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: selection-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$tiSW">
     <property role="EcuMT" value="1945218857513070140" />
@@ -4720,6 +4982,7 @@
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="TrG5h" value="SwitchStatement" />
     <property role="34LRSv" value="switch" />
+    <property role="R4oN_" value="Switch statement" />
     <ref role="1TJDcQ" node="1FYNzU$tiST" resolve="SelectionStatement" />
     <node concept="1TJgyj" id="1FYNzU$t_Qp" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513147801" />
@@ -4735,11 +4998,40 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1FYNzU$t_Qr" resolve="SwitchSection" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z8Ob" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8Oc" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8Od" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Oe" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Op" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Os" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ow" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8OJ" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8P6" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8OT" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8OU" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$t_Qr">
     <property role="EcuMT" value="1945218857513147803" />
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="TrG5h" value="SwitchSection" />
+    <property role="R4oN_" value="Switch case(s) with one block of statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1FYNzU$t_Ub" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513148043" />
@@ -4755,18 +5047,121 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6hv6i2_B6cm" resolve="Statement" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z8Ph" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8Pi" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8Pj" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Pk" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8PQ" role="1PaTwD">
+            <property role="3oM_SC" value="one" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Qq" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Qu" role="1PaTwD">
+            <property role="3oM_SC" value="several" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Rs" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Qz" role="1PaTwD">
+            <property role="3oM_SC" value="case" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8QD" role="1PaTwD">
+            <property role="3oM_SC" value="branches" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Rk" role="1PaTwD">
+            <property role="3oM_SC" value="having" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8R_" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8RJ" role="1PaTwD">
+            <property role="3oM_SC" value="same" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8RU" role="1PaTwD">
+            <property role="3oM_SC" value="block" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8S6" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Sj" role="1PaTwD">
+            <property role="3oM_SC" value="statements." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Sy" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Sx" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8SO" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8SN" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-section" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$t_Sh">
     <property role="EcuMT" value="1945218857513147921" />
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="SwitchLabel" />
+    <property role="R4oN_" value="Switch case header" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="1dPlh42Z8T7" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8T8" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8T9" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Ta" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Tl" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8To" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ts" role="1PaTwD">
+            <property role="3oM_SC" value="case" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Tx" role="1PaTwD">
+            <property role="3oM_SC" value="header" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8TQ" role="1PaTwD">
+            <property role="3oM_SC" value="(the" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ue" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;case&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8TX" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8U5" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;default&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Uo" role="1PaTwD">
+            <property role="3oM_SC" value="line)." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8U$" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Uz" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8UN" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8UM" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-label" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$t_Sk">
     <property role="EcuMT" value="1945218857513147924" />
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="TrG5h" value="CaseLabel" />
+    <property role="R4oN_" value="Switch case line" />
     <ref role="1TJDcQ" node="1FYNzU$t_Sh" resolve="SwitchLabel" />
     <node concept="1TJgyj" id="1FYNzU$t_Sl" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513147925" />
@@ -4775,26 +5170,146 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z8V3" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8V4" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8V5" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8V6" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8WH" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8VP" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;case&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8VU" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8W0" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8W7" role="1PaTwD">
+            <property role="3oM_SC" value="code" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Wf" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Wo" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Wy" role="1PaTwD">
+            <property role="3oM_SC" value="switch." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8X6" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8XB" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Xl" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Xm" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-label" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$t_SX">
     <property role="EcuMT" value="1945218857513147965" />
     <property role="3GE5qa" value="Statements.Switch" />
     <property role="TrG5h" value="DefaultLabel" />
     <property role="34LRSv" value="default:" />
+    <property role="R4oN_" value="Switch default line" />
     <ref role="1TJDcQ" node="1FYNzU$t_Sh" resolve="SwitchLabel" />
+    <node concept="3H0Qfr" id="1dPlh42Z8XR" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8Y5" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8Y6" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Y7" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Y8" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Y9" role="1PaTwD">
+            <property role="3oM_SC" value="&quot;default&quot;" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ya" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Yb" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Yc" role="1PaTwD">
+            <property role="3oM_SC" value="code" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Yd" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Ye" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8Yf" role="1PaTwD">
+            <property role="3oM_SC" value="switch." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Yg" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Yh" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Yi" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Yj" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: switch-label" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$uw3Y">
     <property role="EcuMT" value="1945218857513386238" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="IterationStatement" />
+    <property role="R4oN_" value="Abstract loop statement" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
+    <node concept="3H0Qfr" id="2vo5eZuIbQN" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbR1" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbR2" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbR3" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbRl" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbRp" role="1PaTwD">
+            <property role="3oM_SC" value="iteration" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbRQ" role="1PaTwD">
+            <property role="3oM_SC" value="(loop)" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbRL" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbR7" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbR8" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbR9" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbRa" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: iteration-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$uw43">
     <property role="EcuMT" value="1945218857513386243" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="WhileStatement" />
     <property role="34LRSv" value="while" />
+    <property role="R4oN_" value="While statement" />
     <ref role="1TJDcQ" node="1FYNzU$uw3Y" resolve="IterationStatement" />
     <node concept="1TJgyj" id="1FYNzU$uw44" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513386244" />
@@ -4810,12 +5325,41 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuIbPd" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbPr" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbPs" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbPt" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbPu" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbPv" role="1PaTwD">
+            <property role="3oM_SC" value="while" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbPw" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbPx" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbPy" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbPz" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbP$" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: while-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$uNCZ">
     <property role="EcuMT" value="1945218857513466431" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="DoStatement" />
     <property role="34LRSv" value="do" />
+    <property role="R4oN_" value="Do-while statement" />
     <ref role="1TJDcQ" node="1FYNzU$uw3Y" resolve="IterationStatement" />
     <node concept="1TJgyj" id="1FYNzU$uND0" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513466432" />
@@ -4831,12 +5375,41 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuIbPJ" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbPX" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbPY" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbPZ" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQ0" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQ1" role="1PaTwD">
+            <property role="3oM_SC" value="do-while" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQ2" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbQ3" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQ4" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbQ5" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQ6" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: do-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$v7xW">
     <property role="EcuMT" value="1945218857513547900" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="ForStatement" />
     <property role="34LRSv" value="for" />
+    <property role="R4oN_" value="For statement" />
     <ref role="1TJDcQ" node="1FYNzU$uw3Y" resolve="IterationStatement" />
     <node concept="1TJgyj" id="1FYNzU$v7yw" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513547936" />
@@ -4863,16 +5436,79 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuIbNQ" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbO4" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbO5" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbO6" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbO7" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbOw" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbP8" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbOe" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbOf" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbOg" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbOh" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: for-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="PlHQZ" id="1FYNzU$v7xY">
     <property role="EcuMT" value="1945218857513547902" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="IForInitializer" />
+    <node concept="3H0Qfr" id="2vo5eZuIbRW" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbRX" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbRY" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbRZ" role="1PaTwD">
+            <property role="3oM_SC" value="Initializer" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSa" role="1PaTwD">
+            <property role="3oM_SC" value="section" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSd" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSh" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSm" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbSs" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbS$" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbSz" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbSJ" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbSI" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: for-initializer" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$v7y1">
     <property role="EcuMT" value="1945218857513547905" />
     <property role="3GE5qa" value="Statements.Other" />
     <property role="TrG5h" value="StatementExpressionList" />
+    <property role="R4oN_" value="List of statement expressions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1FYNzU$v7y2" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$v7xY" resolve="IForInitializer" />
@@ -4884,12 +5520,44 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="1FYNzU$sHZz" resolve="IStatementExpression" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z6nK" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z6nL" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z6ob" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6nN" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6nY" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6o1" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6oj" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z6ot" role="1PaTwD">
+            <property role="3oM_SC" value="expressions." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6o$" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6oz" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z6oI" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z6oH" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: statement-expression-list" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$vKkh">
     <property role="EcuMT" value="1945218857513714961" />
     <property role="3GE5qa" value="Statements.Iteration" />
     <property role="TrG5h" value="ForeachStatement" />
     <property role="34LRSv" value="foreach" />
+    <property role="R4oN_" value="Foreach statement" />
     <ref role="1TJDcQ" node="1FYNzU$uw3Y" resolve="IterationStatement" />
     <node concept="1TJgyj" id="1FYNzU$vKki" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513714962" />
@@ -4919,40 +5587,185 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
     </node>
+    <node concept="3H0Qfr" id="2vo5eZuIbQh" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuIbQv" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuIbQw" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQx" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQy" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQz" role="1PaTwD">
+            <property role="3oM_SC" value="foreach" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuIbQ$" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbQ_" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQA" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuIbQB" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuIbQC" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: foreach-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$w5Bf">
     <property role="EcuMT" value="1945218857513802191" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="TrG5h" value="JumpStatement" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Abstract jump statement" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
+    <node concept="3H0Qfr" id="x$3LfZ0y8u" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0y8v" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0y8w" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0y8x" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yaM" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0y8J" role="1PaTwD">
+            <property role="3oM_SC" value="jump-like" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0y8N" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0y8T" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0y8S" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0y92" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0y91" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: jump-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$w5Bi">
     <property role="EcuMT" value="1945218857513802194" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="TrG5h" value="BreakStatement" />
     <property role="34LRSv" value="break" />
+    <property role="R4oN_" value="Break statement" />
     <ref role="1TJDcQ" node="1FYNzU$w5Bf" resolve="JumpStatement" />
+    <node concept="3H0Qfr" id="x$3LfZ0y9c" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0y9d" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0y9e" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0y9I" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0y9s" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0y9t" role="1PaTwD">
+            <property role="3oM_SC" value="break" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0y9u" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0y9v" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0y9w" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0y9x" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0y9y" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: break-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$wqsU">
     <property role="EcuMT" value="1945218857513887546" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="TrG5h" value="ContinueStatement" />
     <property role="34LRSv" value="continue" />
+    <property role="R4oN_" value="Continue statement" />
     <ref role="1TJDcQ" node="1FYNzU$w5Bf" resolve="JumpStatement" />
+    <node concept="3H0Qfr" id="x$3LfZ0y9W" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0y9X" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0y9Y" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yau" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yac" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yad" role="1PaTwD">
+            <property role="3oM_SC" value="continue" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yae" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0yaf" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yag" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0yah" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yai" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: continue-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$wJgY">
     <property role="EcuMT" value="1945218857513972798" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="GotoStatement" />
+    <property role="R4oN_" value="Abstract goto statement" />
     <ref role="1TJDcQ" node="1FYNzU$w5Bf" resolve="JumpStatement" />
+    <node concept="3H0Qfr" id="x$3LfZ0yaR" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0yaS" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0yaT" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ybo" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0y8G" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yb7" role="1PaTwD">
+            <property role="3oM_SC" value="goto-like" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yb8" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0yb9" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yba" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0ybb" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ybc" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: goto-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$wJh1">
     <property role="EcuMT" value="1945218857513972801" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="TrG5h" value="GotoIdentifierStatement" />
     <property role="34LRSv" value="goto" />
+    <property role="R4oN_" value="Goto to a label" />
     <ref role="1TJDcQ" node="1FYNzU$wJgY" resolve="GotoStatement" />
     <node concept="1TJgyj" id="1FYNzU$wJh2" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513972802" />
@@ -4961,12 +5774,56 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5VT83U$MIqV" resolve="Identifier" />
     </node>
+    <node concept="3H0Qfr" id="x$3LfZ0ybA" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0ybB" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0ybC" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yc8" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ybQ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ybR" role="1PaTwD">
+            <property role="3oM_SC" value="goto" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ybS" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ycm" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ycs" role="1PaTwD">
+            <property role="3oM_SC" value="target" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yft" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yf_" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yfI" role="1PaTwD">
+            <property role="3oM_SC" value="label." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0ybT" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ybU" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0ybV" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ybW" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: goto-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$wJhE">
     <property role="EcuMT" value="1945218857513972842" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="TrG5h" value="GotoCaseStatement" />
     <property role="34LRSv" value="goto" />
+    <property role="R4oN_" value="Goto to a switch case" />
     <ref role="1TJDcQ" node="1FYNzU$wJgY" resolve="GotoStatement" />
     <node concept="1TJgyj" id="1FYNzU$wJhF" role="1TKVEi">
       <property role="IQ2ns" value="1945218857513972843" />
@@ -4975,19 +5832,116 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
     </node>
+    <node concept="3H0Qfr" id="x$3LfZ0yd9" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0yda" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0ydb" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ydR" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ydp" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ydq" role="1PaTwD">
+            <property role="3oM_SC" value="goto" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ydr" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yds" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ydt" role="1PaTwD">
+            <property role="3oM_SC" value="target" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ye$" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yeG" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yeP" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yeZ" role="1PaTwD">
+            <property role="3oM_SC" value="case." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0ydy" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ydz" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0yd$" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yd_" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: goto-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$wJiu">
     <property role="EcuMT" value="1945218857513972894" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="TrG5h" value="GotoDefaultStatement" />
     <property role="34LRSv" value="goto" />
+    <property role="R4oN_" value="Goto to the switch default case" />
     <ref role="1TJDcQ" node="1FYNzU$wJgY" resolve="GotoStatement" />
+    <node concept="3H0Qfr" id="x$3LfZ0yfS" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0yg6" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0yg7" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yg8" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yg9" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yga" role="1PaTwD">
+            <property role="3oM_SC" value="goto" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ygb" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ygc" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ygd" role="1PaTwD">
+            <property role="3oM_SC" value="target" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yge" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ygf" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ygg" role="1PaTwD">
+            <property role="3oM_SC" value="switch" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ygA" role="1PaTwD">
+            <property role="3oM_SC" value="default" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0ygh" role="1PaTwD">
+            <property role="3oM_SC" value="case." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0ygi" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ygj" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0ygk" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ygl" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: goto-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$x4Fa">
     <property role="EcuMT" value="1945218857514060490" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="TrG5h" value="ReturnStatement" />
     <property role="34LRSv" value="return" />
+    <property role="R4oN_" value="Return statement" />
     <ref role="1TJDcQ" node="1FYNzU$w5Bf" resolve="JumpStatement" />
     <node concept="1TJgyj" id="1FYNzU$x4Fb" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514060491" />
@@ -4995,12 +5949,41 @@
       <property role="20kJfa" value="expression" />
       <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
     </node>
+    <node concept="3H0Qfr" id="x$3LfZ0ygM" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0ygN" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0ygO" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0ygP" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yh0" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yh3" role="1PaTwD">
+            <property role="3oM_SC" value="return" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yh7" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0yhm" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yhH" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0yhw" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yhx" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: return-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$xJl3">
     <property role="EcuMT" value="1945218857514235203" />
     <property role="3GE5qa" value="Statements.Jumps" />
     <property role="TrG5h" value="ThrowStatement" />
     <property role="34LRSv" value="throw" />
+    <property role="R4oN_" value="Throw statement" />
     <ref role="1TJDcQ" node="1FYNzU$w5Bf" resolve="JumpStatement" />
     <node concept="1TJgyj" id="1FYNzU$xJl4" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514235204" />
@@ -5008,19 +5991,77 @@
       <property role="20kJfa" value="expression" />
       <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
     </node>
+    <node concept="3H0Qfr" id="x$3LfZ0yiq" role="lGtFl">
+      <node concept="1Pa9Pv" id="x$3LfZ0yir" role="3H0Qfi">
+        <node concept="1PaTwC" id="x$3LfZ0yis" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yit" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yiC" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yiF" role="1PaTwD">
+            <property role="3oM_SC" value="throw" />
+          </node>
+          <node concept="3oM_SD" id="x$3LfZ0yiJ" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0yiP" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yiO" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="x$3LfZ0yiY" role="1PaQFQ">
+          <node concept="3oM_SD" id="x$3LfZ0yiX" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: throw-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$y59n">
     <property role="EcuMT" value="1945218857514324567" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="TryStatement" />
+    <property role="R4oN_" value="Abstract try statement" />
     <ref role="1TJDcQ" node="1FYNzU$qtce" resolve="EmbeddedStatement" />
+    <node concept="3H0Qfr" id="1dPlh42Z8YD" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8YE" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8YF" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8YG" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8YR" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8YU" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8YY" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Z4" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Z3" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z8Zd" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8Zc" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: try-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$y59q">
     <property role="EcuMT" value="1945218857514324570" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="TryCatchFinallyStatement" />
     <property role="34LRSv" value="try" />
+    <property role="R4oN_" value="Try statement with catch" />
     <ref role="1TJDcQ" node="1FYNzU$y59n" resolve="TryStatement" />
     <node concept="1TJgyj" id="1FYNzU$y59r" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324571" />
@@ -5034,7 +6075,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="catchClauses" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1FYNzU$y59t" resolve="CatchClauses" />
+      <ref role="20lvS9" node="1FYNzU$y59t" resolve="CatchClause" />
     </node>
     <node concept="1TJgyj" id="1FYNzU$y5eR" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324919" />
@@ -5042,19 +6083,130 @@
       <property role="20kJfa" value="finallyClause" />
       <ref role="20lvS9" node="1FYNzU$y5eq" resolve="FinallyClause" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z8Zn" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z8Zo" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z8Zp" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z8ZJ" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8ZL" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z8ZO" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z97_" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z90a" role="1PaTwD">
+            <property role="3oM_SC" value="sections" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z90i" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z99Z" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z90r" role="1PaTwD">
+            <property role="3oM_SC" value="catch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z98R" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z9ac" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z992" role="1PaTwD">
+            <property role="3oM_SC" value="optional" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z99r" role="1PaTwD">
+            <property role="3oM_SC" value="finally" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z99N" role="1PaTwD">
+            <property role="3oM_SC" value="section." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z910" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z91z" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z91g" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z91h" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: try-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$y59t">
     <property role="EcuMT" value="1945218857514324573" />
     <property role="3GE5qa" value="Statements.Try" />
-    <property role="TrG5h" value="CatchClauses" />
+    <property role="TrG5h" value="CatchClause" />
     <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Catch section of a try statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="1dPlh42Z95e" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z95f" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z95g" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z95h" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95s" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95v" role="1PaTwD">
+            <property role="3oM_SC" value="catch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95z" role="1PaTwD">
+            <property role="3oM_SC" value="section" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95C" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95I" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95P" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z95X" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z96k" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z96N" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z96y" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z96z" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: no" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z972" role="1PaTwD">
+            <property role="3oM_SC" value="corresponding" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z975" role="1PaTwD">
+            <property role="3oM_SC" value="entity" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z979" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z97e" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z97k" role="1PaTwD">
+            <property role="3oM_SC" value="grammar" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$y59z">
     <property role="EcuMT" value="1945218857514324579" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="OptionalGeneralCatch" />
-    <ref role="1TJDcQ" node="1FYNzU$y59t" resolve="CatchClauses" />
+    <ref role="1TJDcQ" node="1FYNzU$y59t" resolve="CatchClause" />
     <node concept="1TJgyj" id="1FYNzU$y59B" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324583" />
       <property role="20lmBu" value="aggregation" />
@@ -5149,7 +6301,7 @@
     <property role="EcuMT" value="1945218857514324842" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="MandatoryGeneralCatch" />
-    <ref role="1TJDcQ" node="1FYNzU$y59t" resolve="CatchClauses" />
+    <ref role="1TJDcQ" node="1FYNzU$y59t" resolve="CatchClause" />
     <node concept="1TJgyj" id="1FYNzU$y5dF" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324843" />
       <property role="20lmBu" value="aggregation" />
@@ -5170,6 +6322,7 @@
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="FinallyClause" />
     <property role="34LRSv" value="finally" />
+    <property role="R4oN_" value="Finally section of a try statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1FYNzU$y5er" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514324891" />
@@ -5178,12 +6331,53 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcaM" resolve="Block" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z93q" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z93r" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z93s" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z93t" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93C" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93F" role="1PaTwD">
+            <property role="3oM_SC" value="finally" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93J" role="1PaTwD">
+            <property role="3oM_SC" value="section" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93O" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93U" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z941" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z949" role="1PaTwD">
+            <property role="3oM_SC" value="statement." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z94w" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z94Z" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z94I" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z94J" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: finally-clause" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="1FYNzU$yNkf">
     <property role="EcuMT" value="1945218857514513679" />
     <property role="3GE5qa" value="Statements.Try" />
     <property role="TrG5h" value="TryFinallyStatement" />
     <property role="34LRSv" value="try" />
+    <property role="R4oN_" value="Try-finally statement without catch" />
     <ref role="1TJDcQ" node="1FYNzU$y59n" resolve="TryStatement" />
     <node concept="1TJgyj" id="1FYNzU$yNkg" role="1TKVEi">
       <property role="IQ2ns" value="1945218857514513680" />
@@ -5199,6 +6393,43 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1FYNzU$y5eq" resolve="FinallyClause" />
     </node>
+    <node concept="3H0Qfr" id="1dPlh42Z91O" role="lGtFl">
+      <node concept="1Pa9Pv" id="1dPlh42Z91P" role="3H0Qfi">
+        <node concept="1PaTwC" id="1dPlh42Z91Q" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z91R" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z922" role="1PaTwD">
+            <property role="3oM_SC" value="try" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z925" role="1PaTwD">
+            <property role="3oM_SC" value="statement" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z92G" role="1PaTwD">
+            <property role="3oM_SC" value="without" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z92Q" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z931" role="1PaTwD">
+            <property role="3oM_SC" value="catch" />
+          </node>
+          <node concept="3oM_SD" id="1dPlh42Z93d" role="1PaTwD">
+            <property role="3oM_SC" value="section." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z982" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z98v" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="1dPlh42Z98f" role="1PaQFQ">
+          <node concept="3oM_SD" id="1dPlh42Z98g" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: try-statement" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="PlHQZ" id="3h4LMeIQtuQ">
     <property role="EcuMT" value="3766354144459872182" />
@@ -5210,13 +6441,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2HIntxMQ_98" resolve="TypeOrVoid" />
     </node>
-    <node concept="1TJgyj" id="6$wrg4AAmgN" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424947156019" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterList" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6vAOG1ABcaj" resolve="TypeParameterList" />
-    </node>
     <node concept="1TJgyj" id="6$wrg4AAmgO" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947156020" />
       <property role="20lmBu" value="aggregation" />
@@ -5224,15 +6448,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcaI" resolve="FormalParameterList" />
     </node>
-    <node concept="1TJgyj" id="6$wrg4AAmgP" role="1TKVEi">
-      <property role="IQ2ns" value="7575174424947156021" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="typeParameterConstraintsClauseList" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="6vAOG1ABcab" resolve="TypeParameterConstraintsClauseList" />
-    </node>
     <node concept="PrWs8" id="3h4LMeIQtv5" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="5moKU4Y5snP" role="PrDN$">
+      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
     </node>
   </node>
   <node concept="1TIwiD" id="3h4LMeIQ_DY">
@@ -5240,12 +6460,50 @@
     <property role="TrG5h" value="FixedSizeBufferDeclaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIQ_DZ" role="PzmwI">
-      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructDeclaration" />
+      <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructMemberDeclaration" />
     </node>
   </node>
   <node concept="PlHQZ" id="3h4LMeIQ_DR">
     <property role="EcuMT" value="3766354144459905655" />
-    <property role="TrG5h" value="IStructDeclaration" />
+    <property role="TrG5h" value="IStructMemberDeclaration" />
+    <property role="3GE5qa" value="Class / Struct" />
+    <node concept="3H0Qfr" id="7TfmMh1pDHD" role="lGtFl">
+      <node concept="1Pa9Pv" id="7TfmMh1pDHE" role="3H0Qfi">
+        <node concept="1PaTwC" id="7TfmMh1pDHF" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDHG" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDHR" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDI3" role="1PaTwD">
+            <property role="3oM_SC" value="declaration" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDI9" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDIg" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDHU" role="1PaTwD">
+            <property role="3oM_SC" value="struct" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDHY" role="1PaTwD">
+            <property role="3oM_SC" value="member." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDI_" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDJ2" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDIM" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDIN" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar: struct-member-declaration" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="3h4LMeIRHqY">
     <property role="EcuMT" value="3766354144460199614" />
@@ -8753,6 +10011,7 @@
     <property role="3GE5qa" value="Modifiers" />
     <property role="TrG5h" value="Readonly" />
     <property role="R4oN_" value="Readonly modifier" />
+    <property role="34LRSv" value="readonly" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIUOoS" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIUOo5" resolve="IReadonlyVolatile" />
@@ -12737,23 +13996,866 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="3grCvve1P7L">
-    <property role="EcuMT" value="3754772800029020657" />
-    <property role="TrG5h" value="InheritedTypeList" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3grCvve1Pjx" role="1TKVEi">
-      <property role="IQ2ns" value="3754772800029021409" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inheritedTypeList" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="3grCvve1Pjw" resolve="InheritedType" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3grCvve1Pjw">
     <property role="EcuMT" value="3754772800029021408" />
     <property role="TrG5h" value="InheritedType" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="Inheritance" />
+    <property role="R4oN_" value="Type which can be inherited" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3H0Qfr" id="7TfmMh1pE1n" role="lGtFl">
+      <node concept="1Pa9Pv" id="7TfmMh1pE1o" role="3H0Qfi">
+        <node concept="1PaTwC" id="7TfmMh1pE1p" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pE1q" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE1_" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE1C" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE1G" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE1L" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE1R" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE1Y" role="1PaTwD">
+            <property role="3oM_SC" value="inherited." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pE2j" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pE2W" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pE2w" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pE2x" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar:" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE2y" role="1PaTwD">
+            <property role="3oM_SC" value="no" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE2z" role="1PaTwD">
+            <property role="3oM_SC" value="corresponding" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE2$" role="1PaTwD">
+            <property role="3oM_SC" value="entity" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE2_" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE2A" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE2B" role="1PaTwD">
+            <property role="3oM_SC" value="grammar" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5moKU4Y5oYr">
+    <property role="EcuMT" value="6167894786982645659" />
+    <property role="TrG5h" value="IGenericTypeList" />
+    <property role="3GE5qa" value="Generics" />
+    <node concept="1TJgyj" id="5moKU4Y5slA" role="1TKVEi">
+      <property role="IQ2ns" value="6167894786982659430" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeParameter" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6hv6i2_AXOM" resolve="TypeParameter" />
+    </node>
+    <node concept="3H0Qfr" id="2vo5eZuHBgd" role="lGtFl">
+      <node concept="1Pa9Pv" id="2vo5eZuHBge" role="3H0Qfi">
+        <node concept="1PaTwC" id="2vo5eZuHBgf" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHBgg" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBgy" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBg_" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBgD" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBgI" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBgO" role="1PaTwD">
+            <property role="3oM_SC" value="have" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBgV" role="1PaTwD">
+            <property role="3oM_SC" value="generic" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBh3" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBhc" role="1PaTwD">
+            <property role="3oM_SC" value="parameters." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHBhn" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHBhm" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHBh_" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHBh$" role="1PaTwD">
+            <property role="3oM_SC" value="As" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBhO" role="1PaTwD">
+            <property role="3oM_SC" value="there" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBhR" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBhV" role="1PaTwD">
+            <property role="3oM_SC" value="several" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBi0" role="1PaTwD">
+            <property role="3oM_SC" value="concepts" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBi6" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBid" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBil" role="1PaTwD">
+            <property role="3oM_SC" value="have" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBiu" role="1PaTwD">
+            <property role="3oM_SC" value="generic" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBQ3" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBiC" role="1PaTwD">
+            <property role="3oM_SC" value="parameters," />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBrU" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBsa" role="1PaTwD">
+            <property role="3oM_SC" value="want" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBsr" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBtD" role="1PaTwD">
+            <property role="3oM_SC" value="implement" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHBtY" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHBtX" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBtk" role="1PaTwD">
+            <property role="3oM_SC" value="functionality" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBv2" role="1PaTwD">
+            <property role="3oM_SC" value="once" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBva" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBvj" role="1PaTwD">
+            <property role="3oM_SC" value="reuse" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBvt" role="1PaTwD">
+            <property role="3oM_SC" value="it" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBvC" role="1PaTwD">
+            <property role="3oM_SC" value="multiple" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBvO" role="1PaTwD">
+            <property role="3oM_SC" value="times." />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBiN" role="1PaTwD">
+            <property role="3oM_SC" value="And" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBw1" role="1PaTwD">
+            <property role="3oM_SC" value="as" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBjq" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBjB" role="1PaTwD">
+            <property role="3oM_SC" value="need" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBwf" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBxz" role="1PaTwD">
+            <property role="3oM_SC" value="create" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBxY" role="1PaTwD">
+            <property role="3oM_SC" value="side" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHByp" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHByo" role="1PaTwD">
+            <property role="3oM_SC" value="transformation" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBzK" role="1PaTwD">
+            <property role="3oM_SC" value="actions" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBkW" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBln" role="1PaTwD">
+            <property role="3oM_SC" value="allow" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBlw" role="1PaTwD">
+            <property role="3oM_SC" value="fluent" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBlE" role="1PaTwD">
+            <property role="3oM_SC" value="creation" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBlP" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBo8" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBzU" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHB_d" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBn9" role="1PaTwD">
+            <property role="3oM_SC" value="generic" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBQj" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBrP" role="1PaTwD">
+            <property role="3oM_SC" value="parameters" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHB_q" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHB_C" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHB_S" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHB_R" role="1PaTwD">
+            <property role="3oM_SC" value="do" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBAP" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBAS" role="1PaTwD">
+            <property role="3oM_SC" value="want" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBAW" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBB1" role="1PaTwD">
+            <property role="3oM_SC" value="wildly" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBBm" role="1PaTwD">
+            <property role="3oM_SC" value="use" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBHX" role="1PaTwD">
+            <property role="3oM_SC" value="concept-casts," />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBB_" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBCq" role="1PaTwD">
+            <property role="3oM_SC" value="cannot" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBCV" role="1PaTwD">
+            <property role="3oM_SC" value="make" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBD6" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBDi" role="1PaTwD">
+            <property role="3oM_SC" value="generic" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBDv" role="1PaTwD">
+            <property role="3oM_SC" value="parameter" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBEH" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHBEX" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHBEW" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBG9" role="1PaTwD">
+            <property role="3oM_SC" value="child" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBGc" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBGg" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBGl" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBIc" role="1PaTwD">
+            <property role="3oM_SC" value="(we" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBIp" role="1PaTwD">
+            <property role="3oM_SC" value="would" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBIB" role="1PaTwD">
+            <property role="3oM_SC" value="need" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBIQ" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBJ6" role="1PaTwD">
+            <property role="3oM_SC" value="concept-cast" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBJn" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBJD" role="1PaTwD">
+            <property role="3oM_SC" value="parent" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBJW" role="1PaTwD">
+            <property role="3oM_SC" value="node)" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBGr" role="1PaTwD">
+            <property role="3oM_SC" value="but" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBGy" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBKg" role="1PaTwD">
+            <property role="3oM_SC" value="super-concept" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHBK$" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHBKz" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBGX" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBHx" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBMj" role="1PaTwD">
+            <property role="3oM_SC" value="(we" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBMo" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBMu" role="1PaTwD">
+            <property role="3oM_SC" value="define" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBM_" role="1PaTwD">
+            <property role="3oM_SC" value="side-transformation" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBMH" role="1PaTwD">
+            <property role="3oM_SC" value="actions" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBMQ" role="1PaTwD">
+            <property role="3oM_SC" value="directly" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBN0" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBN$" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBNK" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDMP" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDN5" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDN4" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDPf" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDPj" role="1PaTwD">
+            <property role="3oM_SC" value="super-concept," />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDPo" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDRs" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBPR" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBPU" role="1PaTwD">
+            <property role="3oM_SC" value="child" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBPY" role="1PaTwD">
+            <property role="3oM_SC" value="concept)." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHBQ$" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHBQz" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="2vo5eZuHBSn" role="1PaQFQ">
+          <node concept="3oM_SD" id="2vo5eZuHBSm" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar:" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBUb" role="1PaTwD">
+            <property role="3oM_SC" value="no" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBUe" role="1PaTwD">
+            <property role="3oM_SC" value="corresponding" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBUi" role="1PaTwD">
+            <property role="3oM_SC" value="entity" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBUn" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBUt" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2vo5eZuHBU$" role="1PaTwD">
+            <property role="3oM_SC" value="grammar" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1TJgyj" id="6hv6i2_AXOR" role="1TKVEi">
+      <property role="IQ2ns" value="7232527154588409143" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeParameterConstraintsClause" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6hv6i2_AXOQ" resolve="TypeParameterConstraintsClause" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3zXINoFWW$0">
+    <property role="EcuMT" value="4106644276571785472" />
+    <property role="3GE5qa" value="Class / Struct.Properties" />
+    <property role="TrG5h" value="AcessorDeclaration" />
+    <property role="R5$K7" value="true" />
+    <property role="34LRSv" value="acessor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3zXINoFWW$1" role="1TKVEi">
+      <property role="IQ2ns" value="4106644276571785473" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="attributeList" />
+      <ref role="20lvS9" node="6vAOG1ABcaf" resolve="AttributeList" />
+    </node>
+    <node concept="1TJgyj" id="3zXINoFWW$2" role="1TKVEi">
+      <property role="IQ2ns" value="4106644276571785474" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="iAccessorVisibility" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3h4LMeIXmjp" resolve="IAccessorVisibility" />
+    </node>
+    <node concept="1TJgyj" id="3zXINoFWW$3" role="1TKVEi">
+      <property role="IQ2ns" value="4106644276571785475" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1FYNzU$qtcf" resolve="MaybeEmptyBlock" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="eRR5GNaXSm">
+    <property role="EcuMT" value="267924987110481430" />
+    <property role="TrG5h" value="IInheritedTypeList" />
+    <property role="3GE5qa" value="Inheritance" />
+    <node concept="1TJgyj" id="3grCvve1Pjx" role="1TKVEi">
+      <property role="IQ2ns" value="3754772800029021409" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="inheritedType" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3grCvve1Pjw" resolve="InheritedType" />
+    </node>
+    <node concept="3H0Qfr" id="7TfmMh1pDSx" role="lGtFl">
+      <node concept="1Pa9Pv" id="7TfmMh1pDSJ" role="3H0Qfi">
+        <node concept="1PaTwC" id="7TfmMh1pDSK" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDSL" role="1PaTwD">
+            <property role="3oM_SC" value="Represents" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDSM" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDSN" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDSO" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDSP" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDXj" role="1PaTwD">
+            <property role="3oM_SC" value="inherit" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDXC" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDXK" role="1PaTwD">
+            <property role="3oM_SC" value="class" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDXT" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDY3" role="1PaTwD">
+            <property role="3oM_SC" value="implement" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDYe" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDYq" role="1PaTwD">
+            <property role="3oM_SC" value="interface." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDSU" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDSV" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDSW" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDSX" role="1PaTwD">
+            <property role="3oM_SC" value="As" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDSY" role="1PaTwD">
+            <property role="3oM_SC" value="there" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDSZ" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDT0" role="1PaTwD">
+            <property role="3oM_SC" value="several" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDT1" role="1PaTwD">
+            <property role="3oM_SC" value="concepts" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDT2" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDYL" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDYX" role="1PaTwD">
+            <property role="3oM_SC" value="inherit" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDZB" role="1PaTwD">
+            <property role="3oM_SC" value="something," />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDT8" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDT9" role="1PaTwD">
+            <property role="3oM_SC" value="want" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTa" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTb" role="1PaTwD">
+            <property role="3oM_SC" value="implement" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDTc" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDTd" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTe" role="1PaTwD">
+            <property role="3oM_SC" value="functionality" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTf" role="1PaTwD">
+            <property role="3oM_SC" value="once" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTg" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTh" role="1PaTwD">
+            <property role="3oM_SC" value="reuse" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTi" role="1PaTwD">
+            <property role="3oM_SC" value="it" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTj" role="1PaTwD">
+            <property role="3oM_SC" value="multiple" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTk" role="1PaTwD">
+            <property role="3oM_SC" value="times." />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTl" role="1PaTwD">
+            <property role="3oM_SC" value="And" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTm" role="1PaTwD">
+            <property role="3oM_SC" value="as" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTn" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTo" role="1PaTwD">
+            <property role="3oM_SC" value="need" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTp" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTq" role="1PaTwD">
+            <property role="3oM_SC" value="create" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTr" role="1PaTwD">
+            <property role="3oM_SC" value="side" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDTs" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDTt" role="1PaTwD">
+            <property role="3oM_SC" value="transformation" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTu" role="1PaTwD">
+            <property role="3oM_SC" value="actions" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTv" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTw" role="1PaTwD">
+            <property role="3oM_SC" value="allow" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTx" role="1PaTwD">
+            <property role="3oM_SC" value="fluent" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTy" role="1PaTwD">
+            <property role="3oM_SC" value="creation" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTz" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDT$" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDT_" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTA" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE01" role="1PaTwD">
+            <property role="3oM_SC" value="implemented" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE0f" role="1PaTwD">
+            <property role="3oM_SC" value="entities" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTE" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTF" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDTG" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDTH" role="1PaTwD">
+            <property role="3oM_SC" value="do" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTI" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTJ" role="1PaTwD">
+            <property role="3oM_SC" value="want" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTK" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTL" role="1PaTwD">
+            <property role="3oM_SC" value="wildly" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTM" role="1PaTwD">
+            <property role="3oM_SC" value="use" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTN" role="1PaTwD">
+            <property role="3oM_SC" value="concept-casts," />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTO" role="1PaTwD">
+            <property role="3oM_SC" value="we" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTP" role="1PaTwD">
+            <property role="3oM_SC" value="cannot" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTQ" role="1PaTwD">
+            <property role="3oM_SC" value="make" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTR" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTU" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE0E" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE0S" role="1PaTwD">
+            <property role="3oM_SC" value="inherited" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pE17" role="1PaTwD">
+            <property role="3oM_SC" value="entities" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDTV" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDTW" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTX" role="1PaTwD">
+            <property role="3oM_SC" value="child" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTY" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDTZ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU0" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU1" role="1PaTwD">
+            <property role="3oM_SC" value="(we" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU2" role="1PaTwD">
+            <property role="3oM_SC" value="would" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU3" role="1PaTwD">
+            <property role="3oM_SC" value="need" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU4" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU5" role="1PaTwD">
+            <property role="3oM_SC" value="concept-cast" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU6" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU7" role="1PaTwD">
+            <property role="3oM_SC" value="parent" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU8" role="1PaTwD">
+            <property role="3oM_SC" value="node)" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDU9" role="1PaTwD">
+            <property role="3oM_SC" value="but" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUa" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUb" role="1PaTwD">
+            <property role="3oM_SC" value="super-concept" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDUc" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDUd" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUe" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUf" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUg" role="1PaTwD">
+            <property role="3oM_SC" value="(we" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUh" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUi" role="1PaTwD">
+            <property role="3oM_SC" value="define" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUj" role="1PaTwD">
+            <property role="3oM_SC" value="side-transformation" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUk" role="1PaTwD">
+            <property role="3oM_SC" value="actions" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUl" role="1PaTwD">
+            <property role="3oM_SC" value="directly" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUm" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUn" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUo" role="1PaTwD">
+            <property role="3oM_SC" value="concept" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUp" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDUq" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDUr" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUs" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUt" role="1PaTwD">
+            <property role="3oM_SC" value="super-concept," />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUu" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUv" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUw" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUx" role="1PaTwD">
+            <property role="3oM_SC" value="child" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUy" role="1PaTwD">
+            <property role="3oM_SC" value="concept)." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDUz" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDU$" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7TfmMh1pDU_" role="1PaQFQ">
+          <node concept="3oM_SD" id="7TfmMh1pDUA" role="1PaTwD">
+            <property role="3oM_SC" value="Original name in the C# grammar:" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUB" role="1PaTwD">
+            <property role="3oM_SC" value="no" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUC" role="1PaTwD">
+            <property role="3oM_SC" value="corresponding" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUD" role="1PaTwD">
+            <property role="3oM_SC" value="entity" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUE" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUF" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7TfmMh1pDUG" role="1PaTwD">
+            <property role="3oM_SC" value="grammar" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
