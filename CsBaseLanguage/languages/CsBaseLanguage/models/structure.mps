@@ -2036,6 +2036,7 @@
     <property role="TrG5h" value="ConstantDeclaration" />
     <property role="3GE5qa" value="Class / Struct.Constants" />
     <property role="R4oN_" value="Constant definition" />
+    <property role="34LRSv" value="const" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6hv6i2_B47k" role="PzmwI">
       <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
@@ -6444,7 +6445,7 @@
     <node concept="1TJgyj" id="6$wrg4AAmgO" role="1TKVEi">
       <property role="IQ2ns" value="7575174424947156020" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="formalParameter" />
+      <property role="20kJfa" value="formalParameterList" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6vAOG1ABcaI" resolve="FormalParameterList" />
     </node>

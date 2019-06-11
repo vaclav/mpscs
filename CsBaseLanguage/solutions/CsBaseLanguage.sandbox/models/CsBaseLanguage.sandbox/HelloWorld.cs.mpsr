@@ -13,7 +13,7 @@
       <concept id="3766354144460261375" name="CsBaseLanguage.structure.Static" flags="ng" index="2qAK3s" />
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
         <child id="3766354144459978427" name="returnTypeOrVoid" index="2qBV6o" />
-        <child id="7575174424947156020" name="formalParameter" index="1fIg$P" />
+        <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
       <concept id="1945218857512918966" name="CsBaseLanguage.structure.ExpressionStatement" flags="ng" index="2Yz168">
         <child id="1945218857512918967" name="abstractStatementExpression" index="2Yz169" />
