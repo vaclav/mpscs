@@ -72,7 +72,7 @@
     </language>
   </registry>
   <node concept="31LFg6" id="3_0V6TwGg2Z">
-    <property role="TrG5h" value="HelloWorld" />
+    <property role="TrG5h" value="HelloWorld.cs" />
     <property role="3GE5qa" value="CodeExamples" />
     <node concept="31LijL" id="3_0V6TwJPM$" role="31LlDr">
       <property role="TrG5h" value="HelloWorldCommon" />
