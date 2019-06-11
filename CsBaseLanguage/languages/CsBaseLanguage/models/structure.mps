@@ -4396,6 +4396,7 @@
     <property role="3GE5qa" value="Statements.Declaration" />
     <property role="TrG5h" value="LocalConstantDeclaration" />
     <property role="R4oN_" value="Local constant definition" />
+    <property role="34LRSv" value="const" />
     <ref role="1TJDcQ" node="1FYNzU$mBmN" resolve="DeclarationStatement" />
     <node concept="1TJgyj" id="1FYNzU$pBGB" role="1TKVEi">
       <property role="IQ2ns" value="1945218857512106791" />
