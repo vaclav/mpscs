@@ -120,6 +120,7 @@
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -3126,7 +3127,13 @@
         </node>
       </node>
       <node concept="3F1sOY" id="2a8$IxLSS$O" role="3EZMnx">
+        <property role="39s7Ar" value="true" />
+        <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="80bi:6vAOG1ABnFs" resolve="constructorInitializer" />
+        <node concept="3F0ifn" id="1gNlOGhkMrg" role="2ruayu">
+          <property role="3F0ifm" value="/* no initializer */" />
+          <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
+        </node>
       </node>
       <node concept="3F1sOY" id="2a8$IxLSS$w" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:6vAOG1ABnEY" resolve="body" />
@@ -3140,6 +3147,7 @@
     <node concept="3EZMnI" id="2a8$IxLU_$w" role="2wV5jI">
       <node concept="3F0ifn" id="2a8$IxLU_$B" role="3EZMnx">
         <property role="3F0ifm" value="this" />
+        <node concept="VPxyj" id="1gNlOGhlNEa" role="3F10Kt" />
       </node>
       <node concept="3F0ifn" id="2a8$IxLU_$J" role="3EZMnx">
         <property role="3F0ifm" value="(" />
@@ -3168,6 +3176,7 @@
     <node concept="3EZMnI" id="2a8$IxLW8f7" role="2wV5jI">
       <node concept="3F0ifn" id="2a8$IxLW8f8" role="3EZMnx">
         <property role="3F0ifm" value="base" />
+        <node concept="VPxyj" id="1gNlOGhmkaU" role="3F10Kt" />
       </node>
       <node concept="3F0ifn" id="2a8$IxLW8f9" role="3EZMnx">
         <property role="3F0ifm" value="(" />
