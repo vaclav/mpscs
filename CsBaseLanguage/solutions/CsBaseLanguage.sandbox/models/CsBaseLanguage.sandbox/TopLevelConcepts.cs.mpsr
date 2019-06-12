@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:3c0a9afc-41d0-418f-8a22-42f843eb72e4(CsBaseLanguage.sandbox)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
+      <concept id="7486903154347131566" name="CsBaseLanguage.structure.FormalParameterList" flags="ng" index="1ux1I" />
+      <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
+        <child id="3766354144459978427" name="returnTypeOrVoid" index="2qBV6o" />
+        <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
+      </concept>
+      <concept id="7232527154588302801" name="CsBaseLanguage.structure.NamespaceDeclaration" flags="ng" index="31LijL" />
+      <concept id="7232527154588300035" name="CsBaseLanguage.structure.ClassDeclaration" flags="ng" index="31LiCz" />
+      <concept id="7232527154588300036" name="CsBaseLanguage.structure.DelegateDeclaration" flags="ng" index="31LiC$" />
+      <concept id="7232527154588300037" name="CsBaseLanguage.structure.StructDeclaration" flags="ng" index="31LiC_" />
+      <concept id="7232527154588300038" name="CsBaseLanguage.structure.InterfaceDeclaration" flags="ng" index="31LiCA" />
+      <concept id="7232527154588300039" name="CsBaseLanguage.structure.EnumDeclaration" flags="ng" index="31LiCB" />
+      <concept id="7232527154588265766" name="CsBaseLanguage.structure.File" flags="ng" index="31LFg6">
+        <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
+      </concept>
+      <concept id="3129541975290303051" name="CsBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="31LFg6" id="1gNlOGhaZXL">
+    <property role="3GE5qa" value="Previews" />
+    <property role="TrG5h" value="TopLevelConcepts.cs" />
+    <node concept="31LiCz" id="1gNlOGhaZXN" role="31LlDr">
+      <property role="TrG5h" value="NameOfClass" />
+    </node>
+    <node concept="31LiC$" id="1gNlOGhaZXV" role="31LlDr">
+      <property role="TrG5h" value="NameOfDelegate" />
+      <node concept="1pH0Yj" id="1gNlOGhbvQI" role="2qBV6o" />
+      <node concept="1ux1I" id="1gNlOGhaZXZ" role="1fIg$P" />
+    </node>
+    <node concept="31LiCB" id="1gNlOGhaZYb" role="31LlDr">
+      <property role="TrG5h" value="NameOfEnum" />
+    </node>
+    <node concept="31LiCA" id="1gNlOGhaZYp" role="31LlDr">
+      <property role="TrG5h" value="NameOfInterface" />
+    </node>
+    <node concept="31LijL" id="1gNlOGhaZYD" role="31LlDr">
+      <property role="TrG5h" value="NameOfNamespace" />
+    </node>
+    <node concept="31LiC_" id="1gNlOGhaZYV" role="31LlDr">
+      <property role="TrG5h" value="NameOfStruct" />
+    </node>
+  </node>
+</model>
+
