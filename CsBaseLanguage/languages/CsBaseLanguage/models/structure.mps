@@ -224,7 +224,7 @@
   </node>
   <node concept="1TIwiD" id="5VT83U$L_sF">
     <property role="EcuMT" value="6843536562190702379" />
-    <property role="TrG5h" value="BitwiseRightExpression" />
+    <property role="TrG5h" value="BitwiseRightShiftExpression" />
     <property role="34LRSv" value="&gt;&gt;" />
     <property role="R4oN_" value="right shift" />
     <property role="3GE5qa" value="Expressions.Bitwise" />
