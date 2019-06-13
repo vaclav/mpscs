@@ -13303,7 +13303,7 @@
     <property role="TrG5h" value="MultiLineComment" />
     <property role="34LRSv" value="/*" />
     <property role="R4oN_" value="Multi-line comment in a statement block" />
-    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <ref role="1TJDcQ" node="1gNlOGhuBgE" resolve="Comment" />
     <node concept="1TJgyj" id="4oSbvdw2QGd" role="1TKVEi">
       <property role="IQ2ns" value="5059844704662416141" />
       <property role="20lmBu" value="aggregation" />
@@ -13512,7 +13512,7 @@
     <property role="TrG5h" value="SingleLineComment" />
     <property role="34LRSv" value="//" />
     <property role="R4oN_" value="Single-line comment in a statement block" />
-    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <ref role="1TJDcQ" node="1gNlOGhuBgE" resolve="Comment" />
     <node concept="1TJgyi" id="4oSbvdvYjC8" role="1TKVEl">
       <property role="IQ2nx" value="5059844704661223944" />
       <property role="TrG5h" value="value" />
@@ -13716,7 +13716,7 @@
     <property role="TrG5h" value="DocumentationComment" />
     <property role="34LRSv" value="///" />
     <property role="R4oN_" value="Documentation comment in a statement block" />
-    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <ref role="1TJDcQ" node="1gNlOGhuBgE" resolve="Comment" />
     <node concept="1TJgyi" id="4oSbvdvZW8c" role="1TKVEl">
       <property role="IQ2nx" value="5059844704661651980" />
       <property role="TrG5h" value="value" />
@@ -14857,6 +14857,21 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1gNlOGhuBgE">
+    <property role="EcuMT" value="1455603084498203690" />
+    <property role="3GE5qa" value="Comments" />
+    <property role="TrG5h" value="Comment" />
+    <property role="R5$K7" value="true" />
+    <property role="34LRSv" value="comment" />
+    <property role="R4oN_" value="Abstract comment" />
+    <ref role="1TJDcQ" node="6hv6i2_B6cm" resolve="Statement" />
+    <node concept="PrWs8" id="1gNlOGhuBgF" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_B0DQ" resolve="IClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1gNlOGhuBgK" role="PzmwI">
+      <ref role="PrY4T" node="6hv6i2_AZFf" resolve="INamespaceMemberDeclaration" />
     </node>
   </node>
 </model>
