@@ -2,9 +2,10 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-        <modulePath path="$PROJECT_DIR$/CsBaseLanguage/languages/CsBaseLanguage/CsBaseLanguage.mpl" folder="" />
-        <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.sandbox/CsBaseLanguage.sandbox.msd" folder="" />
-        <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.tests/CsBaseLanguage.tests.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/CsBaseLanguage/languages/CsBaseLanguage/CsBaseLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.sandbox/CsBaseLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.tests/CsBaseLanguage.tests.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.examples/CsBaseLanguage.examples.msd" folder="" />
     </projectModules>
   </component>
 </project>
