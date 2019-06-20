@@ -169,7 +169,7 @@
   </registry>
   <node concept="1M2fIO" id="3grCvve6NV9">
     <property role="3GE5qa" value="Class / Struct" />
-    <ref role="1M2myG" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
+    <ref role="1M2myG" to="80bi:6hv6i2_Azc2" resolve="TypeDeclaration" />
     <node concept="EnEH3" id="3grCvve6NVa" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="QB0g5" id="3grCvve6NVd" role="QCWH9">
@@ -333,8 +333,8 @@
                     <node concept="37vLTw" id="7uI4EOiyUEP" role="2Oq$k0">
                       <ref role="3cqZAo" node="7uI4EOitbgp" resolve="parent" />
                     </node>
-                    <node concept="3Tsc0h" id="7uI4EOiyUEQ" role="2OqNvi">
-                      <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                    <node concept="3Tsc0h" id="2wJFJXurTS" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:5oHFRyIxp1p" resolve="iModifier" />
                     </node>
                   </node>
                   <node concept="1z4cxt" id="7uI4EOiyUER" role="2OqNvi">
@@ -382,8 +382,8 @@
                         <node concept="37vLTw" id="7uI4EOi$o0R" role="2Oq$k0">
                           <ref role="3cqZAo" node="7uI4EOitbgp" resolve="parent" />
                         </node>
-                        <node concept="3Tsc0h" id="7uI4EOi$r6E" role="2OqNvi">
-                          <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                        <node concept="3Tsc0h" id="2wJFJXuvo1" role="2OqNvi">
+                          <ref role="3TtcxE" to="80bi:5oHFRyIxp1p" resolve="iModifier" />
                         </node>
                       </node>
                       <node concept="34oBXx" id="7uI4EOi$yH9" role="2OqNvi" />
@@ -431,8 +431,8 @@
                     <node concept="37vLTw" id="7uI4EOi$WYs" role="2Oq$k0">
                       <ref role="3cqZAo" node="7uI4EOitbgp" resolve="parent" />
                     </node>
-                    <node concept="3Tsc0h" id="7uI4EOi$ZG$" role="2OqNvi">
-                      <ref role="3TtcxE" to="80bi:6hv6i2_ARIq" resolve="iClassModifier" />
+                    <node concept="3Tsc0h" id="2wJFJXuwqP" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:5oHFRyIxp1p" resolve="iModifier" />
                     </node>
                   </node>
                   <node concept="3zZkjj" id="7uI4EOi_6UW" role="2OqNvi">

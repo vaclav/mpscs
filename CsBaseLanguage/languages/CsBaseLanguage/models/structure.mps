@@ -1552,6 +1552,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6hv6i2_Azc3" resolve="ClassDeclaration" />
     </node>
+    <node concept="PrWs8" id="2wJFJXL71z" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXIIx7" resolve="IPrimaryConstraint" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnEK">
     <property role="EcuMT" value="7486903154347178672" />
@@ -3055,6 +3058,20 @@
     <property role="3GE5qa" value="Generics" />
     <property role="R4oN_" value="Where clause" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2wJFJXA1jq" role="1TKVEi">
+      <property role="IQ2ns" value="45245710896469210" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameterRef" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2wJFJXA1jc" resolve="TypeParameterRef" />
+    </node>
+    <node concept="1TJgyj" id="2wJFJXGEgs" role="1TKVEi">
+      <property role="IQ2ns" value="45245710898209820" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="constraint" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="2wJFJXIIx6" resolve="ITypeParameterConstraint" />
+    </node>
     <node concept="3H0Qfr" id="7TfmMh1pDKK" role="lGtFl">
       <node concept="1Pa9Pv" id="7TfmMh1pDKL" role="3H0Qfi">
         <node concept="1PaTwC" id="7TfmMh1pDKM" role="1PaQFQ">
@@ -3617,6 +3634,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6hv6i2_Azc6" resolve="InterfaceDeclaration" />
     </node>
+    <node concept="PrWs8" id="2wJFJXLg6I" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXIIxa" resolve="ISecondaryConstraint" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc3">
     <property role="EcuMT" value="7232527154588300035" />
@@ -3670,11 +3690,8 @@
         </node>
       </node>
     </node>
-    <node concept="PrWs8" id="5moKU4Y5snt" role="PzmwI">
-      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
-    </node>
-    <node concept="PrWs8" id="eRR5GNaXSz" role="PzmwI">
-      <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
+    <node concept="PrWs8" id="2wJFJXyG88" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXyG7B" resolve="IInheritedTypeLisAndGenericTypeList" />
     </node>
     <node concept="PrWs8" id="5oHFRyIK4xd" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
@@ -14872,6 +14889,76 @@
       <property role="20kJfa" value="typeOrVoid" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2HIntxMQ_98" resolve="TypeOrVoid" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2wJFJXyG7B">
+    <property role="EcuMT" value="45245710895596007" />
+    <property role="TrG5h" value="IInheritedTypeLisAndGenericTypeList" />
+    <node concept="PrWs8" id="2wJFJXyG7K" role="PrDN$">
+      <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
+    </node>
+    <node concept="PrWs8" id="2wJFJXyG7P" role="PrDN$">
+      <ref role="PrY4T" node="5moKU4Y5oYr" resolve="IGenericTypeList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2wJFJXA1jc">
+    <property role="EcuMT" value="45245710896469196" />
+    <property role="TrG5h" value="TypeParameterRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2wJFJXA1jf" role="1TKVEi">
+      <property role="IQ2ns" value="45245710896469199" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="typeParameter" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6hv6i2_AXOM" resolve="TypeParameter" />
+    </node>
+    <node concept="PrWs8" id="2wJFJXLpo7" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXIIxa" resolve="ISecondaryConstraint" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2wJFJXHpqS">
+    <property role="EcuMT" value="45245710898403000" />
+    <property role="TrG5h" value="ConstructorConstraint" />
+    <property role="34LRSv" value="new()" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2wJFJXIIxd" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXIIx6" resolve="ITypeParameterConstraint" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2wJFJXIIx6">
+    <property role="EcuMT" value="45245710898751558" />
+    <property role="TrG5h" value="ITypeParameterConstraint" />
+  </node>
+  <node concept="PlHQZ" id="2wJFJXIIx7">
+    <property role="EcuMT" value="45245710898751559" />
+    <property role="TrG5h" value="IPrimaryConstraint" />
+    <node concept="PrWs8" id="2wJFJXIIx8" role="PrDN$">
+      <ref role="PrY4T" node="2wJFJXIIx6" resolve="ITypeParameterConstraint" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2wJFJXIIxa">
+    <property role="EcuMT" value="45245710898751562" />
+    <property role="TrG5h" value="ISecondaryConstraint" />
+    <node concept="PrWs8" id="2wJFJXIIxb" role="PrDN$">
+      <ref role="PrY4T" node="2wJFJXIIx6" resolve="ITypeParameterConstraint" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2wJFJXIRzy">
+    <property role="EcuMT" value="45245710898788578" />
+    <property role="TrG5h" value="ClassPrimaryConstraint" />
+    <property role="34LRSv" value="class" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2wJFJXIRzW" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXIIx7" resolve="IPrimaryConstraint" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2wJFJXKmK0">
+    <property role="EcuMT" value="45245710899178496" />
+    <property role="TrG5h" value="StructPrimaryConstraint" />
+    <property role="34LRSv" value="struct" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2wJFJXKmK1" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXIIx7" resolve="IPrimaryConstraint" />
     </node>
   </node>
 </model>
