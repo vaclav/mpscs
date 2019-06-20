@@ -1555,6 +1555,9 @@
     <node concept="PrWs8" id="2wJFJXL71z" role="PzmwI">
       <ref role="PrY4T" node="2wJFJXIIx7" resolve="IPrimaryConstraint" />
     </node>
+    <node concept="PrWs8" id="2wJFJXMYpJ" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXMYm4" resolve="IHaveGenericsArguments" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6vAOG1ABnEK">
     <property role="EcuMT" value="7486903154347178672" />
@@ -3636,6 +3639,9 @@
     </node>
     <node concept="PrWs8" id="2wJFJXLg6I" role="PzmwI">
       <ref role="PrY4T" node="2wJFJXIIxa" resolve="ISecondaryConstraint" />
+    </node>
+    <node concept="PrWs8" id="2wJFJXMYpQ" role="PzmwI">
+      <ref role="PrY4T" node="2wJFJXMYm4" resolve="IHaveGenericsArguments" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc3">
@@ -14959,6 +14965,17 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2wJFJXKmK1" role="PzmwI">
       <ref role="PrY4T" node="2wJFJXIIx7" resolve="IPrimaryConstraint" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2wJFJXMYm4">
+    <property role="EcuMT" value="45245710899864964" />
+    <property role="TrG5h" value="IHaveGenericsArguments" />
+    <node concept="1TJgyj" id="2wJFJXOjSw" role="1TKVEi">
+      <property role="IQ2ns" value="45245710900215328" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="genericsArguments" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
   </node>
 </model>
