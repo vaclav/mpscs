@@ -14974,7 +14974,7 @@
       <property role="IQ2ns" value="45245710900215328" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="genericsArguments" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
   </node>
