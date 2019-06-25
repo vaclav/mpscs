@@ -3697,7 +3697,7 @@
       </node>
     </node>
     <node concept="PrWs8" id="2wJFJXyG88" role="PzmwI">
-      <ref role="PrY4T" node="2wJFJXyG7B" resolve="IInheritedTypeLisAndGenericTypeList" />
+      <ref role="PrY4T" node="2wJFJXyG7B" resolve="IInheritedTypeListAndGenericTypeList" />
     </node>
     <node concept="PrWs8" id="5oHFRyIK4xd" role="PzmwI">
       <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
@@ -14899,7 +14899,7 @@
   </node>
   <node concept="PlHQZ" id="2wJFJXyG7B">
     <property role="EcuMT" value="45245710895596007" />
-    <property role="TrG5h" value="IInheritedTypeLisAndGenericTypeList" />
+    <property role="TrG5h" value="IInheritedTypeListAndGenericTypeList" />
     <node concept="PrWs8" id="2wJFJXyG7K" role="PrDN$">
       <ref role="PrY4T" node="eRR5GNaXSm" resolve="IInheritedTypeList" />
     </node>

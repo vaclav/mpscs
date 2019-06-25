@@ -1170,5 +1170,26 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6FfQk_Snu7a">
+    <ref role="1M2myG" to="80bi:3h4LMeIQtuQ" resolve="IFunctionHeader" />
+    <node concept="EnEH3" id="6FfQk_Snu7b" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="QB0g5" id="6FfQk_Snu7d" role="QCWH9">
+        <node concept="3clFbS" id="6FfQk_Snu7e" role="2VODD2">
+          <node concept="3clFbF" id="6FfQk_Snuey" role="3cqZAp">
+            <node concept="2OqwBi" id="6FfQk_Snue$" role="3clFbG">
+              <node concept="1Wqviy" id="6FfQk_Snue_" role="2Oq$k0" />
+              <node concept="liA8E" id="6FfQk_SnueA" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                <node concept="Xl_RD" id="6FfQk_SnueB" role="37wK5m">
+                  <property role="Xl_RC" value="[a-zA-Z$[_]][a-zA-Z0-9$[_]]*" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
