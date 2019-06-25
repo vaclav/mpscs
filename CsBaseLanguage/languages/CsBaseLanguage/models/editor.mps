@@ -3920,7 +3920,6 @@
     <property role="TrG5h" value="AddWhereClauseOnSpace" />
     <ref role="1chiOs" to="80bi:2wJFJXyG7B" resolve="IInheritedTypeListAndGenericTypeList" />
     <node concept="2PxR9H" id="2wJFJXwoyB" role="2QnnpI">
-      <property role="2IlM53" value="caret_at_last_position" />
       <node concept="2Py5lD" id="2wJFJXwoyC" role="2PyaAO">
         <property role="2PWKIS" value="space char" />
       </node>
