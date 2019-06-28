@@ -14,7 +14,8 @@
         <property id="5059844704661223944" name="value" index="pKhvV" />
       </concept>
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
-        <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
+        <child id="3766354144459978427" name="returnTypeOrVoid" index="2qBV6o" />
+        <child id="7575174424947156020" name="formalParameter" index="1fIg$P" />
       </concept>
       <concept id="1945218857514060490" name="CsBaseLanguage.structure.ReturnStatement" flags="ng" index="2YuCjO">
         <child id="1945218857514060491" name="expression" index="2YuCjP" />
@@ -343,6 +344,7 @@
           <node concept="3UfwP1" id="6FfQk_SG4bb" role="3Sw9wT">
             <node concept="3UfM66" id="6FfQk_SG4bh" role="3UfBpY" />
           </node>
+          <node concept="1pH0Yj" id="6H78krhd$d8" role="2qBV6o" />
         </node>
         <node concept="31KRCM" id="6FfQk_SG4yo" role="31Leeq">
           <property role="TrG5h" value="QuickSort" />
@@ -508,6 +510,7 @@
             </node>
           </node>
           <node concept="1pH0Yj" id="6FfQk_SG4AZ" role="3Sw9wT" />
+          <node concept="1pH0Yj" id="6H78krhdQg1" role="2qBV6o" />
         </node>
         <node concept="31KRCM" id="6FfQk_SG4Pv" role="31Leeq">
           <property role="TrG5h" value="Main" />
@@ -775,6 +778,7 @@
             </node>
           </node>
           <node concept="1pH0Yj" id="6FfQk_SG4U5" role="3Sw9wT" />
+          <node concept="1pH0Yj" id="6H78krhdQg3" role="2qBV6o" />
         </node>
       </node>
     </node>
