@@ -241,7 +241,7 @@
   <node concept="Az7Fb" id="2HIntxMSXh$">
     <property role="3GE5qa" value="Literals.Definitions" />
     <property role="TrG5h" value="_IntValue" />
-    <property role="FLfZY" value="([0-9]+|0[xX][0-9A-Fa-f]+)[Uu]?[Ll]?" />
+    <property role="FLfZY" value="([0-9]+|0[xX][0-9A-Fa-f]+)([Uu]?[Ll]?|[Ll]?[Uu]?)" />
   </node>
   <node concept="Az7Fb" id="2HIntxMSOTA">
     <property role="3GE5qa" value="Literals.Definitions" />
