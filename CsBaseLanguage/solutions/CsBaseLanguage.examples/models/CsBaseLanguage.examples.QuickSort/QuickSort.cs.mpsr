@@ -144,7 +144,7 @@
       <node concept="31LiCz" id="28NjskD_oMb" role="31LkaE">
         <property role="TrG5h" value="Example" />
         <node concept="31KRCM" id="6FfQk_SG46w" role="31Leeq">
-          <property role="TrG5h" value="Partiion" />
+          <property role="TrG5h" value="Partition" />
           <node concept="1ux1M" id="6FfQk_SG46x" role="31KRCR">
             <node concept="pNo78" id="6FfQk_SG4it" role="1ux1N">
               <property role="pKhvV" value="source: https://www.tutorialspoint.com/chash-program-to-perform-quick-sort-using-recursion" />
