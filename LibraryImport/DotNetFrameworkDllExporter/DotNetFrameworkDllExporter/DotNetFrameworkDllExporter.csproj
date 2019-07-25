@@ -49,5 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetFrameworkExampleDll\DotNetFrameworkExampleDll.csproj">
+      <Project>{ada90777-c472-4ac2-a603-def13c43b600}</Project>
+      <Name>DotNetFrameworkExampleDll</Name>
+      <Aliases>exportingDll</Aliases>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
