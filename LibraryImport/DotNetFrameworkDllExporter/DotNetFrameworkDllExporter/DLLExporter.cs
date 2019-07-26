@@ -1,21 +1,21 @@
-﻿using System;
-using System.IO;
-using System.Reflection;
-
-namespace DotNetFrameworkDllExporter
+﻿namespace DotNetFrameworkDllExporter
 {
+    using System;
+    using System.IO;
+    using System.Reflection;
+
     internal class DLLExporter
     {
         internal void ExportAPI(string dllFileName)
         {
-            string filename = dllFileName; 
-            
+            string filename = dllFileName;
+
             string absolutePath = Path.Combine(Directory.GetCurrentDirectory(), filename);
 
-            Assembly SampleAssembly;
-            SampleAssembly = Assembly.LoadFile(absolutePath);
+            Assembly sampleAssembly;
+            sampleAssembly = Assembly.LoadFile(absolutePath);
 
-            foreach (Type tp in SampleAssembly.GetTypes())
+            foreach (Type tp in sampleAssembly.GetTypes())
             {
                 Console.WriteLine(tp.Name);
                 Console.WriteLine("Methods:");
@@ -38,7 +38,6 @@ namespace DotNetFrameworkDllExporter
             }
 
             Console.ReadKey();
-
         }
     }
 }

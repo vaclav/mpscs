@@ -1,27 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DotNetFrameworkDllExporter
+﻿namespace DotNetFrameworkDllExporter
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Start(args, Console.In, Console.Out);
-        }
+    using System;
+    using System.Globalization;
+    using System.IO;
 
+    internal class Program
+    {
         /*
          * "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll";
          * "DotNetFrameworkExampleDll.dll"
-         * 
+         *
          */
+        private static string dllFileName = null;
 
-        static string dllFileName = null;
+        private static void Main(string[] args)
+        {
+            Start(args, Console.In, Console.Out);
+        }
 
         private static void Start(string[] args, TextReader @in, TextWriter @out)
         {
@@ -54,6 +49,7 @@ namespace DotNetFrameworkDllExporter
                             @out.WriteLine("Path to the dll file is not valid.");
                             return false;
                         }
+
                         dllFileName = arg;
                     }
                 }
@@ -64,6 +60,7 @@ namespace DotNetFrameworkDllExporter
                 @out.WriteLine("Path to the dll file is not valid.");
                 return false;
             }
+
             return true;
         }
     }

@@ -23,3 +23,5 @@ bld/
 [Bb]uild[Ll]og.*
 
 StyleCopReport.xml
+
+packages/

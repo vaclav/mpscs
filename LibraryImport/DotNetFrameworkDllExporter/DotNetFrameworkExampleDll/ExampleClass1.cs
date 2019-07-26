@@ -1,21 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DotNetFrameworkExampleDll
+﻿namespace DotNetFrameworkExampleDll
 {
+    using System;
+
     public class ExampleClass1
     {
         public static char ExampleStaticVariable;
+
+        public long ExampleInstanceVariable;
+
+        public int ExampleAutoProperty { get; set; }
+
+        public byte ExampleFullProperty { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public static void ExampleStaticVoidMethod()
         {
             throw new NotImplementedException();
         }
-
-        public long ExampleInstanceVariable;
 
         public void ExampleVoidMethod()
         {
@@ -26,9 +26,5 @@ namespace DotNetFrameworkExampleDll
         {
             throw new NotImplementedException();
         }
-
-        public int ExampleAutoProperty { get; set; }
-
-        public byte ExampleFullProperty { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
