@@ -13225,9 +13225,19 @@
     <property role="TrG5h" value="InterfacePropertyDeclaration" />
     <property role="3GE5qa" value="Interface.Properties" />
     <property role="R4oN_" value="Interface property declaration" />
+    <property role="34LRSv" value="property" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7IPlf6q1V78" role="PzmwI">
       <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="2e5scIOzC1r" role="PzmwI">
+      <ref role="PrY4T" node="5oHFRyIxp1s" resolve="IHaveType" />
+    </node>
+    <node concept="PrWs8" id="2e5scIOzC1z" role="PzmwI">
+      <ref role="PrY4T" node="5oHFRyIxp1o" resolve="IHaveModifiers" />
+    </node>
+    <node concept="PrWs8" id="2e5scIOzC1H" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="3H0Qfr" id="2pqoNIAe7yX" role="lGtFl">
       <node concept="1Pa9Pv" id="2pqoNIAe7zw" role="3H0Qfi">
