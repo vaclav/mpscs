@@ -1,11 +1,11 @@
-﻿using NUnit.Framework;
-
-namespace DotNetFrameworkDllExporter.Tests
+﻿namespace DotNetFrameworkDllExporter.Tests
 {
-    [TestFixture()]
+    using NUnit.Framework;
+
+    [TestFixture]
     public class ProgramTests
     {
-        [Test()]
+        [Test]
         public void StartTest()
         {
             Assert.Fail();
