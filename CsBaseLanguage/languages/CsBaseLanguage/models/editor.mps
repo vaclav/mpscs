@@ -319,6 +319,9 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
         <child id="1138662048170" name="value" index="tz02z" />
@@ -333,6 +336,9 @@
         <reference id="1139877738879" name="concept" index="1A0vxQ" />
       </concept>
       <concept id="1143512015885" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingOperation" flags="nn" index="YCak7" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
@@ -2005,6 +2011,27 @@
         <property role="3F0ifm" value=";" />
         <node concept="11L4FC" id="3zXINoFRJy5" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="2e5scIOAjHB" role="pqm2j">
+          <node concept="3clFbS" id="2e5scIOAjHC" role="2VODD2">
+            <node concept="3clFbF" id="2e5scIOAjOX" role="3cqZAp">
+              <node concept="3fqX7Q" id="2e5scIOB9Ti" role="3clFbG">
+                <node concept="2OqwBi" id="2e5scIOB9Tk" role="3fr31v">
+                  <node concept="2OqwBi" id="2e5scIOB9Tl" role="2Oq$k0">
+                    <node concept="pncrf" id="2e5scIOB9Tm" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="2e5scIOB9Tn" role="2OqNvi">
+                      <ref role="3Tt5mk" to="80bi:1FYNzU$v7yw" resolve="forInitializer" />
+                    </node>
+                  </node>
+                  <node concept="1mIQ4w" id="2e5scIOB9To" role="2OqNvi">
+                    <node concept="chp4Y" id="2e5scIOBaJk" role="cj9EA">
+                      <ref role="cht4Q" to="80bi:1FYNzU$mBmR" resolve="LocalVariableDeclarationStatement" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3F1sOY" id="1FYNzU$v7zz" role="3EZMnx">
