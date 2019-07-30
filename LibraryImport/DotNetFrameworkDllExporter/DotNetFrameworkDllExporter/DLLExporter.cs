@@ -6,38 +6,50 @@
 
     internal class DLLExporter
     {
+        private readonly TextWriter output;
+
+        public DLLExporter(TextWriter output)
+        {
+            this.output = output;
+        }
+
         internal void ExportAPI(string dllFileName)
         {
-            string filename = dllFileName;
-
-            string absolutePath = Path.Combine(Directory.GetCurrentDirectory(), filename);
-
-            Assembly sampleAssembly;
-            sampleAssembly = Assembly.LoadFile(absolutePath);
+            Assembly sampleAssembly = GetAssemblyByPath(dllFileName);
 
             foreach (Type tp in sampleAssembly.GetTypes())
             {
-                Console.WriteLine(tp.Name);
-                Console.WriteLine("Methods:");
-                foreach (var method in tp.GetMethods())
+                this.output.WriteLine(tp.Name);
+                this.output.WriteLine("Methods:");
+                foreach (MethodInfo method in tp.GetMethods())
                 {
-                    Console.WriteLine("\t" + method);
+                    this.output.WriteLine("\t" + method);
                 }
 
-                Console.WriteLine("Properties:");
-                foreach (var property in tp.GetProperties())
+                this.output.WriteLine("Properties:");
+                foreach (PropertyInfo property in tp.GetProperties())
                 {
-                    Console.WriteLine("\t" + property);
+                    this.output.WriteLine("\t" + property);
                 }
 
-                Console.WriteLine("Fields:");
-                foreach (var field in tp.GetFields())
+                this.output.WriteLine("Fields:");
+                foreach (FieldInfo field in tp.GetFields())
                 {
-                    Console.WriteLine("\t" + field);
+                    this.output.WriteLine("\t" + field);
                 }
             }
+        }
 
-            Console.ReadKey();
+        private static Assembly GetAssemblyByPath(string dllFileName)
+        {
+            string absolutePath = dllFileName;
+            if (!Path.IsPathRooted(dllFileName))
+            {
+                absolutePath = Path.Combine(Directory.GetCurrentDirectory(), dllFileName);
+            }
+
+            var assembly = Assembly.LoadFile(absolutePath);
+            return assembly;
         }
     }
 }

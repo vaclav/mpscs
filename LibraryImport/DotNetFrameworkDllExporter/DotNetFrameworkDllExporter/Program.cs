@@ -12,17 +12,23 @@
          *
          */
         private static string dllFileName = null;
+        private static bool interactive = false;
 
         private static void Main(string[] args)
         {
             Start(args, Console.In, Console.Out);
+
+            if (interactive)
+            {
+                Console.ReadKey();
+            }
         }
 
-        private static void Start(string[] args, TextReader @in, TextWriter @out)
+        private static void Start(string[] args, TextReader input, TextWriter output)
         {
-            if (TryProcessStartupArguments(args, @out))
+            if (TryProcessStartupArguments(args, output))
             {
-                var dllExporter = new DLLExporter();
+                var dllExporter = new DLLExporter(output);
                 dllExporter.ExportAPI(dllFileName);
             }
             else
@@ -33,15 +39,27 @@
 
         private static bool TryProcessStartupArguments(string[] args, TextWriter @out)
         {
+            int skipArguments = 0;
+
             foreach (var arg in args)
             {
+                if (skipArguments > 0)
+                {
+                    skipArguments--;
+                    continue;
+                }
+
                 if (arg.StartsWith("-", true, CultureInfo.CurrentCulture))
                 {
-                    // Named parameters
+                    switch (arg)
+                    {
+                        case "-i":
+                            interactive = true;
+                            break;
+                    }
                 }
                 else
                 {
-                    // Position parameters
                     if (dllFileName == null)
                     {
                         if (!File.Exists(arg))
