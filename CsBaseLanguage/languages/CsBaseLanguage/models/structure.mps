@@ -713,7 +713,7 @@
   <node concept="Az7Fb" id="2HIntxMRFJK">
     <property role="3GE5qa" value="Literals.Definitions" />
     <property role="TrG5h" value="_CharValue" />
-    <property role="FLfZY" value="'.?'" />
+    <property role="FLfZY" value="'.'" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Mmmn">
     <property role="EcuMT" value="6843536562190902679" />
