@@ -7710,7 +7710,6 @@
     <ref role="1chiOs" to="80bi:5oHFRyIxp1o" resolve="IHaveModifiers" />
     <node concept="2PxR9H" id="5oHFRyI_NHh" role="2QnnpI">
       <property role="2PxWOX" value="Create modifier" />
-      <property role="2IlM53" value="caret_at_intermediate_position" />
       <node concept="2Py5lD" id="5oHFRyI_NHi" role="2PyaAO">
         <property role="2PWKIS" value="space char" />
       </node>
