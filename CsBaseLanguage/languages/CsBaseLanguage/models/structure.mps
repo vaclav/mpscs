@@ -1106,6 +1106,7 @@
       <property role="IQ2ns" value="6843536562191075827" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="keyword" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="5VT83U$N0BK" resolve="RefOutConstant" />
     </node>
     <node concept="1TJgyj" id="5VT83U$N0BP" role="1TKVEi">
