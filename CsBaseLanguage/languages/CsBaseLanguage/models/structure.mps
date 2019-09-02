@@ -2,7 +2,7 @@
 <model ref="r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <use id="a23383a3-9564-4399-8643-72063c6111dc" name="jetbrains.mps.LangDoc" version="-1" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
@@ -3044,10 +3044,17 @@
       <property role="IQ2nx" value="7575174424947136774" />
       <ref role="AX2Wp" node="5LVVOtEJNJY" resolve="VarianceAnnotationEnum" />
       <node concept="3l_iC" id="5LVVOtEJNL9" role="lGtFl">
-        <node concept="1TJgyi" id="6$wrg4AAh$6" role="3l_iP">
-          <property role="IQ2nx" value="7575174424947136774" />
+        <node concept="1TJgyi" id="4VA8$XOCBZQ" role="3l_iP">
           <property role="TrG5h" value="varianceAnnotation" />
-          <ref role="AX2Wp" node="6$wrg4AAh$1" resolve="VarianceAnnotationEnum" />
+          <property role="IQ2nx" value="7575174424947136774" />
+          <ref role="AX2Wp" node="5LVVOtEJNJY" resolve="VarianceAnnotationEnum" />
+          <node concept="3l_iC" id="4VA8$XOCBZR" role="lGtFl">
+            <node concept="1TJgyi" id="6$wrg4AAh$6" role="3l_iP">
+              <property role="IQ2nx" value="7575174424947136774" />
+              <property role="TrG5h" value="varianceAnnotation" />
+              <ref role="AX2Wp" node="6$wrg4AAh$1" resolve="VarianceAnnotationEnum" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
