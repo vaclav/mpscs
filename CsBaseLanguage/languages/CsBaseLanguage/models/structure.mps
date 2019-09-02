@@ -737,7 +737,7 @@
   <node concept="Az7Fb" id="2HIntxMRFJK">
     <property role="3GE5qa" value="Literals.Definitions" />
     <property role="TrG5h" value="_CharValue" />
-    <property role="FLfZY" value="'.'" />
+    <property role="FLfZY" value="'(\\\\u[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]|\\\\U[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]|\\\\'|\\\\\&quot;|\\\\\\\\|\\\\0|\\\\a|\\\\b|\\\\f|\\\\n|\\\\r|\\\\t|\\\\v|\\\\x[0-9A-Fa-f][0-9A-Fa-f]?[0-9A-Fa-f]?[0-9A-Fa-f]?|[^\\\\'])'" />
     <property role="3F6X1D" value="3129541975290592240" />
   </node>
   <node concept="1TIwiD" id="5VT83U$Mmmn">
@@ -13097,24 +13097,6 @@
     </node>
     <node concept="PrWs8" id="5oHFRyIwD2G" role="PrDN$">
       <ref role="PrY4T" node="5oHFRyIwD2v" resolve="IModifier" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7IPlf6q1V6y">
-    <property role="EcuMT" value="8914124434097811874" />
-    <property role="TrG5h" value="InterfaceIndexerDeclaration" />
-    <property role="3GE5qa" value="Interface" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7IPlf6q1V76" role="PzmwI">
-      <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7IPlf6q1V6x">
-    <property role="EcuMT" value="8914124434097811873" />
-    <property role="TrG5h" value="InterfaceEventDeclaration" />
-    <property role="3GE5qa" value="Interface" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7IPlf6q1V74" role="PzmwI">
-      <ref role="PrY4T" node="6$wrg4AA8Vb" resolve="IInterfaceMemberDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="7IPlf6q1V6w">
