@@ -95,11 +95,11 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
         <child id="1138662048170" name="value" index="tz02z" />
-      </concept>
-      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
-        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
@@ -569,12 +569,12 @@
             <node concept="2OqwBi" id="2wJFJYaJk$" role="2Oq$k0">
               <node concept="13iPFW" id="2wJFJYaJcr" role="2Oq$k0" />
               <node concept="3TrcHB" id="2wJFJYaJHU" role="2OqNvi">
-                <ref role="3TsBF5" to="80bi:6$wrg4AAh$6" resolve="varianceAnnotation" />
+                <ref role="3TsBF5" to="80bi:5LVVOtEJNL8" resolve="varianceAnnotation" />
               </node>
             </node>
             <node concept="tyxLq" id="2wJFJYaLDo" role="2OqNvi">
-              <node concept="uoxfO" id="2wJFJYaLH7" role="tz02z">
-                <ref role="uo_Cq" to="80bi:6$wrg4AAjTf" />
+              <node concept="21nZrQ" id="5LVVOtEJNNB" role="tz02z">
+                <ref role="21nZrZ" to="80bi:5LVVOtEJNK0" resolve="none" />
               </node>
             </node>
           </node>
