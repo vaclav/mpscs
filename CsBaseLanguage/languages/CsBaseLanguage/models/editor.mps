@@ -227,6 +227,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -246,6 +247,7 @@
       </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -11913,6 +11915,71 @@
   </node>
   <node concept="312cEu" id="6H78krhSzlS">
     <property role="TrG5h" value="SubstitutionUtils" />
+    <node concept="Wx3nA" id="11or8XHAAeS" role="jymVt">
+      <property role="TrG5h" value="intLiteral" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="11or8XHAA1c" role="1B3o_S" />
+      <node concept="17QB3L" id="11or8XHAAdf" role="1tU5fm" />
+      <node concept="Xl_RD" id="11or8XHAAuh" role="33vP2m">
+        <property role="Xl_RC" value="([0-9]+|0[xX][0-9A-Fa-f]+)([Uu]?[Ll]?|[Ll]?[Uu]?)" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="11or8XHAAEK" role="jymVt">
+      <property role="TrG5h" value="realLiteral" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="11or8XHAAEL" role="1B3o_S" />
+      <node concept="17QB3L" id="11or8XHAAEM" role="1tU5fm" />
+      <node concept="Xl_RD" id="11or8XHAAEN" role="33vP2m">
+        <property role="Xl_RC" value="(((([0-9]*\\.[0-9]+([eE][+-]?[0-9]+)?)|([0-9]+[eE][+-]?[0-9]+))[Ff]?[Dd]?[Mm]?)|[0-9]+([Ff]|[Dd]|[Mm]))" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="11or8XHABnH" role="jymVt">
+      <property role="TrG5h" value="stringLiteral" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="11or8XHAB9H" role="1B3o_S" />
+      <node concept="17QB3L" id="11or8XHABm4" role="1tU5fm" />
+      <node concept="Xl_RD" id="11or8XHABxm" role="33vP2m">
+        <property role="Xl_RC" value="\&quot;.*\&quot;" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="11or8XHACcE" role="jymVt">
+      <property role="TrG5h" value="charLiteral" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="11or8XHABYA" role="1B3o_S" />
+      <node concept="17QB3L" id="11or8XHACb1" role="1tU5fm" />
+      <node concept="Xl_RD" id="11or8XHACmn" role="33vP2m">
+        <property role="Xl_RC" value="'(\\\\u[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]|\\\\U[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]|\\\\'|\\\\\&quot;|\\\\\\\\|\\\\0|\\\\a|\\\\b|\\\\f|\\\\n|\\\\r|\\\\t|\\\\v|\\\\x[0-9A-Fa-f][0-9A-Fa-f]?[0-9A-Fa-f]?[0-9A-Fa-f]?|[^\\\\'])'" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="11or8XHACP9" role="jymVt">
+      <property role="TrG5h" value="boolLiteral" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="11or8XHACCC" role="1B3o_S" />
+      <node concept="17QB3L" id="11or8XHACNw" role="1tU5fm" />
+      <node concept="Xl_RD" id="11or8XHACYU" role="33vP2m">
+        <property role="Xl_RC" value="(true|false)" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="11or8XHADzr" role="jymVt">
+      <property role="TrG5h" value="nullLiteral" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="11or8XHADlf" role="1B3o_S" />
+      <node concept="17QB3L" id="11or8XHADxM" role="1tU5fm" />
+      <node concept="Xl_RD" id="11or8XHADHg" role="33vP2m">
+        <property role="Xl_RC" value="null" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="11or8XHAE8k" role="jymVt">
+      <property role="TrG5h" value="identifier" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="11or8XHADU4" role="1B3o_S" />
+      <node concept="17QB3L" id="11or8XHAE6F" role="1tU5fm" />
+      <node concept="Xl_RD" id="11or8XHAEhM" role="33vP2m">
+        <property role="Xl_RC" value="(_|[A-Za-z])([A-Za-z]|[0-9]|[-_])*" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="11or8XHAAxJ" role="jymVt" />
+    <node concept="2tJIrI" id="11or8XHA_Sz" role="jymVt" />
     <node concept="2YIFZL" id="6H78krhSsg8" role="jymVt">
       <property role="TrG5h" value="isLiteral" />
       <node concept="3clFbS" id="6H78krhSsgb" role="3clF47">
@@ -11932,6 +11999,25 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="11or8XHAJyc" role="3cqZAp">
+          <node concept="1PaTwC" id="11or8XHAJyd" role="3ndbpf">
+            <node concept="3oM_SD" id="11or8XHAJyf" role="1PaTwD">
+              <property role="3oM_SC" value="todo:" />
+            </node>
+            <node concept="3oM_SD" id="11or8XHAKfN" role="1PaTwD">
+              <property role="3oM_SC" value="add" />
+            </node>
+            <node concept="3oM_SD" id="11or8XHAKeW" role="1PaTwD">
+              <property role="3oM_SC" value="bool/null" />
+            </node>
+            <node concept="3oM_SD" id="11or8XHAKfv" role="1PaTwD">
+              <property role="3oM_SC" value="literal" />
+            </node>
+            <node concept="3oM_SD" id="11or8XHAKg8" role="1PaTwD">
+              <property role="3oM_SC" value="here?" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="6hMKjsCIyzQ" role="3cqZAp">
           <node concept="22lmx$" id="6H78krhRaVZ" role="3cqZAk">
             <node concept="22lmx$" id="6H78krhRaW0" role="3uHU7B">
@@ -11942,8 +12028,8 @@
                   </node>
                   <node concept="liA8E" id="6H78krhRaW4" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                    <node concept="Xl_RD" id="6H78krhRaW5" role="37wK5m">
-                      <property role="Xl_RC" value="\&quot;.*\&quot;" />
+                    <node concept="37vLTw" id="11or8XHAGFE" role="37wK5m">
+                      <ref role="3cqZAo" node="11or8XHABnH" resolve="stringLiteral" />
                     </node>
                   </node>
                 </node>
@@ -11954,8 +12040,8 @@
                     </node>
                     <node concept="liA8E" id="6H78krhRaW9" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                      <node concept="Xl_RD" id="6H78krhRaWa" role="37wK5m">
-                        <property role="Xl_RC" value="(((([0-9]*\\.[0-9]+([eE][+-]?[0-9]+)?)|([0-9]+[eE][+-]?[0-9]+))[Ff]?[Dd]?[Mm]?)|[0-9]+([Ff]|[Dd]|[Mm]))" />
+                      <node concept="37vLTw" id="11or8XHAGhb" role="37wK5m">
+                        <ref role="3cqZAo" node="11or8XHAAEK" resolve="realLiteral" />
                       </node>
                     </node>
                   </node>
@@ -11965,8 +12051,8 @@
                     </node>
                     <node concept="liA8E" id="6H78krhRaWd" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                      <node concept="Xl_RD" id="6H78krhRaWe" role="37wK5m">
-                        <property role="Xl_RC" value="([0-9]+|0[xX][0-9A-Fa-f]+)[Uu]?[Ll]?" />
+                      <node concept="37vLTw" id="11or8XHAF4G" role="37wK5m">
+                        <ref role="3cqZAo" node="11or8XHAAeS" resolve="intLiteral" />
                       </node>
                     </node>
                   </node>
@@ -11978,8 +12064,8 @@
                 </node>
                 <node concept="liA8E" id="6H78krhRaWh" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                  <node concept="Xl_RD" id="6H78krhRaWi" role="37wK5m">
-                    <property role="Xl_RC" value="'.?'" />
+                  <node concept="37vLTw" id="11or8XHAGWo" role="37wK5m">
+                    <ref role="3cqZAo" node="11or8XHACcE" resolve="charLiteral" />
                   </node>
                 </node>
               </node>
@@ -11990,8 +12076,8 @@
               </node>
               <node concept="liA8E" id="6H78krhRaWl" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="6H78krhRaWm" role="37wK5m">
-                  <property role="Xl_RC" value="(_|[A-Za-z])([A-Za-z]|[0-9]|[-_])*" />
+                <node concept="37vLTw" id="11or8XHAHQa" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHAE8k" resolve="identifier" />
                 </node>
               </node>
             </node>
@@ -12060,8 +12146,8 @@
           <node concept="2OqwBi" id="6H78kri3ryY" role="3clFbw">
             <node concept="liA8E" id="6H78kri3rz0" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-              <node concept="Xl_RD" id="6H78kri3rz1" role="37wK5m">
-                <property role="Xl_RC" value="([0-9]+|0[xX][0-9A-Fa-f]+)[Uu]?[Ll]?" />
+              <node concept="37vLTw" id="11or8XHAI07" role="37wK5m">
+                <ref role="3cqZAo" node="11or8XHAAeS" resolve="intLiteral" />
               </node>
             </node>
             <node concept="37vLTw" id="6H78kri3ti1" role="2Oq$k0">
@@ -12072,8 +12158,8 @@
             <node concept="2OqwBi" id="6H78kri3rz3" role="3eO9$A">
               <node concept="liA8E" id="6H78kri3rz5" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="6H78kri3rz6" role="37wK5m">
-                  <property role="Xl_RC" value="(((([0-9]*\\.[0-9]+([eE][+-]?[0-9]+)?)|([0-9]+[eE][+-]?[0-9]+))[Ff]?[Dd]?[Mm]?)|[0-9]+([Ff]|[Dd]|[Mm]))" />
+                <node concept="37vLTw" id="11or8XHAI5h" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHAAEK" resolve="realLiteral" />
                 </node>
               </node>
               <node concept="37vLTw" id="6H78kri3uct" role="2Oq$k0">
@@ -12132,8 +12218,8 @@
             <node concept="2OqwBi" id="6H78kri3rzr" role="3eO9$A">
               <node concept="liA8E" id="6H78kri3rzt" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="6H78kri3rzu" role="37wK5m">
-                  <property role="Xl_RC" value="\&quot;.*\&quot;" />
+                <node concept="37vLTw" id="11or8XHAIa_" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHABnH" resolve="stringLiteral" />
                 </node>
               </node>
               <node concept="37vLTw" id="6H78kri3uGp" role="2Oq$k0">
@@ -12192,8 +12278,8 @@
             <node concept="2OqwBi" id="6H78kri3rzN" role="3eO9$A">
               <node concept="liA8E" id="6H78kri3rzP" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="6H78kri3rzQ" role="37wK5m">
-                  <property role="Xl_RC" value="'.?'" />
+                <node concept="37vLTw" id="11or8XHAIfZ" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHACcE" resolve="charLiteral" />
                 </node>
               </node>
               <node concept="37vLTw" id="6H78kri3vgu" role="2Oq$k0">
@@ -12252,8 +12338,8 @@
             <node concept="2OqwBi" id="6H78kri3r$b" role="3eO9$A">
               <node concept="liA8E" id="6H78kri3r$d" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="6H78kri3r$e" role="37wK5m">
-                  <property role="Xl_RC" value="(_|[A-Za-z])([A-Za-z]|[0-9]|[-_])*" />
+                <node concept="37vLTw" id="11or8XHAIlx" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHAE8k" resolve="identifier" />
                 </node>
               </node>
               <node concept="37vLTw" id="6H78kri3vVn" role="2Oq$k0">
@@ -12394,8 +12480,8 @@
           <node concept="2OqwBi" id="10fMPe8gLQZ" role="3clFbw">
             <node concept="liA8E" id="10fMPe8gLR0" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-              <node concept="Xl_RD" id="10fMPe8gLR1" role="37wK5m">
-                <property role="Xl_RC" value="([0-9]+|0[xX][0-9A-Fa-f]+)[Uu]?[Ll]?" />
+              <node concept="37vLTw" id="11or8XHAIrd" role="37wK5m">
+                <ref role="3cqZAo" node="11or8XHAAeS" resolve="intLiteral" />
               </node>
             </node>
             <node concept="37vLTw" id="10fMPe8gLR2" role="2Oq$k0">
@@ -12406,8 +12492,8 @@
             <node concept="2OqwBi" id="10fMPe8gLR4" role="3eO9$A">
               <node concept="liA8E" id="10fMPe8gLR5" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="10fMPe8gLR6" role="37wK5m">
-                  <property role="Xl_RC" value="(((([0-9]*\\.[0-9]+([eE][+-]?[0-9]+)?)|([0-9]+[eE][+-]?[0-9]+))[Ff]?[Dd]?[Mm]?)|[0-9]+([Ff]|[Dd]|[Mm]))" />
+                <node concept="37vLTw" id="11or8XHAIx7" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHAAEK" resolve="realLiteral" />
                 </node>
               </node>
               <node concept="37vLTw" id="10fMPe8gLR7" role="2Oq$k0">
@@ -12466,8 +12552,8 @@
             <node concept="2OqwBi" id="10fMPe8gLRs" role="3eO9$A">
               <node concept="liA8E" id="10fMPe8gLRt" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="10fMPe8gLRu" role="37wK5m">
-                  <property role="Xl_RC" value="\&quot;.*\&quot;" />
+                <node concept="37vLTw" id="11or8XHAIB9" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHABnH" resolve="stringLiteral" />
                 </node>
               </node>
               <node concept="37vLTw" id="10fMPe8gLRv" role="2Oq$k0">
@@ -12526,8 +12612,8 @@
             <node concept="2OqwBi" id="10fMPe8gLRO" role="3eO9$A">
               <node concept="liA8E" id="10fMPe8gLRP" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="10fMPe8gLRQ" role="37wK5m">
-                  <property role="Xl_RC" value="'.?'" />
+                <node concept="37vLTw" id="11or8XHAIHl" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHACcE" resolve="charLiteral" />
                 </node>
               </node>
               <node concept="37vLTw" id="10fMPe8gLRR" role="2Oq$k0">
@@ -12586,8 +12672,8 @@
             <node concept="2OqwBi" id="10fMPe8gLSc" role="3eO9$A">
               <node concept="liA8E" id="10fMPe8gLSd" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="10fMPe8gLSe" role="37wK5m">
-                  <property role="Xl_RC" value="(_|[A-Za-z])([A-Za-z]|[0-9]|[-_])*" />
+                <node concept="37vLTw" id="11or8XHAINB" role="37wK5m">
+                  <ref role="3cqZAo" node="11or8XHAE8k" resolve="identifier" />
                 </node>
               </node>
               <node concept="37vLTw" id="10fMPe8gLSf" role="2Oq$k0">
