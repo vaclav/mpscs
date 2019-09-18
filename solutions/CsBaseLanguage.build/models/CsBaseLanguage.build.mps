@@ -253,6 +253,11 @@
             <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
           </node>
         </node>
+        <node concept="1SiIV0" id="44S76H4GnT5" role="3bR37C">
+          <node concept="3bR9La" id="44S76H4GnT6" role="1SiIV1">
+            <ref role="3bR37D" to="aqoz:o8CPGw5dHB" resolve="jetbrains.mps.LangDoc.build" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
