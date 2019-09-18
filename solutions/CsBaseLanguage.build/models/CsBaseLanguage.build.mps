@@ -168,7 +168,7 @@
       <node concept="m$_yC" id="4xDflt7HBqu" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
-      <node concept="m$_yC" id="2bTQ1KpNyie" role="m$_yJ">
+      <node concept="m$_yC" id="7d6JWQ55TCW" role="m$_yJ">
         <ref role="m$_y1" to="aqoz:5ZQFUMN3sIt" resolve="LangDoc" />
       </node>
       <node concept="3_J27D" id="4xDflt7HBlV" role="m_cZH">
@@ -230,6 +230,27 @@
                 <property role="2Ry0Am" value="CsBaseLanguagePlugin.msd" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="7d6JWQ55TB$" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="CsBaseLanguage.build" />
+        <property role="3LESm3" value="4c997861-1d80-410f-8bda-2feda30a3568" />
+        <node concept="55IIr" id="7d6JWQ55TBv" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7d6JWQ55TBw" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="7d6JWQ55TBx" role="2Ry0An">
+              <property role="2Ry0Am" value="CsBaseLanguage.build" />
+              <node concept="2Ry0Ak" id="7d6JWQ55TBy" role="2Ry0An">
+                <property role="2Ry0Am" value="CsBaseLanguage.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7d6JWQ55TCd" role="3bR37C">
+          <node concept="3bR9La" id="7d6JWQ55TCe" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
           </node>
         </node>
       </node>
