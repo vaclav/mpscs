@@ -6,8 +6,8 @@
       <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.examples/CsBaseLanguage.examples.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.sandbox/CsBaseLanguage.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.tests/CsBaseLanguage.tests.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/CsBaseLanguage.build/CsBaseLanguage.build.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/CsBaseLanguagePlugin/CsBaseLanguagePlugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.build/CsBaseLanguage.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguagePlugin/CsBaseLanguagePlugin.msd" folder="" />
     </projectModules>
   </component>
 </project>
