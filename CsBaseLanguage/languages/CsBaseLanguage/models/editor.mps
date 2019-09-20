@@ -4402,6 +4402,37 @@
         </node>
       </node>
     </node>
+    <node concept="3eGOop" id="7g7u0mK3lQG" role="3ft7WO">
+      <node concept="ucgPf" id="7g7u0mK3lQI" role="3aKz83">
+        <node concept="3clFbS" id="7g7u0mK3lQK" role="2VODD2">
+          <node concept="3clFbF" id="7g7u0mK3mfE" role="3cqZAp">
+            <node concept="2YIFZM" id="7g7u0mK3mjx" role="3clFbG">
+              <ref role="37wK5l" node="7g7u0mJAXmQ" resolve="createIndexers" />
+              <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+              <node concept="ub8z3" id="7g7u0mK3mmi" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="16NL3D" id="7g7u0mK3mp$" role="upBLP">
+        <node concept="16Na2f" id="7g7u0mK3mp_" role="16NL3A">
+          <node concept="3clFbS" id="7g7u0mK3mpA" role="2VODD2">
+            <node concept="3clFbF" id="7g7u0mK3muk" role="3cqZAp">
+              <node concept="2OqwBi" id="7g7u0mK3mYl" role="3clFbG">
+                <node concept="ub8z3" id="7g7u0mK3m$m" role="2Oq$k0" />
+                <node concept="liA8E" id="7g7u0mK3nhn" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                  <node concept="10M0yZ" id="7g7u0mK3ntV" role="37wK5m">
+                    <ref role="3cqZAo" node="7g7u0mJcZvy" resolve="indexer" />
+                    <ref role="1PxDUh" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3p309x" id="7Wxa2kwFQjS">
     <property role="TrG5h" value="StatementToVariableDeclaration" />
