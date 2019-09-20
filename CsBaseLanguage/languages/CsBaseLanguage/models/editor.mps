@@ -9884,14 +9884,8 @@
               <node concept="3oM_SD" id="5LVVOtEJNSf" role="1PaTwD">
                 <property role="3oM_SC" value="to" />
               </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSg" role="1PaTwD">
+              <node concept="3oM_SD" id="7g7u0mJVff7" role="1PaTwD">
                 <property role="3oM_SC" value="fields" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSh" role="1PaTwD">
-                <property role="3oM_SC" value="and" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSi" role="1PaTwD">
-                <property role="3oM_SC" value="indexers" />
               </node>
             </node>
           </node>
@@ -9984,14 +9978,26 @@
               </node>
             </node>
             <node concept="3cpWs6" id="10fMPe85X$Y" role="3cqZAp">
-              <node concept="2YIFZM" id="10fMPe85X$Z" role="3cqZAk">
-                <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
-                <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
-                <node concept="1Xhbcc" id="10fMPe85X_0" role="37wK5m">
-                  <property role="1XhdNS" value="&gt;" />
+              <node concept="22lmx$" id="7g7u0mJVfjg" role="3cqZAk">
+                <node concept="2YIFZM" id="10fMPe85X$Z" role="3uHU7B">
+                  <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                  <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
+                  <node concept="1Xhbcc" id="10fMPe85X_0" role="37wK5m">
+                    <property role="1XhdNS" value="&gt;" />
+                  </node>
+                  <node concept="37vLTw" id="10fMPe85X_1" role="37wK5m">
+                    <ref role="3cqZAo" node="10fMPe85X$N" resolve="patt" />
+                  </node>
                 </node>
-                <node concept="37vLTw" id="10fMPe85X_1" role="37wK5m">
-                  <ref role="3cqZAo" node="10fMPe85X$N" resolve="patt" />
+                <node concept="2OqwBi" id="7g7u0mJVfxU" role="3uHU7w">
+                  <node concept="ub8z3" id="7g7u0mJVfxV" role="2Oq$k0" />
+                  <node concept="liA8E" id="7g7u0mJVfxW" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                    <node concept="10M0yZ" id="7g7u0mJVfxX" role="37wK5m">
+                      <ref role="3cqZAo" node="7g7u0mJQp62" resolve="indexerBinOp" />
+                      <ref role="1PxDUh" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -10058,14 +10064,8 @@
               <node concept="3oM_SD" id="5LVVOtEJNSm" role="1PaTwD">
                 <property role="3oM_SC" value="to" />
               </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSn" role="1PaTwD">
+              <node concept="3oM_SD" id="7g7u0mJVfCz" role="1PaTwD">
                 <property role="3oM_SC" value="fields" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSo" role="1PaTwD">
-                <property role="3oM_SC" value="and" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSp" role="1PaTwD">
-                <property role="3oM_SC" value="indexers" />
               </node>
             </node>
           </node>
@@ -10158,14 +10158,26 @@
               </node>
             </node>
             <node concept="3cpWs6" id="10fMPe87gGh" role="3cqZAp">
-              <node concept="2YIFZM" id="10fMPe87gGi" role="3cqZAk">
-                <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
-                <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
-                <node concept="1Xhbcc" id="10fMPe87gGj" role="37wK5m">
-                  <property role="1XhdNS" value="&lt;" />
+              <node concept="22lmx$" id="7g7u0mJVfKf" role="3cqZAk">
+                <node concept="2YIFZM" id="10fMPe87gGi" role="3uHU7B">
+                  <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
+                  <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                  <node concept="1Xhbcc" id="10fMPe87gGj" role="37wK5m">
+                    <property role="1XhdNS" value="&lt;" />
+                  </node>
+                  <node concept="37vLTw" id="10fMPe87gGk" role="37wK5m">
+                    <ref role="3cqZAo" node="10fMPe87gG6" resolve="patt" />
+                  </node>
                 </node>
-                <node concept="37vLTw" id="10fMPe87gGk" role="37wK5m">
-                  <ref role="3cqZAo" node="10fMPe87gG6" resolve="patt" />
+                <node concept="2OqwBi" id="7g7u0mJVfYT" role="3uHU7w">
+                  <node concept="ub8z3" id="7g7u0mJVfYU" role="2Oq$k0" />
+                  <node concept="liA8E" id="7g7u0mJVfYV" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                    <node concept="10M0yZ" id="7g7u0mJVfYW" role="37wK5m">
+                      <ref role="1PxDUh" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                      <ref role="3cqZAo" node="7g7u0mJQp62" resolve="indexerBinOp" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -10232,14 +10244,8 @@
               <node concept="3oM_SD" id="5LVVOtEJNSt" role="1PaTwD">
                 <property role="3oM_SC" value="to" />
               </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSu" role="1PaTwD">
+              <node concept="3oM_SD" id="7g7u0mJVg5m" role="1PaTwD">
                 <property role="3oM_SC" value="fields" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSv" role="1PaTwD">
-                <property role="3oM_SC" value="and" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSw" role="1PaTwD">
-                <property role="3oM_SC" value="indexers" />
               </node>
             </node>
           </node>
@@ -10332,14 +10338,26 @@
               </node>
             </node>
             <node concept="3cpWs6" id="10fMPe88zvX" role="3cqZAp">
-              <node concept="2YIFZM" id="10fMPe88zvY" role="3cqZAk">
-                <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
-                <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
-                <node concept="1Xhbcc" id="10fMPe88zvZ" role="37wK5m">
-                  <property role="1XhdNS" value="^" />
+              <node concept="22lmx$" id="7g7u0mJVg9v" role="3cqZAk">
+                <node concept="2YIFZM" id="10fMPe88zvY" role="3uHU7B">
+                  <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                  <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
+                  <node concept="1Xhbcc" id="10fMPe88zvZ" role="37wK5m">
+                    <property role="1XhdNS" value="^" />
+                  </node>
+                  <node concept="37vLTw" id="10fMPe88zw0" role="37wK5m">
+                    <ref role="3cqZAo" node="10fMPe88zvM" resolve="patt" />
+                  </node>
                 </node>
-                <node concept="37vLTw" id="10fMPe88zw0" role="37wK5m">
-                  <ref role="3cqZAo" node="10fMPe88zvM" resolve="patt" />
+                <node concept="2OqwBi" id="7g7u0mJVgo9" role="3uHU7w">
+                  <node concept="ub8z3" id="7g7u0mJVgoa" role="2Oq$k0" />
+                  <node concept="liA8E" id="7g7u0mJVgob" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                    <node concept="10M0yZ" id="7g7u0mJVgoc" role="37wK5m">
+                      <ref role="3cqZAo" node="7g7u0mJQp62" resolve="indexerBinOp" />
+                      <ref role="1PxDUh" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -10406,14 +10424,8 @@
               <node concept="3oM_SD" id="5LVVOtEJNS$" role="1PaTwD">
                 <property role="3oM_SC" value="to" />
               </node>
-              <node concept="3oM_SD" id="5LVVOtEJNS_" role="1PaTwD">
+              <node concept="3oM_SD" id="7g7u0mJVguF" role="1PaTwD">
                 <property role="3oM_SC" value="fields" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSA" role="1PaTwD">
-                <property role="3oM_SC" value="and" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSB" role="1PaTwD">
-                <property role="3oM_SC" value="indexers" />
               </node>
             </node>
           </node>
@@ -10506,14 +10518,26 @@
               </node>
             </node>
             <node concept="3cpWs6" id="10fMPe89RHD" role="3cqZAp">
-              <node concept="2YIFZM" id="10fMPe89RHE" role="3cqZAk">
-                <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
-                <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
-                <node concept="1Xhbcc" id="10fMPe89RHF" role="37wK5m">
-                  <property role="1XhdNS" value="|" />
+              <node concept="22lmx$" id="7g7u0mJVgyO" role="3cqZAk">
+                <node concept="2YIFZM" id="10fMPe89RHE" role="3uHU7B">
+                  <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                  <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
+                  <node concept="1Xhbcc" id="10fMPe89RHF" role="37wK5m">
+                    <property role="1XhdNS" value="|" />
+                  </node>
+                  <node concept="37vLTw" id="10fMPe89RHG" role="37wK5m">
+                    <ref role="3cqZAo" node="10fMPe89RHu" resolve="patt" />
+                  </node>
                 </node>
-                <node concept="37vLTw" id="10fMPe89RHG" role="37wK5m">
-                  <ref role="3cqZAo" node="10fMPe89RHu" resolve="patt" />
+                <node concept="2OqwBi" id="7g7u0mJVgLu" role="3uHU7w">
+                  <node concept="ub8z3" id="7g7u0mJVgLv" role="2Oq$k0" />
+                  <node concept="liA8E" id="7g7u0mJVgLw" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                    <node concept="10M0yZ" id="7g7u0mJVgLx" role="37wK5m">
+                      <ref role="1PxDUh" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                      <ref role="3cqZAo" node="7g7u0mJQp62" resolve="indexerBinOp" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -10580,14 +10604,8 @@
               <node concept="3oM_SD" id="5LVVOtEJNSF" role="1PaTwD">
                 <property role="3oM_SC" value="to" />
               </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSG" role="1PaTwD">
+              <node concept="3oM_SD" id="7g7u0mJVgSz" role="1PaTwD">
                 <property role="3oM_SC" value="fields" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSH" role="1PaTwD">
-                <property role="3oM_SC" value="and" />
-              </node>
-              <node concept="3oM_SD" id="5LVVOtEJNSI" role="1PaTwD">
-                <property role="3oM_SC" value="indexers" />
               </node>
             </node>
           </node>
@@ -10680,14 +10698,26 @@
               </node>
             </node>
             <node concept="3cpWs6" id="10fMPe8bcGX" role="3cqZAp">
-              <node concept="2YIFZM" id="10fMPe8bcGY" role="3cqZAk">
-                <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
-                <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
-                <node concept="1Xhbcc" id="10fMPe8bcGZ" role="37wK5m">
-                  <property role="1XhdNS" value="&amp;" />
+              <node concept="22lmx$" id="7g7u0mJVgWG" role="3cqZAk">
+                <node concept="2YIFZM" id="10fMPe8bcGY" role="3uHU7B">
+                  <ref role="37wK5l" node="6H78kri8JRF" resolve="canSubstituteBinaryOp" />
+                  <ref role="1Pybhc" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                  <node concept="1Xhbcc" id="10fMPe8bcGZ" role="37wK5m">
+                    <property role="1XhdNS" value="&amp;" />
+                  </node>
+                  <node concept="37vLTw" id="10fMPe8bcH0" role="37wK5m">
+                    <ref role="3cqZAo" node="10fMPe8bcGM" resolve="patt" />
+                  </node>
                 </node>
-                <node concept="37vLTw" id="10fMPe8bcH0" role="37wK5m">
-                  <ref role="3cqZAo" node="10fMPe8bcGM" resolve="patt" />
+                <node concept="2OqwBi" id="7g7u0mJVhbm" role="3uHU7w">
+                  <node concept="ub8z3" id="7g7u0mJVhbn" role="2Oq$k0" />
+                  <node concept="liA8E" id="7g7u0mJVhbo" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                    <node concept="10M0yZ" id="7g7u0mJVhbp" role="37wK5m">
+                      <ref role="3cqZAo" node="7g7u0mJQp62" resolve="indexerBinOp" />
+                      <ref role="1PxDUh" node="6H78krhSzlS" resolve="SubstitutionUtils" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -12293,7 +12323,7 @@
       <node concept="3Tm1VV" id="7g7u0mJQo8x" role="1B3o_S" />
       <node concept="17QB3L" id="7g7u0mJQp0N" role="1tU5fm" />
       <node concept="Xl_RD" id="7g7u0mJQpNZ" role="33vP2m">
-        <property role="Xl_RC" value="(_|[A-Za-z])([A-Za-z]|[0-9]|[-_])*(\\[\\])+(\\s)*[\\+\\-\\*\\/\\%]\\s" />
+        <property role="Xl_RC" value="(_|[A-Za-z])([A-Za-z]|[0-9]|[-_])*(\\[\\])+(\\s)*([\\+\\-\\*\\/\\%\\&amp;\\|\\^]|(\\&lt;\\&lt;)|(\\&gt;\\&gt;))\\s" />
       </node>
     </node>
     <node concept="2tJIrI" id="7g7u0mJlUIm" role="jymVt" />
