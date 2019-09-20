@@ -775,8 +775,8 @@
       <property role="IQ2ns" value="6843536562191098260" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expressionList" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5VT83U$Mmn9" resolve="ExpressionList" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7g7u0mJfucB" resolve="ExpressionListInBraces" />
     </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$LtAA">
@@ -14968,6 +14968,18 @@
     <node concept="25R33" id="5LVVOtEMxfS" role="25R1y">
       <property role="3tVfz5" value="6664183163638125560" />
       <property role="TrG5h" value="this" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7g7u0mJfucB">
+    <property role="EcuMT" value="8360783199046853415" />
+    <property role="TrG5h" value="ExpressionListInBraces" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7g7u0mJfucC" role="1TKVEi">
+      <property role="IQ2ns" value="8360783199046853416" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expressionList" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5VT83U$Mmn9" resolve="ExpressionList" />
     </node>
   </node>
 </model>
