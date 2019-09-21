@@ -141,6 +141,9 @@
                   <property role="2Ry0Am" value="config" />
                   <node concept="2Ry0Ak" id="5dk_bMdNpZq" role="2Ry0An">
                     <property role="2Ry0Am" value="plugins" />
+                    <node concept="2Ry0Ak" id="3$4KCZtNqBA" role="2Ry0An">
+                      <property role="2Ry0Am" value="LangDoc" />
+                    </node>
                   </node>
                 </node>
               </node>
