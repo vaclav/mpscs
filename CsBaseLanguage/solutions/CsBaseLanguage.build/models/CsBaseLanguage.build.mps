@@ -73,6 +73,7 @@
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
+        <child id="1238980147629899306" name="pluginXml" index="I30fb" />
         <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
@@ -109,7 +110,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="4xDflt7HBlw">
-    <property role="TrG5h" value="mpscs" />
+    <property role="TrG5h" value="CsBaseLanguage" />
     <property role="2DA0ip" value="../../" />
     <property role="turDy" value="csbl-build.xml" />
     <node concept="2igEWh" id="2bTQ1KpN$KN" role="1hWBAP">
@@ -141,9 +142,6 @@
                   <property role="2Ry0Am" value="config" />
                   <node concept="2Ry0Ak" id="5dk_bMdNpZq" role="2Ry0An">
                     <property role="2Ry0Am" value="plugins" />
-                    <node concept="2Ry0Ak" id="3$4KCZtNqBA" role="2Ry0An">
-                      <property role="2Ry0Am" value="LangDoc" />
-                    </node>
                   </node>
                 </node>
               </node>
@@ -153,23 +151,27 @@
       </node>
     </node>
     <node concept="1l3spV" id="4xDflt7HBlZ" role="1l3spN">
+      <node concept="m$_wl" id="5TaoJM1fqZH" role="39821P">
+        <ref role="m_rDy" node="4xDflt7HBlO" resolve="CsBaseLanguage" />
+        <node concept="pUk6x" id="5TaoJM1fqZS" role="pUk7w" />
+      </node>
       <node concept="3981dG" id="4xDflt7HBm0" role="39821P">
         <node concept="3_J27D" id="4xDflt7HBm1" role="Nbhlr">
           <node concept="3Mxwew" id="4xDflt7HBm2" role="3MwsjC">
-            <property role="3MwjfP" value="mpscs.zip" />
+            <property role="3MwjfP" value="CsBaseLanguage.zip" />
           </node>
         </node>
         <node concept="m$_wl" id="4xDflt7HBm3" role="39821P">
-          <ref role="m_rDy" node="4xDflt7HBlO" resolve="mpscs" />
+          <ref role="m_rDy" node="4xDflt7HBlO" resolve="CsBaseLanguage" />
           <node concept="pUk6x" id="4xDflt7HBm4" role="pUk7w" />
         </node>
       </node>
     </node>
     <node concept="m$_wf" id="4xDflt7HBlO" role="3989C9">
-      <property role="m$_wk" value="mpscs" />
+      <property role="m$_wk" value="CsBaseLanguage" />
       <node concept="3_J27D" id="4xDflt7HBlP" role="m$_yQ">
         <node concept="3Mxwew" id="4xDflt7HBlQ" role="3MwsjC">
-          <property role="3MwjfP" value="mpscs" />
+          <property role="3MwjfP" value="CsBaseLanguage" />
         </node>
       </node>
       <node concept="3_J27D" id="4xDflt7HBlR" role="m$_w8">
@@ -178,7 +180,7 @@
         </node>
       </node>
       <node concept="m$f5U" id="4xDflt7HBlT" role="m$_yh">
-        <ref role="m$f5T" node="4xDflt7HBlN" resolve="mpscs" />
+        <ref role="m$f5T" node="4xDflt7HBlN" resolve="CsBaseLanguage" />
       </node>
       <node concept="m$_yC" id="4xDflt7HBlU" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
@@ -191,7 +193,7 @@
       </node>
       <node concept="3_J27D" id="4xDflt7HBlV" role="m_cZH">
         <node concept="3Mxwew" id="4xDflt7HBlW" role="3MwsjC">
-          <property role="3MwjfP" value="mpscs" />
+          <property role="3MwjfP" value="CsBaseLanguage" />
         </node>
       </node>
       <node concept="3_J27D" id="4xDflt7HBqk" role="3s6cr7">
@@ -199,9 +201,14 @@
           <property role="3MwjfP" value="The C# base language for MPS" />
         </node>
       </node>
+      <node concept="55IIr" id="5TaoJM1fqZt" role="I30fb">
+        <node concept="2Ry0Ak" id="5TaoJM1fqZ$" role="iGT6I">
+          <property role="2Ry0Am" value="plugin.xml" />
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="4xDflt7HBlN" role="3989C9">
-      <property role="TrG5h" value="mpscs" />
+      <property role="TrG5h" value="CsBaseLanguage" />
       <node concept="1E1JtD" id="4xDflt7HBlG" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="CsBaseLanguage" />
