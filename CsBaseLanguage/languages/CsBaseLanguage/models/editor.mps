@@ -8029,7 +8029,7 @@
     <node concept="2PxR9H" id="5oHFRyI_NHh" role="2QnnpI">
       <property role="2PxWOX" value="Create modifier" />
       <node concept="2Py5lD" id="5oHFRyI_NHi" role="2PyaAO">
-        <property role="2PWKIS" value="space char" />
+        <property role="2PWKIS" value="VK_SPACE" />
       </node>
       <node concept="2PzhpH" id="5oHFRyI_NHj" role="2PL9iG">
         <node concept="3clFbS" id="5oHFRyI_NHk" role="2VODD2">
@@ -8440,12 +8440,12 @@
     <property role="3GE5qa" value="Interface.Properties" />
     <ref role="1XX52x" to="80bi:7IPlf6q1V6w" resolve="InterfacePropertyDeclaration" />
     <node concept="3EZMnI" id="2e5scIOzC2l" role="2wV5jI">
+      <node concept="PMmxH" id="5xx_vq$5yuz" role="3EZMnx">
+        <ref role="PMmxG" node="5oHFRyIxpDG" resolve="HaveModifiersComponent" />
+      </node>
       <node concept="PMmxH" id="2e5scIOzC2m" role="3EZMnx">
         <ref role="PMmxG" node="5oHFRyIxpOR" resolve="HaveTypeComponent" />
         <ref role="34QXea" node="5oHFRyI_NHg" resolve="CreateModifierOnSpace" />
-        <node concept="pVoyu" id="2e5scIOzC2n" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3F0A7n" id="2e5scIOzC2o" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
