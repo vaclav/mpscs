@@ -35,13 +35,13 @@ this plugin is intended for the plugin's developer community**.
 ## Documentation
 
 This is a list of available documentation of the C# base language:
-- (New comer's guide)[./doc/new_comers_guide.md]
+- [New comer's guide](./doc/new_comers_guide.md)
     - Getting started
     - Basic overview of the language
     - Generation of the plugin
-- (Maintainer's guide)[./doc/maintainers_guide.md]
+- [Maintainer's guide](./doc/maintainers_guide.md)
     - Upgrading the plugin to a new MPS version
-- (Experienced developer's guide)[./doc/experienced_developers_guide.md]
+- [Experienced developer's guide](./doc/experienced_developers_guide.md)
     - Detailed language design
     - Development history: past decisions and reasoning around it
 
