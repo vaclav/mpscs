@@ -1327,8 +1327,34 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2XZTPU1t$U2" role="3cqZAp" />
-        <node concept="3clFbH" id="2XZTPU1o_Gv" role="3cqZAp" />
+        <node concept="3clFbJ" id="5xx_vq$0h0a" role="3cqZAp">
+          <node concept="3clFbS" id="5xx_vq$0h0b" role="3clFbx">
+            <node concept="3cpWs6" id="5xx_vq$0h0c" role="3cqZAp">
+              <node concept="3clFbT" id="5xx_vq$0h0d" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="1Wc70l" id="5xx_vq$0h0e" role="3clFbw">
+            <node concept="3fqX7Q" id="5xx_vq$0h0f" role="3uHU7w">
+              <node concept="2OqwBi" id="5xx_vq$0h0g" role="3fr31v">
+                <node concept="2DD5aU" id="5xx_vq$0h0h" role="2Oq$k0" />
+                <node concept="2Zo12i" id="5xx_vq$0h0i" role="2OqNvi">
+                  <node concept="chp4Y" id="5xx_vq$0ia$" role="2Zo12j">
+                    <ref role="cht4Q" to="80bi:5xx_vq$0gzd" resolve="IInterfacePropertyModifier" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5xx_vq$0h0k" role="3uHU7B">
+              <node concept="nLn13" id="5xx_vq$0h0l" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="5xx_vq$0h0m" role="2OqNvi">
+                <node concept="chp4Y" id="5xx_vq$0hFc" role="cj9EA">
+                  <ref role="cht4Q" to="80bi:7IPlf6q1V6w" resolve="InterfacePropertyDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5xx_vq$75_l" role="3cqZAp" />
         <node concept="3clFbJ" id="2XZTPU1qJbI" role="3cqZAp">
           <node concept="3clFbS" id="2XZTPU1qJbK" role="3clFbx">
             <node concept="3SKdUt" id="2XZTPU1nAcD" role="3cqZAp">
@@ -1945,6 +1971,40 @@
             </node>
             <node concept="3oM_SD" id="5LVVOtEJNPu" role="1PaTwD">
               <property role="3oM_SC" value="delaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="5xx_vq$84Ty" role="3cqZAp">
+          <node concept="1PaTwC" id="5xx_vq$84Tz" role="3ndbpf">
+            <node concept="3oM_SD" id="5xx_vq$84T_" role="1PaTwD">
+              <property role="3oM_SC" value="TODO" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85ht" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85hH" role="1PaTwD">
+              <property role="3oM_SC" value="new" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85kh" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85kH" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85l0" role="1PaTwD">
+              <property role="3oM_SC" value="as" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85la" role="1PaTwD">
+              <property role="3oM_SC" value="modifier" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85lX" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85mt" role="1PaTwD">
+              <property role="3oM_SC" value="interface" />
+            </node>
+            <node concept="3oM_SD" id="5xx_vq$85mO" role="1PaTwD">
+              <property role="3oM_SC" value="property" />
             </node>
           </node>
         </node>

@@ -1,0 +1,16 @@
+<idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <id>CsBaseLanguage</id>
+  <name>CsBaseLanguage</name>
+  <category>Custom Languages</category>
+  <description>The C# base language for MPS</description>
+  <version>1.0</version>
+  <idea-version since-build="192.1"/>
+
+  <depends>jetbrains.mps.core</depends>
+  <depends>jetbrains.mps.build</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/"/>
+    <errorHandler implementation="jetbrains.mps.ide.blame.CharismaReporter"/>
+  </extensions>
+</idea-plugin>
