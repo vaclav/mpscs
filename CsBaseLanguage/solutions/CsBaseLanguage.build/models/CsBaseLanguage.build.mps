@@ -189,7 +189,7 @@
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="m$_yC" id="7d6JWQ55TCW" role="m$_yJ">
-        <ref role="m$_y1" to="aqoz:5ZQFUMN3sIt" resolve="LangDoc" />
+        <ref role="m$_y1" to="aqoz:5ZQFUMN3sIt" resolve="jetbrains.mps.LangDoc" />
       </node>
       <node concept="3_J27D" id="4xDflt7HBlV" role="m_cZH">
         <node concept="3Mxwew" id="4xDflt7HBlW" role="3MwsjC">
@@ -239,16 +239,16 @@
           </node>
         </node>
       </node>
-      <node concept="1E1JtA" id="4xDflt7HBlM" role="2G$12L">
+      <node concept="1E1JtA" id="61Tjqp0OspV" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="CsBaseLanguage.plugin" />
-        <property role="3LESm3" value="4abd38e7-ec55-4856-a59b-e37ec6e961c6" />
-        <node concept="55IIr" id="4xDflt7HBlH" role="3LF7KH">
-          <node concept="2Ry0Ak" id="4xDflt7HBlI" role="iGT6I">
+        <property role="3LESm3" value="bbd6a336-42b0-4336-856f-fc94d44f1b95" />
+        <node concept="55IIr" id="61Tjqp0OspQ" role="3LF7KH">
+          <node concept="2Ry0Ak" id="61Tjqp0OspR" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="4xDflt7HBlJ" role="2Ry0An">
+            <node concept="2Ry0Ak" id="61Tjqp0OspS" role="2Ry0An">
               <property role="2Ry0Am" value="CsBaseLanguage.plugin" />
-              <node concept="2Ry0Ak" id="4xDflt7HBlK" role="2Ry0An">
+              <node concept="2Ry0Ak" id="61Tjqp0OspT" role="2Ry0An">
                 <property role="2Ry0Am" value="CsBaseLanguage.plugin.msd" />
               </node>
             </node>
