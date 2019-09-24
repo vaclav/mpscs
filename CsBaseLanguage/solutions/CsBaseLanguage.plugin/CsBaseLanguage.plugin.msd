@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="CsBaseLanguagePlugin" uuid="4abd38e7-ec55-4856-a59b-e37ec6e961c6" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="CsBaseLanguage.plugin" uuid="bbd6a336-42b0-4336-856f-fc94d44f1b95" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -21,7 +21,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="4abd38e7-ec55-4856-a59b-e37ec6e961c6(CsBaseLanguagePlugin)" version="0" />
+    <module reference="bbd6a336-42b0-4336-856f-fc94d44f1b95(CsBaseLanguage.plugin)" version="0" />
   </dependencyVersions>
 </solution>
 

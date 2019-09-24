@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:06ffd888-7cff-41ab-8117-34af2d78d5c3(CsBaseLanguagePlugin.plugin)">
+<model ref="r:b1d2087e-bca9-4d68-a7bf-882ccac1f7ea(CsBaseLanguage.plugin.plugin)">
   <persistence version="9" />
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
@@ -14,6 +14,6 @@
       <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
     </language>
   </registry>
-  <node concept="2DaZZR" id="4xDflt7HBkq" />
+  <node concept="2DaZZR" id="61Tjqp0NZb7" />
 </model>
 
