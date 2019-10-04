@@ -20,7 +20,7 @@
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
         <reference id="899069222106091871" name="oldMember" index="2wpffI" />
       </concept>
-      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclartaion" flags="ng" index="25R3W">
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
@@ -152,7 +152,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="rankSpecifier" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="5VT83U$LPp2" resolve="RankSpecifier" />
+      <ref role="20lvS9" node="7g7u0mJfucB" resolve="ExpressionListInBrackets" />
     </node>
     <node concept="1TJgyj" id="5VT83U$Mxw$" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190948388" />
@@ -775,7 +775,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expressionList" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="7g7u0mJfucB" resolve="ExpressionListInBraces" />
+      <ref role="20lvS9" node="7g7u0mJfucB" resolve="ExpressionListInBrackets" />
     </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$LtAA">
@@ -14971,7 +14971,7 @@
   </node>
   <node concept="1TIwiD" id="7g7u0mJfucB">
     <property role="EcuMT" value="8360783199046853415" />
-    <property role="TrG5h" value="ExpressionListInBraces" />
+    <property role="TrG5h" value="ExpressionListInBrackets" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7g7u0mJfucC" role="1TKVEi">
       <property role="IQ2ns" value="8360783199046853416" />
