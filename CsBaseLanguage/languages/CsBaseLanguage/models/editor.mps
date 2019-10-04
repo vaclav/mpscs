@@ -113,6 +113,7 @@
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1081293058843" name="jetbrains.mps.lang.editor.structure.CellKeyMapDeclaration" flags="ig" index="325Ffw">
+        <property id="1149937560128" name="everyModel" index="2XBEHb" />
         <reference id="1139445935125" name="applicableConcept" index="1chiOs" />
         <child id="1136930944870" name="item" index="2QnnpI" />
       </concept>
@@ -529,6 +530,7 @@
     <node concept="3EZMnI" id="5VT83U$LPqe" role="2wV5jI">
       <node concept="3F1sOY" id="5VT83U$LPqo" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:5VT83U$LPp0" resolve="nonArrayType" />
+        <ref role="34QXea" node="6P032HvUcP7" resolve="AddRankSpecifierToType_KeyMap" />
       </node>
       <node concept="l2Vlx" id="5VT83U$LPqh" role="2iSdaV" />
       <node concept="3F2HdR" id="5VT83U$LYmr" role="3EZMnx">
@@ -613,6 +615,7 @@
   <node concept="24kQdi" id="5VT83U$LPpi">
     <ref role="1XX52x" to="80bi:5VT83U$LPp2" resolve="RankSpecifier" />
     <node concept="3EZMnI" id="5VT83U$M1dX" role="2wV5jI">
+      <ref role="34QXea" node="6P032HwbrGk" resolve="AddRankSpecifier_KeyMap" />
       <node concept="3F0ifn" id="5VT83U$M1e4" role="3EZMnx">
         <property role="3F0ifm" value="[" />
         <node concept="11LMrY" id="2HIntxMIWrx" role="3F10Kt">
@@ -15900,6 +15903,12 @@
     <node concept="3EZMnI" id="7g7u0mJfud0" role="2wV5jI">
       <node concept="3F0ifn" id="7g7u0mJfud7" role="3EZMnx">
         <property role="3F0ifm" value="[" />
+        <node concept="11L4FC" id="6P032Hw3C0C" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="6P032Hw09P1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="7g7u0mJfud3" role="2iSdaV" />
       <node concept="3F1sOY" id="7g7u0mJfudy" role="3EZMnx">
@@ -15907,6 +15916,9 @@
       </node>
       <node concept="3F0ifn" id="7g7u0mJfudt" role="3EZMnx">
         <property role="3F0ifm" value="]" />
+        <node concept="11L4FC" id="6P032Hw09P5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
     </node>
   </node>
@@ -16175,6 +16187,61 @@
     </node>
     <node concept="2kknPJ" id="1cVzXePAvGY" role="1IG6uw">
       <ref role="2ZyFGn" to="80bi:5VT83U$MIqV" resolve="Identifier" />
+    </node>
+  </node>
+  <node concept="325Ffw" id="6P032HvUcP7">
+    <property role="TrG5h" value="AddRankSpecifierToType_KeyMap" />
+    <property role="2XBEHb" value="true" />
+    <ref role="1chiOs" to="80bi:5VT83U$LMPZ" resolve="Type" />
+    <node concept="2PxR9H" id="6P032HvUcP8" role="2QnnpI">
+      <property role="2PxWOX" value="&quot;Add RankSpecifier to type after pressing [&quot;" />
+      <node concept="2Py5lD" id="6P032HvUcP9" role="2PyaAO">
+        <property role="2PWKIS" value="VK_OPEN_BRACKET" />
+      </node>
+      <node concept="2PzhpH" id="6P032HvUcPa" role="2PL9iG">
+        <node concept="3clFbS" id="6P032HvUcPb" role="2VODD2">
+          <node concept="3clFbF" id="6P032Hw7s$u" role="3cqZAp">
+            <node concept="2OqwBi" id="6P032Hw7vjB" role="3clFbG">
+              <node concept="2OqwBi" id="6P032Hw7tov" role="2Oq$k0">
+                <node concept="0GJ7k" id="6P032Hw7s$s" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="6P032Hw7tNx" role="2OqNvi">
+                  <ref role="3TtcxE" to="80bi:5VT83U$LPq1" resolve="rankSpecifier" />
+                </node>
+              </node>
+              <node concept="WFELt" id="6P032Hw7ytV" role="2OqNvi">
+                <ref role="1A0vxQ" to="80bi:5VT83U$LPp2" resolve="RankSpecifier" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="325Ffw" id="6P032HwbrGk">
+    <property role="TrG5h" value="AddRankSpecifier_KeyMap" />
+    <ref role="1chiOs" to="80bi:5VT83U$LPp2" resolve="RankSpecifier" />
+    <node concept="2PxR9H" id="6P032HwbrGl" role="2QnnpI">
+      <node concept="2Py5lD" id="6P032HwbrGm" role="2PyaAO">
+        <property role="2PWKIS" value="VK_OPEN_BRACKET" />
+      </node>
+      <node concept="2PzhpH" id="6P032HwbrGn" role="2PL9iG">
+        <node concept="3clFbS" id="6P032HwbrGo" role="2VODD2">
+          <node concept="3clFbF" id="6P032HwbtkC" role="3cqZAp">
+            <node concept="2OqwBi" id="6P032Hwbtrs" role="3clFbG">
+              <node concept="0GJ7k" id="6P032HwbtkA" role="2Oq$k0" />
+              <node concept="HtI8k" id="6P032Hwbu$B" role="2OqNvi">
+                <node concept="2ShNRf" id="6P032HwbuAB" role="HtI8F">
+                  <node concept="3zrR0B" id="6P032HwbuG7" role="2ShVmc">
+                    <node concept="3Tqbb2" id="6P032HwbuG9" role="3zrR0E">
+                      <ref role="ehGHo" to="80bi:5VT83U$LPp2" resolve="RankSpecifier" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
