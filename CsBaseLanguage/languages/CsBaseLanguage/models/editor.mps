@@ -2928,45 +2928,6 @@
       <node concept="l2Vlx" id="4oSbvdvV$BP" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="3grCvve4soJ">
-    <property role="3GE5qa" value="not_implemented" />
-    <ref role="1XX52x" to="80bi:6hv6i2_AZE1" resolve="InterfaceType" />
-    <node concept="3EZMnI" id="2wJFJXOJEt" role="2wV5jI">
-      <node concept="2iRfu4" id="2wJFJXOJEu" role="2iSdaV" />
-      <node concept="1iCGBv" id="3grCvve4soL" role="3EZMnx">
-        <ref role="1NtTu8" to="80bi:3grCvve2fMA" resolve="interfaceDeclaration" />
-        <node concept="1sVBvm" id="3grCvve4soN" role="1sWHZn">
-          <node concept="3F0A7n" id="3grCvve4sp1" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="PMmxH" id="2wJFJXOJEG" role="3EZMnx">
-        <ref role="PMmxG" node="2wJFJXOsZQ" resolve="HaveGenericsArgumentsComponent" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="3grCvve4spu">
-    <property role="3GE5qa" value="not_implemented" />
-    <ref role="1XX52x" to="80bi:6hv6i2_AZDJ" resolve="ClassType" />
-    <node concept="3EZMnI" id="2wJFJXMQGl" role="2wV5jI">
-      <node concept="2iRfu4" id="2wJFJXMQGm" role="2iSdaV" />
-      <node concept="1iCGBv" id="3grCvve4spw" role="3EZMnx">
-        <ref role="1NtTu8" to="80bi:3grCvve2fMD" resolve="classDeclaration" />
-        <node concept="1sVBvm" id="3grCvve4spy" role="1sWHZn">
-          <node concept="3F0A7n" id="3grCvve4spK" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <node concept="VPxyj" id="2wJFJXvcqQ" role="3F10Kt" />
-          </node>
-        </node>
-      </node>
-      <node concept="PMmxH" id="2wJFJXOJEi" role="3EZMnx">
-        <ref role="PMmxG" node="2wJFJXOsZQ" resolve="HaveGenericsArgumentsComponent" />
-      </node>
-    </node>
-  </node>
   <node concept="3ICXOK" id="3grCvve5z3$">
     <property role="3GE5qa" value="Inheritance" />
     <property role="TrG5h" value="RightInheritedTypeListCreation" />
@@ -3602,7 +3563,7 @@
                     </node>
                   </node>
                   <node concept="WFELt" id="x$3LfZgWIT" role="2OqNvi">
-                    <ref role="1A0vxQ" to="80bi:3grCvve1Pjw" resolve="InheritedType" />
+                    <ref role="1A0vxQ" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
                   </node>
                 </node>
               </node>

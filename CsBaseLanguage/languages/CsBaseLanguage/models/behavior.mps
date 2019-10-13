@@ -643,56 +643,6 @@
       <node concept="3clFbS" id="2wJFJXMYmw" role="2VODD2" />
     </node>
   </node>
-  <node concept="13h7C7" id="2wJFJXNZ4A">
-    <property role="3GE5qa" value="not_implemented" />
-    <ref role="13h7C2" to="80bi:6hv6i2_AZDJ" resolve="ClassType" />
-    <node concept="13hLZK" id="2wJFJXNZ4B" role="13h7CW">
-      <node concept="3clFbS" id="2wJFJXNZ4C" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="2wJFJXNZ4L" role="13h7CS">
-      <property role="TrG5h" value="getGenericsDeclaration" />
-      <ref role="13i0hy" node="2wJFJXMYmD" resolve="getGenericsDeclaration" />
-      <node concept="3Tm1VV" id="2wJFJXNZ4M" role="1B3o_S" />
-      <node concept="3clFbS" id="2wJFJXNZ4P" role="3clF47">
-        <node concept="3clFbF" id="2wJFJXNZ5c" role="3cqZAp">
-          <node concept="2OqwBi" id="2wJFJXNZh4" role="3clFbG">
-            <node concept="13iPFW" id="2wJFJXNZ5b" role="2Oq$k0" />
-            <node concept="3TrEf2" id="2wJFJXNZu$" role="2OqNvi">
-              <ref role="3Tt5mk" to="80bi:3grCvve2fMD" resolve="classDeclaration" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="2wJFJXNZ4Q" role="3clF45">
-        <ref role="ehGHo" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
-      </node>
-    </node>
-  </node>
-  <node concept="13h7C7" id="2wJFJXOeSz">
-    <property role="3GE5qa" value="not_implemented" />
-    <ref role="13h7C2" to="80bi:6hv6i2_AZE1" resolve="InterfaceType" />
-    <node concept="13hLZK" id="2wJFJXOeS$" role="13h7CW">
-      <node concept="3clFbS" id="2wJFJXOeS_" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="2wJFJXOeSI" role="13h7CS">
-      <property role="TrG5h" value="getGenericsDeclaration" />
-      <ref role="13i0hy" node="2wJFJXMYmD" resolve="getGenericsDeclaration" />
-      <node concept="3Tm1VV" id="2wJFJXOeSJ" role="1B3o_S" />
-      <node concept="3clFbS" id="2wJFJXOeSM" role="3clF47">
-        <node concept="3clFbF" id="2wJFJXOeT1" role="3cqZAp">
-          <node concept="2OqwBi" id="2wJFJXOf51" role="3clFbG">
-            <node concept="13iPFW" id="2wJFJXOeT0" role="2Oq$k0" />
-            <node concept="3TrEf2" id="2wJFJXOf_T" role="2OqNvi">
-              <ref role="3Tt5mk" to="80bi:3grCvve2fMA" resolve="interfaceDeclaration" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="2wJFJXOeSN" role="3clF45">
-        <ref role="ehGHo" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
-      </node>
-    </node>
-  </node>
   <node concept="13h7C7" id="2wJFJYdLjn">
     <property role="3GE5qa" value="Generics" />
     <ref role="13h7C2" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />

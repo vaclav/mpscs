@@ -1549,24 +1549,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="6hv6i2_AZDJ">
-    <property role="EcuMT" value="7232527154588416623" />
-    <property role="3GE5qa" value="not_implemented" />
-    <property role="TrG5h" value="ClassType" />
-    <ref role="1TJDcQ" node="3grCvve1Pjw" resolve="InheritedType" />
-    <node concept="1TJgyj" id="3grCvve2fMD" role="1TKVEi">
-      <property role="IQ2ns" value="3754772800029129897" />
-      <property role="20kJfa" value="classDeclaration" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6hv6i2_Azc3" resolve="ClassDeclaration" />
-    </node>
-    <node concept="PrWs8" id="2wJFJXL71z" role="PzmwI">
-      <ref role="PrY4T" node="2wJFJXIIx7" resolve="IPrimaryConstraint" />
-    </node>
-    <node concept="PrWs8" id="2wJFJXMYpJ" role="PzmwI">
-      <ref role="PrY4T" node="2wJFJXMYm4" resolve="IHaveGenericsArguments" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6vAOG1ABnEK">
     <property role="EcuMT" value="7486903154347178672" />
     <property role="TrG5h" value="ConstructorDeclaration" />
@@ -3500,24 +3482,6 @@
     </node>
     <node concept="PrWs8" id="6tzy5CC2Ys_" role="PzmwI">
       <ref role="PrY4T" node="2wJFJXyG7B" resolve="IInheritedTypeListAndGenericTypeList" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6hv6i2_AZE1">
-    <property role="EcuMT" value="7232527154588416641" />
-    <property role="3GE5qa" value="not_implemented" />
-    <property role="TrG5h" value="InterfaceType" />
-    <ref role="1TJDcQ" node="3grCvve1Pjw" resolve="InheritedType" />
-    <node concept="1TJgyj" id="3grCvve2fMA" role="1TKVEi">
-      <property role="IQ2ns" value="3754772800029129894" />
-      <property role="20kJfa" value="interfaceDeclaration" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6hv6i2_Azc6" resolve="InterfaceDeclaration" />
-    </node>
-    <node concept="PrWs8" id="2wJFJXLg6I" role="PzmwI">
-      <ref role="PrY4T" node="2wJFJXIIxa" resolve="ISecondaryConstraint" />
-    </node>
-    <node concept="PrWs8" id="2wJFJXMYpQ" role="PzmwI">
-      <ref role="PrY4T" node="2wJFJXMYm4" resolve="IHaveGenericsArguments" />
     </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_Azc3">
@@ -13855,69 +13819,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="3grCvve1Pjw">
-    <property role="EcuMT" value="3754772800029021408" />
-    <property role="TrG5h" value="InheritedType" />
-    <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="Inheritance" />
-    <property role="R4oN_" value="Type which can be inherited" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="3H0Qfr" id="7TfmMh1pE1n" role="lGtFl">
-      <node concept="1Pa9Pv" id="7TfmMh1pE1o" role="3H0Qfi">
-        <node concept="1PaTwC" id="7TfmMh1pE1p" role="1PaQFQ">
-          <node concept="3oM_SD" id="7TfmMh1pE1q" role="1PaTwD">
-            <property role="3oM_SC" value="Represents" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE1_" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE1C" role="1PaTwD">
-            <property role="3oM_SC" value="type" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE1G" role="1PaTwD">
-            <property role="3oM_SC" value="which" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE1L" role="1PaTwD">
-            <property role="3oM_SC" value="can" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE1R" role="1PaTwD">
-            <property role="3oM_SC" value="be" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE1Y" role="1PaTwD">
-            <property role="3oM_SC" value="inherited." />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="7TfmMh1pE2j" role="1PaQFQ">
-          <node concept="3oM_SD" id="7TfmMh1pE2W" role="1PaTwD">
-            <property role="3oM_SC" value="" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="7TfmMh1pE2w" role="1PaQFQ">
-          <node concept="3oM_SD" id="7TfmMh1pE2x" role="1PaTwD">
-            <property role="3oM_SC" value="Original name in the C# grammar:" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE2y" role="1PaTwD">
-            <property role="3oM_SC" value="no" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE2z" role="1PaTwD">
-            <property role="3oM_SC" value="corresponding" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE2$" role="1PaTwD">
-            <property role="3oM_SC" value="entity" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE2_" role="1PaTwD">
-            <property role="3oM_SC" value="in" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE2A" role="1PaTwD">
-            <property role="3oM_SC" value="the" />
-          </node>
-          <node concept="3oM_SD" id="7TfmMh1pE2B" role="1PaTwD">
-            <property role="3oM_SC" value="grammar" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="PlHQZ" id="5moKU4Y5oYr">
     <property role="EcuMT" value="6167894786982645659" />
     <property role="TrG5h" value="IGenericTypeList" />
@@ -14342,7 +14243,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="inheritedType" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3grCvve1Pjw" resolve="InheritedType" />
+      <ref role="20lvS9" node="1HkqSaCLpOf" resolve="TypeReference" />
     </node>
     <node concept="3H0Qfr" id="7TfmMh1pDSx" role="lGtFl">
       <node concept="1Pa9Pv" id="7TfmMh1pDSJ" role="3H0Qfi">
