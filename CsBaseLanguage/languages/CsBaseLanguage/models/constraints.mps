@@ -255,7 +255,7 @@
     <node concept="9SLcT" id="eRR5GNna1F" role="9SGkU">
       <node concept="3clFbS" id="eRR5GNna1G" role="2VODD2">
         <node concept="Jncv_" id="3c66Wrp6aJm" role="3cqZAp">
-          <ref role="JncvD" to="80bi:1HkqSaCLpSl" resolve="TypeDeclarationReference" />
+          <ref role="JncvD" to="80bi:1HkqSaCLpSl" resolve="TypeRelatedDeclarationReference" />
           <node concept="2H4GUG" id="3c66Wrp6aZ6" role="JncvB" />
           <node concept="3clFbS" id="3c66Wrp6aJq" role="Jncv$">
             <node concept="Jncv_" id="3c66Wrp6cGQ" role="3cqZAp">
@@ -312,7 +312,9 @@
           </node>
         </node>
         <node concept="3cpWs6" id="3c66Wrp6bnr" role="3cqZAp">
-          <node concept="3clFbT" id="3c66Wrp6bta" role="3cqZAk" />
+          <node concept="3clFbT" id="3c66Wrp6bta" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
         </node>
       </node>
     </node>

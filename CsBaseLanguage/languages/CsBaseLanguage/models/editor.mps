@@ -3563,7 +3563,7 @@
                     </node>
                   </node>
                   <node concept="WFELt" id="x$3LfZgWIT" role="2OqNvi">
-                    <ref role="1A0vxQ" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+                    <ref role="1A0vxQ" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
                   </node>
                 </node>
               </node>
@@ -8691,7 +8691,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2wJFJXATlG">
-    <property role="3GE5qa" value="References.TypeReferences" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <ref role="1XX52x" to="80bi:2wJFJXA1jc" resolve="GenericTypeParameterReference" />
     <node concept="1iCGBv" id="2wJFJXATlI" role="2wV5jI">
       <ref role="1NtTu8" to="80bi:2wJFJXA1jf" resolve="typeParameter" />
@@ -15180,7 +15180,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1HkqSaCLkuh">
-    <property role="3GE5qa" value="References.TypeReferences" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <ref role="1XX52x" to="80bi:1HkqSaCLgiU" resolve="GenericTypeParameterReferenceString" />
     <node concept="3EZMnI" id="1HkqSaCLqlJ" role="2wV5jI">
       <node concept="3F0A7n" id="1HkqSaCLqlQ" role="3EZMnx">
@@ -15310,9 +15310,9 @@
     </node>
   </node>
   <node concept="PKFIW" id="1HkqSaCLqa9">
-    <property role="3GE5qa" value="References.TypeReferences" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="GenericParameterReferenceList" />
-    <ref role="1XX52x" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+    <ref role="1XX52x" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
     <node concept="3EZMnI" id="1HkqSaCLqab" role="2wV5jI">
       <node concept="3F2HdR" id="1HkqSaCLqaw" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:1HkqSaCLpSi" resolve="genericTypeParameters" />
@@ -15322,8 +15322,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1HkqSaCLqmq">
-    <property role="3GE5qa" value="References.TypeReferences" />
-    <ref role="1XX52x" to="80bi:1HkqSaCLpSl" resolve="TypeDeclarationReference" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <ref role="1XX52x" to="80bi:1HkqSaCLpSl" resolve="TypeRelatedDeclarationReference" />
     <node concept="3EZMnI" id="1HkqSaCLqms" role="2wV5jI">
       <node concept="1iCGBv" id="1HkqSaCLqmz" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:1HkqSaCLgj0" resolve="typeDeclaration" />
@@ -15458,9 +15458,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="6WVfcZlwmeL">
-    <property role="3GE5qa" value="References.TypeReferences" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="AddGenericParameterSection" />
-    <ref role="aqKnT" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+    <ref role="aqKnT" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
     <node concept="1Qtc8_" id="6WVfcZlwmgD" role="IW6Ez">
       <node concept="3cWJ9i" id="6WVfcZlwmgH" role="1Qtc8$">
         <node concept="CtIbL" id="6WVfcZlwmgJ" role="CtIbM">
@@ -15513,9 +15513,9 @@
     </node>
   </node>
   <node concept="PKFIW" id="6WVfcZlF$HH">
-    <property role="3GE5qa" value="References.TypeReferences" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="MemberReference" />
-    <ref role="1XX52x" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+    <ref role="1XX52x" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
     <node concept="3EZMnI" id="6WVfcZlF$JA" role="2wV5jI">
       <node concept="3F0ifn" id="6WVfcZlF$JH" role="3EZMnx">
         <property role="3F0ifm" value="." />
@@ -15533,9 +15533,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="6WVfcZlFAx3">
-    <property role="3GE5qa" value="References.TypeReferences" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="AddMemberReferenceAfterGenericParameterList" />
-    <ref role="aqKnT" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+    <ref role="aqKnT" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
     <node concept="1Qtc8_" id="6WVfcZlFAyV" role="IW6Ez">
       <node concept="3cWJ9i" id="6WVfcZlFAyZ" role="1Qtc8$">
         <node concept="CtIbL" id="6WVfcZlFAz1" role="CtIbM">
@@ -15586,7 +15586,7 @@
                   <node concept="2ShNRf" id="6WVfcZlFFqy" role="37vLTx">
                     <node concept="3zrR0B" id="6WVfcZlFG_P" role="2ShVmc">
                       <node concept="3Tqbb2" id="6WVfcZlFG_R" role="3zrR0E">
-                        <ref role="ehGHo" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+                        <ref role="ehGHo" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
                       </node>
                     </node>
                   </node>
@@ -15605,9 +15605,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="6WVfcZlFHDB">
-    <property role="3GE5qa" value="References.TypeReferences" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="AddMemberReferenceWhenNoGenericParameterList" />
-    <ref role="aqKnT" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+    <ref role="aqKnT" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
     <node concept="1Qtc8_" id="6WVfcZlFHFv" role="IW6Ez">
       <node concept="3cWJ9i" id="6WVfcZlFHFz" role="1Qtc8$">
         <node concept="CtIbL" id="6WVfcZlFHF_" role="CtIbM">
@@ -15671,7 +15671,7 @@
                   <node concept="2ShNRf" id="6WVfcZlFRK$" role="37vLTx">
                     <node concept="3zrR0B" id="6WVfcZlFRIQ" role="2ShVmc">
                       <node concept="3Tqbb2" id="6WVfcZlFRIR" role="3zrR0E">
-                        <ref role="ehGHo" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+                        <ref role="ehGHo" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
                       </node>
                     </node>
                   </node>
@@ -15690,9 +15690,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="6WVfcZlFS4w">
-    <property role="3GE5qa" value="References.TypeReferences" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
     <property role="TrG5h" value="AfterReferenceTransformationMenus" />
-    <ref role="aqKnT" to="80bi:1HkqSaCLpOf" resolve="TypeReference" />
+    <ref role="aqKnT" to="80bi:1HkqSaCLpOf" resolve="TypeRelatedReference" />
     <node concept="1Qtc8_" id="6WVfcZlFS6E" role="IW6Ez">
       <node concept="3cWJ9i" id="6WVfcZlFS96" role="1Qtc8$">
         <node concept="CtIbL" id="6WVfcZlFS98" role="CtIbM">
