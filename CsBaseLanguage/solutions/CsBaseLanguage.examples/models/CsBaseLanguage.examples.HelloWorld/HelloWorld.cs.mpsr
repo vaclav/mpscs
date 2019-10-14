@@ -36,7 +36,7 @@
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
       <concept id="6843536562191036574" name="CsBaseLanguage.structure.PrimaryDotExpression" flags="ng" index="3Uc_2w">
-        <child id="6843536562191036577" name="identifier" index="3Uc_2v" />
+        <child id="6843536562191036577" name="member" index="3Uc_2v" />
         <child id="6843536562191036575" name="primaryExpression" index="3Uc_2x" />
       </concept>
       <concept id="6843536562190981623" name="CsBaseLanguage.structure.StringLiteral" flags="ng" index="3UcVB9">
