@@ -38,7 +38,7 @@
       </concept>
       <concept id="7232527154588434986" name="CsBaseLanguage.structure.ConstantDeclarator" flags="ng" index="31KPGa">
         <child id="1945218857512106801" name="expression" index="2YAbkf" />
-        <child id="1945218857512106799" name="identifier" index="2YAbkh" />
+        <child id="1945218857512106799" name="constant" index="2YAbkh" />
       </concept>
       <concept id="7232527154588443410" name="CsBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />

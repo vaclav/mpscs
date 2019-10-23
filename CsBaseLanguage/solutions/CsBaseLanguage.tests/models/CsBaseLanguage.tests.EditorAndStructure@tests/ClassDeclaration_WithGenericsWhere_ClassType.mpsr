@@ -59,48 +59,48 @@
       </concept>
     </language>
   </registry>
-  <node concept="LiM7Y" id="yQEJGZAd89">
-    <property role="TrG5h" value="ClassDeclaration_WithGenericsWhere" />
+  <node concept="LiM7Y" id="1Jy4SuqydJh">
+    <property role="TrG5h" value="ClassDeclaration_WithGenericsWhere_ClassType" />
     <property role="3GE5qa" value="editor.BasicEditing.ClassDeclaration" />
-    <node concept="3clFbS" id="yQEJGZAd8a" role="LjaKd">
-      <node concept="2HxZob" id="yQEJGZAdbL" role="3cqZAp">
-        <node concept="1iFQzN" id="yQEJGZAdbV" role="3iKnsn">
+    <node concept="3clFbS" id="1Jy4SuqydJi" role="LjaKd">
+      <node concept="2HxZob" id="1Jy4SuqydJj" role="3cqZAp">
+        <node concept="1iFQzN" id="1Jy4SuqydJk" role="3iKnsn">
           <ref role="1iFR8X" to="ekwn:R3$tg1aBNW" resolve="MoveRight" />
         </node>
       </node>
-      <node concept="2TK7Tu" id="yQEJGZAddu" role="3cqZAp">
+      <node concept="2TK7Tu" id="1Jy4SuqydJl" role="3cqZAp">
         <property role="2TTd_B" value="where" />
       </node>
-      <node concept="2HxZob" id="yQEJGZAdeu" role="3cqZAp">
-        <node concept="1iFQzN" id="yQEJGZAdev" role="3iKnsn">
+      <node concept="2HxZob" id="1Jy4SuqydJm" role="3cqZAp">
+        <node concept="1iFQzN" id="1Jy4SuqydJn" role="3iKnsn">
           <ref role="1iFR8X" to="ekwn:R3$tg1aBNW" resolve="MoveRight" />
         </node>
       </node>
-      <node concept="2HxZob" id="yQEJGZAdeN" role="3cqZAp">
-        <node concept="1iFQzN" id="yQEJGZAdeO" role="3iKnsn">
+      <node concept="2HxZob" id="1Jy4SuqydJo" role="3cqZAp">
+        <node concept="1iFQzN" id="1Jy4SuqydJp" role="3iKnsn">
           <ref role="1iFR8X" to="ekwn:R3$tg1aBNW" resolve="MoveRight" />
         </node>
       </node>
-      <node concept="2HxZob" id="yQEJGZAdeY" role="3cqZAp">
-        <node concept="1iFQzN" id="yQEJGZAdeZ" role="3iKnsn">
+      <node concept="2HxZob" id="1Jy4SuqydJq" role="3cqZAp">
+        <node concept="1iFQzN" id="1Jy4SuqydJr" role="3iKnsn">
           <ref role="1iFR8X" to="ekwn:R3$tg1aBNW" resolve="MoveRight" />
         </node>
       </node>
-      <node concept="2TK7Tu" id="yQEJGZAdgL" role="3cqZAp">
+      <node concept="2TK7Tu" id="1Jy4SuqydJs" role="3cqZAp">
         <property role="2TTd_B" value="class" />
       </node>
-      <node concept="3clFbH" id="yQEJGZAdeo" role="3cqZAp" />
-      <node concept="3clFbH" id="yQEJGZAded" role="3cqZAp" />
+      <node concept="3clFbH" id="1Jy4SuqydJt" role="3cqZAp" />
+      <node concept="3clFbH" id="1Jy4SuqydJu" role="3cqZAp" />
     </node>
-    <node concept="1qefOq" id="yQEJGZAd8h" role="25YQCW">
-      <node concept="31LiCz" id="yQEJGZAd8i" role="1qenE9">
+    <node concept="1qefOq" id="1Jy4SuqydJv" role="25YQCW">
+      <node concept="31LiCz" id="1Jy4SuqydJw" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31Lcgi" id="yQEJGZAd8X" role="1Fzgr7">
+        <node concept="31Lcgi" id="1Jy4SuqydJx" role="1Fzgr7">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="31Lcgi" id="yQEJGZAd96" role="1Fzgr7">
+        <node concept="31Lcgi" id="1Jy4SuqydJy" role="1Fzgr7">
           <property role="TrG5h" value="G" />
-          <node concept="LIFWc" id="yQEJGZAd9l" role="lGtFl">
+          <node concept="LIFWc" id="1Jy4SuqydJz" role="lGtFl">
             <property role="ZRATv" value="true" />
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="1" />
@@ -110,18 +110,18 @@
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="yQEJGZAd8k" role="25YQFr">
-      <node concept="31LiCz" id="yQEJGZAd8l" role="1qenE9">
+    <node concept="1qefOq" id="1Jy4SuqydJ$" role="25YQFr">
+      <node concept="31LiCz" id="1Jy4SuqydJ_" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31Lcgi" id="yQEJGZAd8m" role="1Fzgr7">
+        <node concept="31Lcgi" id="1Jy4SuqydJA" role="1Fzgr7">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="31Lcgi" id="yQEJGZAd8n" role="1Fzgr7">
+        <node concept="31Lcgi" id="1Jy4SuqydJB" role="1Fzgr7">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="31Lcgm" id="yQEJGZAde4" role="31Lcgn">
-          <node concept="3X6Wpp" id="yQEJGZAdhn" role="3X4xEB">
-            <node concept="LIFWc" id="yQEJGZAep7" role="lGtFl">
+        <node concept="31Lcgm" id="1Jy4SuqydJC" role="31Lcgn">
+          <node concept="3X6Wpp" id="1Jy4SuqydJD" role="3X4xEB">
+            <node concept="LIFWc" id="1Jy4SuqydJE" role="lGtFl">
               <property role="ZRATv" value="true" />
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="5" />
