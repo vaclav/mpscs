@@ -122,11 +122,18 @@
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="6738154313879680265" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childNode" flags="nn" index="2H4GUG" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
+      <concept id="1163200368514" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSetHandler" flags="in" index="3k9gUc" />
+      <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="6702802731807532712" name="canBeParent" index="9SGkU" />
         <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1213098023997" name="property" index="1MhHOB" />
+        <child id="1213100494875" name="referent" index="1Mr941" />
+      </concept>
+      <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
+        <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
+        <child id="1163203787401" name="referentSetHandler" index="3kmjI7" />
       </concept>
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
@@ -253,17 +260,17 @@
     <node concept="9SLcT" id="eRR5GNna1F" role="9SGkU">
       <node concept="3clFbS" id="eRR5GNna1G" role="2VODD2">
         <node concept="Jncv_" id="3c66Wrp6aJm" role="3cqZAp">
-          <ref role="JncvD" to="80bi:1HkqSaCLpSl" resolve="TypeRelatedDeclarationReference" />
+          <ref role="JncvD" to="80bi:27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
           <node concept="2H4GUG" id="3c66Wrp6aZ6" role="JncvB" />
           <node concept="3clFbS" id="3c66Wrp6aJq" role="Jncv$">
             <node concept="Jncv_" id="3c66Wrp6cGQ" role="3cqZAp">
               <ref role="JncvD" to="80bi:6hv6i2_Azc3" resolve="ClassDeclaration" />
               <node concept="2OqwBi" id="3c66Wrp6cZB" role="JncvB">
                 <node concept="Jnkvi" id="3c66Wrp6cKP" role="2Oq$k0">
-                  <ref role="1M0zk5" node="3c66Wrp6aJs" resolve="typeDeclarationReference" />
+                  <ref role="1M0zk5" node="3c66Wrp6aJs" resolve="typeReference" />
                 </node>
-                <node concept="3TrEf2" id="3c66Wrp6dqZ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="80bi:1HkqSaCLgj0" resolve="typeDeclaration" />
+                <node concept="3TrEf2" id="27q4jmdWXY5" role="2OqNvi">
+                  <ref role="3Tt5mk" to="80bi:27q4jmdWXhm" resolve="referencedType" />
                 </node>
               </node>
               <node concept="3clFbS" id="3c66Wrp6cGU" role="Jncv$">
@@ -285,8 +292,8 @@
                         </node>
                       </node>
                       <node concept="2WmjW8" id="3c66Wrp6iTg" role="2OqNvi">
-                        <node concept="Jnkvi" id="3c66Wrp6lfm" role="25WWJ7">
-                          <ref role="1M0zk5" node="3c66Wrp6aJs" resolve="typeDeclarationReference" />
+                        <node concept="Jnkvi" id="27q4jmdWYis" role="25WWJ7">
+                          <ref role="1M0zk5" node="3c66Wrp6aJs" resolve="typeReference" />
                         </node>
                       </node>
                     </node>
@@ -305,7 +312,7 @@
             </node>
           </node>
           <node concept="JncvC" id="3c66Wrp6aJs" role="JncvA">
-            <property role="TrG5h" value="typeDeclarationReference" />
+            <property role="TrG5h" value="typeReference" />
             <node concept="2jxLKc" id="3c66Wrp6aJt" role="1tU5fm" />
           </node>
         </node>
@@ -2282,6 +2289,25 @@
   <node concept="1M2fIO" id="4bovpBGFWPA">
     <property role="3GE5qa" value="Statements.Switch" />
     <ref role="1M2myG" to="80bi:1FYNzU$t_Qo" resolve="SwitchStatement" />
+  </node>
+  <node concept="1M2fIO" id="27q4jme3IWV">
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <ref role="1M2myG" to="80bi:27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
+    <node concept="1N5Pfh" id="27q4jme3IWW" role="1Mr941">
+      <ref role="1N5Vy1" to="80bi:27q4jmdWXhm" resolve="referencedType" />
+      <node concept="3k9gUc" id="27q4jme3IWY" role="3kmjI7">
+        <node concept="3clFbS" id="27q4jme3IWZ" role="2VODD2">
+          <node concept="3clFbF" id="27q4jme5yhP" role="3cqZAp">
+            <node concept="2OqwBi" id="27q4jme5yqv" role="3clFbG">
+              <node concept="3kakTB" id="27q4jme5yhM" role="2Oq$k0" />
+              <node concept="2qgKlT" id="27q4jme5yJy" role="2OqNvi">
+                <ref role="37wK5l" to="kvwr:27q4jmdX9uD" resolve="autoCompleteParentTypes" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
