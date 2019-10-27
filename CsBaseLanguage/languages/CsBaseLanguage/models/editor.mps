@@ -16342,7 +16342,7 @@
       <node concept="3F0A7n" id="1HkqSaCLqlQ" role="3EZMnx">
         <ref role="1NtTu8" to="80bi:1HkqSaCLgiY" resolve="referencedGenericTypeParameter" />
         <node concept="A1WHu" id="27q4jme6WBE" role="3vIgyS">
-          <ref role="A1WHt" node="27q4jmdX0yO" resolve="AddGenericParameterListSection" />
+          <ref role="A1WHt" node="4KhT7h9rWWP" resolve="MenuAfterTypeName" />
         </node>
       </node>
       <node concept="3F0ifn" id="6WVfcZlRzEZ" role="3EZMnx">
@@ -16439,6 +16439,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="A1WHu" id="4KhT7h9rXqV" role="3vIgyS">
+          <ref role="A1WHt" node="4KhT7h9ly6Z" resolve="AddMemeberTypeOnDotAfterGenericParameterList" />
         </node>
       </node>
       <node concept="2iRfu4" id="1HkqSaCLqlM" role="2iSdaV" />
@@ -17127,7 +17130,7 @@
           </node>
         </node>
         <node concept="A1WHu" id="27q4jme6WsD" role="3vIgyS">
-          <ref role="A1WHt" node="27q4jmdX0yO" resolve="AddGenericParameterListSection" />
+          <ref role="A1WHt" node="4KhT7h9rWWP" resolve="MenuAfterTypeName" />
         </node>
       </node>
       <node concept="3F0ifn" id="27q4jmdX2CZ" role="3EZMnx">
@@ -17225,8 +17228,133 @@
             </node>
           </node>
         </node>
+        <node concept="A1WHu" id="4KhT7h9lyX_" role="3vIgyS">
+          <ref role="A1WHt" node="4KhT7h9ly6Z" resolve="AddMemeberTypeOnDotAfterGenericParameterList" />
+        </node>
       </node>
       <node concept="2iRfu4" id="27q4jmdX2DT" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="3ICXOK" id="4KhT7h9ly6Z">
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <property role="TrG5h" value="AddMemeberTypeOnDotAfterGenericParameterList" />
+    <ref role="aqKnT" to="80bi:27q4jmdWYxN" resolve="TypeReference" />
+    <node concept="1Qtc8_" id="4KhT7h9ly70" role="IW6Ez">
+      <node concept="3cWJ9i" id="4KhT7h9ly74" role="1Qtc8$">
+        <node concept="CtIbL" id="4KhT7h9ly76" role="CtIbM">
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
+        </node>
+      </node>
+      <node concept="aenpk" id="4KhT7h9ly7a" role="1Qtc8A">
+        <node concept="IWgqT" id="4KhT7h9lyb8" role="aenpr">
+          <node concept="1hCUdq" id="4KhT7h9lyb9" role="1hCUd6">
+            <node concept="3clFbS" id="4KhT7h9lyba" role="2VODD2">
+              <node concept="3clFbF" id="4KhT7h9lyFN" role="3cqZAp">
+                <node concept="Xl_RD" id="4KhT7h9lyFM" role="3clFbG">
+                  <property role="Xl_RC" value="." />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="IWg2L" id="4KhT7h9lybb" role="IWgqQ">
+            <node concept="3clFbS" id="4KhT7h9lybc" role="2VODD2">
+              <node concept="3clFbF" id="4KhT7h9nyQ$" role="3cqZAp">
+                <node concept="2OqwBi" id="4KhT7h9nySG" role="3clFbG">
+                  <node concept="7Obwk" id="4KhT7h9nyQz" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4KhT7h9nz4p" role="2OqNvi">
+                    <ref role="37wK5l" to="kvwr:4KhT7h9niY6" resolve="makeSpaceForSubtypeReference" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3ICXOK" id="4KhT7h9rLg8">
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <property role="TrG5h" value="AddMemberTypeOnDotAfterTypeName" />
+    <ref role="aqKnT" to="80bi:27q4jmdWYxN" resolve="TypeReference" />
+    <node concept="1Qtc8_" id="4KhT7h9rLg9" role="IW6Ez">
+      <node concept="3cWJ9i" id="4KhT7h9rLgd" role="1Qtc8$">
+        <node concept="CtIbL" id="4KhT7h9rLgf" role="CtIbM">
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
+        </node>
+      </node>
+      <node concept="aenpk" id="4KhT7h9rLgj" role="1Qtc8A">
+        <node concept="IWgqT" id="4KhT7h9rLgl" role="aenpr">
+          <node concept="1hCUdq" id="4KhT7h9rLgm" role="1hCUd6">
+            <node concept="3clFbS" id="4KhT7h9rLgn" role="2VODD2">
+              <node concept="3clFbF" id="4KhT7h9rLla" role="3cqZAp">
+                <node concept="Xl_RD" id="4KhT7h9rLl9" role="3clFbG">
+                  <property role="Xl_RC" value="." />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="IWg2L" id="4KhT7h9rLgo" role="IWgqQ">
+            <node concept="3clFbS" id="4KhT7h9rLgp" role="2VODD2">
+              <node concept="3clFbF" id="4KhT7h9rLqt" role="3cqZAp">
+                <node concept="2OqwBi" id="4KhT7h9rLsr" role="3clFbG">
+                  <node concept="7Obwk" id="4KhT7h9rLqs" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4KhT7h9rLEf" role="2OqNvi">
+                    <ref role="37wK5l" to="kvwr:4KhT7h9niY6" resolve="makeSpaceForSubtypeReference" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="27VH4U" id="4KhT7h9rLIl" role="aenpu">
+          <node concept="3clFbS" id="4KhT7h9rLIm" role="2VODD2">
+            <node concept="3clFbF" id="4KhT7h9rLMH" role="3cqZAp">
+              <node concept="22lmx$" id="4KhT7h9rQ$w" role="3clFbG">
+                <node concept="2OqwBi" id="4KhT7h9rT68" role="3uHU7w">
+                  <node concept="2OqwBi" id="4KhT7h9rQN8" role="2Oq$k0">
+                    <node concept="7Obwk" id="4KhT7h9rQFc" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="4KhT7h9rR39" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:27q4jmdWYWP" resolve="genericTypeParameters" />
+                    </node>
+                  </node>
+                  <node concept="1v1jN8" id="4KhT7h9rWRf" role="2OqNvi" />
+                </node>
+                <node concept="3clFbC" id="4KhT7h9rP$E" role="3uHU7B">
+                  <node concept="2OqwBi" id="4KhT7h9rLSx" role="3uHU7B">
+                    <node concept="7Obwk" id="4KhT7h9rLMG" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="4KhT7h9rLXp" role="2OqNvi">
+                      <ref role="3TtcxE" to="80bi:27q4jmdWYWP" resolve="genericTypeParameters" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="4KhT7h9rQw1" role="3uHU7w" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3ICXOK" id="4KhT7h9rWWP">
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <property role="TrG5h" value="MenuAfterTypeName" />
+    <ref role="aqKnT" to="80bi:27q4jmdWYxN" resolve="TypeReference" />
+    <node concept="1Qtc8_" id="4KhT7h9rWWQ" role="IW6Ez">
+      <node concept="3cWJ9i" id="4KhT7h9rWWU" role="1Qtc8$">
+        <node concept="CtIbL" id="4KhT7h9rWWW" role="CtIbM">
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
+        </node>
+      </node>
+      <node concept="mvV$s" id="4KhT7h9rWZn" role="1Qtc8A">
+        <node concept="A1WHu" id="4KhT7h9rWZs" role="A14EM">
+          <ref role="A1WHt" node="27q4jmdX0yO" resolve="AddGenericParameterListSection" />
+        </node>
+      </node>
+      <node concept="mvV$s" id="4KhT7h9rWX4" role="1Qtc8A">
+        <node concept="A1WHu" id="4KhT7h9rWX6" role="A14EM">
+          <ref role="A1WHt" node="4KhT7h9rLg8" resolve="AddMemberTypeOnDotAfterTypeName" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
