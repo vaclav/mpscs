@@ -1168,7 +1168,7 @@
           <node concept="3cpWsn" id="4KhT7h9mNYe" role="1Duv9x">
             <property role="TrG5h" value="genericParameter" />
             <node concept="3Tqbb2" id="4KhT7h9mO0d" role="1tU5fm">
-              <ref role="ehGHo" to="80bi:27q4jmdWYxN" resolve="TypeReference" />
+              <ref role="ehGHo" to="80bi:5VT83U$LMPZ" resolve="Type" />
             </node>
           </node>
           <node concept="2OqwBi" id="4KhT7h9mJeU" role="1DdaDG">
