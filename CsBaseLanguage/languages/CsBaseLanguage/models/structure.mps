@@ -15963,7 +15963,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="genericTypeParameters" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="27q4jmdWYxN" resolve="TypeReference" />
+      <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
     <node concept="1TJgyj" id="27q4jmdWXho" role="1TKVEi">
       <property role="IQ2ns" value="2439281069887050840" />
