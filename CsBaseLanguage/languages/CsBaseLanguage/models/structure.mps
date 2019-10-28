@@ -15896,6 +15896,9 @@
     <node concept="PrWs8" id="6JhOkL8DHj_" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$mBn3" resolve="IVariableDeclarator" />
     </node>
+    <node concept="PrWs8" id="5E$Mk4xhZrS" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
     <node concept="1TJgyi" id="6JhOkL8vqK6" role="1TKVEl">
       <property role="IQ2nx" value="7769220957754731526" />
       <property role="TrG5h" value="value" />
@@ -16241,6 +16244,14 @@
   <node concept="PlHQZ" id="27q4jmdWX8U">
     <property role="EcuMT" value="2439281069887050298" />
     <property role="TrG5h" value="ISecondaryConstraint" />
+  </node>
+  <node concept="1TIwiD" id="5E$Mk4xjGdE">
+    <property role="EcuMT" value="6531566641162929002" />
+    <property role="TrG5h" value="MemberReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5E$Mk4xjGdF" role="PzmwI">
+      <ref role="PrY4T" node="33fEom2jy89" resolve="MemberDeclarationReference" />
+    </node>
   </node>
 </model>
 
