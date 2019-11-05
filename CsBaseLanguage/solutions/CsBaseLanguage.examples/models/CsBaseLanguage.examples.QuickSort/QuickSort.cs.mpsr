@@ -16,6 +16,7 @@
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
+      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1945218857514060490" name="CsBaseLanguage.structure.ReturnStatement" flags="ng" index="2YuCjO">
         <child id="1945218857514060491" name="expression" index="2YuCjP" />
       </concept>
@@ -70,7 +71,7 @@
         <child id="3129541975290390493" name="leftSide" index="1pHvC5" />
         <child id="3129541975290390495" name="rightSide" index="1pHvC7" />
       </concept>
-      <concept id="8360783199046853415" name="CsBaseLanguage.structure.ExpressionListInBraces" flags="ng" index="3reDGy">
+      <concept id="8360783199046853415" name="CsBaseLanguage.structure.ExpressionListInBrackets" flags="ng" index="3reDGy">
         <child id="8360783199046853416" name="expressionList" index="3reDGH" />
       </concept>
       <concept id="6209812394075305792" name="CsBaseLanguage.structure.IHaveTypeOrVoid" flags="ng" index="3Sw9wS">
@@ -83,7 +84,7 @@
         <child id="6843536562190902730" name="expression" index="3Uc4nO" />
       </concept>
       <concept id="6843536562191036574" name="CsBaseLanguage.structure.PrimaryDotExpression" flags="ng" index="3Uc_2w">
-        <child id="6843536562191036577" name="identifier" index="3Uc_2v" />
+        <child id="6843536562191036577" name="member" index="3Uc_2v" />
         <child id="6843536562191036575" name="primaryExpression" index="3Uc_2x" />
       </concept>
       <concept id="6843536562190981623" name="CsBaseLanguage.structure.StringLiteral" flags="ng" index="3UcVB9">
@@ -95,7 +96,7 @@
       <concept id="6843536562190981613" name="CsBaseLanguage.structure.BoolLiteral" flags="ng" index="3UcVBj">
         <property id="3129541975290490497" name="value" index="1pGRdp" />
       </concept>
-      <concept id="6843536562191001275" name="CsBaseLanguage.structure.Identifier" flags="ng" index="3UcWq5">
+      <concept id="6843536562191001275" name="CsBaseLanguage.structure.VariableReference" flags="ng" index="3UcWq5">
         <property id="3129541975291034999" name="value" index="1pyM2J" />
       </concept>
       <concept id="6843536562191167670" name="CsBaseLanguage.structure.PostIncrementExpression" flags="ng" index="3Ud528">
@@ -156,8 +157,8 @@
               <node concept="3UfwP1" id="6FfQk_SG4iv" role="2YDbI6">
                 <node concept="3UfM66" id="6FfQk_SG4iw" role="3UfBpY" />
               </node>
-              <node concept="3UcWq5" id="6FfQk_SG4ix" role="2YDbI4">
-                <property role="1pyM2J" value="pivot" />
+              <node concept="zF7EM" id="1rCW800IRLg" role="2YDbI4">
+                <property role="TrG5h" value="pivot" />
               </node>
             </node>
             <node concept="2Yz168" id="6FfQk_SG4iy" role="1ux1N">
