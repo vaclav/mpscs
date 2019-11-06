@@ -16247,7 +16247,7 @@
     <property role="EcuMT" value="6531566641162929002" />
     <property role="TrG5h" value="MemberReference" />
     <property role="3GE5qa" value="References.MemberReferences" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
     <node concept="PrWs8" id="5E$Mk4xjGdF" role="PzmwI">
       <ref role="PrY4T" node="33fEom2jy89" resolve="MemberDeclarationReference" />
     </node>
