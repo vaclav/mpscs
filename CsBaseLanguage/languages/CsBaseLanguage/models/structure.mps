@@ -1198,14 +1198,6 @@
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
   </node>
-  <node concept="1TIwiD" id="5VT83U$LxVC">
-    <property role="EcuMT" value="6843536562190687976" />
-    <property role="TrG5h" value="ObjectType" />
-    <property role="34LRSv" value="Object" />
-    <property role="R4oN_" value="ancestor of all types" />
-    <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="2HIntxMH_qO" resolve="BuiltInClassType" />
-  </node>
   <node concept="1TIwiD" id="5VT83U$MDBA">
     <property role="EcuMT" value="6843536562190981606" />
     <property role="R5$K7" value="true" />
