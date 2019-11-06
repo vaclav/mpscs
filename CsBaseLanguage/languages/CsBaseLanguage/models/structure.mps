@@ -2311,6 +2311,9 @@
     <node concept="PrWs8" id="6hv6i2_BecG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="5dYLrgGkU0F" role="PzmwI">
+      <ref role="PrY4T" node="6JhOkL8vqKa" resolve="IReferencableVariableDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6hv6i2_B48E">
     <property role="EcuMT" value="7232527154588434986" />
