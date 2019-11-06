@@ -94,11 +94,8 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
-      <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
-      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
-        <child id="9200313594498201639" name="generator" index="1TViLv" />
-      </concept>
+      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD" />
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
@@ -222,10 +219,6 @@
           <node concept="3bR9La" id="4xDflt7HBm8" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
-        </node>
-        <node concept="1yeLz9" id="4xDflt7HBm9" role="1TViLv">
-          <property role="TrG5h" value="CsBaseLanguage#01" />
-          <property role="3LESm3" value="544fa2ff-389a-4862-965b-11f4ba4e8ac2" />
         </node>
         <node concept="55IIr" id="5dk_bMdNq3u" role="3LF7KH">
           <node concept="2Ry0Ak" id="5dk_bMdNq3v" role="iGT6I">

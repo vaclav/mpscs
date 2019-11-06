@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:fcdf8a98-8638-4be9-822b-7c6b6a82fdf7(CsBaseLanguage.tests.EditorAndStructure@tests)" content="root">
+  <persistence version="9" />
+  <imports>
+    <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="7011073693661765739" name="jetbrains.mps.lang.test.structure.InvokeActionStatement" flags="nn" index="2HxZob">
+        <child id="1101347953350127927" name="actionReference" index="3iKnsn" />
+      </concept>
+      <concept id="1229187653856" name="jetbrains.mps.lang.test.structure.EditorTestCase" flags="lg" index="LiM7Y">
+        <child id="3143335925185262946" name="testNodeBefore" index="25YQCW" />
+        <child id="3143335925185262981" name="testNodeResult" index="25YQFr" />
+        <child id="1229187755283" name="code" index="LjaKd" />
+      </concept>
+      <concept id="1229194968594" name="jetbrains.mps.lang.test.structure.AnonymousCellAnnotation" flags="ng" index="LIFWc">
+        <property id="6268941039745498163" name="selectionStart" index="p6zMq" />
+        <property id="6268941039745498165" name="selectionEnd" index="p6zMs" />
+        <property id="1229194968595" name="cellId" index="LIFWd" />
+        <property id="1932269937152561478" name="useLabelSelection" index="OXtK3" />
+        <property id="1229432188737" name="isLastPosition" index="ZRATv" />
+      </concept>
+      <concept id="1227182079811" name="jetbrains.mps.lang.test.structure.TypeKeyStatement" flags="nn" index="2TK7Tu">
+        <property id="1227184461946" name="keys" index="2TTd_B" />
+      </concept>
+      <concept id="4239542196496927193" name="jetbrains.mps.lang.test.structure.MPSActionReference" flags="ng" index="1iFQzN">
+        <reference id="4239542196496929559" name="action" index="1iFR8X" />
+      </concept>
+      <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
+        <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
+    </language>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+    </language>
+    <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
+      <concept id="7232527154588409138" name="CsBaseLanguage.structure.TypeParameter" flags="ng" index="31Lcgi" />
+      <concept id="7232527154588409142" name="CsBaseLanguage.structure.TypeParameterConstraintsClause" flags="ng" index="31Lcgm">
+        <child id="45245710898209820" name="constraint" index="3X4xEB" />
+      </concept>
+      <concept id="7232527154588300035" name="CsBaseLanguage.structure.ClassDeclaration" flags="ng" index="31LiCz" />
+      <concept id="6167894786982645659" name="CsBaseLanguage.structure.IGenericTypeList" flags="ng" index="1FzkKU">
+        <child id="7232527154588409143" name="typeParameterConstraintsClause" index="31Lcgn" />
+        <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
+      </concept>
+      <concept id="45245710899178496" name="CsBaseLanguage.structure.StructPrimaryConstraint" flags="ng" index="3XotaV" />
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="LiM7Y" id="yQEJGZAd89">
+    <property role="TrG5h" value="ClassDeclaration_WithGenericsWhere_StructType" />
+    <property role="3GE5qa" value="editor.BasicEditing.ClassDeclaration" />
+    <node concept="3clFbS" id="yQEJGZAd8a" role="LjaKd">
+      <node concept="2HxZob" id="yQEJGZAdbL" role="3cqZAp">
+        <node concept="1iFQzN" id="yQEJGZAdbV" role="3iKnsn">
+          <ref role="1iFR8X" to="ekwn:R3$tg1aBNW" resolve="MoveRight" />
+        </node>
+      </node>
+      <node concept="2TK7Tu" id="yQEJGZAddu" role="3cqZAp">
+        <property role="2TTd_B" value="where" />
+      </node>
+      <node concept="2HxZob" id="yQEJGZAdeu" role="3cqZAp">
+        <node concept="1iFQzN" id="yQEJGZAdev" role="3iKnsn">
+          <ref role="1iFR8X" to="ekwn:R3$tg1aBNW" resolve="MoveRight" />
+        </node>
+      </node>
+      <node concept="2HxZob" id="yQEJGZAdeN" role="3cqZAp">
+        <node concept="1iFQzN" id="yQEJGZAdeO" role="3iKnsn">
+          <ref role="1iFR8X" to="ekwn:R3$tg1aBNW" resolve="MoveRight" />
+        </node>
+      </node>
+      <node concept="2HxZob" id="yQEJGZAdeY" role="3cqZAp">
+        <node concept="1iFQzN" id="yQEJGZAdeZ" role="3iKnsn">
+          <ref role="1iFR8X" to="ekwn:R3$tg1aBNW" resolve="MoveRight" />
+        </node>
+      </node>
+      <node concept="2TK7Tu" id="yQEJGZAdgL" role="3cqZAp">
+        <property role="2TTd_B" value="struct" />
+      </node>
+      <node concept="3clFbH" id="yQEJGZAdeo" role="3cqZAp" />
+      <node concept="3clFbH" id="yQEJGZAded" role="3cqZAp" />
+    </node>
+    <node concept="1qefOq" id="yQEJGZAd8h" role="25YQCW">
+      <node concept="31LiCz" id="yQEJGZAd8i" role="1qenE9">
+        <property role="TrG5h" value="Foo" />
+        <node concept="31Lcgi" id="yQEJGZAd8X" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+        <node concept="31Lcgi" id="yQEJGZAd96" role="1Fzgr7">
+          <property role="TrG5h" value="G" />
+          <node concept="LIFWc" id="yQEJGZAd9l" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="1" />
+            <property role="p6zMs" value="1" />
+            <property role="LIFWd" value="property_name" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="yQEJGZAd8k" role="25YQFr">
+      <node concept="31LiCz" id="yQEJGZAd8l" role="1qenE9">
+        <property role="TrG5h" value="Foo" />
+        <node concept="31Lcgi" id="yQEJGZAd8m" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+        <node concept="31Lcgi" id="yQEJGZAd8n" role="1Fzgr7">
+          <property role="TrG5h" value="G" />
+        </node>
+        <node concept="31Lcgm" id="yQEJGZAde4" role="31Lcgn">
+          <node concept="3XotaV" id="1Jy4SuqyhMt" role="3X4xEB">
+            <node concept="LIFWc" id="1Jy4SuqyhMw" role="lGtFl">
+              <property role="ZRATv" value="true" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="6" />
+              <property role="p6zMs" value="6" />
+              <property role="LIFWd" value="ALIAS_EDITOR_COMPONENT" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</model>
+

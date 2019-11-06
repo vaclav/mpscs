@@ -48,7 +48,7 @@
       </concept>
       <concept id="7232527154588434986" name="CsBaseLanguage.structure.ConstantDeclarator" flags="ng" index="31KPGa">
         <child id="1945218857512106801" name="expression" index="2YAbkf" />
-        <child id="1945218857512106799" name="identifier" index="2YAbkh" />
+        <child id="1945218857512106799" name="constant" index="2YAbkh" />
       </concept>
       <concept id="6209812394072707160" name="CsBaseLanguage.structure.IHaveModifiers" flags="ng" index="3SE3Ww">
         <child id="6209812394072707161" name="iModifier" index="3SE3Wx" />
@@ -62,7 +62,7 @@
       <concept id="6843536562190981614" name="CsBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
         <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
-      <concept id="6843536562191001275" name="CsBaseLanguage.structure.Identifier" flags="ng" index="3UcWq5">
+      <concept id="6843536562191001275" name="CsBaseLanguage.structure.VariableReference" flags="ng" index="3UcWq5">
         <property id="3129541975291034999" name="value" index="1pyM2J" />
       </concept>
       <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:2827db6f-dc59-48c8-941c-917260082d92(CsBaseLanguage.examples.SortComparison)" content="header">
+  <persistence version="9" />
+  <languages>
+    <use id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage" version="0" />
+  </languages>
+  <imports>
+    <import index="i17k" ref="r:0914ebcb-1305-43c4-9334-70d07381387f(System)" />
+  </imports>
+</model>
+
