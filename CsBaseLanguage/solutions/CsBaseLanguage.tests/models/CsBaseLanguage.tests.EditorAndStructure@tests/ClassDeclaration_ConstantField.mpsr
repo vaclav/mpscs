@@ -48,6 +48,7 @@
       <concept id="7486903154347131550" name="CsBaseLanguage.structure.ConstantDeclaratorList" flags="ng" index="1ux1u">
         <child id="7486903154347131551" name="constantDeclarator" index="1ux1v" />
       </concept>
+      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="7232527154588434899" name="CsBaseLanguage.structure.ConstantDeclaration" flags="ng" index="31KPzN">
         <child id="7232527154588434987" name="constantDeclaratorList" index="31KPGb" />
       </concept>
@@ -61,10 +62,9 @@
       <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
-      <concept id="6843536562191001275" name="CsBaseLanguage.structure.Identifier" flags="ng" index="3UcWq5">
-        <property id="3129541975291034999" name="value" index="1pyM2J" />
+      <concept id="6843536562190981614" name="CsBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
+        <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
-      <concept id="6843536562190617628" name="CsBaseLanguage.structure.Expression" flags="ng" index="3Uf2Ky" />
       <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
@@ -108,6 +108,14 @@
       <node concept="2TK7Tu" id="CnxWk9jHdm" role="3cqZAp">
         <property role="2TTd_B" value="bar" />
       </node>
+      <node concept="yd1bK" id="2v2wbzt7R64" role="3cqZAp">
+        <node concept="pLAjd" id="2v2wbzt7R65" role="yd6KS">
+          <property role="pLAjf" value="VK_TAB" />
+        </node>
+      </node>
+      <node concept="2TK7Tu" id="2v2wbzt7R7F" role="3cqZAp">
+        <property role="2TTd_B" value="42" />
+      </node>
     </node>
     <node concept="1qefOq" id="yQEJGZA2Q1" role="25YQCW">
       <node concept="31LiCz" id="yQEJGZA2Q2" role="1qenE9">
@@ -124,17 +132,26 @@
     <node concept="1qefOq" id="yQEJGZA2Q4" role="25YQFr">
       <node concept="31LiCz" id="yQEJGZA2Q5" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31KPzN" id="1Jy4Suqy$EC" role="31Leeq">
-          <node concept="1ux1u" id="1Jy4Suqy$ED" role="31KPGb">
-            <node concept="31KPGa" id="1Jy4Suqy$EE" role="1ux1v">
-              <node concept="3UcWq5" id="1Jy4Suqy$EF" role="2YAbkh">
-                <property role="1pyM2J" value="bar" />
+        <node concept="31KPzN" id="2v2wbzt7R5L" role="31Leeq">
+          <node concept="1ux1u" id="2v2wbzt7R5M" role="31KPGb">
+            <node concept="31KPGa" id="2v2wbzt7R5N" role="1ux1v">
+              <node concept="zF7EM" id="2v2wbzt7R5O" role="2YAbkh">
+                <property role="TrG5h" value="bar" />
               </node>
-              <node concept="3Uf2Ky" id="1Jy4Suqy$EG" role="2YAbkf" />
+              <node concept="3UcVBg" id="2v2wbzt7R62" role="2YAbkf">
+                <property role="1pzoAX" value="42" />
+                <node concept="LIFWc" id="2v2wbzt7R8b" role="lGtFl">
+                  <property role="ZRATv" value="true" />
+                  <property role="OXtK3" value="true" />
+                  <property role="p6zMq" value="2" />
+                  <property role="p6zMs" value="2" />
+                  <property role="LIFWd" value="property_value" />
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="3UfwP1" id="1Jy4Suqy$EH" role="3SE38M">
-            <node concept="3UfM66" id="1Jy4Suqy$EQ" role="3UfBpY" />
+          <node concept="3UfwP1" id="2v2wbzt7R5Q" role="3SE38M">
+            <node concept="3UfM66" id="2v2wbzt7R5Z" role="3UfBpY" />
           </node>
         </node>
       </node>

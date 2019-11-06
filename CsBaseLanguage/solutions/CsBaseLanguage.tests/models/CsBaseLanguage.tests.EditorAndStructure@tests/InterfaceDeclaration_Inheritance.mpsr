@@ -30,10 +30,10 @@
       </concept>
     </language>
     <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
+      <concept id="2439281069887055987" name="CsBaseLanguage.structure.TypeReference" flags="ng" index="2Gav_6" />
       <concept id="267924987110481430" name="CsBaseLanguage.structure.IInheritedTypeList" flags="ng" index="KB09d">
         <child id="3754772800029021409" name="inheritedType" index="3U7fkm" />
       </concept>
-      <concept id="1969317145989192975" name="CsBaseLanguage.structure.TypeRelatedReference" flags="ng" index="2N$vqd" />
       <concept id="7232527154588300038" name="CsBaseLanguage.structure.InterfaceDeclaration" flags="ng" index="31LiCA" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -71,8 +71,8 @@
     <node concept="1qefOq" id="yQEJGZB9qB" role="25YQFr">
       <node concept="31LiCA" id="yQEJGZB9qA" role="1qenE9">
         <property role="TrG5h" value="IFoo" />
-        <node concept="2N$vqd" id="1Jy4SuqABJN" role="3U7fkm">
-          <node concept="LIFWc" id="1Jy4SuqABJP" role="lGtFl">
+        <node concept="2Gav_6" id="2v2wbzt7OrK" role="3U7fkm">
+          <node concept="LIFWc" id="2v2wbzt7OrM" role="lGtFl">
             <property role="ZRATv" value="true" />
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="0" />

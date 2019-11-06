@@ -32,6 +32,7 @@
       <concept id="7486903154347131570" name="CsBaseLanguage.structure.Block" flags="ng" index="1ux1M">
         <child id="7486903154347131571" name="statement" index="1ux1N" />
       </concept>
+      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1945218857513714961" name="CsBaseLanguage.structure.ForeachStatement" flags="ng" index="2YwsGJ">
         <child id="1945218857513714971" name="embeddedStatement" index="2YwsG_" />
         <child id="1945218857513714967" name="expression" index="2YwsGD" />
@@ -40,7 +41,6 @@
       </concept>
       <concept id="1945218857512325902" name="CsBaseLanguage.structure.EmbeddedStatement" flags="ng" index="2Y_LOK" />
       <concept id="7232527154588443414" name="CsBaseLanguage.structure.Statement" flags="ng" index="31KRCQ" />
-      <concept id="6843536562191001275" name="CsBaseLanguage.structure.Identifier" flags="ng" index="3UcWq5" />
       <concept id="6843536562190617628" name="CsBaseLanguage.structure.Expression" flags="ng" index="3Uf2Ky" />
       <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
@@ -80,10 +80,10 @@
     </node>
     <node concept="1qefOq" id="yQEJGZBXOg" role="25YQFr">
       <node concept="1ux1M" id="yQEJGZBXOh" role="1qenE9">
-        <node concept="2YwsGJ" id="yQEJGZBZ_t" role="1ux1N">
-          <node concept="3UfwP1" id="yQEJGZBZ_u" role="2YwsGG">
-            <node concept="3Ufyq8" id="yQEJGZBZ_v" role="3UfBpY">
-              <node concept="LIFWc" id="yQEJGZBZ_Q" role="lGtFl">
+        <node concept="2YwsGJ" id="2v2wbzt7Whr" role="1ux1N">
+          <node concept="3UfwP1" id="2v2wbzt7Whs" role="2YwsGG">
+            <node concept="3Ufyq8" id="2v2wbzt7Wht" role="3UfBpY">
+              <node concept="LIFWc" id="2v2wbzt7WhB" role="lGtFl">
                 <property role="ZRATv" value="true" />
                 <property role="OXtK3" value="true" />
                 <property role="p6zMq" value="0" />
@@ -92,9 +92,9 @@
               </node>
             </node>
           </node>
-          <node concept="3UcWq5" id="yQEJGZBZ_w" role="2YwsGE" />
-          <node concept="3Uf2Ky" id="yQEJGZBZ_x" role="2YwsGD" />
-          <node concept="2Y_LOK" id="yQEJGZBZ_y" role="2YwsG_" />
+          <node concept="zF7EM" id="2v2wbzt7Whu" role="2YwsGE" />
+          <node concept="3Uf2Ky" id="2v2wbzt7Whv" role="2YwsGD" />
+          <node concept="2Y_LOK" id="2v2wbzt7Whw" role="2YwsG_" />
         </node>
       </node>
     </node>
