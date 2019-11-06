@@ -20,7 +20,7 @@
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
         <reference id="899069222106091871" name="oldMember" index="2wpffI" />
       </concept>
-      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclartaion" flags="ng" index="25R3W">
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
@@ -142,7 +142,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5VT83U$LKqQ" resolve="NonArrayType" />
+      <ref role="20lvS9" node="5_5a0KJX$kh" resolve="INonArrayType" />
     </node>
     <node concept="1TJgyj" id="5VT83U$Mxwx" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190948385" />
@@ -377,7 +377,10 @@
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="BuiltInType" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="5VT83U$LKqQ" resolve="NonArrayType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5_5a0KJX$l8" role="PzmwI">
+      <ref role="PrY4T" node="5_5a0KJX$kh" resolve="INonArrayType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$LFpw">
     <property role="EcuMT" value="6843536562190726752" />
@@ -559,7 +562,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5VT83U$LKqQ" resolve="NonArrayType" />
+      <ref role="20lvS9" node="5_5a0KJX$kh" resolve="INonArrayType" />
     </node>
     <node concept="1TJgyj" id="5VT83U$MmlS" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190902648" />
@@ -652,7 +655,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="nonArrayType" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5VT83U$LKqQ" resolve="NonArrayType" />
+      <ref role="20lvS9" node="5_5a0KJX$kh" resolve="INonArrayType" />
     </node>
     <node concept="1TJgyj" id="5VT83U$LPq1" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190767745" />
@@ -893,13 +896,6 @@
     <property role="R4oN_" value="16-bit unsigned integer" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="2HIntxMH_qL" resolve="IntegralType" />
-  </node>
-  <node concept="1TIwiD" id="5VT83U$LKqQ">
-    <property role="EcuMT" value="6843536562190747318" />
-    <property role="R5$K7" value="true" />
-    <property role="TrG5h" value="NonArrayType" />
-    <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="5VT83U$MIqV">
     <property role="EcuMT" value="6843536562191001275" />
@@ -15979,7 +15975,7 @@
     <property role="TrG5h" value="TypeReference" />
     <property role="R4oN_" value="Represents a (generic) type or a namespace reference" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="5VT83U$LKqQ" resolve="NonArrayType" />
+    <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
     <node concept="1TJgyj" id="27q4jmdWYWP" role="1TKVEi">
       <property role="IQ2ns" value="2439281069887057717" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -16238,6 +16234,9 @@
         </node>
       </node>
     </node>
+    <node concept="PrWs8" id="5_5a0KJX$la" role="PzmwI">
+      <ref role="PrY4T" node="5_5a0KJX$kh" resolve="INonArrayType" />
+    </node>
   </node>
   <node concept="PlHQZ" id="27q4jmdWX8U">
     <property role="EcuMT" value="2439281069887050298" />
@@ -16252,6 +16251,11 @@
     <node concept="PrWs8" id="5E$Mk4xjGdF" role="PzmwI">
       <ref role="PrY4T" node="33fEom2jy89" resolve="MemberDeclarationReference" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="5_5a0KJX$kh">
+    <property role="EcuMT" value="6432591675578008849" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="INonArrayType" />
   </node>
 </model>
 
