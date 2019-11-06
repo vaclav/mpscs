@@ -693,6 +693,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2wJFJXMYmu">
+    <property role="3GE5qa" value="Generics" />
     <ref role="13h7C2" to="80bi:2wJFJXMYm4" resolve="IHaveGenericsArguments" />
     <node concept="13i0hz" id="2wJFJXO$Li" role="13h7CS">
       <property role="13i0it" value="true" />

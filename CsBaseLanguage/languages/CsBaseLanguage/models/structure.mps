@@ -20,7 +20,7 @@
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
         <reference id="899069222106091871" name="oldMember" index="2wpffI" />
       </concept>
-      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclartaion" flags="ng" index="25R3W">
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
@@ -326,6 +326,7 @@
   <node concept="1TIwiD" id="5VT83U$LPp2">
     <property role="EcuMT" value="6843536562190767682" />
     <property role="TrG5h" value="RankSpecifier" />
+    <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5VT83U$LPp3" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190767683" />
@@ -2667,12 +2668,6 @@
     <node concept="PrWs8" id="5oHFRyIJk6H" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIW9OU" resolve="IInterfaceModifier" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6hv6i2_B6eG">
-    <property role="EcuMT" value="7232527154588443564" />
-    <property role="3GE5qa" value="not_implemented" />
-    <property role="TrG5h" value="ArrayType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6hv6i2_ATMO">
     <property role="EcuMT" value="7232527154588392628" />
@@ -6311,6 +6306,7 @@
   <node concept="1TIwiD" id="3h4LMeIQ_DY">
     <property role="EcuMT" value="3766354144459905662" />
     <property role="TrG5h" value="FixedSizeBufferDeclaration" />
+    <property role="3GE5qa" value="Class / Struct.not_implemented" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3h4LMeIQ_DZ" role="PzmwI">
       <ref role="PrY4T" node="3h4LMeIQ_DR" resolve="IStructMemberDeclaration" />
@@ -14719,6 +14715,7 @@
   <node concept="PlHQZ" id="2wJFJXMYm4">
     <property role="EcuMT" value="45245710899864964" />
     <property role="TrG5h" value="IHaveGenericsArguments" />
+    <property role="3GE5qa" value="Generics" />
     <node concept="1TJgyj" id="2wJFJXOjSw" role="1TKVEi">
       <property role="IQ2ns" value="45245710900215328" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -14753,6 +14750,7 @@
     <property role="EcuMT" value="45245710898403000" />
     <property role="TrG5h" value="ConstructorConstraint" />
     <property role="34LRSv" value="new()" />
+    <property role="3GE5qa" value="Generics.TypeConstrains" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2wJFJXIIxd" role="PzmwI">
       <ref role="PrY4T" node="2wJFJXIIx6" resolve="ITypeParameterConstraint" />
@@ -14762,6 +14760,7 @@
     <property role="EcuMT" value="45245710898788578" />
     <property role="TrG5h" value="ClassPrimaryConstraint" />
     <property role="34LRSv" value="class" />
+    <property role="3GE5qa" value="Generics.TypeConstrains" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2wJFJXIRzW" role="PzmwI">
       <ref role="PrY4T" node="2wJFJXIIx7" resolve="IPrimaryConstraint" />
@@ -14939,6 +14938,7 @@
     <property role="EcuMT" value="45245710899178496" />
     <property role="TrG5h" value="StructPrimaryConstraint" />
     <property role="34LRSv" value="struct" />
+    <property role="3GE5qa" value="Generics.TypeConstrains" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2wJFJXKmK1" role="PzmwI">
       <ref role="PrY4T" node="2wJFJXIIx7" resolve="IPrimaryConstraint" />
@@ -14947,6 +14947,7 @@
   <node concept="PlHQZ" id="2wJFJXIIx7">
     <property role="EcuMT" value="45245710898751559" />
     <property role="TrG5h" value="IPrimaryConstraint" />
+    <property role="3GE5qa" value="Generics.TypeConstrains" />
     <node concept="PrWs8" id="2wJFJXIIx8" role="PrDN$">
       <ref role="PrY4T" node="2wJFJXIIx6" resolve="ITypeParameterConstraint" />
     </node>
@@ -14954,6 +14955,7 @@
   <node concept="PlHQZ" id="2wJFJXIIx6">
     <property role="EcuMT" value="45245710898751558" />
     <property role="TrG5h" value="ITypeParameterConstraint" />
+    <property role="3GE5qa" value="Generics.TypeConstrains" />
   </node>
   <node concept="25R3W" id="5LVVOtEJNJY">
     <property role="TrG5h" value="VarianceAnnotationEnum" />
@@ -15867,6 +15869,7 @@
   <node concept="1TIwiD" id="7g7u0mJfucB">
     <property role="EcuMT" value="8360783199046853415" />
     <property role="TrG5h" value="ExpressionListInBrackets" />
+    <property role="3GE5qa" value="Expressions.Others" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7g7u0mJfucC" role="1TKVEi">
       <property role="IQ2ns" value="8360783199046853416" />
@@ -16236,10 +16239,12 @@
   <node concept="PlHQZ" id="27q4jmdWX8U">
     <property role="EcuMT" value="2439281069887050298" />
     <property role="TrG5h" value="ISecondaryConstraint" />
+    <property role="3GE5qa" value="Generics.TypeConstrains" />
   </node>
   <node concept="1TIwiD" id="5E$Mk4xjGdE">
     <property role="EcuMT" value="6531566641162929002" />
     <property role="TrG5h" value="MemberReference" />
+    <property role="3GE5qa" value="References.MemberReferences" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5E$Mk4xjGdF" role="PzmwI">
       <ref role="PrY4T" node="33fEom2jy89" resolve="MemberDeclarationReference" />

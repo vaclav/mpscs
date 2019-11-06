@@ -439,6 +439,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="2wJFJXStep">
+    <property role="3GE5qa" value="Generics" />
     <ref role="1M2myG" to="80bi:2wJFJXMYm4" resolve="IHaveGenericsArguments" />
     <node concept="9SLcT" id="2wJFJXSteq" role="9SGkU">
       <node concept="3clFbS" id="2wJFJXSter" role="2VODD2">
