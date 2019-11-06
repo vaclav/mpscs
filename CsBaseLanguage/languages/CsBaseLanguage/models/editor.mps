@@ -16136,6 +16136,9 @@
     <ref role="1XX52x" to="80bi:6hv6i2_B6eW" resolve="ParameterModifier" />
     <node concept="3F0A7n" id="5nBCUOUgxPr" role="2wV5jI">
       <ref role="1NtTu8" to="80bi:5LVVOtEMxfL" resolve="value" />
+      <node concept="Vb9p2" id="2_XGSDwMEdl" role="3F10Kt">
+        <property role="Vbekb" value="g1_k_vY/BOLD" />
+      </node>
     </node>
   </node>
   <node concept="325Ffw" id="4Qkxc18U0Hz">
