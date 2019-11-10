@@ -717,7 +717,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="member" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="33fEom2jy89" resolve="MemberDeclarationReference" />
+      <ref role="20lvS9" node="5E$Mk4xjGdE" resolve="MemberReference" />
     </node>
   </node>
   <node concept="Az7Fb" id="2HIntxMRFJK">
@@ -1052,7 +1052,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="member" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="33fEom2jy89" resolve="MemberDeclarationReference" />
+      <ref role="20lvS9" node="5E$Mk4xjGdE" resolve="MemberReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$Mmn9">
@@ -1176,7 +1176,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="member" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="33fEom2jy89" resolve="MemberDeclarationReference" />
+      <ref role="20lvS9" node="5E$Mk4xjGdE" resolve="MemberReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="5VT83U$N0BI">
@@ -15757,63 +15757,6 @@
       </node>
     </node>
   </node>
-  <node concept="PlHQZ" id="33fEom2jy89">
-    <property role="EcuMT" value="3517216224881549833" />
-    <property role="3GE5qa" value="References.MemberReferences" />
-    <property role="TrG5h" value="MemberDeclarationReference" />
-    <node concept="1TJgyj" id="33fEom2jyba" role="1TKVEi">
-      <property role="IQ2ns" value="3517216224881550026" />
-      <property role="20kJfa" value="memberDeclaration" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
-    </node>
-    <node concept="1TJgyj" id="33fEom2jyb7" role="1TKVEi">
-      <property role="IQ2ns" value="3517216224881550023" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="anotherMemberReference" />
-      <ref role="20lvS9" node="33fEom2jy89" resolve="MemberDeclarationReference" />
-    </node>
-    <node concept="3H0Qfr" id="33fEom2jy9t" role="lGtFl">
-      <node concept="1Pa9Pv" id="33fEom2jy9u" role="3H0Qfi">
-        <node concept="1PaTwC" id="33fEom2jy9v" role="1PaQFQ">
-          <node concept="3oM_SD" id="33fEom2jyaw" role="1PaTwD">
-            <property role="3oM_SC" value="Represents" />
-          </node>
-          <node concept="3oM_SD" id="33fEom2jy9R" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="33fEom2jy9S" role="1PaTwD">
-            <property role="3oM_SC" value="reference" />
-          </node>
-          <node concept="3oM_SD" id="33fEom2jy9T" role="1PaTwD">
-            <property role="3oM_SC" value="to" />
-          </node>
-          <node concept="3oM_SD" id="33fEom2jy9U" role="1PaTwD">
-            <property role="3oM_SC" value="a" />
-          </node>
-          <node concept="3oM_SD" id="33fEom2jy9V" role="1PaTwD">
-            <property role="3oM_SC" value="member." />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="33fEom2jy9W" role="1PaQFQ">
-          <node concept="3oM_SD" id="33fEom2jy9X" role="1PaTwD">
-            <property role="3oM_SC" value="" />
-          </node>
-        </node>
-        <node concept="1PaTwC" id="33fEom2jy9Y" role="1PaQFQ">
-          <node concept="3oM_SD" id="33fEom2jy9Z" role="1PaTwD">
-            <property role="3oM_SC" value="Original name in the C# grammar: none" />
-          </node>
-          <node concept="3oM_SD" id="33fEom2jya0" role="1PaTwD">
-            <property role="3oM_SC" value="corresponding" />
-          </node>
-          <node concept="3oM_SD" id="33fEom2jya1" role="1PaTwD">
-            <property role="3oM_SC" value="entity" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1TIwiD" id="fEeb94672n">
     <property role="EcuMT" value="282100264961863831" />
     <property role="3GE5qa" value="Attributes" />
@@ -16248,8 +16191,17 @@
     <property role="TrG5h" value="MemberReference" />
     <property role="3GE5qa" value="References.MemberReferences" />
     <ref role="1TJDcQ" node="5VT83U$Mjvs" resolve="PrimaryExpression" />
-    <node concept="PrWs8" id="5E$Mk4xjGdF" role="PzmwI">
-      <ref role="PrY4T" node="33fEom2jy89" resolve="MemberDeclarationReference" />
+    <node concept="1TJgyj" id="6K3cc7ATVjB" role="1TKVEi">
+      <property role="IQ2ns" value="7783118190387115239" />
+      <property role="20kJfa" value="memberDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1HkqSaCLgAV" resolve="IReferencableMemberDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="6K3cc7ATVj_" role="1TKVEi">
+      <property role="IQ2ns" value="7783118190387115237" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="anotherMemberReference" />
+      <ref role="20lvS9" node="5E$Mk4xjGdE" resolve="MemberReference" />
     </node>
   </node>
   <node concept="PlHQZ" id="5_5a0KJX$kh">
