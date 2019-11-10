@@ -381,7 +381,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="7PQXG8pw35Y">
-    <property role="3GE5qa" value="Arguments" />
+    <property role="3GE5qa" value="FunctionHeader" />
     <ref role="WuzLi" to="80bi:5VT83U$N0Bj" resolve="Argument" />
     <node concept="11bSqf" id="7PQXG8pw35Z" role="11c4hB">
       <node concept="3clFbS" id="7PQXG8pw360" role="2VODD2">
@@ -1440,7 +1440,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="7PQXG8pw3lG">
-    <property role="3GE5qa" value="Arguments" />
+    <property role="3GE5qa" value="FunctionHeader" />
     <ref role="WuzLi" to="80bi:5VT83U$N0Bi" resolve="ArgumentsList" />
     <node concept="11bSqf" id="7PQXG8pw3lH" role="11c4hB">
       <node concept="3clFbS" id="7PQXG8pw3lI" role="2VODD2">
