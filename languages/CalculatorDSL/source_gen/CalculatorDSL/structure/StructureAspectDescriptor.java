@@ -78,6 +78,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:6ef7c9ce-c679-41d0-bf83-7ad98b8f5e77(CalculatorDSL.structure)/5266274222286690384");
     b.version(2);
+    b.aggregate("value", 0x49159080d53c5ce4L).target(0xd74e25c94d9143b6L, 0xbad7d18af7bf6674L, 0x5ef9203ea4ca99eeL).optional(false).ordered(true).multiple(false).origin("5266274222287379684").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForInputReference() {

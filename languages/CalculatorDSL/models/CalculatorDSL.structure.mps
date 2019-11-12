@@ -64,7 +64,14 @@
     <property role="EcuMT" value="5266274222286690384" />
     <property role="TrG5h" value="Input" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="4$l$83lctxn" role="PzmwI">
+    <node concept="1TJgyj" id="4$l$83lf5N$" role="1TKVEi">
+      <property role="IQ2ns" value="5266274222287379684" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="80bi:5VT83U$MDBI" resolve="IntLiteral" />
+    </node>
+    <node concept="PrWs8" id="4$l$83lfgEg" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
