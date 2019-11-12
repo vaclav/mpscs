@@ -5,9 +5,11 @@
       <modulePath path="$PROJECT_DIR$/CsBaseLanguage/languages/CsBaseLanguage/CsBaseLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.build/CsBaseLanguage.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.examples/CsBaseLanguage.examples.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.plugin/CsBaseLanguage.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.sandbox/CsBaseLanguage.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.tests/CsBaseLanguage.tests.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/CsBaseLanguage/solutions/CsBaseLanguage.plugin/CsBaseLanguage.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/CalculatorDSL/CalculatorDSL.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/CalculatorDSL/sandbox/CalculatorDSL.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
