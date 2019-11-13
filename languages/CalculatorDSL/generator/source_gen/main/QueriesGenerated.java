@@ -70,7 +70,7 @@ public class QueriesGenerated extends QueryProviderBase {
   private final Map<String, SourceNodeQuery> snqMethods = new HashMap<String, SourceNodeQuery>();
   {
     int i = 0;
-    snqMethods.put("5266274222287603595", new SNQ(i++));
+    snqMethods.put("657024075618327243", new SNQ(i++));
   }
   @NotNull
   @Override
@@ -102,7 +102,7 @@ public class QueriesGenerated extends QueryProviderBase {
     snsqMethods.put("5266274222287502069", new SNsQ(i++));
     snsqMethods.put("657024075617994449", new SNsQ(i++));
     snsqMethods.put("657024075618113077", new SNsQ(i++));
-    snsqMethods.put("5266274222287580424", new SNsQ(i++));
+    snsqMethods.put("657024075618326713", new SNsQ(i++));
   }
   @NotNull
   @Override
@@ -175,7 +175,7 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   private final Map<String, ReferenceTargetQuery> rtqMethods = new HashMap<String, ReferenceTargetQuery>();
   {
-    rtqMethods.put("657024075618224200", new RTQ(0, "i"));
+    rtqMethods.put("657024075618343752", new RTQ(0, "i"));
     rtqMethods.put("657024075618113903", new RTQ(1, "i"));
   }
   @NotNull
