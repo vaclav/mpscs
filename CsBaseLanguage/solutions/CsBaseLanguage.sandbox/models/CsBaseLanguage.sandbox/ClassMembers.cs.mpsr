@@ -32,9 +32,7 @@
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
-      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM">
-        <property id="7769220957754731526" name="value" index="zF7Pa" />
-      </concept>
+      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1945218857512325908" name="CsBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
       <concept id="7232527154588434899" name="CsBaseLanguage.structure.ConstantDeclaration" flags="ng" index="31KPzN">
         <child id="7232527154588434987" name="constantDeclaratorList" index="31KPGb" />
@@ -98,12 +96,11 @@
         <property role="TrG5h" value="ClassMembersPreview" />
         <node concept="31KPzN" id="3y6WVr9oN7G" role="31Leeq">
           <node concept="1ux1u" id="3y6WVr9oN7I" role="31KPGb">
-            <node concept="31KPGa" id="3y6WVr9oN7K" role="1ux1v">
-              <node concept="zF7EM" id="6JhOkL8IeJ2" role="2YAbkh">
+            <node concept="31KPGa" id="32KJvxjS8Vw" role="1ux1v">
+              <node concept="zF7EM" id="32KJvxjS8Vx" role="2YAbkh">
                 <property role="TrG5h" value="x" />
-                <property role="zF7Pa" value="h" />
               </node>
-              <node concept="3UcVBg" id="3y6WVr9oN8z" role="2YAbkf">
+              <node concept="3UcVBg" id="32KJvxjS8VA" role="2YAbkf">
                 <property role="1pzoAX" value="42" />
               </node>
             </node>
@@ -146,9 +143,8 @@
         </node>
         <node concept="31KRIa" id="3y6WVr9oNbC" role="31Leeq">
           <node concept="1ux1y" id="3y6WVr9oNbE" role="31KRJH">
-            <node concept="zF7EM" id="6JhOkL8G8kp" role="1ux1z">
+            <node concept="zF7EM" id="32KJvxjS8VC" role="1ux1z">
               <property role="TrG5h" value="f" />
-              <property role="zF7Pa" value="f" />
             </node>
           </node>
           <node concept="3UfwP1" id="3y6WVr9oNbH" role="3SE38M">
