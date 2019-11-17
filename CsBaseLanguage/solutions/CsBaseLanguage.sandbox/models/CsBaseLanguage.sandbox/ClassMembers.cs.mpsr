@@ -34,7 +34,6 @@
       </concept>
       <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1945218857512325908" name="CsBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
-      <concept id="1945218857511602457" name="CsBaseLanguage.structure.IVariableInitializer" flags="ng" index="2YC0sB" />
       <concept id="1945218857511602452" name="CsBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
         <child id="1945218857511602455" name="identifier" index="2YC0sD" />
         <child id="1945218857511676509" name="variableInitializer" index="2YCihz" />
@@ -174,7 +173,9 @@
                 <node concept="zF7EM" id="2c5_hCRsbu$" role="2YC0sD">
                   <property role="TrG5h" value="i" />
                 </node>
-                <node concept="2YC0sB" id="2c5_hCRNnxd" role="2YCihz" />
+                <node concept="3UcVBg" id="32KJvxknDnN" role="2YCihz">
+                  <property role="1pzoAX" value="1" />
+                </node>
               </node>
             </node>
           </node>
