@@ -36,6 +36,14 @@
         <property id="7769220957754731526" name="value" index="zF7Pa" />
       </concept>
       <concept id="1945218857512325908" name="CsBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
+      <concept id="1945218857511602452" name="CsBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
+        <child id="1945218857511602455" name="identifier" index="2YC0sD" />
+        <child id="1945218857511676509" name="variableInitializer" index="2YCihz" />
+      </concept>
+      <concept id="1945218857511318967" name="CsBaseLanguage.structure.LocalVariableDeclarationStatement" flags="ng" index="2YDbI9">
+        <child id="1945218857511318970" name="variableDeclarator" index="2YDbI4" />
+        <child id="1945218857511318968" name="type" index="2YDbI6" />
+      </concept>
       <concept id="7232527154588434899" name="CsBaseLanguage.structure.ConstantDeclaration" flags="ng" index="31KPzN">
         <child id="7232527154588434987" name="constantDeclaratorList" index="31KPGb" />
       </concept>
@@ -73,12 +81,21 @@
       <concept id="6843536562190981614" name="CsBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
         <property id="3129541975290926181" name="value" index="1pzoAX" />
       </concept>
+      <concept id="6843536562191075794" name="CsBaseLanguage.structure.ArgumentsList" flags="ng" index="3UdiBG" />
+      <concept id="6843536562191075788" name="CsBaseLanguage.structure.FunctionCallExpression" flags="ng" index="3UdiBM">
+        <child id="6843536562191075791" name="argumentsList" index="3UdiBL" />
+        <child id="6843536562191075789" name="primaryExpression" index="3UdiBN" />
+      </concept>
       <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
       <concept id="6843536562190694847" name="CsBaseLanguage.structure.FloatType" flags="ng" index="3UfLA1" />
       <concept id="6843536562190680508" name="CsBaseLanguage.structure.CharType" flags="ng" index="3UfM62" />
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
+      <concept id="6531566641162929002" name="CsBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF">
+        <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
+        <child id="7783118190387115237" name="anotherMemberReference" index="2aT8g$" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -160,7 +177,30 @@
         </node>
         <node concept="31KRCM" id="3y6WVr9oNdD" role="31Leeq">
           <property role="TrG5h" value="NameOfMethod" />
-          <node concept="1ux1M" id="3y6WVr9oNdE" role="31KRCR" />
+          <node concept="1ux1M" id="3y6WVr9oNdE" role="31KRCR">
+            <node concept="2YDbI9" id="2c5_hCR8bWY" role="1ux1N">
+              <node concept="3UfwP1" id="2c5_hCR8bWZ" role="2YDbI6">
+                <node concept="3UfM66" id="2c5_hCR8bX0" role="3UfBpY" />
+              </node>
+              <node concept="2YC0sE" id="2c5_hCR8bX9" role="2YDbI4">
+                <node concept="zF7EM" id="2c5_hCR8bXa" role="2YC0sD">
+                  <property role="TrG5h" value="i" />
+                </node>
+                <node concept="3UdiBM" id="2c5_hCRnb8N" role="2YCihz">
+                  <node concept="1VUwCF" id="2c5_hCRnb8z" role="3UdiBN">
+                    <ref role="2aT8gA" node="1gNlOGhgOef" resolve="&lt;NameOfConstructor&gt;" />
+                    <node concept="1VUwCF" id="2c5_hCRnb8D" role="2aT8g$">
+                      <ref role="2aT8gA" node="1gNlOGhgOef" resolve="&lt;NameOfConstructor&gt;" />
+                      <node concept="1VUwCF" id="2c5_hCRnb8J" role="2aT8g$">
+                        <ref role="2aT8gA" node="1gNlOGhgOef" resolve="&lt;NameOfConstructor&gt;" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3UdiBG" id="2c5_hCRnb8O" role="3UdiBL" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="1ux1I" id="3y6WVr9oNdH" role="1fIg$P" />
           <node concept="1pH0Yj" id="3y6WVr9oNeo" role="3Sw9wT" />
         </node>
