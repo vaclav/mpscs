@@ -15,9 +15,6 @@
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ng" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
-      <concept id="3517216224881549833" name="CsBaseLanguage.structure.MemberDeclarationReference" flags="ng" index="2MwoIc">
-        <reference id="3517216224881550026" name="memberDeclaration" index="2MwoHf" />
-      </concept>
       <concept id="1945218857512918966" name="CsBaseLanguage.structure.ExpressionStatement" flags="ng" index="2Yz168">
         <child id="1945218857512918967" name="abstractStatementExpression" index="2Yz169" />
       </concept>
@@ -63,7 +60,9 @@
       </concept>
       <concept id="6843536562190767682" name="CsBaseLanguage.structure.RankSpecifier" flags="ng" index="3UfBpW" />
       <concept id="6843536562190687977" name="CsBaseLanguage.structure.StringType" flags="ng" index="3UfNVn" />
-      <concept id="6531566641162929002" name="CsBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF" />
+      <concept id="6531566641162929002" name="CsBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF">
+        <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -84,15 +83,15 @@
               <node concept="3UdiBM" id="3_0V6TwJPYS" role="2Yz169">
                 <node concept="3Uc_2w" id="3_0V6TwJPZ1" role="3UdiBN">
                   <node concept="3Uc_2w" id="2Z1eavXWrHM" role="3Uc_2x">
-                    <node concept="1VUwCF" id="61vFLwtaskT" role="3Uc_2x">
-                      <ref role="2MwoHf" to="i17k:3sPeTWr5sVC" resolve="System" />
+                    <node concept="1VUwCF" id="32KJvxjS8VE" role="3Uc_2x">
+                      <ref role="2aT8gA" to="i17k:3sPeTWr5q2V" resolve="System" />
                     </node>
-                    <node concept="1VUwCF" id="61vFLwtaskW" role="3Uc_2v">
-                      <ref role="2MwoHf" to="i17k:3sPeTWr5qGz" resolve="Console" />
+                    <node concept="1VUwCF" id="32KJvxjS8VH" role="3Uc_2v">
+                      <ref role="2aT8gA" to="i17k:3sPeTWr5qGz" resolve="Console" />
                     </node>
                   </node>
-                  <node concept="1VUwCF" id="61vFLwtaskZ" role="3Uc_2v">
-                    <ref role="2MwoHf" to="i17k:3sPeTWr5qxc" resolve="WriteLine" />
+                  <node concept="1VUwCF" id="32KJvxjS8VK" role="3Uc_2v">
+                    <ref role="2aT8gA" to="i17k:3sPeTWr5qxc" resolve="WriteLine" />
                   </node>
                 </node>
                 <node concept="3UdiBG" id="3_0V6TwJPYW" role="3UdiBL">
