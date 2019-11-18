@@ -34,14 +34,6 @@
       </concept>
       <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="1945218857512325908" name="CsBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
-      <concept id="1945218857511602452" name="CsBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
-        <child id="1945218857511602455" name="identifier" index="2YC0sD" />
-        <child id="1945218857511676509" name="variableInitializer" index="2YCihz" />
-      </concept>
-      <concept id="1945218857511318967" name="CsBaseLanguage.structure.LocalVariableDeclarationStatement" flags="ng" index="2YDbI9">
-        <child id="1945218857511318970" name="variableDeclarator" index="2YDbI4" />
-        <child id="1945218857511318968" name="type" index="2YDbI6" />
-      </concept>
       <concept id="7232527154588434899" name="CsBaseLanguage.structure.ConstantDeclaration" flags="ng" index="31KPzN">
         <child id="7232527154588434987" name="constantDeclaratorList" index="31KPGb" />
       </concept>
@@ -164,21 +156,7 @@
         </node>
         <node concept="31KRCM" id="3y6WVr9oNdD" role="31Leeq">
           <property role="TrG5h" value="NameOfMethod" />
-          <node concept="1ux1M" id="3y6WVr9oNdE" role="31KRCR">
-            <node concept="2YDbI9" id="2c5_hCR8bWY" role="1ux1N">
-              <node concept="3UfwP1" id="2c5_hCR8bWZ" role="2YDbI6">
-                <node concept="3UfM66" id="2c5_hCR8bX0" role="3UfBpY" />
-              </node>
-              <node concept="2YC0sE" id="2c5_hCRsbuz" role="2YDbI4">
-                <node concept="zF7EM" id="2c5_hCRsbu$" role="2YC0sD">
-                  <property role="TrG5h" value="i" />
-                </node>
-                <node concept="3UcVBg" id="32KJvxknDnN" role="2YCihz">
-                  <property role="1pzoAX" value="1" />
-                </node>
-              </node>
-            </node>
-          </node>
+          <node concept="1ux1M" id="3y6WVr9oNdE" role="31KRCR" />
           <node concept="1ux1I" id="3y6WVr9oNdH" role="1fIg$P" />
           <node concept="1pH0Yj" id="3y6WVr9oNeo" role="3Sw9wT" />
         </node>
