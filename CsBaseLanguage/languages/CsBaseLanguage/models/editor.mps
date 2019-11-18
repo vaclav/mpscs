@@ -17316,6 +17316,7 @@
   </node>
   <node concept="3INDKC" id="2c5_hCRAms1">
     <property role="TrG5h" value="BinOpAfterMethod" />
+    <property role="3GE5qa" value="FluentEditing" />
     <node concept="A1WHr" id="2c5_hCRAms3" role="AmTjC">
       <ref role="2ZyFGn" to="80bi:5VT83U$N0Bc" resolve="FunctionCallExpression" />
     </node>
@@ -17612,6 +17613,7 @@
   </node>
   <node concept="3INDKC" id="2c5_hCRFEtP">
     <property role="TrG5h" value="DotAccessAfterMethodCall" />
+    <property role="3GE5qa" value="FluentEditing" />
     <node concept="A1WHr" id="2c5_hCRFEtR" role="AmTjC">
       <ref role="2ZyFGn" to="80bi:5VT83U$N0Bc" resolve="FunctionCallExpression" />
     </node>
@@ -17708,6 +17710,7 @@
   </node>
   <node concept="3INDKC" id="32KJvxkoXjo">
     <property role="TrG5h" value="BinOpAfterExpressionInBraces" />
+    <property role="3GE5qa" value="FluentEditing" />
     <node concept="A1WHr" id="32KJvxkoXjq" role="AmTjC">
       <ref role="2ZyFGn" to="80bi:5VT83U$MMHa" resolve="ExpressionInBraces" />
     </node>
