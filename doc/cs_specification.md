@@ -1,3 +1,72 @@
-# Specification of the C# base language features
+# Specification of the C# Base Language Features
 
-TODO
+The C# base language mirrors the following features of C# 5.0:
+
+- Members:
+    - Namespace,
+    - Struct,
+    - Enumeration,
+    - Class,
+    - Interface,
+    - Array.
+- Class/Struct members:
+    - Constructors,
+    - Methods,
+    - Fields,
+    - Properties,
+    - Constants.
+- Modifiers for the following members:
+    - Class,
+    - Constant,
+    - Field,
+    - Method,
+    - Property,
+    - Accessor,
+    - Constructor,
+    - Struct,
+    - Interface,
+    - Enum.
+- Inheritance:
+    - Class inheritance,
+    - Interface implementation.
+- Built-in types: 
+    - Integral types (8,16,32,64 bits, signed and unsigned), 
+    - Floating-point types (float, double), 
+    - Decimal, 
+    - Bool, 
+    - String,
+    - Char, 
+    - Object.
+- Literals (full syntax support)
+- Variables:
+    - Static,
+    - Instance,
+    - Local,
+    - Arguments (value, output, reference).
+- Generics (definition and usage)
+- Comments
+- Expressions
+    - Method calls,
+    - Assignment,
+    - Operators.
+- Statements:
+    - Iteration statements:
+        - While,
+        - Do,
+        - For,
+        - Foreach.
+    - Jump statements:
+        - Break,
+        - Continue,
+        - Goto,
+        - Return,
+        - Throw.
+    - Selection statements (conditional-jump statements):
+        - If-else,
+        - Switch.
+    - Blocks of statements,
+    - Partial support of checked/unchecked statements,
+    - Partial support of lock statements,
+    - Partial support of try statements.
+- Delegate + modifier
+- Partial types (only syntactically)
