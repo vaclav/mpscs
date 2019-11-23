@@ -15734,7 +15734,7 @@
           </node>
         </node>
         <node concept="A1WHu" id="4KhT7h9rXqV" role="3vIgyS">
-          <ref role="A1WHt" node="4KhT7h9ly6Z" resolve="AddMemeberTypeOnDotAfterGenericParameterList" />
+          <ref role="A1WHt" node="4KhT7h9ly6Z" resolve="AddMemberTypeOnDotAfterGenericParameterList" />
         </node>
       </node>
       <node concept="2iRfu4" id="1HkqSaCLqlM" role="2iSdaV" />
@@ -16305,7 +16305,7 @@
   </node>
   <node concept="3ICXOK" id="4KhT7h9ly6Z">
     <property role="3GE5qa" value="References.TypeRelatedReferences" />
-    <property role="TrG5h" value="AddMemeberTypeOnDotAfterGenericParameterList" />
+    <property role="TrG5h" value="AddMemberTypeOnDotAfterGenericParameterList" />
     <ref role="aqKnT" to="80bi:27q4jmdWYxN" resolve="TypeReference" />
     <node concept="1Qtc8_" id="4KhT7h9ly70" role="IW6Ez">
       <node concept="3cWJ9i" id="4KhT7h9ly74" role="1Qtc8$">
@@ -16510,7 +16510,7 @@
           </node>
         </node>
         <node concept="A1WHu" id="4KhT7h9lyX_" role="3vIgyS">
-          <ref role="A1WHt" node="4KhT7h9ly6Z" resolve="AddMemeberTypeOnDotAfterGenericParameterList" />
+          <ref role="A1WHt" node="4KhT7h9ly6Z" resolve="AddMemberTypeOnDotAfterGenericParameterList" />
         </node>
       </node>
       <node concept="2iRfu4" id="27q4jmdX2DT" role="2iSdaV" />
