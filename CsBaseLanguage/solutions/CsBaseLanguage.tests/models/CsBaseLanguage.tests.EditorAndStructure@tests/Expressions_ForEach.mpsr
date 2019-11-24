@@ -41,11 +41,11 @@
       </concept>
       <concept id="1945218857512325902" name="CsBaseLanguage.structure.EmbeddedStatement" flags="ng" index="2Y_LOK" />
       <concept id="7232527154588443414" name="CsBaseLanguage.structure.Statement" flags="ng" index="31KRCQ" />
+      <concept id="6432591675578008849" name="CsBaseLanguage.structure.INonArrayType" flags="ng" index="1QGQOt" />
       <concept id="6843536562190617628" name="CsBaseLanguage.structure.Expression" flags="ng" index="3Uf2Ky" />
       <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
-      <concept id="6843536562190747318" name="CsBaseLanguage.structure.NonArrayType" flags="ng" index="3Ufyq8" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -80,10 +80,10 @@
     </node>
     <node concept="1qefOq" id="yQEJGZBXOg" role="25YQFr">
       <node concept="1ux1M" id="yQEJGZBXOh" role="1qenE9">
-        <node concept="2YwsGJ" id="2v2wbzt7Whr" role="1ux1N">
-          <node concept="3UfwP1" id="2v2wbzt7Whs" role="2YwsGG">
-            <node concept="3Ufyq8" id="2v2wbzt7Wht" role="3UfBpY">
-              <node concept="LIFWc" id="2v2wbzt7WhB" role="lGtFl">
+        <node concept="2YwsGJ" id="2AhaHATH7PB" role="1ux1N">
+          <node concept="3UfwP1" id="2AhaHATH7PC" role="2YwsGG">
+            <node concept="1QGQOt" id="2AhaHATH7PD" role="3UfBpY">
+              <node concept="LIFWc" id="2AhaHATH7PN" role="lGtFl">
                 <property role="ZRATv" value="true" />
                 <property role="OXtK3" value="true" />
                 <property role="p6zMq" value="0" />
@@ -92,9 +92,9 @@
               </node>
             </node>
           </node>
-          <node concept="zF7EM" id="2v2wbzt7Whu" role="2YwsGE" />
-          <node concept="3Uf2Ky" id="2v2wbzt7Whv" role="2YwsGD" />
-          <node concept="2Y_LOK" id="2v2wbzt7Whw" role="2YwsG_" />
+          <node concept="zF7EM" id="2AhaHATH7PE" role="2YwsGE" />
+          <node concept="3Uf2Ky" id="2AhaHATH7PF" role="2YwsGD" />
+          <node concept="2Y_LOK" id="2AhaHATH7PG" role="2YwsG_" />
         </node>
       </node>
     </node>

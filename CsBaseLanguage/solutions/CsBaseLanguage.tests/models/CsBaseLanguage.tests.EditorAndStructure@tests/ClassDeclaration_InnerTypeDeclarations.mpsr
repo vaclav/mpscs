@@ -135,31 +135,31 @@
       <node concept="3clFbH" id="1Jy4SuqyPd$" role="3cqZAp" />
       <node concept="3clFbH" id="1Jy4SuqyN6v" role="3cqZAp" />
     </node>
-    <node concept="1qefOq" id="1Jy4SuqyN6w" role="25YQCW">
-      <node concept="31LiCz" id="1Jy4SuqyN6x" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgoJ2Q" role="25YQCW">
+      <node concept="31LiCz" id="3tcg5UgoJ2P" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="LIFWc" id="1Jy4SuqyN6P" role="lGtFl">
+        <node concept="LIFWc" id="3tcg5UgoJ3h" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_yk1pkl_a8a" />
+          <property role="LIFWd" value="empty_classMemberDeclaration" />
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="1Jy4SuqyN6z" role="25YQFr">
-      <node concept="31LiCz" id="1Jy4SuqyN6$" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgoJ3k" role="25YQFr">
+      <node concept="31LiCz" id="3tcg5UgoJ3j" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31LiCz" id="1Jy4SuqyN6R" role="31Leeq">
+        <node concept="31LiCz" id="3tcg5UgoJ3n" role="31Leeq">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="31LiCA" id="1Jy4SuqyZKu" role="31Leeq">
+        <node concept="31LiCA" id="3tcg5UgoJ3s" role="31Leeq">
           <property role="TrG5h" value="IB" />
         </node>
-        <node concept="31LiC$" id="1Jy4Suqz9lK" role="31Leeq">
-          <node concept="1ux1I" id="1Jy4Suqz9lM" role="1fIg$P" />
-          <node concept="1pH0Yg" id="1Jy4Suqz9lO" role="3Sw9wT">
-            <node concept="LIFWc" id="1Jy4Suqz9mw" role="lGtFl">
+        <node concept="31LiC$" id="3tcg5UgoJ3$" role="31Leeq">
+          <node concept="1ux1I" id="3tcg5UgoJ3A" role="1fIg$P" />
+          <node concept="1pH0Yg" id="3tcg5UgoJ3C" role="3Sw9wT">
+            <node concept="LIFWc" id="3tcg5UgoJ47" role="lGtFl">
               <property role="ZRATv" value="true" />
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="0" />

@@ -56,23 +56,30 @@
       </node>
       <node concept="3clFbH" id="yQEJGZ_WJ8" role="3cqZAp" />
     </node>
-    <node concept="1qefOq" id="yQEJGZ_WJ9" role="25YQCW">
-      <node concept="31LiCz" id="yQEJGZ_WJa" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgnHw8" role="25YQCW">
+      <node concept="31LiCz" id="3tcg5UgnHw7" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="LIFWc" id="yQEJGZ_WJb" role="lGtFl">
+        <node concept="LIFWc" id="3tcg5UgnHwb" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_yk1pkl_a8a" />
+          <property role="LIFWd" value="empty_classMemberDeclaration" />
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="yQEJGZ_WJc" role="25YQFr">
-      <node concept="31LiCz" id="yQEJGZ_WJd" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgnHwe" role="25YQFr">
+      <node concept="31LiCz" id="3tcg5UgnHwd" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31LiCz" id="yQEJGZ_WKU" role="31Leeq">
+        <node concept="31LiCz" id="3tcg5UgnHwh" role="31Leeq">
           <property role="TrG5h" value="Bar" />
+          <node concept="LIFWc" id="3tcg5UgnHwj" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="3" />
+            <property role="p6zMs" value="3" />
+            <property role="LIFWd" value="property_name" />
+          </node>
         </node>
       </node>
     </node>

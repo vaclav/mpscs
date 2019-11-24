@@ -90,10 +90,10 @@
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="yQEJGZAByh" role="25YQCW">
-      <node concept="31LiC_" id="yQEJGZAByg" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgqsoF" role="25YQCW">
+      <node concept="31LiC_" id="3tcg5UgqsoE" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="LIFWc" id="yQEJGZAByG" role="lGtFl">
+        <node concept="LIFWc" id="3tcg5UgqsoO" role="lGtFl">
           <property role="LIFWa" value="0" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
@@ -102,16 +102,16 @@
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="yQEJGZAByV" role="25YQFr">
-      <node concept="31LiC_" id="yQEJGZAByU" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgqsoR" role="25YQFr">
+      <node concept="31LiC_" id="3tcg5UgqsoQ" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="2qAx7z" id="yQEJGZABzo" role="3SE3Wx" />
-        <node concept="LIFWc" id="yQEJGZAEmT" role="lGtFl">
+        <node concept="2qAx7z" id="3tcg5UgqsoW" role="3SE3Wx" />
+        <node concept="LIFWc" id="3tcg5Ugqsp5" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_c64ig3_a8a" />
+          <property role="LIFWd" value="empty_structMemberDeclaration" />
         </node>
       </node>
     </node>

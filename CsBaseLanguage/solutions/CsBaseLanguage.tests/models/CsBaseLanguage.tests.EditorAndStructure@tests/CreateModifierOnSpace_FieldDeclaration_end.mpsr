@@ -66,40 +66,41 @@
       </concept>
     </language>
   </registry>
-  <node concept="LiM7Y" id="2v2wbzt8aUv">
+  <node concept="LiM7Y" id="3tcg5UgoZqz">
     <property role="3GE5qa" value="editor.CreateModifierOnSpace" />
     <property role="TrG5h" value="CreateModifierOnSpace_FieldDeclaration_end" />
-    <node concept="1qefOq" id="2v2wbzt8aUw" role="25YQCW">
-      <node concept="31KRIa" id="2v2wbzt8aUx" role="1qenE9">
-        <node concept="1ux1y" id="2v2wbzt8aUy" role="31KRJH">
-          <node concept="zF7EM" id="2v2wbzt8aUz" role="1ux1z">
+    <node concept="1qefOq" id="3tcg5UgoZq$" role="25YQCW">
+      <node concept="31KRIa" id="3tcg5UgoZq_" role="1qenE9">
+        <node concept="1ux1y" id="3tcg5UgoZqA" role="31KRJH">
+          <node concept="zF7EM" id="3tcg5UgoZqB" role="1ux1z">
             <property role="TrG5h" value="bar" />
           </node>
         </node>
-        <node concept="3UfwP1" id="2v2wbzt8aU$" role="3SE38M">
-          <node concept="3UfM66" id="2v2wbzt8aU_" role="3UfBpY" />
-          <node concept="LIFWc" id="2v2wbzt8aUL" role="lGtFl">
-            <property role="ZRATv" value="true" />
-            <property role="OXtK3" value="true" />
-            <property role="p6zMq" value="0" />
-            <property role="p6zMs" value="0" />
-            <property role="LIFWd" value="Constant_a1nfgp_a1a" />
+        <node concept="3UfwP1" id="3tcg5UgoZqC" role="3SE38M">
+          <node concept="3UfM66" id="3tcg5UgoZqD" role="3UfBpY">
+            <node concept="LIFWc" id="3tcg5UgoZr0" role="lGtFl">
+              <property role="ZRATv" value="true" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="3" />
+              <property role="p6zMs" value="3" />
+              <property role="LIFWd" value="Constant_niawz5_a" />
+            </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="2v2wbzt8aUB" role="25YQFr">
-      <node concept="31KRIa" id="2v2wbzt8aUC" role="1qenE9">
-        <node concept="1ux1y" id="2v2wbzt8aUD" role="31KRJH">
-          <node concept="zF7EM" id="2v2wbzt8aUE" role="1ux1z">
+    <node concept="1qefOq" id="3tcg5UgoZqF" role="25YQFr">
+      <node concept="31KRIa" id="3tcg5UgoZqG" role="1qenE9">
+        <node concept="1ux1y" id="3tcg5UgoZqH" role="31KRJH">
+          <node concept="zF7EM" id="3tcg5UgoZqI" role="1ux1z">
             <property role="TrG5h" value="bar" />
           </node>
         </node>
-        <node concept="3UfwP1" id="2v2wbzt8aUF" role="3SE38M">
-          <node concept="3UfM66" id="2v2wbzt8aUG" role="3UfBpY" />
+        <node concept="3UfwP1" id="3tcg5UgoZqJ" role="3SE38M">
+          <node concept="3UfM66" id="3tcg5UgoZqK" role="3UfBpY" />
         </node>
-        <node concept="2qAx6t" id="2v2wbzt8aUH" role="3SE3Wx">
-          <node concept="LIFWc" id="2v2wbzt8aUI" role="lGtFl">
+        <node concept="2qAx6t" id="3tcg5UgoZqL" role="3SE3Wx">
+          <node concept="LIFWc" id="3tcg5UgoZqM" role="lGtFl">
             <property role="ZRATv" value="true" />
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="6" />
@@ -109,13 +110,13 @@
         </node>
       </node>
     </node>
-    <node concept="3clFbS" id="2v2wbzt8d41" role="LjaKd">
-      <node concept="yd1bK" id="2v2wbzt8d3Z" role="3cqZAp">
-        <node concept="pLAjd" id="2v2wbzt8d40" role="yd6KS">
+    <node concept="3clFbS" id="3tcg5UgoZqN" role="LjaKd">
+      <node concept="yd1bK" id="3tcg5UgoZqO" role="3cqZAp">
+        <node concept="pLAjd" id="3tcg5UgoZqP" role="yd6KS">
           <property role="pLAjf" value="VK_SPACE" />
         </node>
       </node>
-      <node concept="2TK7Tu" id="2v2wbzt8d5A" role="3cqZAp">
+      <node concept="2TK7Tu" id="3tcg5UgoZqQ" role="3cqZAp">
         <property role="2TTd_B" value="public" />
       </node>
     </node>
