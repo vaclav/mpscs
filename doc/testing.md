@@ -17,6 +17,9 @@ and running the C# source code.
  - Right click on model `EditorAndStructure@tests` located in virtual folder `CsBaseLanguage.tests` in `tests` in solution `CsBaseLanguage.tests`
  - Click on `Run 'Tests in CsBaseLanguage.tests'`
  
+ 
+![alt text width=100px](https://github.com/vaclav/mpscs/blob/master/doc/img/run_tests.png?s=500 "How to run tests")
+ 
 ## Shortcuts
 - To execute tests press *Shift+F10* 
 - To make language *Ctrl+F9*
