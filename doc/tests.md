@@ -1,15 +1,11 @@
-# How to run tests
+## How to setup and run Tests
+### Set MPS path variable ***project_home*** to your project location:
+- Go to `File -> Settings -> Appearance & Behaviour -> Path Variables` and add new variable or modify already existed variable with name ***project_home*** and set its value to project location (i.e.  `c:/Users/<username>/MPSProjects/mpscs`)
+ 
+### Run Test
+ - Right click on model `EditorAndStructure@tests` located in virtual folder `CsBaseLanguage.tests` in `tests` in solution `CsBaseLanguage.tests`
+ - Click on `Run 'Tests in CsBaseLanguage.tests'`
 
-The instance of *TestInfo* concept in the *EditorAndStructure@tests* model
-from *CsBaseLanguage.tests* solution defines *Project path*, which is the
-location of the MPS project which should be tested. The
-*project_home* **path variable** is used. To point that path variable to the
-project directory (in MPS 2019.1.3) navigate to *Settings -> Appearance &
-Behaviour -> Path Variables*. There add or modify *project_home* path
-variable with appropriate value.
-
-To make tests run faster in *Run -> Edit configurations -> JUnit Tests ->
-Tests in 'CsBaseLanguage.tests.EditorAndStructure@tests'* check *Execute in
-the same process*.
-
-Tip: to execute tests press *Shift+F10* (to make language *Ctrl+F9*).
+## Shortcuts
+- To execute tests press *Shift+F10* 
+- To make language *Ctrl+F9*
