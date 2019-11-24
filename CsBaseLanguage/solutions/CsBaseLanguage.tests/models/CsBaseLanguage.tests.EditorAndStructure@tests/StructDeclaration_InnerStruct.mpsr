@@ -57,23 +57,23 @@
       <node concept="3clFbH" id="yQEJGZAzdF" role="3cqZAp" />
     </node>
     <node concept="1qefOq" id="yQEJGZAzdG" role="25YQCW">
-      <node concept="31LiC_" id="yQEJGZAK7V" role="1qenE9">
+      <node concept="31LiC_" id="3tcg5UgqnJz" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="LIFWc" id="yQEJGZAK8f" role="lGtFl">
+        <node concept="LIFWc" id="3tcg5UgqnJ_" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_c64ig3_a8a" />
+          <property role="LIFWd" value="empty_structMemberDeclaration" />
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="yQEJGZAK8u" role="25YQFr">
-      <node concept="31LiC_" id="yQEJGZAK8t" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgqnJq" role="25YQFr">
+      <node concept="31LiC_" id="3tcg5UgqnJp" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31LiC_" id="yQEJGZAK8N" role="2qBxSn">
+        <node concept="31LiC_" id="3tcg5UgqnJt" role="2qBxSn">
           <property role="TrG5h" value="Bar" />
-          <node concept="LIFWc" id="yQEJGZAK9d" role="lGtFl">
+          <node concept="LIFWc" id="3tcg5UgqnJv" role="lGtFl">
             <property role="ZRATv" value="true" />
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="3" />

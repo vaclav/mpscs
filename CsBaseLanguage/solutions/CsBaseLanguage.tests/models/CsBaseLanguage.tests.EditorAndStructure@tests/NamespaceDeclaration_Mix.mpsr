@@ -151,14 +151,14 @@
           <node concept="31LiCA" id="yQEJGZBsEI" role="31LkaE">
             <property role="TrG5h" value="IA" />
           </node>
-          <node concept="31LiCz" id="yQEJGZBsVe" role="31LkaE">
+          <node concept="31LiCz" id="3tcg5UgpBjd" role="31LkaE">
             <property role="TrG5h" value="Bar" />
-            <node concept="LIFWc" id="yQEJGZBsVL" role="lGtFl">
+            <node concept="LIFWc" id="3tcg5UgpBj$" role="lGtFl">
               <property role="ZRATv" value="true" />
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="0" />
               <property role="p6zMs" value="0" />
-              <property role="LIFWd" value="Constant_yk1pkl_a8a" />
+              <property role="LIFWd" value="empty_classMemberDeclaration" />
             </node>
           </node>
         </node>

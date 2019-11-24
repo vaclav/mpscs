@@ -75,10 +75,10 @@
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="yQEJGZA5Fg" role="25YQCW">
-      <node concept="31LiCz" id="yQEJGZA5Fh" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgoEaa" role="25YQCW">
+      <node concept="31LiCz" id="3tcg5UgoEa9" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="LIFWc" id="yQEJGZA5Hb" role="lGtFl">
+        <node concept="LIFWc" id="3tcg5UgoEaj" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="3" />
@@ -87,21 +87,21 @@
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="yQEJGZA5Fj" role="25YQFr">
-      <node concept="31LiCz" id="yQEJGZA5Fk" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgoEam" role="25YQFr">
+      <node concept="31LiCz" id="3tcg5UgoEal" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31Lcgi" id="yQEJGZA5Hq" role="1Fzgr7">
+        <node concept="31Lcgi" id="3tcg5UgoEaq" role="1Fzgr7">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="31Lcgi" id="yQEJGZA5HC" role="1Fzgr7">
+        <node concept="31Lcgi" id="3tcg5UgoEas" role="1Fzgr7">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="LIFWc" id="yQEJGZA7TQ" role="lGtFl">
+        <node concept="LIFWc" id="3tcg5UgoEa_" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_yk1pkl_a8a" />
+          <property role="LIFWd" value="empty_classMemberDeclaration" />
         </node>
       </node>
     </node>
