@@ -14,7 +14,7 @@ and running the C# source code.
 - Go to `File -> Settings -> Appearance & Behaviour -> Path Variables` and add new variable or modify already existed variable with name ***project_home*** and set its value to project location (i.e.  `c:/Users/<username>/MPSProjects/mpscs`)
  
 ### Run Test
- - Right click on model `EditorAndStructure@tests` located in virtual folder `CsBaseLanguage.tests` in `tests` in solution `CsBaseLanguage.tests`
+ - Right click on solution `CsBaseLanguage.tests` or on model `EditorAndStructure@tests` located in virtual folder `CsBaseLanguage.tests` in `tests` in solution `CsBaseLanguage.tests`
  - Click on `Run 'Tests in CsBaseLanguage.tests'`
  
  
