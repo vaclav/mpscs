@@ -12,7 +12,6 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="9dca77d3-3b16-4a47-9d0c-b5d037cdc7e7(CsBaseLanguage.sandbox)" version="0" />
-    <module reference="d59bfd0b-6acb-44d9-a175-6db1bd3ec12d(CsStdLibrary)" version="0" />
   </dependencyVersions>
 </solution>
 

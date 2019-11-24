@@ -8,7 +8,7 @@ base language (for further information about *base languages*, see the
 The C# base language is distributed as a JetBrains MPS plugin. You can obtain it via
 the JetBrains MPS Marketplace from your installed MPS.
 
-## Supported C# features
+## Supported C# Features
 
 The C# base language is based on a subset of the C# 5.0 specification. Detailed specification
 can be found [here](./doc/cs_specification.md).
@@ -17,16 +17,15 @@ Further references of C# are understood to reference this specified version.
 
 ## Repository vs. Plugin
 
-This repository contains the most up-to-date version of the C# base language. Some parts
-of the language and its environment (e.g. the TextGen aspect, C# standard libraries) are
-auto-generated. These auto-generated parts are **not** included in this repository because
-this is a way how to guarantee that a developer generating the plugin from the language will
-understand the build process and will not forget to update any of the language-related parts.
+This repository contains the most up-to-date version of the C# base language. It is intended for
+the C# base language developers, not for its users. The TextGen aspect is auto-generated from the
+Editor aspect. To prevent inconsistency, the TextGen is not included in this repository and must
+be manually generated.
 
-The plugin distributed via JetBrains MPS Marketplace contains a full version of the C#
-base language which is time-to-time generated from this repository.
+The plugin distributed via JetBrains MPS Marketplace contains a full binary version of the C#
+base language, which is time-to-time generated from this repository.
 
-User's who do not want to participate on the C# base language's development are
+Users who do not want to participate on the C# base language's development are
 expected neither to use this repository nor to read the documentation contained in
 it. **The language should be close enough to the standard C# so no documentation for
 users of the plugin is necessary (and therefore is not provided). The documentation in
@@ -34,19 +33,29 @@ this plugin is intended for the plugin's developer community**.
 
 ## Documentation
 
-This is a list of available documentation of the C# base language:
-- [New comer's guide](./doc/new_comers_guide.md)
-    - Getting started
-    - Basic overview of the language
-    - Generation of the plugin
-- [Maintainer's guide](./doc/maintainers_guide.md)
-    - Upgrading the plugin to a new MPS version
-- [Experienced developer's guide](./doc/experienced_developers_guide.md)
-    - Detailed language design
-    - Development history: past decisions and reasoning around it
+This is a list of available documentation of the C# base language.
 
-## Related projects
+C# base language overview and design:
+- [Overview of related projects](./doc/related_projects_overview.md)
+- [Structure aspect design notes](./doc/structure_design.md)
+- [Editor aspect design notes](./doc/editor_design.md)
+- [Testing](./doc/testing.md)
+- [External libraries support](./doc/library_stubs.md)
 
+Checklists and tutorials:
+- [Creating your first C# based MPS program](./doc/tutorial_program.pdf)
+- [Creating your first C# based DSL](./doc/tutorial_dsl.pdf)
+- [Building the C# base language](./doc/tutorial_build_csbaselanguage.pdf)
+- [Checklist for keeping the base language up-to-date with MPS version](./doc/mps_upgrade.md)
+- [How to run tests](./doc/testing.md)
+
+Other documentation:
+- [LangDoc plugin usage](./doc/langdoc_plugin.md)
+
+## Related Projects
+
+- [Simple examples of usage of the C# base langauage](https://github.com/Zeman-Dalibor/mpscs-examples)
+- [CsStdLibrary](https://github.com/wirthma/CsStdLibrary): Stubs for the C# standard library
 - [LangDoc](https://github.com/vaclav/LangDoc): an MPS plugin allowing better documentation of a
 language
 - [TextGenGen](https://github.com/Kripner/textGenGen): an MPS plugin for automatic generation of the
@@ -54,9 +63,9 @@ TextGen aspect from the Editor aspect
 - [CsStubsGenerator](https://github.com/wirthma/CsStubsGenerator)
 ([StubsGenerator](https://github.com/wirthma/StubsGenerator)),
 [DotNetLibraryExporter](https://github.com/Zeman-Dalibor/DotNetLibraryExporter):
-MPS plugins and non-MPS tools for generation of C# library stub models
+MPS plugins and non-MPS tools for generation of C# library stubs
 
-## Release log
+## Release Log
 
-**Version 1.0**, 12/2019
+**Version 1.0**, 11/2019
 - The first version of the C# base language

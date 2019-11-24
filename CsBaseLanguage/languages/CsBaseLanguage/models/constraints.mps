@@ -2333,5 +2333,24 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="42EL3I6oTOk">
+    <property role="3GE5qa" value="References.MemberReferences" />
+    <ref role="1M2myG" to="80bi:5E$Mk4xjGdE" resolve="MemberReference" />
+    <node concept="1N5Pfh" id="42EL3I6oTOT" role="1Mr941">
+      <ref role="1N5Vy1" to="80bi:6K3cc7ATVjB" resolve="memberDeclaration" />
+      <node concept="3k9gUc" id="42EL3I6oTOV" role="3kmjI7">
+        <node concept="3clFbS" id="42EL3I6oTOW" role="2VODD2">
+          <node concept="3clFbF" id="42EL3I6oTPg" role="3cqZAp">
+            <node concept="2OqwBi" id="42EL3I6oTZ6" role="3clFbG">
+              <node concept="3kakTB" id="42EL3I6oTPf" role="2Oq$k0" />
+              <node concept="2qgKlT" id="42EL3I6oUrc" role="2OqNvi">
+                <ref role="37wK5l" to="kvwr:42EL3I6oFRa" resolve="autoCompleteParent" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

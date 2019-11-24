@@ -62,27 +62,34 @@
       </node>
       <node concept="3clFbH" id="yQEJGZ_SbJ" role="3cqZAp" />
     </node>
-    <node concept="1qefOq" id="yQEJGZ_SbK" role="25YQCW">
-      <node concept="31LiCz" id="yQEJGZ_SbL" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgnuAJ" role="25YQFr">
+      <node concept="31LiCz" id="3tcg5UgnuAI" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="LIFWc" id="yQEJGZ_SbM" role="lGtFl">
+        <node concept="1uUxK" id="3tcg5UgnuAM" role="31Leeq">
+          <property role="TrG5h" value="Foo" />
+          <node concept="1ux1M" id="3tcg5UgnuAN" role="1uUxY">
+            <node concept="31KRCQ" id="3tcg5UgnuAO" role="1ux1N" />
+          </node>
+          <node concept="1ux1I" id="3tcg5UgnuAP" role="1uUwe" />
+          <node concept="LIFWc" id="3tcg5UgnuAU" role="lGtFl">
+            <property role="ZRATv" value="true" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="3" />
+            <property role="p6zMs" value="3" />
+            <property role="LIFWd" value="property_name" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3tcg5UgnuAX" role="25YQCW">
+      <node concept="31LiCz" id="3tcg5UgnuAW" role="1qenE9">
+        <property role="TrG5h" value="Foo" />
+        <node concept="LIFWc" id="3tcg5UgnuB0" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_yk1pkl_a8a" />
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="yQEJGZ_SbN" role="25YQFr">
-      <node concept="31LiCz" id="yQEJGZ_SbO" role="1qenE9">
-        <property role="TrG5h" value="Foo" />
-        <node concept="1uUxK" id="yQEJGZ_Sc8" role="31Leeq">
-          <property role="TrG5h" value="Foo" />
-          <node concept="1ux1M" id="yQEJGZ_Sc9" role="1uUxY">
-            <node concept="31KRCQ" id="yQEJGZ_Sca" role="1ux1N" />
-          </node>
-          <node concept="1ux1I" id="yQEJGZ_Scb" role="1uUwe" />
+          <property role="LIFWd" value="empty_classMemberDeclaration" />
         </node>
       </node>
     </node>

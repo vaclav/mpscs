@@ -82,26 +82,26 @@
       <node concept="3clFbH" id="yQEJGZAzdT" role="3cqZAp" />
       <node concept="3clFbH" id="yQEJGZAzdU" role="3cqZAp" />
     </node>
-    <node concept="1qefOq" id="yQEJGZAL$6" role="25YQCW">
-      <node concept="31LiC_" id="yQEJGZAL$5" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgqnID" role="25YQCW">
+      <node concept="31LiC_" id="3tcg5UgqnIC" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="LIFWc" id="yQEJGZAL$x" role="lGtFl">
+        <node concept="LIFWc" id="3tcg5UgqnIM" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_c64ig3_a8a" />
+          <property role="LIFWd" value="empty_structMemberDeclaration" />
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="yQEJGZAL$K" role="25YQFr">
-      <node concept="31LiC_" id="yQEJGZAL$J" role="1qenE9">
+    <node concept="1qefOq" id="3tcg5UgqnIP" role="25YQFr">
+      <node concept="31LiC_" id="3tcg5UgqnIO" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31LiC$" id="yQEJGZAL_5" role="2qBxSn">
+        <node concept="31LiC$" id="3tcg5UgqnIS" role="2qBxSn">
           <property role="TrG5h" value="bar" />
-          <node concept="1ux1I" id="yQEJGZAL_6" role="1fIg$P" />
-          <node concept="1pH0Yj" id="yQEJGZAL_h" role="3Sw9wT" />
-          <node concept="LIFWc" id="yQEJGZAL_z" role="lGtFl">
+          <node concept="1ux1I" id="3tcg5UgqnIT" role="1fIg$P" />
+          <node concept="1pH0Yj" id="3tcg5UgqnIY" role="3Sw9wT" />
+          <node concept="LIFWc" id="3tcg5UgqnJ7" role="lGtFl">
             <property role="ZRATv" value="true" />
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="3" />
