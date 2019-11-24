@@ -31,6 +31,12 @@ it. **The language should be close enough to the standard C# so no documentation
 users of the plugin is necessary (and therefore is not provided). The documentation in
 this plugin is intended for the plugin's developer community**.
 
+### Building the plugin
+
+- In solution `CsBaseLanguage.build` locate build project `CsBaseLanguage` (with spider icon)
+- Right click on spider icon
+- Use option `Run 'CsBaseLanguage'` 
+
 ## Documentation
 
 This is a list of available documentation of the C# base language.
