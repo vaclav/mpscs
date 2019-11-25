@@ -418,20 +418,6 @@
     <property role="34LRSv" value="^=" />
     <ref role="1TJDcQ" node="2HIntxMQUvq" resolve="AssignmentExpression" />
   </node>
-  <node concept="1TIwiD" id="5VT83U$LmX_">
-    <property role="EcuMT" value="6843536562190643045" />
-    <property role="TrG5h" value="ExpressionTest" />
-    <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="Expressions.Dummy" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5VT83U$LmXA" role="1TKVEi">
-      <property role="IQ2ns" value="6843536562190643046" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="member" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2HIntxMQUwa">
     <property role="EcuMT" value="3129541975290390538" />
     <property role="3GE5qa" value="Expressions.Assignments" />
