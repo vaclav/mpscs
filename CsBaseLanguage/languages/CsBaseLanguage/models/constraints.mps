@@ -1739,7 +1739,7 @@
             <node concept="3SKdUt" id="2XZTPU1t2Jm" role="3cqZAp">
               <node concept="1PaTwC" id="5LVVOtEJNPd" role="3ndbpf">
                 <node concept="3oM_SD" id="5LVVOtEJNPe" role="1PaTwD">
-                  <property role="3oM_SC" value="Allready" />
+                  <property role="3oM_SC" value="Already" />
                 </node>
                 <node concept="3oM_SD" id="5LVVOtEJNPf" role="1PaTwD">
                   <property role="3oM_SC" value="existing" />
@@ -1918,7 +1918,7 @@
               <property role="3oM_SC" value="member" />
             </node>
             <node concept="3oM_SD" id="5LVVOtEJNPu" role="1PaTwD">
-              <property role="3oM_SC" value="delaration" />
+              <property role="3oM_SC" value="declaration" />
             </node>
           </node>
         </node>
@@ -2067,7 +2067,7 @@
               <property role="3oM_SC" value="member" />
             </node>
             <node concept="3oM_SD" id="5LVVOtEJNPI" role="1PaTwD">
-              <property role="3oM_SC" value="delaration" />
+              <property role="3oM_SC" value="declaration" />
             </node>
           </node>
         </node>
