@@ -1842,8 +1842,7 @@
       <property role="IQ2ns" value="7575174424947043374" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
+      <ref role="20lvS9" node="5VT83U$MDBI" resolve="IntLiteral" />
     </node>
     <node concept="PrWs8" id="6$wrg4A_UKG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
