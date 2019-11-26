@@ -2677,6 +2677,9 @@
     <node concept="PrWs8" id="5xx_vq$0gzs" role="PzmwI">
       <ref role="PrY4T" node="5xx_vq$0gzd" resolve="IInterfacePropertyModifier" />
     </node>
+    <node concept="PrWs8" id="ZfJ9N90nyB" role="PzmwI">
+      <ref role="PrY4T" node="ZfJ9N90nyA" resolve="IInterfaceMethodModifier" />
+    </node>
     <node concept="3H0Qfr" id="2pqoNIAeaSX" role="lGtFl">
       <node concept="1Pa9Pv" id="2pqoNIAeaTb" role="3H0Qfi">
         <node concept="1PaTwC" id="2pqoNIAeaTc" role="1PaQFQ">
@@ -16426,6 +16429,11 @@
     <node concept="PrWs8" id="5gskHI0ff0Z" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="ZfJ9N90nyA">
+    <property role="EcuMT" value="1139336612321261734" />
+    <property role="3GE5qa" value="Modifiers.Sets" />
+    <property role="TrG5h" value="IInterfaceMethodModifier" />
   </node>
 </model>
 

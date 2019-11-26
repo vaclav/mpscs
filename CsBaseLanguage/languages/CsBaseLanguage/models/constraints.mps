@@ -1302,6 +1302,33 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="ZfJ9N90yni" role="3cqZAp">
+          <node concept="3clFbS" id="ZfJ9N90ynj" role="3clFbx">
+            <node concept="3cpWs6" id="ZfJ9N90ynk" role="3cqZAp">
+              <node concept="3clFbT" id="ZfJ9N90ynl" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="1Wc70l" id="ZfJ9N90ynm" role="3clFbw">
+            <node concept="3fqX7Q" id="ZfJ9N90ynn" role="3uHU7w">
+              <node concept="2OqwBi" id="ZfJ9N90yno" role="3fr31v">
+                <node concept="2DD5aU" id="ZfJ9N90ynp" role="2Oq$k0" />
+                <node concept="2Zo12i" id="ZfJ9N90ynq" role="2OqNvi">
+                  <node concept="chp4Y" id="ZfJ9N90zxw" role="2Zo12j">
+                    <ref role="cht4Q" to="80bi:ZfJ9N90nyA" resolve="IInterfaceMethodModifier" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="ZfJ9N90yns" role="3uHU7B">
+              <node concept="nLn13" id="ZfJ9N90ynt" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="ZfJ9N90ynu" role="2OqNvi">
+                <node concept="chp4Y" id="ZfJ9N90zh3" role="cj9EA">
+                  <ref role="cht4Q" to="80bi:6$wrg4AAmeZ" resolve="InterfaceMethodDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="5xx_vq$75_l" role="3cqZAp" />
         <node concept="3clFbJ" id="2XZTPU1qJbI" role="3cqZAp">
           <node concept="3clFbS" id="2XZTPU1qJbK" role="3clFbx">
