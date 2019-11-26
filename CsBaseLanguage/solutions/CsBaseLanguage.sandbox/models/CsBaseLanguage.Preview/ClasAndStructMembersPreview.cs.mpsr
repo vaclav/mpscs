@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:af3c7576-fac2-4cb0-a7ee-943e98565e7d(CsBaseLanguage.Preview)">
+<model ref="r:af3c7576-fac2-4cb0-a7ee-943e98565e7d(CsBaseLanguage.Preview)" content="root">
   <persistence version="9" />
-  <languages>
-    <use id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage" version="0" />
-  </languages>
   <imports />
   <registry>
     <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
@@ -55,20 +52,15 @@
       <concept id="7232527154588443306" name="CsBaseLanguage.structure.FieldDeclaration" flags="ng" index="31KRIa">
         <child id="7232527154588443341" name="variableDeclaratorList" index="31KRJH" />
       </concept>
-      <concept id="7232527154588302801" name="CsBaseLanguage.structure.NamespaceDeclaration" flags="ng" index="31LijL" />
       <concept id="7232527154588300035" name="CsBaseLanguage.structure.ClassDeclaration" flags="ng" index="31LiCz">
         <child id="7232527154588416698" name="classMemberDeclaration" index="31Leeq" />
       </concept>
-      <concept id="7232527154588300036" name="CsBaseLanguage.structure.DelegateDeclaration" flags="ng" index="31LiC$" />
       <concept id="7232527154588300037" name="CsBaseLanguage.structure.StructDeclaration" flags="ng" index="31LiC_">
         <child id="3766354144459938100" name="structMemberDeclaration" index="2qBxSn" />
       </concept>
-      <concept id="7232527154588300038" name="CsBaseLanguage.structure.InterfaceDeclaration" flags="ng" index="31LiCA" />
-      <concept id="7232527154588300039" name="CsBaseLanguage.structure.EnumDeclaration" flags="ng" index="31LiCB" />
       <concept id="7232527154588265766" name="CsBaseLanguage.structure.File" flags="ng" index="31LFg6">
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
-      <concept id="3129541975290303051" name="CsBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
       <concept id="6209812394075305792" name="CsBaseLanguage.structure.IHaveTypeOrVoid" flags="ng" index="3Sw9wS">
         <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
@@ -89,29 +81,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="31LFg6" id="ZfJ9N93R7o">
-    <property role="TrG5h" value="NamespaceMembersPreview.cs" />
-    <node concept="31LiCz" id="ZfJ9N93R7v" role="31LlDr">
-      <property role="TrG5h" value="A" />
-    </node>
-    <node concept="31LiC$" id="ZfJ9N93R7$" role="31LlDr">
-      <property role="TrG5h" value="B" />
-      <node concept="1ux1I" id="ZfJ9N93R7A" role="1fIg$P" />
-      <node concept="1pH0Yj" id="ZfJ9N93R7I" role="3Sw9wT" />
-    </node>
-    <node concept="31LiCB" id="ZfJ9N93R7X" role="31LlDr">
-      <property role="TrG5h" value="C" />
-    </node>
-    <node concept="31LiCA" id="ZfJ9N93R8b" role="31LlDr">
-      <property role="TrG5h" value="ID" />
-    </node>
-    <node concept="31LijL" id="ZfJ9N93R8r" role="31LlDr">
-      <property role="TrG5h" value="E" />
-    </node>
-    <node concept="31LiC_" id="ZfJ9N93R8H" role="31LlDr">
-      <property role="TrG5h" value="F" />
-    </node>
-  </node>
   <node concept="31LFg6" id="ZfJ9N93R9o">
     <property role="TrG5h" value="ClasAndStructMembersPreview.cs" />
     <node concept="31LiCz" id="ZfJ9N93R9t" role="31LlDr">
@@ -268,31 +237,6 @@
         <node concept="1ux1M" id="ZfJ9N93RmS" role="1uUBl">
           <node concept="31KRCQ" id="ZfJ9N93RmT" role="1ux1N" />
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="31LFg6" id="ZfJ9N93RjJ">
-    <property role="TrG5h" value="InnerTypeDeclarationPreview.cs" />
-    <node concept="31LiCz" id="ZfJ9N93RjL" role="31LlDr">
-      <property role="TrG5h" value="A" />
-      <node concept="31LiCz" id="ZfJ9N93RjO" role="31Leeq">
-        <property role="TrG5h" value="B" />
-      </node>
-      <node concept="31LiC$" id="ZfJ9N93RjT" role="31Leeq">
-        <property role="TrG5h" value="C" />
-        <node concept="1ux1I" id="ZfJ9N93RjV" role="1fIg$P" />
-        <node concept="3UfwP1" id="ZfJ9N93Rk3" role="3Sw9wT">
-          <node concept="3UfM66" id="ZfJ9N93Rk8" role="3UfBpY" />
-        </node>
-      </node>
-      <node concept="31LiCB" id="ZfJ9N93Rki" role="31Leeq">
-        <property role="TrG5h" value="D" />
-      </node>
-      <node concept="31LiCA" id="ZfJ9N93Rky" role="31Leeq">
-        <property role="TrG5h" value="IE" />
-      </node>
-      <node concept="31LiC_" id="ZfJ9N93RkO" role="31Leeq">
-        <property role="TrG5h" value="F" />
       </node>
     </node>
   </node>
