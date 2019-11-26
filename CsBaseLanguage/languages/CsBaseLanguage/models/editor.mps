@@ -20817,5 +20817,88 @@
       </node>
     </node>
   </node>
+  <node concept="3p309x" id="4NiVVsGea8d">
+    <property role="3GE5qa" value="FluentEditing" />
+    <property role="TrG5h" value="VariableReferenceDotAccess" />
+    <node concept="2kknPJ" id="4NiVVsGea8f" role="1IG6uw">
+      <ref role="2ZyFGn" to="80bi:5VT83U$MIqV" resolve="VariableReference" />
+    </node>
+    <node concept="3eGOop" id="4NiVVsGeaje" role="3ft7WO">
+      <ref role="3EoQqy" to="80bi:5VT83U$MR2u" resolve="PrimaryDotExpression" />
+      <node concept="ucgPf" id="4NiVVsGeajf" role="3aKz83">
+        <node concept="3clFbS" id="4NiVVsGeajg" role="2VODD2">
+          <node concept="3cpWs8" id="4NiVVsGecxF" role="3cqZAp">
+            <node concept="3cpWsn" id="4NiVVsGecxI" role="3cpWs9">
+              <property role="TrG5h" value="pde" />
+              <node concept="3Tqbb2" id="4NiVVsGecxE" role="1tU5fm">
+                <ref role="ehGHo" to="80bi:5VT83U$MR2u" resolve="PrimaryDotExpression" />
+              </node>
+              <node concept="2ShNRf" id="4NiVVsGec__" role="33vP2m">
+                <node concept="3zrR0B" id="4NiVVsGec_z" role="2ShVmc">
+                  <node concept="3Tqbb2" id="4NiVVsGec_$" role="3zrR0E">
+                    <ref role="ehGHo" to="80bi:5VT83U$MR2u" resolve="PrimaryDotExpression" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4NiVVsGecAA" role="3cqZAp">
+            <node concept="37vLTI" id="4NiVVsGedDZ" role="3clFbG">
+              <node concept="1yR$tW" id="4NiVVsGedLe" role="37vLTx" />
+              <node concept="2OqwBi" id="4NiVVsGecL3" role="37vLTJ">
+                <node concept="37vLTw" id="4NiVVsGecA$" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4NiVVsGecxI" resolve="pde" />
+                </node>
+                <node concept="3TrEf2" id="4NiVVsGed2E" role="2OqNvi">
+                  <ref role="3Tt5mk" to="80bi:5VT83U$MR2v" resolve="primaryExpression" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4NiVVsGedPe" role="3cqZAp">
+            <node concept="37vLTI" id="4NiVVsGeeXk" role="3clFbG">
+              <node concept="2ShNRf" id="4NiVVsGef5d" role="37vLTx">
+                <node concept="3zrR0B" id="4NiVVsGef5b" role="2ShVmc">
+                  <node concept="3Tqbb2" id="4NiVVsGef5c" role="3zrR0E">
+                    <ref role="ehGHo" to="80bi:5E$Mk4xjGdE" resolve="MemberReference" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4NiVVsGee4D" role="37vLTJ">
+                <node concept="37vLTw" id="4NiVVsGedPc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4NiVVsGecxI" resolve="pde" />
+                </node>
+                <node concept="3TrEf2" id="4NiVVsGeeko" role="2OqNvi">
+                  <ref role="3Tt5mk" to="80bi:5VT83U$MR2x" resolve="member" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="4NiVVsGefex" role="3cqZAp">
+            <node concept="37vLTw" id="4NiVVsGefgQ" role="3cqZAk">
+              <ref role="3cqZAo" node="4NiVVsGecxI" resolve="pde" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="16NL3D" id="4NiVVsGeann" role="upBLP">
+        <node concept="16Na2f" id="4NiVVsGeano" role="16NL3A">
+          <node concept="3clFbS" id="4NiVVsGeanp" role="2VODD2">
+            <node concept="3clFbF" id="4NiVVsGeatP" role="3cqZAp">
+              <node concept="2OqwBi" id="4NiVVsGeaOi" role="3clFbG">
+                <node concept="ub8z3" id="4NiVVsGeatO" role="2Oq$k0" />
+                <node concept="liA8E" id="4NiVVsGeb7n" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                  <node concept="Xl_RD" id="4NiVVsGeb8r" role="37wK5m">
+                    <property role="Xl_RC" value="." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
