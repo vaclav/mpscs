@@ -126,23 +126,12 @@
     </node>
     <node concept="2sgV4H" id="2bTQ1KpNyi3" role="1l3spa">
       <ref role="1l3spb" to="aqoz:5ZQFUMN3sI6" resolve="LangDoc" />
-      <node concept="55IIr" id="93TNR3C1bu" role="2JcizS">
-        <node concept="2Ry0Ak" id="93TNR3C1bx" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="93TNR3C1b$" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="5dk_bMdNpZn" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="5dk_bMdNpZo" role="2Ry0An">
-                <property role="2Ry0Am" value=".MPS2019.2" />
-                <node concept="2Ry0Ak" id="5dk_bMdNpZp" role="2Ry0An">
-                  <property role="2Ry0Am" value="config" />
-                  <node concept="2Ry0Ak" id="5dk_bMdNpZq" role="2Ry0An">
-                    <property role="2Ry0Am" value="plugins" />
-                  </node>
-                </node>
-              </node>
-            </node>
+      <node concept="398BVA" id="6zq3C$scJC5" role="2JcizS">
+        <ref role="398BVh" node="4xDflt7HBlz" resolve="mps_home" />
+        <node concept="2Ry0Ak" id="6zq3C$scJC8" role="iGT6I">
+          <property role="2Ry0Am" value="config" />
+          <node concept="2Ry0Ak" id="6zq3C$scJCb" role="2Ry0An">
+            <property role="2Ry0Am" value="plugins" />
           </node>
         </node>
       </node>
