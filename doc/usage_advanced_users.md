@@ -15,6 +15,9 @@ Please follow these instruction in this order:
 
 ## Building the plugin
 
+- Right-click the language item in the project explorer and select `Rebuild Language CsBaseLanguage`
+- Then, right-click the whole project in the project explorer and rebuild it as well (we could not
+have rebuilt it whole in the first place because of errors of not having the language built before)
 - Expand the `CsBaseLanguage.build` item in the project explorer
 - Right-click the `CsBaseLanguage` item with a spider icon
 - Trigger the option `Run CsBaseLanguage`

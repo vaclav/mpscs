@@ -44,11 +44,14 @@ C# base language overview and design:
 
 Checklists and tutorials:
 - [Creating your first C# based MPS program](./doc/tutorial_program.pdf)
-- [Creating your first C# based MPS program for advanced MPS users](./doc/tutorial_program_advanced_users.md)
 - [Creating your first C# based DSL](./doc/tutorial_dsl.pdf)
 - [Building the C# base language](./doc/tutorial_build_csbaselanguage.pdf)
+- [Usage manual for advanced MPS users](./doc/usage_advanced_users.md)
 - [Checklist for keeping the base language up-to-date with MPS version](./doc/mps_upgrade.md)
 - [How to run tests](./doc/testing.md)
+
+If you have any troubles with the basic tutorials, see the
+[advanced tutorial](./doc/usage_advanced_users.md) for more information.
 
 Other documentation:
 - [LangDoc plugin usage](./doc/langdoc_plugin.md)
