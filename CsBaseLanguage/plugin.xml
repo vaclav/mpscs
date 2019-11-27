@@ -4,7 +4,7 @@
     <category>Custom Languages</category>
     <description>The C# base language for MPS</description>
     <version>1.0</version>
-    <idea-version since-build="192.1"/>
+    <idea-version since-build="192.1" until-build="193.1"/>
 
     <depends>jetbrains.mps.core</depends>
     <depends>jetbrains.mps.build</depends>
