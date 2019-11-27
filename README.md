@@ -69,6 +69,14 @@ TextGen aspect from the Editor aspect
 [DotNetLibraryExporter](https://github.com/Zeman-Dalibor/DotNetLibraryExporter):
 MPS plugins and non-MPS tools for generation of C# library stubs
 
+## Target Platform
+
+The C# base language is expected to work only in the context of the JetBrains MPS workbench.
+
+It has been primarily tested on Windows 10, 64 bit. It should work on Unix-like platforms
+as well, but maybe with minor problems, which should be, however, easily solvable by the
+user.
+
 ## Release Log
 
 **Version 1.0**, 11/2019
