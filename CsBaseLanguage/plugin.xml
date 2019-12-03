@@ -3,8 +3,8 @@
     <name>CsBaseLanguage</name>
     <category>Custom Languages</category>
     <description>The C# base language for MPS</description>
-    <version>1.0</version>
-    <idea-version since-build="192.1" until-build="193.1"/>
+    <version>1.1</version>
+    <idea-version since-build="193.1" until-build="201.1"/>
     <vendor>Tomas Elias (tomas.elias.za@gmail.com), Roman Firment (romanfirment@gmail.com), Jakub Saksa (jakub.saksa@icloud.com), Martin Wirth (wirthma@gmail.com), Dalibor Zeman (Zeman-Dalibor@users.noreply.github.com)</vendor>
 
     <depends>jetbrains.mps.core</depends>
