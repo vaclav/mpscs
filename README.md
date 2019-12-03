@@ -74,7 +74,7 @@ MPS plugins and non-MPS tools for generation of C# library stubs
 
 The C# base language is expected to work only in the context of the JetBrains MPS workbench.
 
-It has been primarily tested on Windows 10, 64 bit. It should work on Unix-like platforms
+It has been primarily tested on Windows 10, 64 bit and Windows 7, 64-bit. It should work on Unix-like platforms
 as well, but maybe with minor problems, which should be, however, easily solvable by the
 user.
 
