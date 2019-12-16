@@ -79,5 +79,11 @@ user.
 
 ## Release Log
 
+**Version 1.2**, 12/2019
+- Added a missing TextGen
+
+**Version 1.1**, 12/2019
+- Migrated to MPS 2019.3
+
 **Version 1.0**, 11/2019
 - The first version of the C# base language
