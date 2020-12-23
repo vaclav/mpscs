@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:af3c7576-fac2-4cb0-a7ee-943e98565e7d(CsBaseLanguage.Preview)" content="header">
   <persistence version="9" />
+  <attribute name="content" value="header" />
   <languages>
     <use id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage" version="0" />
   </languages>
