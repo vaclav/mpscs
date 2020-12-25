@@ -100,6 +100,7 @@
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -11758,6 +11759,8 @@
   <node concept="22mcaB" id="3eIapyQ60Su">
     <property role="3GE5qa" value="FluentEditing" />
     <ref role="aqKnT" to="80bi:5VT83U$LgKs" resolve="Expression" />
+    <node concept="2VfDsV" id="3eIapyQAk0D" role="3ft7WO" />
+    <node concept="3VyMlK" id="3eIapyQA8VL" role="3ft7WO" />
     <node concept="3eGOop" id="5E$Mk4xsTTl" role="3ft7WO">
       <ref role="3EoQqy" to="80bi:5VT83U$Mjvs" resolve="PrimaryExpression" />
       <node concept="ucgPf" id="5E$Mk4xsTTn" role="3aKz83">
@@ -17591,6 +17594,8 @@
   <node concept="22mcaB" id="3eIapyQ9JY7">
     <property role="3GE5qa" value="FluentEditing" />
     <ref role="aqKnT" to="80bi:6hv6i2_B6cm" resolve="Statement" />
+    <node concept="2VfDsV" id="3eIapyQAwtM" role="3ft7WO" />
+    <node concept="3VyMlK" id="3eIapyQAuZo" role="3ft7WO" />
     <node concept="3eGOop" id="7Wxa2kwhd_g" role="3ft7WO">
       <ref role="3EoQqy" to="80bi:1FYNzU$sHYQ" resolve="ExpressionStatement" />
       <node concept="ucgPf" id="7Wxa2kwhd_h" role="3aKz83">
@@ -20538,6 +20543,7 @@
   <node concept="22mcaB" id="3eIapyQ9M18">
     <property role="3GE5qa" value="FluentEditing" />
     <ref role="aqKnT" to="80bi:5VT83U$LFpw" resolve="UnaryExpression" />
+    <node concept="2VfDsV" id="3eIapyQAzSL" role="3ft7WO" />
     <node concept="3VyMlK" id="4nUnlCMEUBm" role="3ft7WO" />
     <node concept="3eGOop" id="4nUnlCMDPhB" role="3ft7WO">
       <ref role="3EoQqy" to="80bi:5VT83U$Mjvs" resolve="PrimaryExpression" />
@@ -20672,6 +20678,8 @@
   <node concept="22mcaB" id="3eIapyQ9MRi">
     <property role="3GE5qa" value="FluentEditing" />
     <ref role="aqKnT" to="80bi:6JhOkL8vqJY" resolve="VariableDeclaration" />
+    <node concept="2VfDsV" id="3eIapyQA$Gw" role="3ft7WO" />
+    <node concept="3VyMlK" id="3eIapyQA$Bb" role="3ft7WO" />
     <node concept="3eGOop" id="1cVzXeP$8lN" role="3ft7WO">
       <ref role="3EoQqy" to="80bi:1FYNzU$nG$k" resolve="LocalVariableDeclarationWithInitialization" />
       <node concept="ucgPf" id="1cVzXeP$8lP" role="3aKz83">
