@@ -3769,9 +3769,6 @@
         <node concept="11L4FC" id="5nwwXS9OG4T" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="lj46D" id="5nwwXS9OG4V" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
     </node>
   </node>
