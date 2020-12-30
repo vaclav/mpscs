@@ -29,6 +29,11 @@
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
       <concept id="7575174424947155903" name="CsBaseLanguage.structure.InterfaceMethodDeclaration" flags="ng" index="1fIgUY" />
+      <concept id="292062066074800736" name="CsBaseLanguage.structure.InterfacePropertyGetAccessorDeclaration" flags="ng" index="3gNcU6" />
+      <concept id="292062066074800737" name="CsBaseLanguage.structure.InterfacePropertySetAccessorDeclaration" flags="ng" index="3gNcU7" />
+      <concept id="8914124434097811872" name="CsBaseLanguage.structure.InterfacePropertyDeclaration" flags="ng" index="3xGIlh">
+        <child id="292062066074801987" name="accessorDeclaration" index="3gNcI_" />
+      </concept>
       <concept id="6167894786982645659" name="CsBaseLanguage.structure.IGenericTypeList" flags="ng" index="1FzkKU">
         <child id="7232527154588409143" name="typeParameterConstraintsClause" index="31Lcgn" />
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
@@ -39,9 +44,13 @@
       <concept id="6209812394072707160" name="CsBaseLanguage.structure.IHaveModifiers" flags="ng" index="3SE3Ww">
         <child id="6209812394072707161" name="iModifier" index="3SE3Wx" />
       </concept>
+      <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
+        <child id="6209812394072710474" name="type" index="3SE38M" />
+      </concept>
       <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
+      <concept id="6843536562190687977" name="CsBaseLanguage.structure.StringType" flags="ng" index="3UfNVn" />
       <concept id="45245710898403000" name="CsBaseLanguage.structure.ConstructorConstraint" flags="ng" index="3X5iw3" />
       <concept id="45245710896469196" name="CsBaseLanguage.structure.GenericTypeParameterReference" flags="ng" index="3XeaDR">
         <reference id="45245710896469199" name="typeParameter" index="3XeaDO" />
@@ -91,6 +100,28 @@
           <node concept="2N$mWS" id="5nwwXS9O$4b" role="3UfBpY">
             <property role="2N$mWW" value="T1" />
           </node>
+        </node>
+      </node>
+      <node concept="3xGIlh" id="gdBerl7dn0" role="1fIeeT">
+        <property role="TrG5h" value="P1" />
+        <node concept="3UfwP1" id="gdBerl7dn4" role="3SE38M">
+          <node concept="3UfNVn" id="gdBerl7dnq" role="3UfBpY" />
+        </node>
+        <node concept="3gNcU6" id="gdBerl7dow" role="3gNcI_" />
+        <node concept="3gNcU7" id="gdBerl7dnC" role="3gNcI_" />
+      </node>
+      <node concept="3xGIlh" id="gdBerl7dnZ" role="1fIeeT">
+        <property role="TrG5h" value="P2" />
+        <node concept="3gNcU6" id="gdBerl7doB" role="3gNcI_" />
+        <node concept="3UfwP1" id="gdBerl7do3" role="3SE38M">
+          <node concept="3UfNVn" id="gdBerl7do$" role="3UfBpY" />
+        </node>
+      </node>
+      <node concept="3xGIlh" id="gdBerl7dp4" role="1fIeeT">
+        <property role="TrG5h" value="P3" />
+        <node concept="3gNcU7" id="gdBerl7dpI" role="3gNcI_" />
+        <node concept="3UfwP1" id="gdBerl7dp8" role="3SE38M">
+          <node concept="3UfNVn" id="gdBerl7dpB" role="3UfBpY" />
         </node>
       </node>
       <node concept="2qAx6t" id="5nwwXS9O$2d" role="3SE3Wx" />

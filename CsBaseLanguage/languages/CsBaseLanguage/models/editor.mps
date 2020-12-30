@@ -4170,33 +4170,13 @@
       </node>
       <node concept="3F0ifn" id="2e5scIOzC2p" role="3EZMnx">
         <property role="3F0ifm" value="{" />
-        <node concept="pVoyu" id="2e5scIOzC2q" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
-      <node concept="3F0ifn" id="2e5scIOzC2r" role="3EZMnx">
-        <property role="3F0ifm" value="get;" />
-        <node concept="pVoyu" id="2e5scIOzC2s" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="2e5scIO_wHI" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="2e5scIOzC2t" role="3EZMnx">
-        <property role="3F0ifm" value="set;" />
-        <node concept="pVoyu" id="2e5scIOzC2u" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="2e5scIO_wHL" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
+      <node concept="3F2HdR" id="gdBerkKlS5" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:gdBerkKlt3" resolve="accessorDeclaration" />
+        <node concept="l2Vlx" id="gdBerkKlS9" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="2e5scIOzC2v" role="3EZMnx">
         <property role="3F0ifm" value="}" />
-        <node concept="pVoyu" id="2e5scIOzC2w" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="l2Vlx" id="2e5scIOzC2x" role="2iSdaV" />
     </node>
@@ -20924,6 +20904,29 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="gdBerkTb2y">
+    <property role="3GE5qa" value="Interface.Properties" />
+    <ref role="1XX52x" to="80bi:gdBerkKl9w" resolve="InterfacePropertyGetAccessorDeclaration" />
+    <node concept="3EZMnI" id="gdBerkTb2B" role="2wV5jI">
+      <node concept="3F0ifn" id="gdBerkTb2N" role="3EZMnx">
+        <property role="3F0ifm" value="get;" />
+        <node concept="VPM3Z" id="gdBerl3FoI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="gdBerkTb2E" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="gdBerkTb3h">
+    <property role="3GE5qa" value="Interface.Properties" />
+    <ref role="1XX52x" to="80bi:gdBerkKl9x" resolve="InterfacePropertySetAccessorDeclaration" />
+    <node concept="3EZMnI" id="gdBerkTb3j" role="2wV5jI">
+      <node concept="3F0ifn" id="gdBerkTb3y" role="3EZMnx">
+        <property role="3F0ifm" value="set;" />
+      </node>
+      <node concept="l2Vlx" id="gdBerkTb3m" role="2iSdaV" />
     </node>
   </node>
 </model>
