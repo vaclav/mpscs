@@ -13174,10 +13174,35 @@
         </node>
         <node concept="1PaTwC" id="2pqoNIAe7zF" role="1PaQFQ">
           <node concept="3oM_SD" id="2pqoNIAe7zG" role="1PaTwD">
-            <property role="3oM_SC" value="Original name in the C# grammar: interface-property-declaration" />
+            <property role="3oM_SC" value="Original" />
+          </node>
+          <node concept="3oM_SD" id="gdBerkKkmP" role="1PaTwD">
+            <property role="3oM_SC" value="name" />
+          </node>
+          <node concept="3oM_SD" id="gdBerkKkmQ" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="gdBerkKkmR" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="gdBerkKkmS" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="gdBerkKkmT" role="1PaTwD">
+            <property role="3oM_SC" value="grammar:" />
+          </node>
+          <node concept="3oM_SD" id="gdBerkKkmU" role="1PaTwD">
+            <property role="3oM_SC" value="interface-property-declaration" />
           </node>
         </node>
       </node>
+    </node>
+    <node concept="1TJgyj" id="gdBerkKlt3" role="1TKVEi">
+      <property role="IQ2ns" value="292062066074801987" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="accessorDeclaration" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="gdBerkKl2E" resolve="InterfacePropertyAccessorDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="4oSbvdvXqKW">
@@ -16555,6 +16580,27 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="5VT83U$LMPZ" resolve="Type" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="gdBerkKl2E">
+    <property role="EcuMT" value="292062066074800298" />
+    <property role="3GE5qa" value="Interface.Properties" />
+    <property role="TrG5h" value="InterfacePropertyAccessorDeclaration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="gdBerkKl9w">
+    <property role="EcuMT" value="292062066074800736" />
+    <property role="3GE5qa" value="Interface.Properties" />
+    <property role="TrG5h" value="InterfacePropertyGetAccessorDeclaration" />
+    <property role="34LRSv" value="get" />
+    <ref role="1TJDcQ" node="gdBerkKl2E" resolve="InterfacePropertyAccessorDeclaration" />
+  </node>
+  <node concept="1TIwiD" id="gdBerkKl9x">
+    <property role="EcuMT" value="292062066074800737" />
+    <property role="3GE5qa" value="Interface.Properties" />
+    <property role="TrG5h" value="InterfacePropertySetAccessorDeclaration" />
+    <property role="34LRSv" value="set" />
+    <ref role="1TJDcQ" node="gdBerkKl2E" resolve="InterfacePropertyAccessorDeclaration" />
   </node>
 </model>
 
