@@ -39,6 +39,7 @@
       <concept id="7232527154588443410" name="CsBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />
       </concept>
+      <concept id="7232527154588443414" name="CsBaseLanguage.structure.Statement" flags="ng" index="31KRCQ" />
       <concept id="7232527154588443306" name="CsBaseLanguage.structure.FieldDeclaration" flags="ng" index="31KRIa">
         <child id="7232527154588443341" name="variableDeclaratorList" index="31KRJH" />
       </concept>
@@ -66,9 +67,14 @@
         <child id="6843536562191192710" name="type" index="3UdfaS" />
       </concept>
       <concept id="6843536562191075794" name="CsBaseLanguage.structure.ArgumentsList" flags="ng" index="3UdiBG" />
+      <concept id="6843536562191075788" name="CsBaseLanguage.structure.FunctionCallExpression" flags="ng" index="3UdiBM">
+        <child id="6843536562191075791" name="argumentsList" index="3UdiBL" />
+        <child id="6843536562191075789" name="primaryExpression" index="3UdiBN" />
+      </concept>
       <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
+      <concept id="6843536562190687977" name="CsBaseLanguage.structure.StringType" flags="ng" index="3UfNVn" />
       <concept id="6531566641162929002" name="CsBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF">
         <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
         <child id="7783118190387115237" name="anotherMemberReference" index="2aT8g$" />
@@ -82,6 +88,26 @@
   </registry>
   <node concept="31LFg6" id="4px1bdhjvOx">
     <property role="TrG5h" value="GenericClass.cs" />
+    <node concept="31LiCz" id="4_ND5XSKa_K" role="31LlDr">
+      <property role="TrG5h" value="Choice" />
+      <node concept="31Lcgi" id="4_ND5XSKaAp" role="1Fzgr7">
+        <property role="TrG5h" value="T1" />
+      </node>
+      <node concept="31Lcgi" id="4_ND5XSKaAr" role="1Fzgr7">
+        <property role="TrG5h" value="T2" />
+      </node>
+      <node concept="31KRCM" id="4_ND5XSLL4D" role="31Leeq">
+        <property role="TrG5h" value="Do" />
+        <node concept="1ux1M" id="4_ND5XSLL4E" role="31KRCR">
+          <node concept="31KRCQ" id="4_ND5XSLL4F" role="1ux1N" />
+        </node>
+        <node concept="1ux1I" id="4_ND5XSLL4G" role="1fIg$P" />
+        <node concept="3UfwP1" id="4_ND5XSLL4N" role="3Sw9wT">
+          <node concept="3UfNVn" id="4_ND5XSLL4S" role="3UfBpY" />
+        </node>
+        <node concept="2qAx6t" id="4_ND5XSLL5l" role="3SE3Wx" />
+      </node>
+    </node>
     <node concept="31LiCz" id="4px1bdhjvOz" role="31LlDr">
       <property role="TrG5h" value="Maybe" />
       <node concept="31Lcgi" id="4px1bdhjvOB" role="1Fzgr7">
@@ -154,6 +180,32 @@
         </node>
         <node concept="31Lcgi" id="20pfvX3JbBa" role="1Fzgr7">
           <property role="TrG5h" value="T" />
+        </node>
+      </node>
+      <node concept="31KRCM" id="vzGOjU$F6T" role="31Leeq">
+        <property role="TrG5h" value="Do" />
+        <node concept="1ux1M" id="vzGOjU$F6U" role="31KRCR">
+          <node concept="2YuCjO" id="vzGOjU$F7W" role="1ux1N">
+            <node concept="3UdiBM" id="vzGOjU$F8h" role="2YuCjP">
+              <node concept="2XeTiy" id="vzGOjU$F7Y" role="3UdiBN">
+                <ref role="2aT8gA" node="4_ND5XSKa_K" resolve="Choice" />
+                <node concept="3UfwP1" id="vzGOjU$F81" role="2XqJby">
+                  <node concept="3UfNVn" id="vzGOjU$F86" role="3UfBpY" />
+                </node>
+                <node concept="3UfwP1" id="vzGOjU$F82" role="2XqJby">
+                  <node concept="3UfNVn" id="vzGOjU$F88" role="3UfBpY" />
+                </node>
+                <node concept="1VUwCF" id="vzGOjU$F8d" role="2aT8g$">
+                  <ref role="2aT8gA" node="4_ND5XSLL4D" resolve="Do" />
+                </node>
+              </node>
+              <node concept="3UdiBG" id="vzGOjU$F8i" role="3UdiBL" />
+            </node>
+          </node>
+        </node>
+        <node concept="1ux1I" id="vzGOjU$F6X" role="1fIg$P" />
+        <node concept="3UfwP1" id="vzGOjU$F7O" role="3Sw9wT">
+          <node concept="3UfNVn" id="vzGOjU$F7T" role="3UfBpY" />
         </node>
       </node>
     </node>
