@@ -84,7 +84,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -15712,7 +15712,25 @@
         </node>
         <node concept="1PaTwC" id="1HkqSaCLq_F" role="1PaQFQ">
           <node concept="3oM_SD" id="1HkqSaCLq_G" role="1PaTwD">
-            <property role="3oM_SC" value="Original name in the C# grammar: none" />
+            <property role="3oM_SC" value="Original" />
+          </node>
+          <node concept="3oM_SD" id="2ETkgtjznG1" role="1PaTwD">
+            <property role="3oM_SC" value="name" />
+          </node>
+          <node concept="3oM_SD" id="2ETkgtjznG2" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="2ETkgtjznG3" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="2ETkgtjznG4" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="2ETkgtjznG5" role="1PaTwD">
+            <property role="3oM_SC" value="grammar:" />
+          </node>
+          <node concept="3oM_SD" id="2ETkgtjznG6" role="1PaTwD">
+            <property role="3oM_SC" value="none" />
           </node>
           <node concept="3oM_SD" id="1HkqSaCLq_H" role="1PaTwD">
             <property role="3oM_SC" value="corresponding" />
