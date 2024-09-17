@@ -50,10 +50,10 @@
         <child id="1945218857512106801" name="expression" index="2YAbkf" />
         <child id="1945218857512106799" name="constant" index="2YAbkh" />
       </concept>
-      <concept id="6209812394072707160" name="CsBaseLanguage.structure.IHaveModifiers" flags="ng" index="3SE3Ww">
+      <concept id="6209812394072707160" name="CsBaseLanguage.structure.IHaveModifiers" flags="ngI" index="3SE3Ww">
         <child id="6209812394072707161" name="iModifier" index="3SE3Wx" />
       </concept>
-      <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ng" index="3SE3W$">
+      <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
       <concept id="6843536562190981614" name="CsBaseLanguage.structure.IntLiteral" flags="ng" index="3UcVBg">
@@ -69,7 +69,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>

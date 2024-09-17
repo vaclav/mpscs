@@ -39,7 +39,7 @@
     <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
       <concept id="7232527154588409138" name="CsBaseLanguage.structure.TypeParameter" flags="ng" index="31Lcgi" />
       <concept id="7232527154588300038" name="CsBaseLanguage.structure.InterfaceDeclaration" flags="ng" index="31LiCA" />
-      <concept id="6167894786982645659" name="CsBaseLanguage.structure.IGenericTypeList" flags="ng" index="1FzkKU">
+      <concept id="6167894786982645659" name="CsBaseLanguage.structure.IGenericTypeList" flags="ngI" index="1FzkKU">
         <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
       </concept>
     </language>
@@ -48,7 +48,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
