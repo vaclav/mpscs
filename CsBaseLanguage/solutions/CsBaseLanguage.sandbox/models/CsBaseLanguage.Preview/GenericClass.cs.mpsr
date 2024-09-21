@@ -25,9 +25,6 @@
       <concept id="2439281069887055987" name="CsBaseLanguage.structure.TypeReference" flags="ng" index="2Gav_6">
         <child id="2439281069887057717" name="genericTypeParameters" index="2GavS0" />
       </concept>
-      <concept id="1969317145989153978" name="CsBaseLanguage.structure.GenericTypeParameterReferenceString" flags="ng" index="2N$mWS">
-        <property id="1969317145989153982" name="referencedGenericTypeParameter" index="2N$mWW" />
-      </concept>
       <concept id="5349962588329702914" name="CsBaseLanguage.structure.GenericMemberReference" flags="ng" index="2XeTiy">
         <child id="5349962588334854210" name="innerTypes" index="2XqJby" />
       </concept>
@@ -77,6 +74,9 @@
         <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
         <child id="7783118190387115237" name="anotherMemberReference" index="2aT8g$" />
       </concept>
+      <concept id="45245710896469196" name="CsBaseLanguage.structure.GenericTypeParameterReference" flags="ng" index="3XeaDR">
+        <reference id="45245710896469199" name="typeParameter" index="3XeaDO" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -120,8 +120,8 @@
                 <node concept="2Gatwc" id="4px1bdhjvPl" role="3UfBpY">
                   <ref role="2Gaslz" node="4px1bdhjvOz" resolve="Maybe" />
                   <node concept="3UfwP1" id="4px1bdhjvPp" role="2GavS0">
-                    <node concept="2N$mWS" id="4px1bdhjvPr" role="3UfBpY">
-                      <property role="2N$mWW" value="T" />
+                    <node concept="3XeaDR" id="3SS9x79$4W6" role="3UfBpY">
+                      <ref role="3XeaDO" node="4px1bdhjvOB" resolve="T" />
                     </node>
                   </node>
                 </node>
@@ -134,8 +134,8 @@
           <node concept="2Gatwc" id="4px1bdhjvON" role="3UfBpY">
             <ref role="2Gaslz" node="4px1bdhjvOz" resolve="Maybe" />
             <node concept="3UfwP1" id="4px1bdhjvOR" role="2GavS0">
-              <node concept="2N$mWS" id="4px1bdhjvOV" role="3UfBpY">
-                <property role="2N$mWW" value="T" />
+              <node concept="3XeaDR" id="6u44Y774x_e" role="3UfBpY">
+                <ref role="3XeaDO" node="4px1bdhjvOB" resolve="T" />
               </node>
             </node>
           </node>
@@ -153,8 +153,8 @@
             <node concept="2XeTiy" id="5138HL8mKzk" role="2YuCjP">
               <ref role="2aT8gA" node="4px1bdhjvOz" resolve="Maybe" />
               <node concept="3UfwP1" id="5138HL8mKzl" role="2XqJby">
-                <node concept="2N$mWS" id="5138HL8mKzq" role="3UfBpY">
-                  <property role="2N$mWW" value="T" />
+                <node concept="3XeaDR" id="6u44Y77bEN9" role="3UfBpY">
+                  <ref role="3XeaDO" node="20pfvX3JbBa" resolve="T" />
                 </node>
               </node>
               <node concept="1VUwCF" id="5138HL8mKzw" role="2aT8g$">
@@ -168,8 +168,8 @@
           <node concept="2Gatwc" id="4px1bdhs3ln" role="3UfBpY">
             <ref role="2Gaslz" node="4px1bdhjvOz" resolve="Maybe" />
             <node concept="3UfwP1" id="4px1bdhs3lr" role="2GavS0">
-              <node concept="2N$mWS" id="4px1bdhs3lt" role="3UfBpY">
-                <property role="2N$mWW" value="T" />
+              <node concept="3XeaDR" id="6u44Y77bENa" role="3UfBpY">
+                <ref role="3XeaDO" node="20pfvX3JbBa" resolve="T" />
               </node>
             </node>
           </node>
