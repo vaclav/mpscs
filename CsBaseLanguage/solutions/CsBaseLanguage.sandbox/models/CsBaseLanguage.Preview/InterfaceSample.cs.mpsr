@@ -11,9 +11,6 @@
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
-      <concept id="1969317145989153978" name="CsBaseLanguage.structure.GenericTypeParameterReferenceString" flags="ng" index="2N$mWS">
-        <property id="1969317145989153982" name="referencedGenericTypeParameter" index="2N$mWW" />
-      </concept>
       <concept id="7232527154588476195" name="CsBaseLanguage.structure.FormalParameter" flags="ng" index="31KZC3">
         <child id="8700838527816343363" name="type" index="2UegB9" />
       </concept>
@@ -72,15 +69,15 @@
           <node concept="31KZC3" id="5nwwXS9O$2K" role="1ux1J">
             <property role="TrG5h" value="value" />
             <node concept="3UfwP1" id="5nwwXS9O$2L" role="2UegB9">
-              <node concept="2N$mWS" id="5nwwXS9O$2Q" role="3UfBpY">
-                <property role="2N$mWW" value="T" />
+              <node concept="3XeaDR" id="6u44Y77bJSB" role="3UfBpY">
+                <ref role="3XeaDO" node="5nwwXS9O$2s" resolve="T" />
               </node>
             </node>
           </node>
         </node>
         <node concept="3UfwP1" id="5nwwXS9O$2C" role="3Sw9wT">
-          <node concept="2N$mWS" id="5nwwXS9O$32" role="3UfBpY">
-            <property role="2N$mWW" value="T" />
+          <node concept="3XeaDR" id="6u44Y77bJSC" role="3UfBpY">
+            <ref role="3XeaDO" node="5nwwXS9O$2s" resolve="T" />
           </node>
         </node>
       </node>
@@ -97,8 +94,8 @@
           <node concept="3X5iw3" id="5nwwXS9O$40" role="3X4xEB" />
         </node>
         <node concept="3UfwP1" id="5nwwXS9O$46" role="3Sw9wT">
-          <node concept="2N$mWS" id="5nwwXS9O$4b" role="3UfBpY">
-            <property role="2N$mWW" value="T1" />
+          <node concept="3XeaDR" id="6u44Y77bJSD" role="3UfBpY">
+            <ref role="3XeaDO" node="5nwwXS9O$3r" resolve="T1" />
           </node>
         </node>
       </node>

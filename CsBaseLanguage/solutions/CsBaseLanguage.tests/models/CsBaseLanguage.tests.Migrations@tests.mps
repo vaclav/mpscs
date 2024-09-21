@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:cdffce59-3f9f-414f-8f9c-8adb72229a47(CsBaseLanguage.tests.Migrations@tests)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
@@ -35,11 +36,23 @@
       <concept id="7486903154347131554" name="CsBaseLanguage.structure.VariableDeclaratorList" flags="ng" index="1ux1y">
         <child id="7486903154347131555" name="VariableDeclarator" index="1ux1z" />
       </concept>
+      <concept id="7486903154347131566" name="CsBaseLanguage.structure.FormalParameterList" flags="ng" index="1ux1I">
+        <child id="7486903154347131567" name="formalParameter" index="1ux1J" />
+      </concept>
+      <concept id="7486903154347131570" name="CsBaseLanguage.structure.Block" flags="ng" index="1ux1M">
+        <child id="7486903154347131571" name="statement" index="1ux1N" />
+      </concept>
       <concept id="4960876621219057954" name="CsBaseLanguage.structure.ImplicitLocalVariableDeclaration" flags="ng" index="2a_s8y">
         <child id="4960876621219059053" name="variable" index="2a_spH" />
       </concept>
+      <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
+        <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
+      </concept>
       <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM">
         <child id="3125407777189916705" name="initializer" index="1qY_RL" />
+      </concept>
+      <concept id="1969317145989153978" name="CsBaseLanguage.structure.GenericTypeParameterReferenceString" flags="ng" index="2N$mWS">
+        <property id="1969317145989153982" name="referencedGenericTypeParameter" index="2N$mWW" />
       </concept>
       <concept id="1945218857512035115" name="CsBaseLanguage.structure.LocalConstantDeclaration" flags="ng" index="2YAUOl">
         <child id="1945218857512106857" name="constantDeclarator" index="2YAbln" />
@@ -58,11 +71,25 @@
         <child id="1945218857512106801" name="expression" index="2YAbkf" />
         <child id="1945218857512106799" name="constant" index="2YAbkh" />
       </concept>
+      <concept id="7232527154588443410" name="CsBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
+        <child id="7232527154588443415" name="body" index="31KRCR" />
+      </concept>
+      <concept id="7232527154588443414" name="CsBaseLanguage.structure.Statement" flags="ng" index="31KRCQ" />
       <concept id="7232527154588443306" name="CsBaseLanguage.structure.FieldDeclaration" flags="ng" index="31KRIa">
         <child id="7232527154588443341" name="variableDeclaratorList" index="31KRJH" />
       </concept>
+      <concept id="7232527154588476195" name="CsBaseLanguage.structure.FormalParameter" flags="ng" index="31KZC3">
+        <child id="8700838527816343363" name="type" index="2UegB9" />
+      </concept>
+      <concept id="7232527154588409138" name="CsBaseLanguage.structure.TypeParameter" flags="ng" index="31Lcgi" />
       <concept id="6365726834694825977" name="CsBaseLanguage.structure.ImplicitLocalVariableDeclarationStatement" flags="ng" index="1BvVOH">
         <child id="6365726834695689697" name="declaration" index="1BoGWP" />
+      </concept>
+      <concept id="6167894786982645659" name="CsBaseLanguage.structure.IGenericTypeList" flags="ngI" index="1FzkKU">
+        <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
+      </concept>
+      <concept id="6209812394075305792" name="CsBaseLanguage.structure.IHaveTypeOrVoid" flags="ngI" index="3Sw9wS">
+        <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
       </concept>
       <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
@@ -74,6 +101,9 @@
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
       <concept id="6843536562190680504" name="CsBaseLanguage.structure.IntType" flags="ng" index="3UfM66" />
+      <concept id="45245710896469196" name="CsBaseLanguage.structure.GenericTypeParameterReference" flags="ng" index="3XeaDR">
+        <reference id="45245710896469199" name="typeParameter" index="3XeaDO" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -162,9 +192,6 @@
       </node>
     </node>
     <node concept="3toFNv" id="2ETkgtk0SkN" role="2fuLKQ" />
-  </node>
-  <node concept="2XOHcx" id="2ETkgtk0CyR">
-    <property role="2XOHcw" value="${project_home}" />
   </node>
   <node concept="2lJO3n" id="2ETkgtk0Sui">
     <property role="TrG5h" value="UpdateConstantDeclarations_Test" />
@@ -273,6 +300,119 @@
               <property role="1pzoAX" value="3" />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2XOHcx" id="54DISwcHuhS">
+    <property role="2XOHcw" value="${project_home}" />
+  </node>
+  <node concept="2lJO3n" id="6u44Y785on2">
+    <property role="TrG5h" value="Migrate_GenericTypeParameterReferenceString_Test" />
+    <node concept="1qefOq" id="6u44Y785oq8" role="2lJO3o">
+      <node concept="31KRCM" id="6u44Y785owG" role="1qenE9">
+        <property role="TrG5h" value="GenericMethod" />
+        <node concept="1ux1M" id="6u44Y785owH" role="31KRCR">
+          <node concept="31KRCQ" id="6u44Y785owI" role="1ux1N" />
+        </node>
+        <node concept="1ux1I" id="6u44Y785owJ" role="1fIg$P">
+          <node concept="31KZC3" id="6u44Y785pc8" role="1ux1J">
+            <property role="TrG5h" value="t" />
+            <node concept="3UfwP1" id="6u44Y785pc9" role="2UegB9">
+              <node concept="2N$mWS" id="6u44Y785pd1" role="3UfBpY">
+                <property role="2N$mWW" value="T" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3UfwP1" id="6u44Y785ozx" role="3Sw9wT">
+          <node concept="2N$mWS" id="6u44Y785o_6" role="3UfBpY">
+            <property role="2N$mWW" value="T" />
+          </node>
+        </node>
+        <node concept="31Lcgi" id="6u44Y785oyJ" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="6u44Y785oBp" role="2lJO3o">
+      <node concept="31KRCM" id="6u44Y785oBq" role="1qenE9">
+        <property role="TrG5h" value="GenericMethod" />
+        <node concept="1ux1M" id="6u44Y785oBr" role="31KRCR">
+          <node concept="31KRCQ" id="6u44Y785oBs" role="1ux1N" />
+        </node>
+        <node concept="1ux1I" id="6u44Y785oBt" role="1fIg$P">
+          <node concept="31KZC3" id="6u44Y785pfM" role="1ux1J">
+            <property role="TrG5h" value="u" />
+            <node concept="3UfwP1" id="6u44Y785pfN" role="2UegB9">
+              <node concept="2N$mWS" id="6u44Y785pgs" role="3UfBpY">
+                <property role="2N$mWW" value="U" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3UfwP1" id="6u44Y785oBu" role="3Sw9wT">
+          <node concept="2N$mWS" id="6u44Y785oBv" role="3UfBpY">
+            <property role="2N$mWW" value="U" />
+          </node>
+        </node>
+        <node concept="31Lcgi" id="6u44Y785oBw" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
+    </node>
+    <node concept="3ea_Bc" id="6u44Y785on3" role="3ea0P7">
+      <ref role="3ea_Bf" to="wqvk:6u44Y77b001" resolve="Migrate_GenericTypeParameterReferenceString" />
+    </node>
+    <node concept="1qefOq" id="6u44Y785oHi" role="2lJPY$">
+      <node concept="31KRCM" id="3SS9x79_Lm5" role="1qenE9">
+        <property role="TrG5h" value="GenericMethod" />
+        <node concept="1ux1M" id="3SS9x79_Lm6" role="31KRCR">
+          <node concept="31KRCQ" id="3SS9x79_Lm7" role="1ux1N" />
+        </node>
+        <node concept="1ux1I" id="3SS9x79_Lm8" role="1fIg$P">
+          <node concept="31KZC3" id="3SS9x79_Lm9" role="1ux1J">
+            <property role="TrG5h" value="t" />
+            <node concept="3UfwP1" id="3SS9x79_Lma" role="2UegB9">
+              <node concept="3XeaDR" id="3SS9x79_Lmb" role="3UfBpY">
+                <ref role="3XeaDO" node="3SS9x79_Lme" resolve="T" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3UfwP1" id="3SS9x79_Lmc" role="3Sw9wT">
+          <node concept="3XeaDR" id="3SS9x79_Lmd" role="3UfBpY">
+            <ref role="3XeaDO" node="3SS9x79_Lme" resolve="T" />
+          </node>
+        </node>
+        <node concept="31Lcgi" id="3SS9x79_Lme" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="6u44Y785oHj" role="2lJPY$">
+      <node concept="31KRCM" id="3SS9x79_Lmf" role="1qenE9">
+        <property role="TrG5h" value="GenericMethod" />
+        <node concept="1ux1M" id="3SS9x79_Lmg" role="31KRCR">
+          <node concept="31KRCQ" id="3SS9x79_Lmh" role="1ux1N" />
+        </node>
+        <node concept="1ux1I" id="3SS9x79_Lmi" role="1fIg$P">
+          <node concept="31KZC3" id="3SS9x79_Lmj" role="1ux1J">
+            <property role="TrG5h" value="u" />
+            <node concept="3UfwP1" id="3SS9x79_Lmk" role="2UegB9">
+              <node concept="2N$mWS" id="3SS9x79_Lml" role="3UfBpY">
+                <property role="2N$mWW" value="U" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3UfwP1" id="3SS9x79_Lmm" role="3Sw9wT">
+          <node concept="2N$mWS" id="3SS9x79_Lmn" role="3UfBpY">
+            <property role="2N$mWW" value="U" />
+          </node>
+        </node>
+        <node concept="31Lcgi" id="3SS9x79_Lmo" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
         </node>
       </node>
     </node>

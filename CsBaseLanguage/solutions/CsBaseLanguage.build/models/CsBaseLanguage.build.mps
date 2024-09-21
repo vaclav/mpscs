@@ -286,15 +286,20 @@
             </node>
           </node>
         </node>
-        <node concept="3rtmxn" id="5QWEwg3MQiP" role="3bR31x">
-          <node concept="3LXTmp" id="5QWEwg3MQiQ" role="3rtmxm">
-            <node concept="3qWCbU" id="5QWEwg3MQiR" role="3LXTna">
+        <node concept="1SiIV0" id="6u44Y77UIlc" role="3bR37C">
+          <node concept="3bR9La" id="6u44Y77UIld" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="3rWl$6CN6Y" role="3bR31x">
+          <node concept="3LXTmp" id="3rWl$6CN6Z" role="3rtmxm">
+            <node concept="3qWCbU" id="3rWl$6CN70" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
-            <node concept="55IIr" id="5QWEwg3MQiS" role="3LXTmr">
-              <node concept="2Ry0Ak" id="5QWEwg3MQiT" role="iGT6I">
+            <node concept="55IIr" id="3rWl$6CN71" role="3LXTmr">
+              <node concept="2Ry0Ak" id="3rWl$6CN72" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="5QWEwg3MQiU" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3rWl$6CN73" role="2Ry0An">
                   <property role="2Ry0Am" value="CsBaseLanguage" />
                 </node>
               </node>
@@ -338,15 +343,15 @@
             </node>
           </node>
         </node>
-        <node concept="3rtmxn" id="5QWEwg3MQiB" role="3bR31x">
-          <node concept="3LXTmp" id="5QWEwg3MQiC" role="3rtmxm">
-            <node concept="3qWCbU" id="5QWEwg3MQiD" role="3LXTna">
+        <node concept="3rtmxn" id="3rWl$6CN6K" role="3bR31x">
+          <node concept="3LXTmp" id="3rWl$6CN6L" role="3rtmxm">
+            <node concept="3qWCbU" id="3rWl$6CN6M" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
-            <node concept="55IIr" id="5QWEwg3MQiE" role="3LXTmr">
-              <node concept="2Ry0Ak" id="5QWEwg3MQiF" role="iGT6I">
+            <node concept="55IIr" id="3rWl$6CN6N" role="3LXTmr">
+              <node concept="2Ry0Ak" id="3rWl$6CN6O" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="5QWEwg3MQiG" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3rWl$6CN6P" role="2Ry0An">
                   <property role="2Ry0Am" value="CsBaseLanguage.plugin" />
                 </node>
               </node>
@@ -400,15 +405,15 @@
             </node>
           </node>
         </node>
-        <node concept="3rtmxn" id="5QWEwg3MQiI" role="3bR31x">
-          <node concept="3LXTmp" id="5QWEwg3MQiJ" role="3rtmxm">
-            <node concept="3qWCbU" id="5QWEwg3MQiK" role="3LXTna">
+        <node concept="3rtmxn" id="3rWl$6CN6R" role="3bR31x">
+          <node concept="3LXTmp" id="3rWl$6CN6S" role="3rtmxm">
+            <node concept="3qWCbU" id="3rWl$6CN6T" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
-            <node concept="55IIr" id="5QWEwg3MQiL" role="3LXTmr">
-              <node concept="2Ry0Ak" id="5QWEwg3MQiM" role="iGT6I">
+            <node concept="55IIr" id="3rWl$6CN6U" role="3LXTmr">
+              <node concept="2Ry0Ak" id="3rWl$6CN6V" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="5QWEwg3MQiN" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3rWl$6CN6W" role="2Ry0An">
                   <property role="2Ry0Am" value="CsBaseLanguage.build" />
                 </node>
               </node>
