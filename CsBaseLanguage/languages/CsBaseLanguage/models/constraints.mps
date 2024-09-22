@@ -8,9 +8,9 @@
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
-    <import index="dorh" ref="r:c3a662b8-7aa3-4b01-af89-32513e44ae75(CsBaseLanguage.editor)" />
     <import index="80bi" ref="r:95fc96a8-27f5-4ee9-87a9-d1035329badc(CsBaseLanguage.structure)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="dorh" ref="r:c3a662b8-7aa3-4b01-af89-32513e44ae75(CsBaseLanguage.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="kvwr" ref="r:87569a15-2e04-4705-b4d1-423b59bfb8a0(CsBaseLanguage.behavior)" implicit="true" />
@@ -481,6 +481,30 @@
                     <property role="Xl_RC" value=" " />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EnEH3" id="6u44Y79aMBM" role="1MhHOB">
+      <ref role="EomxK" to="80bi:7TfmMh1NVbn" resolve="isVarianceAnnotatable" />
+      <node concept="Eqf_E" id="6u44Y79aMEC" role="EtsB7">
+        <node concept="3clFbS" id="6u44Y79aMED" role="2VODD2">
+          <node concept="3clFbF" id="6u44Y79aNjq" role="3cqZAp">
+            <node concept="2OqwBi" id="6u44Y79aNPi" role="3clFbG">
+              <node concept="1PxgMI" id="4tlNOo8MpaS" role="2Oq$k0">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="4tlNOo8Mpdw" role="3oSUPX">
+                  <ref role="cht4Q" to="80bi:5moKU4Y5oYr" resolve="IGenericTypeList" />
+                </node>
+                <node concept="2OqwBi" id="6u44Y79aNn9" role="1m5AlR">
+                  <node concept="EsrRn" id="6u44Y79aNkp" role="2Oq$k0" />
+                  <node concept="1mfA1w" id="4tlNOo8MoLK" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="6u44Y79aO1b" role="2OqNvi">
+                <ref role="37wK5l" to="kvwr:2wJFJYdLjy" resolve="isVarianceEnabled" />
               </node>
             </node>
           </node>
@@ -2543,6 +2567,16 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3rWl$6Gu5f">
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <ref role="1M2myG" to="80bi:2wJFJXA1jc" resolve="GenericTypeParameterReference" />
+    <node concept="1N5Pfh" id="3rWl$6Gu5g" role="1Mr941">
+      <ref role="1N5Vy1" to="80bi:2wJFJXA1jf" resolve="typeParameter" />
+      <node concept="1dDu$B" id="3rWl$6Gu76" role="1N6uqs">
+        <ref role="1dDu$A" to="80bi:6hv6i2_AXOM" resolve="TypeParameter" />
+      </node>
+    </node>
+  </node>
   <node concept="1M2fIO" id="5xnAHgZmc2p">
     <property role="3GE5qa" value="Initializers" />
     <ref role="1M2myG" to="80bi:5VT83U$Mmmn" resolve="ArrayInitializer" />
@@ -2799,16 +2833,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="3rWl$6Gu5f">
-    <property role="3GE5qa" value="References.TypeRelatedReferences" />
-    <ref role="1M2myG" to="80bi:2wJFJXA1jc" resolve="GenericTypeParameterReference" />
-    <node concept="1N5Pfh" id="3rWl$6Gu5g" role="1Mr941">
-      <ref role="1N5Vy1" to="80bi:2wJFJXA1jf" resolve="typeParameter" />
-      <node concept="1dDu$B" id="3rWl$6Gu76" role="1N6uqs">
-        <ref role="1dDu$A" to="80bi:6hv6i2_AXOM" resolve="TypeParameter" />
       </node>
     </node>
   </node>
