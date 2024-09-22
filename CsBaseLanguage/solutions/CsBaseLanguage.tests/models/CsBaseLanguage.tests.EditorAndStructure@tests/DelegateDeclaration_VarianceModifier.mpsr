@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:fcdf8a98-8638-4be9-822b-7c6b6a82fdf7(CsBaseLanguage.tests.EditorAndStructure@tests)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="1229187653856" name="jetbrains.mps.lang.test.structure.EditorTestCase" flags="lg" index="LiM7Y">
+        <child id="3143335925185262946" name="testNodeBefore" index="25YQCW" />
+        <child id="3143335925185262981" name="testNodeResult" index="25YQFr" />
+        <child id="1229187755283" name="code" index="LjaKd" />
+      </concept>
+      <concept id="1229194968594" name="jetbrains.mps.lang.test.structure.AnonymousCellAnnotation" flags="ng" index="LIFWc">
+        <property id="6268941039745498163" name="selectionStart" index="p6zMq" />
+        <property id="6268941039745498165" name="selectionEnd" index="p6zMs" />
+        <property id="1229194968596" name="caretPosition" index="LIFWa" />
+        <property id="1229194968595" name="cellId" index="LIFWd" />
+        <property id="1932269937152561478" name="useLabelSelection" index="OXtK3" />
+      </concept>
+      <concept id="1227182079811" name="jetbrains.mps.lang.test.structure.TypeKeyStatement" flags="nn" index="2TK7Tu">
+        <property id="1227184461946" name="keys" index="2TTd_B" />
+      </concept>
+      <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
+        <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
+    </language>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+    </language>
+    <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
+      <concept id="7486903154347131566" name="CsBaseLanguage.structure.FormalParameterList" flags="ng" index="1ux1I" />
+      <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
+        <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
+      </concept>
+      <concept id="7232527154588409138" name="CsBaseLanguage.structure.TypeParameter" flags="ng" index="31Lcgi">
+        <property id="1969317145989153390" name="varianceAnnotation" index="2N$mBG" />
+      </concept>
+      <concept id="7232527154588300036" name="CsBaseLanguage.structure.DelegateDeclaration" flags="ng" index="31LiC$" />
+      <concept id="3129541975290303051" name="CsBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
+      <concept id="6167894786982645659" name="CsBaseLanguage.structure.IGenericTypeList" flags="ngI" index="1FzkKU">
+        <child id="6167894786982659430" name="typeParameter" index="1Fzgr7" />
+      </concept>
+      <concept id="6209812394075305792" name="CsBaseLanguage.structure.IHaveTypeOrVoid" flags="ngI" index="3Sw9wS">
+        <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="LiM7Y" id="4tlNOo95ndP">
+    <property role="3GE5qa" value="editor.BasicEditing.DelegateDeclaration" />
+    <property role="TrG5h" value="DelegateDeclaration_VarianceModifier" />
+    <node concept="1qefOq" id="4tlNOo95nfa" role="25YQCW">
+      <node concept="31LiC$" id="4tlNOo95nfM" role="1qenE9">
+        <property role="TrG5h" value="Delegate" />
+        <node concept="1ux1I" id="4tlNOo95nfN" role="1fIg$P" />
+        <node concept="1pH0Yj" id="4tlNOo95ngJ" role="3Sw9wT" />
+        <node concept="31Lcgi" id="4tlNOo95nhn" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+          <node concept="LIFWc" id="4tlNOo95nhX" role="lGtFl">
+            <property role="LIFWa" value="0" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="0" />
+            <property role="p6zMs" value="0" />
+            <property role="LIFWd" value="property_name" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="4tlNOo95nib" role="25YQFr">
+      <node concept="31LiC$" id="4tlNOo95niN" role="1qenE9">
+        <property role="TrG5h" value="Delegate" />
+        <node concept="1ux1I" id="4tlNOo95niO" role="1fIg$P" />
+        <node concept="1pH0Yj" id="4tlNOo95nj5" role="3Sw9wT" />
+        <node concept="31Lcgi" id="4tlNOo95nk5" role="1Fzgr7">
+          <property role="TrG5h" value="T" />
+          <property role="2N$mBG" value="6$wrg4AAh$2/in" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="4tlNOo95nl5" role="LjaKd">
+      <node concept="2TK7Tu" id="4tlNOo95CIK" role="3cqZAp">
+        <property role="2TTd_B" value=" in" />
+      </node>
+    </node>
+  </node>
+</model>
+

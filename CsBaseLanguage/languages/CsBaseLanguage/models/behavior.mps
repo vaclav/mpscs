@@ -645,43 +645,8 @@
   <node concept="13h7C7" id="7TfmMh1OG2E">
     <property role="3GE5qa" value="Generics" />
     <ref role="13h7C2" to="80bi:6hv6i2_AXOM" resolve="TypeParameter" />
-    <node concept="13i0hz" id="2wJFJYcdAZ" role="13h7CS">
-      <property role="TrG5h" value="setVariance" />
-      <node concept="3Tm1VV" id="2wJFJYcdB0" role="1B3o_S" />
-      <node concept="3cqZAl" id="2wJFJYcdDK" role="3clF45" />
-      <node concept="3clFbS" id="2wJFJYcdB2" role="3clF47">
-        <node concept="3clFbF" id="2wJFJYcdEn" role="3cqZAp">
-          <node concept="37vLTI" id="2wJFJYceXv" role="3clFbG">
-            <node concept="37vLTw" id="2wJFJYdOX5" role="37vLTx">
-              <ref role="3cqZAo" node="2wJFJYdOyX" resolve="value" />
-            </node>
-            <node concept="2OqwBi" id="2wJFJYcdM7" role="37vLTJ">
-              <node concept="13iPFW" id="2wJFJYcdEl" role="2Oq$k0" />
-              <node concept="3TrcHB" id="2wJFJYceuF" role="2OqNvi">
-                <ref role="3TsBF5" to="80bi:7TfmMh1NVbn" resolve="isVarianceAnnotatable" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="2wJFJYdOyX" role="3clF46">
-        <property role="TrG5h" value="value" />
-        <node concept="10P_77" id="2wJFJYdOyW" role="1tU5fm" />
-      </node>
-    </node>
     <node concept="13hLZK" id="7TfmMh1OG2F" role="13h7CW">
       <node concept="3clFbS" id="7TfmMh1OG2G" role="2VODD2">
-        <node concept="3clFbF" id="7TfmMh1OG2Q" role="3cqZAp">
-          <node concept="37vLTI" id="7TfmMh1OHeU" role="3clFbG">
-            <node concept="3clFbT" id="7TfmMh1OHkX" role="37vLTx" />
-            <node concept="2OqwBi" id="7TfmMh1OGaI" role="37vLTJ">
-              <node concept="13iPFW" id="7TfmMh1OG2P" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7TfmMh1OGy8" role="2OqNvi">
-                <ref role="3TsBF5" to="80bi:7TfmMh1NVbn" resolve="isVarianceAnnotatable" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="1HkqSaCLTDC" role="3cqZAp">
           <node concept="2OqwBi" id="1HkqSaCLTVP" role="3clFbG">
             <node concept="2OqwBi" id="1HkqSaCLTMB" role="2Oq$k0">
@@ -777,9 +742,6 @@
         </node>
       </node>
     </node>
-    <node concept="13hLZK" id="2wJFJYdLjo" role="13h7CW">
-      <node concept="3clFbS" id="2wJFJYdLjp" role="2VODD2" />
-    </node>
     <node concept="13i0hz" id="6u44Y770led" role="13h7CS">
       <property role="TrG5h" value="getScope" />
       <ref role="13i0hy" to="tpcu:52_Geb4QDV$" resolve="getScope" />
@@ -841,6 +803,9 @@
       <node concept="3uibUv" id="6u44Y770les" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
+    </node>
+    <node concept="13hLZK" id="2wJFJYdLjo" role="13h7CW">
+      <node concept="3clFbS" id="2wJFJYdLjp" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="6FfQk_SPz51">
@@ -1817,6 +1782,26 @@
     </node>
     <node concept="13hLZK" id="7HmXimPF_y8" role="13h7CW">
       <node concept="3clFbS" id="7HmXimPF_y9" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6u44Y79j8jC">
+    <property role="3GE5qa" value="Interface" />
+    <ref role="13h7C2" to="80bi:6hv6i2_Azc6" resolve="InterfaceDeclaration" />
+    <node concept="13hLZK" id="6u44Y79j8jD" role="13h7CW">
+      <node concept="3clFbS" id="6u44Y79j8jE" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6u44Y79j8k7" role="13h7CS">
+      <property role="TrG5h" value="isVarianceEnabled" />
+      <ref role="13i0hy" node="2wJFJYdLjy" resolve="isVarianceEnabled" />
+      <node concept="3Tm1VV" id="6u44Y79j8k8" role="1B3o_S" />
+      <node concept="3clFbS" id="6u44Y79j8kd" role="3clF47">
+        <node concept="3clFbF" id="6u44Y79j8Bw" role="3cqZAp">
+          <node concept="3clFbT" id="6u44Y79j8Bv" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="6u44Y79j8ke" role="3clF45" />
     </node>
   </node>
 </model>
