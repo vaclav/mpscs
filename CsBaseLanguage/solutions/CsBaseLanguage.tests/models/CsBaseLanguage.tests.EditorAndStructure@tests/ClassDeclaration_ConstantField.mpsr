@@ -46,7 +46,6 @@
         <child id="7232527154588434987" name="constantDeclaratorList" index="31KPGb" />
       </concept>
       <concept id="7232527154588434986" name="CsBaseLanguage.structure.ConstantDeclarator" flags="ng" index="31KPGa">
-        <child id="1945218857512106801" name="expression" index="2YAbkf" />
         <child id="1945218857512106799" name="constant" index="2YAbkh" />
       </concept>
       <concept id="7232527154588300035" name="CsBaseLanguage.structure.ClassDeclaration" flags="ng" index="31LiCz">
@@ -56,7 +55,6 @@
       <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
       </concept>
-      <concept id="6843536562190617628" name="CsBaseLanguage.structure.Expression" flags="ng" index="3Uf2Ky" />
       <concept id="6843536562190757247" name="CsBaseLanguage.structure.Type" flags="ng" index="3UfwP1">
         <child id="6843536562190767680" name="nonArrayType" index="3UfBpY" />
       </concept>
@@ -108,25 +106,16 @@
     <node concept="1qefOq" id="2yWWWhK$Wc6" role="25YQFr">
       <node concept="31LiCz" id="2yWWWhK$Wc5" role="1qenE9">
         <property role="TrG5h" value="Foo" />
-        <node concept="31KPzN" id="3tcg5UgnntA" role="31Leeq">
-          <node concept="1ux1u" id="3tcg5UgnntB" role="31KPGb">
-            <node concept="31KPGa" id="3tcg5UgnntC" role="1ux1v">
-              <node concept="zF7EM" id="3tcg5UgnntD" role="2YAbkh">
+        <node concept="31KPzN" id="2JBWLpbyj71" role="31Leeq">
+          <node concept="1ux1u" id="2JBWLpbyj72" role="31KPGb">
+            <node concept="31KPGa" id="2JBWLpbyj73" role="1ux1v">
+              <node concept="zF7EM" id="2JBWLpbyj74" role="2YAbkh">
                 <property role="TrG5h" value="bar" />
-              </node>
-              <node concept="3Uf2Ky" id="3tcg5UgnpzY" role="2YAbkf">
-                <node concept="LIFWc" id="3tcg5Ugnp$c" role="lGtFl">
-                  <property role="ZRATv" value="true" />
-                  <property role="OXtK3" value="true" />
-                  <property role="p6zMq" value="0" />
-                  <property role="p6zMs" value="0" />
-                  <property role="LIFWd" value="Error" />
-                </node>
               </node>
             </node>
           </node>
-          <node concept="3UfwP1" id="3tcg5UgnntF" role="3SE38M">
-            <node concept="1QGQOt" id="3tcg5UgnntG" role="3UfBpY" />
+          <node concept="3UfwP1" id="2JBWLpbyj75" role="3SE38M">
+            <node concept="1QGQOt" id="2JBWLpbyj76" role="3UfBpY" />
           </node>
         </node>
       </node>

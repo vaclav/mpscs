@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="content" value="header" />
   <languages>
-    <use id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage" version="0" />
+    <use id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage" version="2" />
   </languages>
   <imports />
 </model>
