@@ -16,7 +16,9 @@
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
-      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
+      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM">
+        <child id="3125407777189916705" name="initializer" index="1qY_RL" />
+      </concept>
       <concept id="2439281069887047993" name="CsBaseLanguage.structure.NotGenericParameterTypeReference" flags="ng" index="2Gatwc">
         <reference id="2439281069887050838" name="referencedType" index="2Gaslz" />
       </concept>
@@ -31,10 +33,6 @@
       </concept>
       <concept id="1945218857514060490" name="CsBaseLanguage.structure.ReturnStatement" flags="ng" index="2YuCjO">
         <child id="1945218857514060491" name="expression" index="2YuCjP" />
-      </concept>
-      <concept id="1945218857511602452" name="CsBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
-        <child id="1945218857511602455" name="identifier" index="2YC0sD" />
-        <child id="1945218857511676509" name="variableInitializer" index="2YCihz" />
       </concept>
       <concept id="7232527154588443410" name="CsBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
         <child id="7232527154588443415" name="body" index="31KRCR" />
@@ -115,11 +113,9 @@
       </node>
       <node concept="31KRIa" id="4px1bdhjvOD" role="31Leeq">
         <node concept="1ux1y" id="4px1bdhjvOE" role="31KRJH">
-          <node concept="2YC0sE" id="4px1bdhjvP2" role="1ux1z">
-            <node concept="zF7EM" id="4px1bdhjvP3" role="2YC0sD">
-              <property role="TrG5h" value="Nothing" />
-            </node>
-            <node concept="3UdfaV" id="4px1bdhjvPa" role="2YCihz">
+          <node concept="zF7EM" id="4px1bdhjvP3" role="1ux1z">
+            <property role="TrG5h" value="Nothing" />
+            <node concept="3UdfaV" id="4px1bdhjvPa" role="1qY_RL">
               <node concept="3UfwP1" id="4px1bdhjvPc" role="3UdfaS">
                 <node concept="2Gatwc" id="4px1bdhjvPl" role="3UfBpY">
                   <ref role="2Gaslz" node="4px1bdhjvOz" resolve="Maybe" />

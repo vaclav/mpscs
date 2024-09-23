@@ -41,7 +41,7 @@
       <concept id="7486903154347131554" name="CsBaseLanguage.structure.VariableDeclaratorList" flags="ng" index="1ux1y">
         <child id="7486903154347131555" name="VariableDeclarator" index="1ux1z" />
       </concept>
-      <concept id="1945218857511318979" name="CsBaseLanguage.structure.IVariableDeclarator" flags="ngI" index="2YDbJX" />
+      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
       <concept id="7232527154588443306" name="CsBaseLanguage.structure.FieldDeclaration" flags="ng" index="31KRIa">
         <child id="7232527154588443341" name="variableDeclaratorList" index="31KRJH" />
       </concept>
@@ -78,6 +78,9 @@
           <property role="pLAjf" value="VK_TAB" />
         </node>
       </node>
+      <node concept="2TK7Tu" id="2JBWLpb$YoY" role="3cqZAp">
+        <property role="2TTd_B" value="bar" />
+      </node>
       <node concept="yd1bK" id="3tcg5UgnDaF" role="3cqZAp">
         <node concept="pLAjd" id="3tcg5UgnDaH" role="yd6KS">
           <property role="pLAjf" value="VK_TAB" />
@@ -91,14 +94,8 @@
         <property role="TrG5h" value="Foo" />
         <node concept="31KRIa" id="3tcg5UgnB1L" role="31Leeq">
           <node concept="1ux1y" id="3tcg5UgnB1M" role="31KRJH">
-            <node concept="2YDbJX" id="3tcg5UgnB1N" role="1ux1z">
-              <node concept="LIFWc" id="3tcg5UgnB2a" role="lGtFl">
-                <property role="ZRATv" value="true" />
-                <property role="OXtK3" value="true" />
-                <property role="p6zMq" value="0" />
-                <property role="p6zMs" value="0" />
-                <property role="LIFWd" value="Error" />
-              </node>
+            <node concept="zF7EM" id="2JBWLpbyj9z" role="1ux1z">
+              <property role="TrG5h" value="bar" />
             </node>
           </node>
           <node concept="3UfwP1" id="3tcg5UgnB1O" role="3SE38M">

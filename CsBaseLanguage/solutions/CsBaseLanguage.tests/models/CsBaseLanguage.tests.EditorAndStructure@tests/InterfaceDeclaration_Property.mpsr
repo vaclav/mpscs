@@ -41,7 +41,10 @@
       <concept id="7232527154588300038" name="CsBaseLanguage.structure.InterfaceDeclaration" flags="ng" index="31LiCA">
         <child id="7575174424947101368" name="interfaceMemberDeclaration" index="1fIeeT" />
       </concept>
-      <concept id="8914124434097811872" name="CsBaseLanguage.structure.InterfacePropertyDeclaration" flags="ng" index="3xGIlh" />
+      <concept id="292062066074800298" name="CsBaseLanguage.structure.InterfacePropertyAccessorDeclaration" flags="ng" index="3gNcLc" />
+      <concept id="8914124434097811872" name="CsBaseLanguage.structure.InterfacePropertyDeclaration" flags="ng" index="3xGIlh">
+        <child id="292062066074801987" name="accessorDeclaration" index="3gNcI_" />
+      </concept>
       <concept id="6432591675578008849" name="CsBaseLanguage.structure.INonArrayType" flags="ngI" index="1QGQOt" />
       <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
@@ -83,6 +86,7 @@
         <property role="TrG5h" value="IFoo" />
         <node concept="3xGIlh" id="3tcg5UgpVaO" role="1fIeeT">
           <property role="TrG5h" value="Bar" />
+          <node concept="3gNcLc" id="2JBWLpb$UVk" role="3gNcI_" />
           <node concept="3UfwP1" id="3tcg5UgpVaP" role="3SE38M">
             <node concept="1QGQOt" id="3tcg5UgpVaQ" role="3UfBpY" />
           </node>

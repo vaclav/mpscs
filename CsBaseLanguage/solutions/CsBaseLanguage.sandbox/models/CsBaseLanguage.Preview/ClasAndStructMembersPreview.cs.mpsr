@@ -32,17 +32,14 @@
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
-      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM" />
-      <concept id="1945218857512325908" name="CsBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
-      <concept id="1945218857511602452" name="CsBaseLanguage.structure.LocalVariableDeclarationWithInitialization" flags="ng" index="2YC0sE">
-        <child id="1945218857511602455" name="identifier" index="2YC0sD" />
-        <child id="1945218857511676509" name="variableInitializer" index="2YCihz" />
+      <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM">
+        <child id="3125407777189916705" name="initializer" index="1qY_RL" />
       </concept>
+      <concept id="1945218857512325908" name="CsBaseLanguage.structure.EmptyBlock" flags="ng" index="2Y_LOE" />
       <concept id="7232527154588434899" name="CsBaseLanguage.structure.ConstantDeclaration" flags="ng" index="31KPzN">
         <child id="7232527154588434987" name="constantDeclaratorList" index="31KPGb" />
       </concept>
       <concept id="7232527154588434986" name="CsBaseLanguage.structure.ConstantDeclarator" flags="ng" index="31KPGa">
-        <child id="1945218857512106801" name="expression" index="2YAbkf" />
         <child id="1945218857512106799" name="constant" index="2YAbkh" />
       </concept>
       <concept id="7232527154588443410" name="CsBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
@@ -102,9 +99,9 @@
           <node concept="31KPGa" id="ZfJ9N93R9Z" role="1ux1v">
             <node concept="zF7EM" id="ZfJ9N93Ra1" role="2YAbkh">
               <property role="TrG5h" value="C" />
-            </node>
-            <node concept="3UcVBg" id="ZfJ9N93Rap" role="2YAbkf">
-              <property role="1pzoAX" value="42" />
+              <node concept="3UcVBg" id="2JBWLpbujIf" role="1qY_RL">
+                <property role="1pzoAX" value="42" />
+              </node>
             </node>
           </node>
         </node>
@@ -131,11 +128,9 @@
       </node>
       <node concept="31KRIa" id="ZfJ9N93Rew" role="31Leeq">
         <node concept="1ux1y" id="ZfJ9N93Rey" role="31KRJH">
-          <node concept="2YC0sE" id="ZfJ9N93Rf7" role="1ux1z">
-            <node concept="zF7EM" id="ZfJ9N93Rf9" role="2YC0sD">
-              <property role="TrG5h" value="D2" />
-            </node>
-            <node concept="3UcVBg" id="ZfJ9N93Rff" role="2YCihz">
+          <node concept="zF7EM" id="ZfJ9N93Rf9" role="1ux1z">
+            <property role="TrG5h" value="D2" />
+            <node concept="3UcVBg" id="ZfJ9N93Rff" role="1qY_RL">
               <property role="1pzoAX" value="42" />
             </node>
           </node>
@@ -180,9 +175,9 @@
           <node concept="31KPGa" id="ZfJ9N93Rms" role="1ux1v">
             <node concept="zF7EM" id="ZfJ9N93Rmt" role="2YAbkh">
               <property role="TrG5h" value="C" />
-            </node>
-            <node concept="3UcVBg" id="ZfJ9N93Rmu" role="2YAbkf">
-              <property role="1pzoAX" value="42" />
+              <node concept="3UcVBg" id="ZfJ9N93Rmu" role="1qY_RL">
+                <property role="1pzoAX" value="42" />
+              </node>
             </node>
           </node>
         </node>
@@ -209,11 +204,9 @@
       </node>
       <node concept="31KRIa" id="ZfJ9N93RmE" role="2qBxSn">
         <node concept="1ux1y" id="ZfJ9N93RmF" role="31KRJH">
-          <node concept="2YC0sE" id="ZfJ9N93RmG" role="1ux1z">
-            <node concept="zF7EM" id="ZfJ9N93RmH" role="2YC0sD">
-              <property role="TrG5h" value="D2" />
-            </node>
-            <node concept="3UcVBg" id="ZfJ9N93RmI" role="2YCihz">
+          <node concept="zF7EM" id="ZfJ9N93RmH" role="1ux1z">
+            <property role="TrG5h" value="D2" />
+            <node concept="3UcVBg" id="ZfJ9N93RmI" role="1qY_RL">
               <property role="1pzoAX" value="42" />
             </node>
           </node>
