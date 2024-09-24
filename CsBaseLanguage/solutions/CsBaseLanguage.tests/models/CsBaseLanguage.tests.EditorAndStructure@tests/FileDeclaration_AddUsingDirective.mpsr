@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:fcdf8a98-8638-4be9-822b-7c6b6a82fdf7(CsBaseLanguage.tests.EditorAndStructure@tests)" content="root">
   <persistence version="9" />
-  <imports />
+  <imports>
+    <import index="wux4" ref="r:1a34c280-eca2-468e-8a4f-0c633774bfe5(CsBaseLanguage.intentions)" implicit="true" />
+  </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
-      <concept id="1228934484974" name="jetbrains.mps.lang.test.structure.PressKeyStatement" flags="nn" index="yd1bK">
-        <child id="1228934507814" name="keyStrokes" index="yd6KS" />
-      </concept>
       <concept id="1229187653856" name="jetbrains.mps.lang.test.structure.EditorTestCase" flags="lg" index="LiM7Y">
         <child id="3143335925185262946" name="testNodeBefore" index="25YQCW" />
         <child id="3143335925185262981" name="testNodeResult" index="25YQFr" />
@@ -19,16 +18,11 @@
         <property id="1932269937152561478" name="useLabelSelection" index="OXtK3" />
         <property id="1229432188737" name="isLastPosition" index="ZRATv" />
       </concept>
-      <concept id="1227182079811" name="jetbrains.mps.lang.test.structure.TypeKeyStatement" flags="nn" index="2TK7Tu">
-        <property id="1227184461946" name="keys" index="2TTd_B" />
-      </concept>
       <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
         <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
       </concept>
-    </language>
-    <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
-      <concept id="1207318242772" name="jetbrains.mps.lang.plugin.structure.KeyMapKeystroke" flags="ng" index="pLAjd">
-        <property id="1207318242774" name="keycode" index="pLAjf" />
+      <concept id="1225989773458" name="jetbrains.mps.lang.test.structure.InvokeIntentionStatement" flags="nn" index="1MFPAf">
+        <reference id="1225989811227" name="intention" index="1MFYO6" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -37,10 +31,17 @@
       </concept>
     </language>
     <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
+      <concept id="3126865292757808582" name="CsBaseLanguage.structure.UsingNamespaceDirective" flags="ng" index="2gdQUG">
+        <child id="3126865292760098553" name="reference" index="2g4BQj" />
+      </concept>
       <concept id="7232527154588416719" name="CsBaseLanguage.structure.INamespaceMemberDeclaration" flags="ngI" index="31LefJ" />
       <concept id="7232527154588265766" name="CsBaseLanguage.structure.File" flags="ng" index="31LFg6">
         <child id="7232527154588304251" name="namespaceMemberDeclaration" index="31LlDr" />
       </concept>
+      <concept id="451639884280407984" name="CsBaseLanguage.structure.NamespaceContainer" flags="ng" index="3MEyI$">
+        <child id="7232527154588292748" name="usingDirectives" index="31LgYG" />
+      </concept>
+      <concept id="451639884260410390" name="CsBaseLanguage.structure.NamespaceReference" flags="ng" index="3PYgw2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -52,43 +53,34 @@
       </concept>
     </language>
   </registry>
-  <node concept="LiM7Y" id="fEeb945IUa">
-    <property role="TrG5h" value="FileDeclaration" />
+  <node concept="LiM7Y" id="2H$QQEUqHnx">
     <property role="3GE5qa" value="editor.BasicEditing.File" />
-    <node concept="3clFbS" id="fEeb945IUb" role="LjaKd">
-      <node concept="2TK7Tu" id="fEeb945IUc" role="3cqZAp">
-        <property role="2TTd_B" value="Program.cs" />
-      </node>
-      <node concept="yd1bK" id="fEeb945USN" role="3cqZAp">
-        <node concept="pLAjd" id="fEeb945USP" role="yd6KS">
-          <property role="pLAjf" value="VK_TAB" />
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="fEeb945RP4" role="25YQCW">
-      <node concept="31LFg6" id="fEeb945RP2" role="1qenE9">
-        <node concept="31LefJ" id="fEeb945RP3" role="31LlDr" />
-        <node concept="LIFWc" id="fEeb945RP8" role="lGtFl">
+    <property role="TrG5h" value="FileDeclaration_AddUsingDirective" />
+    <node concept="1qefOq" id="2H$QQEUqHny" role="25YQCW">
+      <node concept="31LFg6" id="2H$QQEUqHnA" role="1qenE9">
+        <property role="TrG5h" value="foo" />
+        <node concept="31LefJ" id="2H$QQEUqHnB" role="31LlDr" />
+        <node concept="LIFWc" id="2H$QQEUqHnE" role="lGtFl">
           <property role="ZRATv" value="true" />
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="property_name" />
+          <property role="LIFWd" value="Constant_jqfb9k_f0" />
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="fEeb945RPc" role="25YQFr">
-      <node concept="31LFg6" id="fEeb9463zs" role="1qenE9">
-        <property role="TrG5h" value="Program.cs" />
-        <node concept="31LefJ" id="fEeb9463zt" role="31LlDr">
-          <node concept="LIFWc" id="fEeb9463zA" role="lGtFl">
-            <property role="ZRATv" value="true" />
-            <property role="OXtK3" value="true" />
-            <property role="p6zMq" value="0" />
-            <property role="p6zMs" value="0" />
-            <property role="LIFWd" value="Error" />
-          </node>
+    <node concept="1qefOq" id="2H$QQEUqHnG" role="25YQFr">
+      <node concept="31LFg6" id="2H$QQEUqHnK" role="1qenE9">
+        <property role="TrG5h" value="foo" />
+        <node concept="31LefJ" id="2H$QQEUqHnL" role="31LlDr" />
+        <node concept="2gdQUG" id="2H$QQEVP9qG" role="31LgYG">
+          <node concept="3PYgw2" id="2H$QQEVP9qH" role="2g4BQj" />
         </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="2H$QQEUqHnQ" role="LjaKd">
+      <node concept="1MFPAf" id="2H$QQEUqHqm" role="3cqZAp">
+        <ref role="1MFYO6" to="wux4:p4z1jPjlIe" resolve="AddUsingDirectives" />
       </node>
     </node>
   </node>
