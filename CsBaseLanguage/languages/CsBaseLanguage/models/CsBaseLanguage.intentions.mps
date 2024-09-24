@@ -5,6 +5,7 @@
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -50,9 +51,15 @@
         <child id="2522969319638093993" name="descriptionFunction" index="2ZfVej" />
       </concept>
     </language>
+    <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
+      <concept id="767145758118872833" name="jetbrains.mps.lang.actions.structure.NF_LinkList_AddNewChildOperation" flags="nn" index="2DeJg1" />
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
+      </concept>
+      <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
+        <reference id="1139877738879" name="concept" index="1A0vxQ" />
       </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
@@ -65,6 +72,9 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
       <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
         <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
@@ -250,6 +260,68 @@
               <node concept="3TrcHB" id="5nBCUOUhzRR" role="2OqNvi">
                 <ref role="3TsBF5" to="80bi:5LVVOtEMxfL" resolve="value" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="p4z1jPjlIe">
+    <property role="3GE5qa" value="Namespace" />
+    <property role="TrG5h" value="AddUsingDirective" />
+    <ref role="2ZfgGC" to="80bi:p4z1jOVEuK" resolve="NamespaceContainer" />
+    <node concept="2S6ZIM" id="p4z1jPjlIf" role="2ZfVej">
+      <node concept="3clFbS" id="p4z1jPjlIg" role="2VODD2">
+        <node concept="3clFbF" id="p4z1jPjm0o" role="3cqZAp">
+          <node concept="Xl_RD" id="p4z1jPjm0n" role="3clFbG">
+            <property role="Xl_RC" value="Add using directive" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="p4z1jPjlIh" role="2ZfgGD">
+      <node concept="3clFbS" id="p4z1jPjlIi" role="2VODD2">
+        <node concept="3clFbF" id="p4z1jPjIaQ" role="3cqZAp">
+          <node concept="2OqwBi" id="p4z1jPjIVf" role="3clFbG">
+            <node concept="2OqwBi" id="p4z1jPjIpc" role="2Oq$k0">
+              <node concept="2Sf5sV" id="p4z1jPjIaP" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="p4z1jPpxje" role="2OqNvi">
+                <ref role="3TtcxE" to="80bi:2H$QQEUe7tD" resolve="usingDirectives" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="2H$QQEVkItD" role="2OqNvi">
+              <ref role="1A0vxQ" to="80bi:2H$QQEVkVn6" resolve="UsingNamespaceDirective" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="2H$QQEVk$bR">
+    <property role="3GE5qa" value="Namespace" />
+    <property role="TrG5h" value="AddUsingAlias" />
+    <ref role="2ZfgGC" to="80bi:p4z1jOVEuK" resolve="NamespaceContainer" />
+    <node concept="2S6ZIM" id="2H$QQEVk$bS" role="2ZfVej">
+      <node concept="3clFbS" id="2H$QQEVk$bT" role="2VODD2">
+        <node concept="3clFbF" id="2H$QQEVk_lw" role="3cqZAp">
+          <node concept="Xl_RD" id="2H$QQEVk_lv" role="3clFbG">
+            <property role="Xl_RC" value="Add using alias" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2H$QQEVk$bU" role="2ZfgGD">
+      <node concept="3clFbS" id="2H$QQEVk$bV" role="2VODD2">
+        <node concept="3clFbF" id="2H$QQEVk_nd" role="3cqZAp">
+          <node concept="2OqwBi" id="2H$QQEVkBV2" role="3clFbG">
+            <node concept="2OqwBi" id="2H$QQEVk_xr" role="2Oq$k0">
+              <node concept="2Sf5sV" id="2H$QQEVk_nc" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="2H$QQEVk_GK" role="2OqNvi">
+                <ref role="3TtcxE" to="80bi:2H$QQEUe7tD" resolve="usingDirectives" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="2H$QQEVkHn1" role="2OqNvi">
+              <ref role="1A0vxQ" to="80bi:2H$QQEUtQI0" resolve="UsingAliasDirective" />
             </node>
           </node>
         </node>

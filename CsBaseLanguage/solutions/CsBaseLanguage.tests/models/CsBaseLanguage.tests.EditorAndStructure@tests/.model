@@ -12,8 +12,7 @@
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="avov" ref="r:284f1d8b-134d-4155-890e-620a45e7f33b(CsBaseLanguage.typesystem)" />
     <import index="tp6m" ref="r:00000000-0000-4000-0000-011c895903a2(jetbrains.mps.lang.test.runtime)" />
-    <import index="hcm8" ref="r:72a7bf00-0175-42ca-b99b-fe8519b6a16f(jetbrains.mps.kotlin.structure)" />
-    <import index="df4k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.deletionApprover(MPS.Editor/)" />
+    <import index="wux4" ref="r:1a34c280-eca2-468e-8a4f-0c633774bfe5(CsBaseLanguage.intentions)" />
   </imports>
 </model>
 
