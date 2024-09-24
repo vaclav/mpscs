@@ -78,11 +78,6 @@ It has been primarily tested on Windows 10, 64 bit and Windows 7, 64-bit. It sho
 as well, but maybe with minor problems, which should be, however, easily solvable by the
 user.
 
-## Major Version Release Log
-
-**Version 1.0**, 11/2019
-- The first version of the C# base language
-
 
 
 
