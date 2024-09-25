@@ -711,14 +711,14 @@
   <node concept="1TIwiD" id="5VT83U$Mmmn">
     <property role="EcuMT" value="6843536562190902679" />
     <property role="TrG5h" value="ArrayInitializer" />
-    <property role="34LRSv" value="{init}" />
+    <property role="34LRSv" value="{" />
     <property role="R4oN_" value="array initializer" />
     <property role="3GE5qa" value="Initializers" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5VT83U$Mmmo" role="1TKVEi">
       <property role="IQ2ns" value="6843536562190902680" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="varibaleInitializer" />
+      <property role="20kJfa" value="variableInitializer" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1FYNzU$nG$p" resolve="IVariableInitializer" />
     </node>
