@@ -16189,7 +16189,7 @@
       <property role="IQ2ns" value="3125407777189916705" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="initializer" />
-      <ref role="20lvS9" node="5VT83U$LgKs" resolve="Expression" />
+      <ref role="20lvS9" node="1FYNzU$nG$p" resolve="IVariableInitializer" />
     </node>
   </node>
   <node concept="PlHQZ" id="6JhOkL8vqKa">
@@ -16884,113 +16884,6 @@
     <property role="34LRSv" value="set" />
     <ref role="1TJDcQ" node="gdBerkKl2E" resolve="InterfacePropertyAccessorDeclaration" />
   </node>
-  <node concept="1TIwiD" id="2H$QQEVkVn6">
-    <property role="EcuMT" value="3126865292757808582" />
-    <property role="3GE5qa" value="Namespace" />
-    <property role="TrG5h" value="UsingNamespaceDirective" />
-    <property role="34LRSv" value="using" />
-    <property role="R4oN_" value="Using directive" />
-    <ref role="1TJDcQ" node="6hv6i2_Axqh" resolve="UsingDirective" />
-    <node concept="3H0Qfr" id="2H$QQEVoyMr" role="lGtFl">
-      <node concept="1Pa9Pv" id="2H$QQEVoyMs" role="3H0Qfi">
-        <node concept="1PaTwC" id="2H$QQEVoyMt" role="1PaQFQ">
-          <node concept="3oM_SD" id="2H$QQEVoyMu" role="1PaTwD">
-            <property role="3oM_SC" value="C#" />
-          </node>
-          <node concept="3oM_SD" id="2H$QQEVoyMD" role="1PaTwD">
-            <property role="3oM_SC" value="5.0" />
-          </node>
-          <node concept="3oM_SD" id="2H$QQEVoyMG" role="1PaTwD">
-            <property role="3oM_SC" value="grammar" />
-          </node>
-          <node concept="3oM_SD" id="2H$QQEVoyMK" role="1PaTwD">
-            <property role="3oM_SC" value="entry:" />
-          </node>
-          <node concept="3oM_SD" id="2H$QQEVoyMP" role="1PaTwD">
-            <property role="3oM_SC" value="using-namespace-directive" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1TJgyj" id="2H$QQEVtErT" role="1TKVEi">
-      <property role="IQ2ns" value="3126865292760098553" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="reference" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="p4z1jNJogm" resolve="NamespaceReference" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="p4z1jOVEuK">
-    <property role="EcuMT" value="451639884280407984" />
-    <property role="3GE5qa" value="Namespace" />
-    <property role="TrG5h" value="NamespaceContainer" />
-    <property role="R5$K7" value="true" />
-    <property role="R4oN_" value="Represents files and namespaces" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="2H$QQEUe7tD" role="1TKVEi">
-      <property role="IQ2ns" value="7232527154588292748" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="usingDirectives" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6hv6i2_Axqh" resolve="UsingDirective" />
-    </node>
-    <node concept="PrWs8" id="p4z1jP72r8" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2H$QQEUtQI0">
-    <property role="EcuMT" value="3126865292743371648" />
-    <property role="3GE5qa" value="Namespace" />
-    <property role="TrG5h" value="UsingAliasDirective" />
-    <property role="34LRSv" value="using alias" />
-    <property role="R4oN_" value="Using alias directive" />
-    <ref role="1TJDcQ" node="6hv6i2_Axqh" resolve="UsingDirective" />
-    <node concept="PrWs8" id="2H$QQEUtQI4" role="PzmwI">
-      <ref role="PrY4T" node="1HkqSaCLg9k" resolve="IReferencableTypeDeclaration" />
-    </node>
-    <node concept="3H0Qfr" id="2H$QQEVoyLV" role="lGtFl">
-      <node concept="1Pa9Pv" id="2H$QQEVoyLW" role="3H0Qfi">
-        <node concept="1PaTwC" id="2H$QQEVoyLX" role="1PaQFQ">
-          <node concept="3oM_SD" id="2H$QQEVoyLY" role="1PaTwD">
-            <property role="3oM_SC" value="C#" />
-          </node>
-          <node concept="3oM_SD" id="2H$QQEVoyM9" role="1PaTwD">
-            <property role="3oM_SC" value="5.0" />
-          </node>
-          <node concept="3oM_SD" id="2H$QQEVoyMc" role="1PaTwD">
-            <property role="3oM_SC" value="grammar" />
-          </node>
-          <node concept="3oM_SD" id="2H$QQEVoyMg" role="1PaTwD">
-            <property role="3oM_SC" value="entry:" />
-          </node>
-          <node concept="3oM_SD" id="2H$QQEVoyMl" role="1PaTwD">
-            <property role="3oM_SC" value="using-alias-directive" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1TJgyj" id="2H$QQEVtErW" role="1TKVEi">
-      <property role="IQ2ns" value="3126865292760098556" />
-      <property role="20kJfa" value="reference" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <ref role="20lvS9" node="27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="p4z1jNJogm">
-    <property role="EcuMT" value="451639884260410390" />
-    <property role="TrG5h" value="NamespaceReference" />
-    <property role="R4oN_" value="Reference to a namespace" />
-    <property role="3GE5qa" value="References.TypeRelatedReferences" />
-    <ref role="1TJDcQ" node="27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
-    <node concept="1TJgyj" id="p4z1jNJomh" role="1TKVEi">
-      <property role="IQ2ns" value="451639884260410769" />
-      <property role="20kJfa" value="referencedType" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6hv6i2_AzRh" resolve="NamespaceDeclaration" />
-      <ref role="20ksaX" node="27q4jmdWXhm" resolve="referencedType" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="5xnAHgZa2vT">
     <property role="EcuMT" value="6365726834694825977" />
     <property role="TrG5h" value="ImplicitLocalVariableDeclaration" />
@@ -17232,6 +17125,113 @@
     </node>
     <node concept="PrWs8" id="5xnAHgZghJ3" role="PzmwI">
       <ref role="PrY4T" node="1FYNzU$v7xY" resolve="IForInitializer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2H$QQEVkVn6">
+    <property role="EcuMT" value="3126865292757808582" />
+    <property role="3GE5qa" value="Namespace" />
+    <property role="TrG5h" value="UsingNamespaceDirective" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using directive" />
+    <ref role="1TJDcQ" node="6hv6i2_Axqh" resolve="UsingDirective" />
+    <node concept="3H0Qfr" id="2H$QQEVoyMr" role="lGtFl">
+      <node concept="1Pa9Pv" id="2H$QQEVoyMs" role="3H0Qfi">
+        <node concept="1PaTwC" id="2H$QQEVoyMt" role="1PaQFQ">
+          <node concept="3oM_SD" id="2H$QQEVoyMu" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="2H$QQEVoyMD" role="1PaTwD">
+            <property role="3oM_SC" value="5.0" />
+          </node>
+          <node concept="3oM_SD" id="2H$QQEVoyMG" role="1PaTwD">
+            <property role="3oM_SC" value="grammar" />
+          </node>
+          <node concept="3oM_SD" id="2H$QQEVoyMK" role="1PaTwD">
+            <property role="3oM_SC" value="entry:" />
+          </node>
+          <node concept="3oM_SD" id="2H$QQEVoyMP" role="1PaTwD">
+            <property role="3oM_SC" value="using-namespace-directive" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1TJgyj" id="2H$QQEVtErT" role="1TKVEi">
+      <property role="IQ2ns" value="3126865292760098553" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="reference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="p4z1jNJogm" resolve="NamespaceReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="p4z1jOVEuK">
+    <property role="EcuMT" value="451639884280407984" />
+    <property role="3GE5qa" value="Namespace" />
+    <property role="TrG5h" value="NamespaceContainer" />
+    <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="Represents files and namespaces" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2H$QQEUe7tD" role="1TKVEi">
+      <property role="IQ2ns" value="7232527154588292748" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="usingDirectives" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6hv6i2_Axqh" resolve="UsingDirective" />
+    </node>
+    <node concept="PrWs8" id="p4z1jP72r8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2H$QQEUtQI0">
+    <property role="EcuMT" value="3126865292743371648" />
+    <property role="3GE5qa" value="Namespace" />
+    <property role="TrG5h" value="UsingAliasDirective" />
+    <property role="34LRSv" value="using alias" />
+    <property role="R4oN_" value="Using alias directive" />
+    <ref role="1TJDcQ" node="6hv6i2_Axqh" resolve="UsingDirective" />
+    <node concept="PrWs8" id="2H$QQEUtQI4" role="PzmwI">
+      <ref role="PrY4T" node="1HkqSaCLg9k" resolve="IReferencableTypeDeclaration" />
+    </node>
+    <node concept="3H0Qfr" id="2H$QQEVoyLV" role="lGtFl">
+      <node concept="1Pa9Pv" id="2H$QQEVoyLW" role="3H0Qfi">
+        <node concept="1PaTwC" id="2H$QQEVoyLX" role="1PaQFQ">
+          <node concept="3oM_SD" id="2H$QQEVoyLY" role="1PaTwD">
+            <property role="3oM_SC" value="C#" />
+          </node>
+          <node concept="3oM_SD" id="2H$QQEVoyM9" role="1PaTwD">
+            <property role="3oM_SC" value="5.0" />
+          </node>
+          <node concept="3oM_SD" id="2H$QQEVoyMc" role="1PaTwD">
+            <property role="3oM_SC" value="grammar" />
+          </node>
+          <node concept="3oM_SD" id="2H$QQEVoyMg" role="1PaTwD">
+            <property role="3oM_SC" value="entry:" />
+          </node>
+          <node concept="3oM_SD" id="2H$QQEVoyMl" role="1PaTwD">
+            <property role="3oM_SC" value="using-alias-directive" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1TJgyj" id="2H$QQEVtErW" role="1TKVEi">
+      <property role="IQ2ns" value="3126865292760098556" />
+      <property role="20kJfa" value="reference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <ref role="20lvS9" node="27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="p4z1jNJogm">
+    <property role="EcuMT" value="451639884260410390" />
+    <property role="TrG5h" value="NamespaceReference" />
+    <property role="R4oN_" value="Reference to a namespace" />
+    <property role="3GE5qa" value="References.TypeRelatedReferences" />
+    <ref role="1TJDcQ" node="27q4jmdWW$T" resolve="NotGenericParameterTypeReference" />
+    <node concept="1TJgyj" id="p4z1jNJomh" role="1TKVEi">
+      <property role="IQ2ns" value="451639884260410769" />
+      <property role="20kJfa" value="referencedType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6hv6i2_AzRh" resolve="NamespaceDeclaration" />
+      <ref role="20ksaX" node="27q4jmdWXhm" resolve="referencedType" />
     </node>
   </node>
 </model>
