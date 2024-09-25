@@ -109,5 +109,51 @@
       <ref role="1YaFvo" to="80bi:6hv6i2_B48E" resolve="ConstantDeclarator" />
     </node>
   </node>
+  <node concept="18kY7G" id="5xnAHgZgi8F">
+    <property role="TrG5h" value="check_ImplicitLocalVariableDeclaration" />
+    <property role="3GE5qa" value="Statements.Declaration" />
+    <node concept="3clFbS" id="5xnAHgZgi8G" role="18ibNy">
+      <node concept="3clFbJ" id="5xnAHgZgibI" role="3cqZAp">
+        <node concept="2OqwBi" id="5xnAHgZgl17" role="3clFbw">
+          <node concept="2OqwBi" id="5xnAHgZgktN" role="2Oq$k0">
+            <node concept="2OqwBi" id="5xnAHgZgio9" role="2Oq$k0">
+              <node concept="1YBJjd" id="5xnAHgZgics" role="2Oq$k0">
+                <ref role="1YBMHb" node="5xnAHgZgi8I" resolve="var" />
+              </node>
+              <node concept="3TrEf2" id="5xnAHgZgkgk" role="2OqNvi">
+                <ref role="3Tt5mk" to="80bi:5xnAHgZdlnx" resolve="variable" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="5xnAHgZgkNk" role="2OqNvi">
+              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="5xnAHgZgltq" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="5xnAHgZgibK" role="3clFbx">
+          <node concept="2MkqsV" id="5xnAHgZglyy" role="3cqZAp">
+            <node concept="Xl_RD" id="5xnAHgZglzg" role="2MkJ7o">
+              <property role="Xl_RC" value="An implicitly typed declaration must be initialized." />
+            </node>
+            <node concept="2OqwBi" id="5xnAHgZglOj" role="1urrMF">
+              <node concept="1YBJjd" id="5xnAHgZglEg" role="2Oq$k0">
+                <ref role="1YBMHb" node="5xnAHgZgi8I" resolve="var" />
+              </node>
+              <node concept="3TrEf2" id="5xnAHgZgmrI" role="2OqNvi">
+                <ref role="3Tt5mk" to="80bi:5xnAHgZdlnx" resolve="variable" />
+              </node>
+            </node>
+            <node concept="AMVWg" id="5xnAHgZgmvK" role="lGtFl">
+              <property role="TrG5h" value="VarMustBeInitialized" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5xnAHgZgi8I" role="1YuTPh">
+      <property role="TrG5h" value="var" />
+      <ref role="1YaFvo" to="80bi:5xnAHgZa2vT" resolve="ImplicitLocalVariableDeclaration" />
+    </node>
+  </node>
 </model>
 
