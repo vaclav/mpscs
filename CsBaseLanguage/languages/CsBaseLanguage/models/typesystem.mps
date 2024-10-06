@@ -52,6 +52,9 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
+      <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
+        <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
+      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
@@ -95,6 +98,14 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1173122760281" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorsOperation" flags="nn" index="z$bX8" />
+      <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
+        <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
+        <child id="1883223317721008709" name="body" index="Jncv$" />
+        <child id="1883223317721008711" name="variable" index="JncvA" />
+        <child id="1883223317721008710" name="nodeExpression" index="JncvB" />
+      </concept>
+      <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
+      <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
@@ -117,6 +128,9 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -143,7 +157,9 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
+      <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
     </language>
   </registry>
@@ -191,6 +207,84 @@
     <node concept="1YaCAy" id="5QWEwg48iL7" role="1YuTPh">
       <property role="TrG5h" value="declarator" />
       <ref role="1YaFvo" to="80bi:6hv6i2_B48E" resolve="ConstantDeclarator" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5xnAHgZgi8F">
+    <property role="TrG5h" value="check_ImplicitLocalVariableDeclaration" />
+    <property role="3GE5qa" value="Statements.Declaration" />
+    <node concept="3clFbS" id="5xnAHgZgi8G" role="18ibNy">
+      <node concept="3clFbJ" id="5xnAHgZgibI" role="3cqZAp">
+        <node concept="2OqwBi" id="5xnAHgZgl17" role="3clFbw">
+          <node concept="2OqwBi" id="5xnAHgZgktN" role="2Oq$k0">
+            <node concept="2OqwBi" id="5xnAHgZgio9" role="2Oq$k0">
+              <node concept="1YBJjd" id="5xnAHgZgics" role="2Oq$k0">
+                <ref role="1YBMHb" node="5xnAHgZgi8I" resolve="var" />
+              </node>
+              <node concept="3TrEf2" id="5xnAHgZgkgk" role="2OqNvi">
+                <ref role="3Tt5mk" to="80bi:5xnAHgZdlnx" resolve="variable" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="5xnAHgZgkNk" role="2OqNvi">
+              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="5xnAHgZgltq" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="5xnAHgZgibK" role="3clFbx">
+          <node concept="2MkqsV" id="5xnAHgZglyy" role="3cqZAp">
+            <node concept="Xl_RD" id="5xnAHgZglzg" role="2MkJ7o">
+              <property role="Xl_RC" value="An implicitly typed declaration must be initialized." />
+            </node>
+            <node concept="2OqwBi" id="5xnAHgZglOj" role="1urrMF">
+              <node concept="1YBJjd" id="5xnAHgZglEg" role="2Oq$k0">
+                <ref role="1YBMHb" node="5xnAHgZgi8I" resolve="var" />
+              </node>
+              <node concept="3TrEf2" id="5xnAHgZgmrI" role="2OqNvi">
+                <ref role="3Tt5mk" to="80bi:5xnAHgZdlnx" resolve="variable" />
+              </node>
+            </node>
+            <node concept="AMVWg" id="5xnAHgZgmvK" role="lGtFl">
+              <property role="TrG5h" value="VarMustBeInitialized" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5xnAHgZgi8I" role="1YuTPh">
+      <property role="TrG5h" value="var" />
+      <ref role="1YaFvo" to="80bi:5xnAHgZa2vT" resolve="ImplicitLocalVariableDeclaration" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="iSyfcv_hOs">
+    <property role="TrG5h" value="check_LambdaParameterList" />
+    <property role="3GE5qa" value="Expressions.AnonymousFunctions" />
+    <node concept="3clFbS" id="iSyfcv_hOt" role="18ibNy">
+      <node concept="3clFbJ" id="iSyfcv_hTZ" role="3cqZAp">
+        <node concept="3clFbS" id="iSyfcv_hU1" role="3clFbx">
+          <node concept="2MkqsV" id="iSyfcv_j4M" role="3cqZAp">
+            <node concept="Xl_RD" id="iSyfcv_j5v" role="2MkJ7o">
+              <property role="Xl_RC" value="Inconsistent lambda parameter usage; parameter types must be all explicit or all implicit." />
+            </node>
+            <node concept="1YBJjd" id="iSyfcv_jef" role="1urrMF">
+              <ref role="1YBMHb" node="iSyfcv_hOv" resolve="parameters" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="iSyfcv_hUG" role="3clFbw">
+          <node concept="2OqwBi" id="iSyfcv_i5D" role="3fr31v">
+            <node concept="1YBJjd" id="iSyfcv_hVq" role="2Oq$k0">
+              <ref role="1YBMHb" node="iSyfcv_hOv" resolve="parameters" />
+            </node>
+            <node concept="2qgKlT" id="iSyfcv_iZ5" role="2OqNvi">
+              <ref role="37wK5l" to="kvwr:iSyfcvcioP" resolve="isValid" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="iSyfcv_hOv" role="1YuTPh">
+      <property role="TrG5h" value="parameters" />
+      <ref role="1YaFvo" to="80bi:7HmXimPhQc$" resolve="LambdaParameterList" />
     </node>
   </node>
   <node concept="18kY7G" id="5xnAHh09lHo">
@@ -374,82 +468,86 @@
       <ref role="1YaFvo" to="80bi:5xnAHgZZgnF" resolve="AwaitExpression" />
     </node>
   </node>
-  <node concept="18kY7G" id="5xnAHgZgi8F">
-    <property role="TrG5h" value="check_ImplicitLocalVariableDeclaration" />
-    <property role="3GE5qa" value="Statements.Declaration" />
-    <node concept="3clFbS" id="5xnAHgZgi8G" role="18ibNy">
-      <node concept="3clFbJ" id="5xnAHgZgibI" role="3cqZAp">
-        <node concept="2OqwBi" id="5xnAHgZgl17" role="3clFbw">
-          <node concept="2OqwBi" id="5xnAHgZgktN" role="2Oq$k0">
-            <node concept="2OqwBi" id="5xnAHgZgio9" role="2Oq$k0">
-              <node concept="1YBJjd" id="5xnAHgZgics" role="2Oq$k0">
-                <ref role="1YBMHb" node="5xnAHgZgi8I" resolve="var" />
-              </node>
-              <node concept="3TrEf2" id="5xnAHgZgkgk" role="2OqNvi">
-                <ref role="3Tt5mk" to="80bi:5xnAHgZdlnx" resolve="variable" />
-              </node>
-            </node>
-            <node concept="3TrEf2" id="5xnAHgZgkNk" role="2OqNvi">
-              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
-            </node>
+  <node concept="18kY7G" id="iHtKXP$dvv">
+    <property role="TrG5h" value="check_UsingStatement" />
+    <property role="3GE5qa" value="Statements.Using" />
+    <node concept="3clFbS" id="iHtKXP$dvw" role="18ibNy">
+      <node concept="Jncv_" id="iHtKXP$dvG" role="3cqZAp">
+        <ref role="JncvD" to="80bi:iHtKXPmS6d" resolve="LocalVariableDeclaration" />
+        <node concept="2OqwBi" id="iHtKXP$dD9" role="JncvB">
+          <node concept="1YBJjd" id="iHtKXP$dw1" role="2Oq$k0">
+            <ref role="1YBMHb" node="iHtKXP$dvy" resolve="usingStatement" />
           </node>
-          <node concept="3w_OXm" id="5xnAHgZgltq" role="2OqNvi" />
+          <node concept="3TrEf2" id="iHtKXP$fve" role="2OqNvi">
+            <ref role="3Tt5mk" to="80bi:iHtKXPjUmm" resolve="resource" />
+          </node>
         </node>
-        <node concept="3clFbS" id="5xnAHgZgibK" role="3clFbx">
-          <node concept="2MkqsV" id="5xnAHgZglyy" role="3cqZAp">
-            <node concept="Xl_RD" id="5xnAHgZglzg" role="2MkJ7o">
-              <property role="Xl_RC" value="An implicitly typed declaration must be initialized." />
-            </node>
-            <node concept="2OqwBi" id="5xnAHgZglOj" role="1urrMF">
-              <node concept="1YBJjd" id="5xnAHgZglEg" role="2Oq$k0">
-                <ref role="1YBMHb" node="5xnAHgZgi8I" resolve="var" />
+        <node concept="3clFbS" id="iHtKXP$dvI" role="Jncv$">
+          <node concept="3clFbF" id="iHtKXP$fz1" role="3cqZAp">
+            <node concept="2OqwBi" id="iHtKXP$ss$" role="3clFbG">
+              <node concept="2OqwBi" id="iHtKXP$jDQ" role="2Oq$k0">
+                <node concept="2OqwBi" id="iHtKXP$fI0" role="2Oq$k0">
+                  <node concept="Jnkvi" id="iHtKXP$fz0" role="2Oq$k0">
+                    <ref role="1M0zk5" node="iHtKXP$dvJ" resolve="var" />
+                  </node>
+                  <node concept="3Tsc0h" id="iHtKXP$fV4" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:iHtKXPmS6l" resolve="variables" />
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="iHtKXP$pQB" role="2OqNvi">
+                  <node concept="1bVj0M" id="iHtKXP$pQD" role="23t8la">
+                    <node concept="3clFbS" id="iHtKXP$pQE" role="1bW5cS">
+                      <node concept="3clFbF" id="iHtKXP$pY2" role="3cqZAp">
+                        <node concept="2OqwBi" id="iHtKXP$rgp" role="3clFbG">
+                          <node concept="2OqwBi" id="iHtKXP$qhU" role="2Oq$k0">
+                            <node concept="37vLTw" id="iHtKXP$pY1" role="2Oq$k0">
+                              <ref role="3cqZAo" node="iHtKXP$pQF" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="iHtKXP$qN1" role="2OqNvi">
+                              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
+                            </node>
+                          </node>
+                          <node concept="3w_OXm" id="iHtKXP$rRl" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="gl6BB" id="iHtKXP$pQF" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="iHtKXP$pQG" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node concept="3TrEf2" id="5xnAHgZgmrI" role="2OqNvi">
-                <ref role="3Tt5mk" to="80bi:5xnAHgZdlnx" resolve="variable" />
+              <node concept="2es0OD" id="iHtKXP$ude" role="2OqNvi">
+                <node concept="1bVj0M" id="iHtKXP$udg" role="23t8la">
+                  <node concept="3clFbS" id="iHtKXP$udh" role="1bW5cS">
+                    <node concept="2MkqsV" id="iHtKXP$uhz" role="3cqZAp">
+                      <node concept="Xl_RD" id="iHtKXP$ulJ" role="2MkJ7o">
+                        <property role="Xl_RC" value="Variables declared as resources of using statements must be initialized." />
+                      </node>
+                      <node concept="37vLTw" id="iHtKXP$uAl" role="1urrMF">
+                        <ref role="3cqZAo" node="iHtKXP$udi" resolve="it" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="gl6BB" id="iHtKXP$udi" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="iHtKXP$udj" role="1tU5fm" />
+                  </node>
+                </node>
               </node>
-            </node>
-            <node concept="AMVWg" id="5xnAHgZgmvK" role="lGtFl">
-              <property role="TrG5h" value="VarMustBeInitialized" />
             </node>
           </node>
+        </node>
+        <node concept="JncvC" id="iHtKXP$dvJ" role="JncvA">
+          <property role="TrG5h" value="decl" />
+          <node concept="2jxLKc" id="iHtKXP$dvK" role="1tU5fm" />
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="5xnAHgZgi8I" role="1YuTPh">
-      <property role="TrG5h" value="var" />
-      <ref role="1YaFvo" to="80bi:5xnAHgZa2vT" resolve="ImplicitLocalVariableDeclaration" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="iSyfcv_hOs">
-    <property role="TrG5h" value="check_LambdaParameterList" />
-    <property role="3GE5qa" value="Expressions.AnonymousFunctions" />
-    <node concept="3clFbS" id="iSyfcv_hOt" role="18ibNy">
-      <node concept="3clFbJ" id="iSyfcv_hTZ" role="3cqZAp">
-        <node concept="3clFbS" id="iSyfcv_hU1" role="3clFbx">
-          <node concept="2MkqsV" id="iSyfcv_j4M" role="3cqZAp">
-            <node concept="Xl_RD" id="iSyfcv_j5v" role="2MkJ7o">
-              <property role="Xl_RC" value="Inconsistent lambda parameter usage; parameter types must be all explicit or all implicit." />
-            </node>
-            <node concept="1YBJjd" id="iSyfcv_jef" role="1urrMF">
-              <ref role="1YBMHb" node="iSyfcv_hOv" resolve="parameters" />
-            </node>
-          </node>
-        </node>
-        <node concept="3fqX7Q" id="iSyfcv_hUG" role="3clFbw">
-          <node concept="2OqwBi" id="iSyfcv_i5D" role="3fr31v">
-            <node concept="1YBJjd" id="iSyfcv_hVq" role="2Oq$k0">
-              <ref role="1YBMHb" node="iSyfcv_hOv" resolve="parameters" />
-            </node>
-            <node concept="2qgKlT" id="iSyfcv_iZ5" role="2OqNvi">
-              <ref role="37wK5l" to="kvwr:iSyfcvcioP" resolve="isValid" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="iSyfcv_hOv" role="1YuTPh">
-      <property role="TrG5h" value="parameters" />
-      <ref role="1YaFvo" to="80bi:7HmXimPhQc$" resolve="LambdaParameterList" />
+    <node concept="1YaCAy" id="iHtKXP$dvy" role="1YuTPh">
+      <property role="TrG5h" value="usingStatement" />
+      <ref role="1YaFvo" to="80bi:iHtKXPjP1X" resolve="UsingStatement" />
     </node>
   </node>
 </model>
