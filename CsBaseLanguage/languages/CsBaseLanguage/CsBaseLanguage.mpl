@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="CsBaseLanguage" uuid="d74e25c9-4d91-43b6-bad7-d18af7bf6674" languageVersion="2" moduleVersion="0">
+<language namespace="CsBaseLanguage" uuid="d74e25c9-4d91-43b6-bad7-d18af7bf6674" languageVersion="3" moduleVersion="0">
   <models>
     <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />

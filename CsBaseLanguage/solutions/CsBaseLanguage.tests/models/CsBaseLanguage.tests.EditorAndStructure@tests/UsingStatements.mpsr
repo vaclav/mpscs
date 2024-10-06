@@ -28,6 +28,9 @@
       <concept id="7486903154347131570" name="CsBaseLanguage.structure.Block" flags="ng" index="1ux1M">
         <child id="7486903154347131571" name="statement" index="1ux1N" />
       </concept>
+      <concept id="4960876621219057954" name="CsBaseLanguage.structure.ImplicitLocalVariableDeclaration" flags="ng" index="2a_s8y">
+        <child id="4960876621219059053" name="variable" index="2a_spH" />
+      </concept>
       <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM">
         <child id="3125407777189916705" name="initializer" index="1qY_RL" />
       </concept>
@@ -90,8 +93,18 @@
             <node concept="3UfM66" id="iHtKXPO$lV" role="3UfBpY" />
           </node>
         </node>
-        <node concept="1ux1M" id="iHtKXPO$mi" role="1LSHan">
-          <node concept="31KRCQ" id="iHtKXPO$mj" role="1ux1N" />
+        <node concept="1LSytM" id="4jo$K3eo0cK" role="1LSHan">
+          <node concept="2a_s8y" id="4jo$K3eo0cT" role="1LSHap">
+            <node concept="zF7EM" id="4jo$K3eo0cV" role="2a_spH">
+              <property role="TrG5h" value="z" />
+              <node concept="3UcVBg" id="4jo$K3eo0dw" role="1qY_RL">
+                <property role="1pzoAX" value="3" />
+              </node>
+            </node>
+          </node>
+          <node concept="1ux1M" id="4jo$K3eo0cN" role="1LSHan">
+            <node concept="31KRCQ" id="4jo$K3eo0cO" role="1ux1N" />
+          </node>
         </node>
       </node>
     </node>
