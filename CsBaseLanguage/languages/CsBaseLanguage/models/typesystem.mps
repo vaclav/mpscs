@@ -209,50 +209,86 @@
       <ref role="1YaFvo" to="80bi:6hv6i2_B48E" resolve="ConstantDeclarator" />
     </node>
   </node>
-  <node concept="18kY7G" id="5xnAHgZgi8F">
-    <property role="TrG5h" value="check_ImplicitLocalVariableDeclaration" />
-    <property role="3GE5qa" value="Statements.Declaration" />
-    <node concept="3clFbS" id="5xnAHgZgi8G" role="18ibNy">
-      <node concept="3clFbJ" id="5xnAHgZgibI" role="3cqZAp">
-        <node concept="2OqwBi" id="5xnAHgZgl17" role="3clFbw">
-          <node concept="2OqwBi" id="5xnAHgZgktN" role="2Oq$k0">
-            <node concept="2OqwBi" id="5xnAHgZgio9" role="2Oq$k0">
-              <node concept="1YBJjd" id="5xnAHgZgics" role="2Oq$k0">
-                <ref role="1YBMHb" node="5xnAHgZgi8I" resolve="var" />
-              </node>
-              <node concept="3TrEf2" id="5xnAHgZgkgk" role="2OqNvi">
-                <ref role="3Tt5mk" to="80bi:5xnAHgZdlnx" resolve="variable" />
-              </node>
-            </node>
-            <node concept="3TrEf2" id="5xnAHgZgkNk" role="2OqNvi">
-              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
-            </node>
+  <node concept="18kY7G" id="iHtKXP$dvv">
+    <property role="TrG5h" value="check_UsingStatement" />
+    <property role="3GE5qa" value="Statements.Using" />
+    <node concept="3clFbS" id="iHtKXP$dvw" role="18ibNy">
+      <node concept="Jncv_" id="iHtKXP$dvG" role="3cqZAp">
+        <ref role="JncvD" to="80bi:iHtKXPmS6d" resolve="LocalVariableDeclaration" />
+        <node concept="2OqwBi" id="iHtKXP$dD9" role="JncvB">
+          <node concept="1YBJjd" id="iHtKXP$dw1" role="2Oq$k0">
+            <ref role="1YBMHb" node="iHtKXP$dvy" resolve="usingStatement" />
           </node>
-          <node concept="3w_OXm" id="5xnAHgZgltq" role="2OqNvi" />
+          <node concept="3TrEf2" id="iHtKXP$fve" role="2OqNvi">
+            <ref role="3Tt5mk" to="80bi:iHtKXPjUmm" resolve="resource" />
+          </node>
         </node>
-        <node concept="3clFbS" id="5xnAHgZgibK" role="3clFbx">
-          <node concept="2MkqsV" id="5xnAHgZglyy" role="3cqZAp">
-            <node concept="Xl_RD" id="5xnAHgZglzg" role="2MkJ7o">
-              <property role="Xl_RC" value="An implicitly typed declaration must be initialized." />
-            </node>
-            <node concept="2OqwBi" id="5xnAHgZglOj" role="1urrMF">
-              <node concept="1YBJjd" id="5xnAHgZglEg" role="2Oq$k0">
-                <ref role="1YBMHb" node="5xnAHgZgi8I" resolve="var" />
+        <node concept="3clFbS" id="iHtKXP$dvI" role="Jncv$">
+          <node concept="3clFbF" id="iHtKXP$fz1" role="3cqZAp">
+            <node concept="2OqwBi" id="iHtKXP$ss$" role="3clFbG">
+              <node concept="2OqwBi" id="iHtKXP$jDQ" role="2Oq$k0">
+                <node concept="2OqwBi" id="iHtKXP$fI0" role="2Oq$k0">
+                  <node concept="Jnkvi" id="iHtKXP$fz0" role="2Oq$k0">
+                    <ref role="1M0zk5" node="iHtKXP$dvJ" resolve="decl" />
+                  </node>
+                  <node concept="3Tsc0h" id="iHtKXP$fV4" role="2OqNvi">
+                    <ref role="3TtcxE" to="80bi:iHtKXPmS6l" resolve="variables" />
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="iHtKXP$pQB" role="2OqNvi">
+                  <node concept="1bVj0M" id="iHtKXP$pQD" role="23t8la">
+                    <node concept="3clFbS" id="iHtKXP$pQE" role="1bW5cS">
+                      <node concept="3clFbF" id="iHtKXP$pY2" role="3cqZAp">
+                        <node concept="2OqwBi" id="iHtKXP$rgp" role="3clFbG">
+                          <node concept="2OqwBi" id="iHtKXP$qhU" role="2Oq$k0">
+                            <node concept="37vLTw" id="iHtKXP$pY1" role="2Oq$k0">
+                              <ref role="3cqZAo" node="iHtKXP$pQF" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="iHtKXP$qN1" role="2OqNvi">
+                              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
+                            </node>
+                          </node>
+                          <node concept="3w_OXm" id="iHtKXP$rRl" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="gl6BB" id="iHtKXP$pQF" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="iHtKXP$pQG" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node concept="3TrEf2" id="5xnAHgZgmrI" role="2OqNvi">
-                <ref role="3Tt5mk" to="80bi:5xnAHgZdlnx" resolve="variable" />
+              <node concept="2es0OD" id="iHtKXP$ude" role="2OqNvi">
+                <node concept="1bVj0M" id="iHtKXP$udg" role="23t8la">
+                  <node concept="3clFbS" id="iHtKXP$udh" role="1bW5cS">
+                    <node concept="2MkqsV" id="iHtKXP$uhz" role="3cqZAp">
+                      <node concept="Xl_RD" id="iHtKXP$ulJ" role="2MkJ7o">
+                        <property role="Xl_RC" value="Variables declared as resources of using statements must be initialized." />
+                      </node>
+                      <node concept="37vLTw" id="iHtKXP$uAl" role="1urrMF">
+                        <ref role="3cqZAo" node="iHtKXP$udi" resolve="it" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="gl6BB" id="iHtKXP$udi" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="iHtKXP$udj" role="1tU5fm" />
+                  </node>
+                </node>
               </node>
-            </node>
-            <node concept="AMVWg" id="5xnAHgZgmvK" role="lGtFl">
-              <property role="TrG5h" value="VarMustBeInitialized" />
             </node>
           </node>
+        </node>
+        <node concept="JncvC" id="iHtKXP$dvJ" role="JncvA">
+          <property role="TrG5h" value="decl" />
+          <node concept="2jxLKc" id="iHtKXP$dvK" role="1tU5fm" />
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="5xnAHgZgi8I" role="1YuTPh">
-      <property role="TrG5h" value="var" />
-      <ref role="1YaFvo" to="80bi:5xnAHgZa2vT" resolve="ImplicitLocalVariableDeclaration" />
+    <node concept="1YaCAy" id="iHtKXP$dvy" role="1YuTPh">
+      <property role="TrG5h" value="usingStatement" />
+      <ref role="1YaFvo" to="80bi:iHtKXPjP1X" resolve="UsingStatement" />
     </node>
   </node>
   <node concept="18kY7G" id="iSyfcv_hOs">
@@ -468,86 +504,50 @@
       <ref role="1YaFvo" to="80bi:5xnAHgZZgnF" resolve="AwaitExpression" />
     </node>
   </node>
-  <node concept="18kY7G" id="iHtKXP$dvv">
-    <property role="TrG5h" value="check_UsingStatement" />
-    <property role="3GE5qa" value="Statements.Using" />
-    <node concept="3clFbS" id="iHtKXP$dvw" role="18ibNy">
-      <node concept="Jncv_" id="iHtKXP$dvG" role="3cqZAp">
-        <ref role="JncvD" to="80bi:iHtKXPmS6d" resolve="LocalVariableDeclaration" />
-        <node concept="2OqwBi" id="iHtKXP$dD9" role="JncvB">
-          <node concept="1YBJjd" id="iHtKXP$dw1" role="2Oq$k0">
-            <ref role="1YBMHb" node="iHtKXP$dvy" resolve="usingStatement" />
+  <node concept="18kY7G" id="4jo$K3ejl$3">
+    <property role="TrG5h" value="check_ImplicitLocalVariableDeclaration" />
+    <property role="3GE5qa" value="Identifiers.Concepts" />
+    <node concept="3clFbS" id="4jo$K3ejl$4" role="18ibNy">
+      <node concept="3clFbJ" id="4jo$K3ejl_6" role="3cqZAp">
+        <node concept="2OqwBi" id="4jo$K3ejl_7" role="3clFbw">
+          <node concept="2OqwBi" id="4jo$K3ejl_8" role="2Oq$k0">
+            <node concept="2OqwBi" id="4jo$K3ejl_9" role="2Oq$k0">
+              <node concept="1YBJjd" id="4jo$K3ejl_a" role="2Oq$k0">
+                <ref role="1YBMHb" node="4jo$K3ejl$6" resolve="var" />
+              </node>
+              <node concept="3TrEf2" id="4jo$K3ejl_b" role="2OqNvi">
+                <ref role="3Tt5mk" to="80bi:4jo$K3ejllH" resolve="variable" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="4jo$K3ejl_c" role="2OqNvi">
+              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
+            </node>
           </node>
-          <node concept="3TrEf2" id="iHtKXP$fve" role="2OqNvi">
-            <ref role="3Tt5mk" to="80bi:iHtKXPjUmm" resolve="resource" />
-          </node>
+          <node concept="3w_OXm" id="4jo$K3ejl_d" role="2OqNvi" />
         </node>
-        <node concept="3clFbS" id="iHtKXP$dvI" role="Jncv$">
-          <node concept="3clFbF" id="iHtKXP$fz1" role="3cqZAp">
-            <node concept="2OqwBi" id="iHtKXP$ss$" role="3clFbG">
-              <node concept="2OqwBi" id="iHtKXP$jDQ" role="2Oq$k0">
-                <node concept="2OqwBi" id="iHtKXP$fI0" role="2Oq$k0">
-                  <node concept="Jnkvi" id="iHtKXP$fz0" role="2Oq$k0">
-                    <ref role="1M0zk5" node="iHtKXP$dvJ" resolve="var" />
-                  </node>
-                  <node concept="3Tsc0h" id="iHtKXP$fV4" role="2OqNvi">
-                    <ref role="3TtcxE" to="80bi:iHtKXPmS6l" resolve="variables" />
-                  </node>
-                </node>
-                <node concept="3zZkjj" id="iHtKXP$pQB" role="2OqNvi">
-                  <node concept="1bVj0M" id="iHtKXP$pQD" role="23t8la">
-                    <node concept="3clFbS" id="iHtKXP$pQE" role="1bW5cS">
-                      <node concept="3clFbF" id="iHtKXP$pY2" role="3cqZAp">
-                        <node concept="2OqwBi" id="iHtKXP$rgp" role="3clFbG">
-                          <node concept="2OqwBi" id="iHtKXP$qhU" role="2Oq$k0">
-                            <node concept="37vLTw" id="iHtKXP$pY1" role="2Oq$k0">
-                              <ref role="3cqZAo" node="iHtKXP$pQF" resolve="it" />
-                            </node>
-                            <node concept="3TrEf2" id="iHtKXP$qN1" role="2OqNvi">
-                              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
-                            </node>
-                          </node>
-                          <node concept="3w_OXm" id="iHtKXP$rRl" role="2OqNvi" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="gl6BB" id="iHtKXP$pQF" role="1bW2Oz">
-                      <property role="TrG5h" value="it" />
-                      <node concept="2jxLKc" id="iHtKXP$pQG" role="1tU5fm" />
-                    </node>
-                  </node>
-                </node>
+        <node concept="3clFbS" id="4jo$K3ejl_e" role="3clFbx">
+          <node concept="2MkqsV" id="4jo$K3ejl_f" role="3cqZAp">
+            <node concept="Xl_RD" id="4jo$K3ejl_g" role="2MkJ7o">
+              <property role="Xl_RC" value="An implicitly-typed declaration must be initialized." />
+            </node>
+            <node concept="2OqwBi" id="4jo$K3ejl_h" role="1urrMF">
+              <node concept="1YBJjd" id="4jo$K3ejl_i" role="2Oq$k0">
+                <ref role="1YBMHb" node="4jo$K3ejl$6" resolve="var" />
               </node>
-              <node concept="2es0OD" id="iHtKXP$ude" role="2OqNvi">
-                <node concept="1bVj0M" id="iHtKXP$udg" role="23t8la">
-                  <node concept="3clFbS" id="iHtKXP$udh" role="1bW5cS">
-                    <node concept="2MkqsV" id="iHtKXP$uhz" role="3cqZAp">
-                      <node concept="Xl_RD" id="iHtKXP$ulJ" role="2MkJ7o">
-                        <property role="Xl_RC" value="Variables declared as resources of using statements must be initialized." />
-                      </node>
-                      <node concept="37vLTw" id="iHtKXP$uAl" role="1urrMF">
-                        <ref role="3cqZAo" node="iHtKXP$udi" resolve="it" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="gl6BB" id="iHtKXP$udi" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="iHtKXP$udj" role="1tU5fm" />
-                  </node>
-                </node>
+              <node concept="3TrEf2" id="4jo$K3ejl_j" role="2OqNvi">
+                <ref role="3Tt5mk" to="80bi:4jo$K3ejllH" resolve="variable" />
               </node>
+            </node>
+            <node concept="AMVWg" id="4jo$K3ejl_k" role="lGtFl">
+              <property role="TrG5h" value="VarMustBeInitialized" />
             </node>
           </node>
         </node>
-        <node concept="JncvC" id="iHtKXP$dvJ" role="JncvA">
-          <property role="TrG5h" value="decl" />
-          <node concept="2jxLKc" id="iHtKXP$dvK" role="1tU5fm" />
-        </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="iHtKXP$dvy" role="1YuTPh">
-      <property role="TrG5h" value="usingStatement" />
-      <ref role="1YaFvo" to="80bi:iHtKXPjP1X" resolve="UsingStatement" />
+    <node concept="1YaCAy" id="4jo$K3ejl$6" role="1YuTPh">
+      <property role="TrG5h" value="var" />
+      <ref role="1YaFvo" to="80bi:4jo$K3ejl4y" resolve="ImplicitLocalVariableDeclaration" />
     </node>
   </node>
 </model>
