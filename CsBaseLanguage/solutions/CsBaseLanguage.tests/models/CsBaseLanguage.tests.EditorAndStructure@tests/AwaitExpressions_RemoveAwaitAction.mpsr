@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:fcdf8a98-8638-4be9-822b-7c6b6a82fdf7(CsBaseLanguage.tests.EditorAndStructure@tests)" content="root">
+  <persistence version="9" />
+  <imports>
+    <import index="tp6m" ref="r:00000000-0000-4000-0000-011c895903a2(jetbrains.mps.lang.test.runtime)" implicit="true" />
+    <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="7011073693661765739" name="jetbrains.mps.lang.test.structure.InvokeActionStatement" flags="nn" index="2HxZob">
+        <child id="1101347953350127927" name="actionReference" index="3iKnsn" />
+      </concept>
+      <concept id="1229187653856" name="jetbrains.mps.lang.test.structure.EditorTestCase" flags="lg" index="LiM7Y">
+        <child id="3143335925185262946" name="testNodeBefore" index="25YQCW" />
+        <child id="3143335925185262981" name="testNodeResult" index="25YQFr" />
+        <child id="1229187755283" name="code" index="LjaKd" />
+      </concept>
+      <concept id="1229194968594" name="jetbrains.mps.lang.test.structure.AnonymousCellAnnotation" flags="ng" index="LIFWc">
+        <property id="6268941039745498163" name="selectionStart" index="p6zMq" />
+        <property id="6268941039745498165" name="selectionEnd" index="p6zMs" />
+        <property id="1229194968595" name="cellId" index="LIFWd" />
+        <property id="1932269937152561478" name="useLabelSelection" index="OXtK3" />
+        <property id="1229432188737" name="isLastPosition" index="ZRATv" />
+      </concept>
+      <concept id="4239542196496927193" name="jetbrains.mps.lang.test.structure.MPSActionReference" flags="ng" index="1iFQzN">
+        <reference id="4239542196496929559" name="action" index="1iFR8X" />
+      </concept>
+      <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
+        <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
+    </language>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+    </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
+        <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage">
+      <concept id="7486903154347131566" name="CsBaseLanguage.structure.FormalParameterList" flags="ng" index="1ux1I" />
+      <concept id="7486903154347131570" name="CsBaseLanguage.structure.Block" flags="ng" index="1ux1M">
+        <child id="7486903154347131571" name="statement" index="1ux1N" />
+      </concept>
+      <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
+        <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
+      </concept>
+      <concept id="3766354144461809103" name="CsBaseLanguage.structure.Async" flags="ng" index="2qGUbG" />
+      <concept id="1945218857512918966" name="CsBaseLanguage.structure.ExpressionStatement" flags="ng" index="2Yz168">
+        <child id="1945218857512918967" name="abstractStatementExpression" index="2Yz169" />
+      </concept>
+      <concept id="7232527154588443410" name="CsBaseLanguage.structure.MethodDeclaration" flags="ng" index="31KRCM">
+        <child id="7232527154588443415" name="body" index="31KRCR" />
+      </concept>
+      <concept id="3129541975290303051" name="CsBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
+      <concept id="6365726834708776427" name="CsBaseLanguage.structure.AwaitExpression" flags="ng" index="1BEDWZ">
+        <child id="6365726834708776823" name="task" index="1BEDQz" />
+      </concept>
+      <concept id="6209812394075305792" name="CsBaseLanguage.structure.IHaveTypeOrVoid" flags="ngI" index="3Sw9wS">
+        <child id="6209812394075305793" name="typeOrVoid" index="3Sw9wT" />
+      </concept>
+      <concept id="6209812394072707160" name="CsBaseLanguage.structure.IHaveModifiers" flags="ngI" index="3SE3Ww">
+        <child id="6209812394072707161" name="iModifier" index="3SE3Wx" />
+      </concept>
+      <concept id="6843536562191075794" name="CsBaseLanguage.structure.ArgumentsList" flags="ng" index="3UdiBG" />
+      <concept id="6843536562191075788" name="CsBaseLanguage.structure.FunctionCallExpression" flags="ng" index="3UdiBM">
+        <child id="6843536562191075791" name="argumentsList" index="3UdiBL" />
+        <child id="6843536562191075789" name="primaryExpression" index="3UdiBN" />
+      </concept>
+      <concept id="6531566641162929002" name="CsBaseLanguage.structure.MemberReference" flags="ng" index="1VUwCF">
+        <reference id="7783118190387115239" name="memberDeclaration" index="2aT8gA" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="LiM7Y" id="5xnAHh0e9vl">
+    <property role="3GE5qa" value="editor.BasicEditing.AwaitExpressions" />
+    <property role="TrG5h" value="AwaitExpressions_RemoveAwaitAction" />
+    <node concept="1qefOq" id="5xnAHh0e9vm" role="25YQCW">
+      <node concept="31KRCM" id="5xnAHh0yzic" role="1qenE9">
+        <property role="TrG5h" value="method" />
+        <node concept="1ux1M" id="5xnAHh0yzid" role="31KRCR">
+          <node concept="2Yz168" id="5xnAHh0yzie" role="1ux1N">
+            <node concept="1BEDWZ" id="5xnAHh0yzif" role="2Yz169">
+              <node concept="3UdiBM" id="5xnAHh0yzig" role="1BEDQz">
+                <node concept="1VUwCF" id="5xnAHh0yzih" role="3UdiBN">
+                  <ref role="2aT8gA" node="5xnAHh0yzic" resolve="method" />
+                </node>
+                <node concept="3UdiBG" id="5xnAHh0yzii" role="3UdiBL" />
+              </node>
+              <node concept="LIFWc" id="5xnAHh0yzi_" role="lGtFl">
+                <property role="ZRATv" value="true" />
+                <property role="OXtK3" value="true" />
+                <property role="p6zMq" value="5" />
+                <property role="p6zMs" value="5" />
+                <property role="LIFWd" value="operator" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1ux1I" id="5xnAHh0yzij" role="1fIg$P" />
+        <node concept="1pH0Yj" id="5xnAHh0yzik" role="3Sw9wT" />
+        <node concept="2qGUbG" id="5xnAHh0yzil" role="3SE3Wx" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="5xnAHh0e9vx" role="25YQFr">
+      <node concept="31KRCM" id="5xnAHh0yziB" role="1qenE9">
+        <property role="TrG5h" value="method" />
+        <node concept="1ux1M" id="5xnAHh0yziC" role="31KRCR">
+          <node concept="2Yz168" id="5xnAHh0yziD" role="1ux1N">
+            <node concept="3UdiBM" id="5xnAHh0yziF" role="2Yz169">
+              <node concept="1VUwCF" id="5xnAHh0yziG" role="3UdiBN">
+                <ref role="2aT8gA" node="5xnAHh0yziB" resolve="method" />
+              </node>
+              <node concept="3UdiBG" id="5xnAHh0yziH" role="3UdiBL" />
+            </node>
+          </node>
+        </node>
+        <node concept="1ux1I" id="5xnAHh0yziI" role="1fIg$P" />
+        <node concept="1pH0Yj" id="5xnAHh0yziJ" role="3Sw9wT" />
+        <node concept="2qGUbG" id="5xnAHh0yziK" role="3SE3Wx" />
+      </node>
+    </node>
+    <node concept="3clFbS" id="5xnAHh0e9vG" role="LjaKd">
+      <node concept="3clFbF" id="5xnAHh0yjyU" role="3cqZAp">
+        <node concept="2YIFZM" id="5xnAHh0yjzf" role="3clFbG">
+          <ref role="37wK5l" to="tp6m:14TMHtHs1EN" resolve="runWithTwoStepDeletion" />
+          <ref role="1Pybhc" to="tp6m:5s44y2Lh6_5" resolve="EditorTestUtil" />
+          <node concept="1bVj0M" id="5xnAHh0yjBG" role="37wK5m">
+            <node concept="3clFbS" id="5xnAHh0yjBK" role="1bW5cS">
+              <node concept="2HxZob" id="5xnAHh0yjNF" role="3cqZAp">
+                <node concept="1iFQzN" id="5xnAHh0yjOx" role="3iKnsn">
+                  <ref role="1iFR8X" to="ekwn:7HPyHg84hwg" resolve="Delete" />
+                </node>
+              </node>
+              <node concept="2HxZob" id="5xnAHh0yjR_" role="3cqZAp">
+                <node concept="1iFQzN" id="5xnAHh0yjRA" role="3iKnsn">
+                  <ref role="1iFR8X" to="ekwn:7HPyHg84hwg" resolve="Delete" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbT" id="5xnAHh0yjE_" role="37wK5m">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</model>
+

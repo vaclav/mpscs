@@ -72,6 +72,7 @@
       </concept>
       <concept id="8329266386016608055" name="jetbrains.mps.lang.editor.structure.ApproveDelete_Operation" flags="ng" index="2xy62i">
         <child id="8329266386016685951" name="editorContext" index="2xHN3q" />
+        <child id="8979250711607012232" name="cellSelector" index="3a7HXU" />
       </concept>
       <concept id="6718020819487620876" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Default" flags="ng" index="A1WHr" />
       <concept id="6718020819487620873" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Named" flags="ng" index="A1WHu">
@@ -102,6 +103,10 @@
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
+      <concept id="4323500428121233431" name="jetbrains.mps.lang.editor.structure.EditorCellId" flags="ng" index="2SqB2G" />
+      <concept id="4323500428136740385" name="jetbrains.mps.lang.editor.structure.CellIdReferenceSelector" flags="ng" index="2TlHUq">
+        <reference id="4323500428136742952" name="id" index="2TlMyj" />
       </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
@@ -188,6 +193,7 @@
         <reference id="1081339532145" name="keyMap" index="34QXea" />
         <reference id="1139959269582" name="actionMap" index="1ERwB7" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
+        <child id="4323500428121274054" name="id" index="2SqHTX" />
         <child id="4202667662392416064" name="transformationMenu" index="3vIgyS" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -21106,25 +21112,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="5xnAHgZa2GI">
-    <property role="3GE5qa" value="Statements.Declaration" />
-    <ref role="1XX52x" to="80bi:5xnAHgZa2vT" resolve="ImplicitLocalVariableDeclaration" />
-    <node concept="3EZMnI" id="5xnAHgZa2IS" role="2wV5jI">
-      <node concept="PMmxH" id="5xnAHgZa2La" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      </node>
-      <node concept="3F1sOY" id="5xnAHgZdlrl" role="3EZMnx">
-        <ref role="1NtTu8" to="80bi:5xnAHgZdlnx" resolve="variable" />
-      </node>
-      <node concept="3F0ifn" id="5xnAHgZdlsx" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
-        <node concept="11L4FC" id="5xnAHgZdluI" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="5xnAHgZa2IV" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="1h_SRR" id="2H$QQET29s8">
     <property role="3GE5qa" value="Namespace" />
     <property role="TrG5h" value="DeleteUsingDirective" />
@@ -21289,6 +21276,81 @@
       <node concept="l2Vlx" id="2H$QQEUtQIb" role="2iSdaV" />
       <node concept="A1WHr" id="2H$QQEUYLQG" role="3vIgyS">
         <ref role="2ZyFGn" to="80bi:6hv6i2_Axqh" resolve="UsingDirective" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5xnAHgZa2GI">
+    <property role="3GE5qa" value="Statements.Declaration" />
+    <ref role="1XX52x" to="80bi:5xnAHgZa2vT" resolve="ImplicitLocalVariableDeclaration" />
+    <node concept="3EZMnI" id="5xnAHgZa2IS" role="2wV5jI">
+      <node concept="PMmxH" id="5xnAHgZa2La" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="5xnAHgZdlrl" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:5xnAHgZdlnx" resolve="variable" />
+      </node>
+      <node concept="3F0ifn" id="5xnAHgZdlsx" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="5xnAHgZdluI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5xnAHgZa2IV" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="1h_SRR" id="5xnAHh0emj_">
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <property role="TrG5h" value="RemoveAwait" />
+    <ref role="1h_SK9" to="80bi:5xnAHgZZgnF" resolve="AwaitExpression" />
+    <node concept="1hA7zw" id="5xnAHh0emjA" role="1h_SK8">
+      <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
+      <node concept="1hAIg9" id="5xnAHh0emjB" role="1hA7z_">
+        <node concept="3clFbS" id="5xnAHh0emjC" role="2VODD2">
+          <node concept="3clFbJ" id="5xnAHh0hi42" role="3cqZAp">
+            <node concept="3clFbS" id="5xnAHh0hi44" role="3clFbx">
+              <node concept="3cpWs6" id="5xnAHh0hi_R" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="5xnAHh0hihq" role="3clFbw">
+              <node concept="0IXxy" id="5xnAHh0hi4W" role="2Oq$k0" />
+              <node concept="2xy62i" id="5xnAHh0hiy0" role="2OqNvi">
+                <node concept="1Q80Hx" id="5xnAHh0hiyA" role="2xHN3q" />
+                <node concept="2TlHUq" id="5xnAHh0k20P" role="3a7HXU">
+                  <ref role="2TlMyj" node="5xnAHh0uXTF" resolve="operator" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="5xnAHh0emme" role="3cqZAp">
+            <node concept="2OqwBi" id="5xnAHh0emyK" role="3clFbG">
+              <node concept="0IXxy" id="5xnAHh0emmd" role="2Oq$k0" />
+              <node concept="1P9Npp" id="5xnAHh0enmR" role="2OqNvi">
+                <node concept="2OqwBi" id="5xnAHh0en$J" role="1P9ThW">
+                  <node concept="0IXxy" id="5xnAHh0ennF" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="5xnAHh0enRd" role="2OqNvi">
+                    <ref role="3Tt5mk" to="80bi:5xnAHgZZgtR" resolve="task" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5xnAHgZZgy7">
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <ref role="1XX52x" to="80bi:5xnAHgZZgnF" resolve="AwaitExpression" />
+    <node concept="3EZMnI" id="5xnAHgZZg_B" role="2wV5jI">
+      <node concept="l2Vlx" id="5xnAHgZZg_C" role="2iSdaV" />
+      <node concept="3F0ifn" id="5xnAHgZZgBa" role="3EZMnx">
+        <property role="3F0ifm" value="await" />
+        <ref role="1ERwB7" node="5xnAHh0emj_" resolve="RemoveAwait" />
+        <node concept="2SqB2G" id="5xnAHh0uXTF" role="2SqHTX">
+          <property role="TrG5h" value="operator" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="5xnAHgZZgCI" role="3EZMnx">
+        <ref role="1NtTu8" to="80bi:5xnAHgZZgtR" resolve="task" />
       </node>
     </node>
   </node>
