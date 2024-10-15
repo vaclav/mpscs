@@ -209,6 +209,253 @@
       <ref role="1YaFvo" to="80bi:6hv6i2_B48E" resolve="ConstantDeclarator" />
     </node>
   </node>
+  <node concept="18kY7G" id="5xnAHh09lHo">
+    <property role="TrG5h" value="check_AwaitExpression" />
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <node concept="3clFbS" id="5xnAHh09lHp" role="18ibNy">
+      <node concept="3cpWs8" id="1XmGakPSUVn" role="3cqZAp">
+        <node concept="3cpWsn" id="1XmGakPSUVo" role="3cpWs9">
+          <property role="TrG5h" value="function" />
+          <node concept="3Tqbb2" id="1XmGakPSUVp" role="1tU5fm">
+            <ref role="ehGHo" to="80bi:7HmXimRLOdX" resolve="ICanBeAsync" />
+          </node>
+          <node concept="2OqwBi" id="1XmGakPSUVq" role="33vP2m">
+            <node concept="1YBJjd" id="1XmGakPSUVr" role="2Oq$k0">
+              <ref role="1YBMHb" node="5xnAHh09lHr" resolve="await" />
+            </node>
+            <node concept="2Xjw5R" id="1XmGakPSUVs" role="2OqNvi">
+              <node concept="1xMEDy" id="1XmGakPSUVt" role="1xVPHs">
+                <node concept="chp4Y" id="1XmGakPSUVu" role="ri$Ld">
+                  <ref role="cht4Q" to="80bi:7HmXimRLOdX" resolve="ICanBeAsync" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1XmGakPSUVv" role="3cqZAp">
+        <node concept="3fqX7Q" id="1XmGakPSUVw" role="3clFbw">
+          <node concept="2OqwBi" id="1XmGakPSUVx" role="3fr31v">
+            <node concept="37vLTw" id="1XmGakPSUVy" role="2Oq$k0">
+              <ref role="3cqZAo" node="1XmGakPSUVo" resolve="function" />
+            </node>
+            <node concept="3TrcHB" id="1XmGakPSUVz" role="2OqNvi">
+              <ref role="3TsBF5" to="80bi:5xnAHh08MDV" resolve="isAsync" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="1XmGakPSUV$" role="3clFbx">
+          <node concept="2MkqsV" id="1XmGakPSUV_" role="3cqZAp">
+            <node concept="1YBJjd" id="1XmGakPSUVA" role="1urrMF">
+              <ref role="1YBMHb" node="5xnAHh09lHr" resolve="await" />
+            </node>
+            <node concept="Xl_RD" id="1XmGakPSUVB" role="2MkJ7o">
+              <property role="Xl_RC" value="An await expression is only allowed in the body of an async function" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1XmGakPSUVC" role="3cqZAp" />
+      <node concept="3SKdUt" id="7HmXimP2_bS" role="3cqZAp">
+        <node concept="1PaTwC" id="7HmXimP2_bT" role="1aUNEU">
+          <node concept="3oM_SD" id="7HmXimP2_VQ" role="1PaTwD">
+            <property role="3oM_SC" value="TODO:" />
+          </node>
+          <node concept="3oM_SD" id="7HmXimP2_W2" role="1PaTwD">
+            <property role="3oM_SC" value="This" />
+          </node>
+          <node concept="3oM_SD" id="7HmXimP2_d0" role="1PaTwD">
+            <property role="3oM_SC" value="should" />
+          </node>
+          <node concept="3oM_SD" id="7HmXimP2_Wf" role="1PaTwD">
+            <property role="3oM_SC" value="also" />
+          </node>
+          <node concept="3oM_SD" id="7HmXimP2_dl" role="1PaTwD">
+            <property role="3oM_SC" value="check" />
+          </node>
+          <node concept="3oM_SD" id="XjP_cPMLEP" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="7HmXimP2_Q3" role="1PaTwD">
+            <property role="3oM_SC" value="unsafe" />
+          </node>
+          <node concept="3oM_SD" id="7HmXimP2_Qh" role="1PaTwD">
+            <property role="3oM_SC" value="contexts," />
+          </node>
+          <node concept="3oM_SD" id="XjP_cPMLWp" role="1PaTwD">
+            <property role="3oM_SC" value="once" />
+          </node>
+          <node concept="3oM_SD" id="7HmXimP2_X5" role="1PaTwD">
+            <property role="3oM_SC" value="implemented" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="1XmGakP9cRE" role="3cqZAp">
+        <node concept="3cpWsn" id="1XmGakP9cRH" role="3cpWs9">
+          <property role="TrG5h" value="invalidBlock" />
+          <node concept="2OqwBi" id="1XmGakP9pw5" role="33vP2m">
+            <node concept="2OqwBi" id="1XmGakP9e10" role="2Oq$k0">
+              <node concept="37vLTw" id="1XmGakP9dPQ" role="2Oq$k0">
+                <ref role="3cqZAo" node="1XmGakPSUVo" resolve="function" />
+              </node>
+              <node concept="2Rf3mk" id="1XmGakP9elW" role="2OqNvi">
+                <node concept="3gmYPX" id="1XmGakPa9mY" role="1xVPHs">
+                  <node concept="3gn64h" id="1XmGakP9epz" role="3gmYPZ">
+                    <ref role="3gnhBz" to="80bi:1FYNzU$y59t" resolve="CatchClause" />
+                  </node>
+                  <node concept="3gn64h" id="1XmGakP9esZ" role="3gmYPZ">
+                    <ref role="3gnhBz" to="80bi:1FYNzU$y5eq" resolve="FinallyClause" />
+                  </node>
+                  <node concept="3gn64h" id="7BRYAO5gy$d" role="3gmYPZ">
+                    <ref role="3gnhBz" to="80bi:6t5IfhV7q21" resolve="LockStatement" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1z4cxt" id="1XmGakP9E61" role="2OqNvi">
+              <node concept="1bVj0M" id="1XmGakP9E63" role="23t8la">
+                <node concept="3clFbS" id="1XmGakP9E64" role="1bW5cS">
+                  <node concept="3clFbF" id="1XmGakP9E65" role="3cqZAp">
+                    <node concept="2OqwBi" id="2zxOxSSjRpE" role="3clFbG">
+                      <node concept="2OqwBi" id="2zxOxSSjMyP" role="2Oq$k0">
+                        <node concept="1YBJjd" id="2zxOxSSjM2B" role="2Oq$k0">
+                          <ref role="1YBMHb" node="5xnAHh09lHr" resolve="await" />
+                        </node>
+                        <node concept="z$bX8" id="2zxOxSSjONX" role="2OqNvi" />
+                      </node>
+                      <node concept="3JPx81" id="2zxOxSSjUVf" role="2OqNvi">
+                        <node concept="37vLTw" id="2zxOxSSjUVN" role="25WWJ7">
+                          <ref role="3cqZAo" node="1XmGakP9E6c" resolve="it" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="gl6BB" id="1XmGakP9E6c" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1XmGakP9E6d" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3Tqbb2" id="1XmGakP9EcY" role="1tU5fm" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1XmGakP9eLy" role="3cqZAp">
+        <node concept="3clFbS" id="1XmGakP9eL$" role="3clFbx">
+          <node concept="2MkqsV" id="1XmGakPSUVD" role="3cqZAp">
+            <node concept="1YBJjd" id="1XmGakPSUVE" role="1urrMF">
+              <ref role="1YBMHb" node="5xnAHh09lHr" resolve="await" />
+            </node>
+            <node concept="2OqwBi" id="1XmGakPSUVF" role="2MkJ7o">
+              <node concept="Xl_RD" id="1XmGakPSUVG" role="2Oq$k0">
+                <property role="Xl_RC" value="An await expression is not allowed inside a %s block" />
+              </node>
+              <node concept="2cAKMz" id="1XmGakPSUVH" role="2OqNvi">
+                <node concept="2OqwBi" id="1XmGakPSUVI" role="2cAKU6">
+                  <node concept="2OqwBi" id="1XmGakPSUVJ" role="2Oq$k0">
+                    <node concept="37vLTw" id="1XmGakPSUVK" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1XmGakP9cRH" resolve="invalidBlock" />
+                    </node>
+                    <node concept="2yIwOk" id="1XmGakPSUVL" role="2OqNvi" />
+                  </node>
+                  <node concept="3n3YKJ" id="1XmGakPSUVM" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1XmGakP9frN" role="3clFbw">
+          <node concept="37vLTw" id="1XmGakP9eMQ" role="2Oq$k0">
+            <ref role="3cqZAo" node="1XmGakP9cRH" resolve="invalidBlock" />
+          </node>
+          <node concept="3x8VRR" id="1XmGakP9Fgo" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5xnAHh09lHr" role="1YuTPh">
+      <property role="TrG5h" value="await" />
+      <ref role="1YaFvo" to="80bi:5xnAHgZZgnF" resolve="AwaitExpression" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="iSyfcv_hOs">
+    <property role="TrG5h" value="check_LambdaParameterList" />
+    <property role="3GE5qa" value="Expressions.AnonymousFunctions" />
+    <node concept="3clFbS" id="iSyfcv_hOt" role="18ibNy">
+      <node concept="3clFbJ" id="iSyfcv_hTZ" role="3cqZAp">
+        <node concept="3clFbS" id="iSyfcv_hU1" role="3clFbx">
+          <node concept="2MkqsV" id="iSyfcv_j4M" role="3cqZAp">
+            <node concept="Xl_RD" id="iSyfcv_j5v" role="2MkJ7o">
+              <property role="Xl_RC" value="Inconsistent lambda parameter usage; parameter types must be all explicit or all implicit." />
+            </node>
+            <node concept="1YBJjd" id="iSyfcv_jef" role="1urrMF">
+              <ref role="1YBMHb" node="iSyfcv_hOv" resolve="parameters" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="iSyfcv_hUG" role="3clFbw">
+          <node concept="2OqwBi" id="iSyfcv_i5D" role="3fr31v">
+            <node concept="1YBJjd" id="iSyfcv_hVq" role="2Oq$k0">
+              <ref role="1YBMHb" node="iSyfcv_hOv" resolve="parameters" />
+            </node>
+            <node concept="2qgKlT" id="iSyfcv_iZ5" role="2OqNvi">
+              <ref role="37wK5l" to="kvwr:iSyfcvcioP" resolve="isValid" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="iSyfcv_hOv" role="1YuTPh">
+      <property role="TrG5h" value="parameters" />
+      <ref role="1YaFvo" to="80bi:7HmXimPhQc$" resolve="LambdaParameterList" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="4jo$K3ejl$3">
+    <property role="TrG5h" value="check_ImplicitLocalVariableDeclaration" />
+    <property role="3GE5qa" value="Identifiers.Concepts" />
+    <node concept="3clFbS" id="4jo$K3ejl$4" role="18ibNy">
+      <node concept="3clFbJ" id="4jo$K3ejl_6" role="3cqZAp">
+        <node concept="2OqwBi" id="4jo$K3ejl_7" role="3clFbw">
+          <node concept="2OqwBi" id="4jo$K3ejl_8" role="2Oq$k0">
+            <node concept="2OqwBi" id="4jo$K3ejl_9" role="2Oq$k0">
+              <node concept="1YBJjd" id="4jo$K3ejl_a" role="2Oq$k0">
+                <ref role="1YBMHb" node="4jo$K3ejl$6" resolve="var" />
+              </node>
+              <node concept="3TrEf2" id="4jo$K3ejl_b" role="2OqNvi">
+                <ref role="3Tt5mk" to="80bi:4jo$K3ejllH" resolve="variable" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="4jo$K3ejl_c" role="2OqNvi">
+              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="4jo$K3ejl_d" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="4jo$K3ejl_e" role="3clFbx">
+          <node concept="2MkqsV" id="4jo$K3ejl_f" role="3cqZAp">
+            <node concept="Xl_RD" id="4jo$K3ejl_g" role="2MkJ7o">
+              <property role="Xl_RC" value="An implicitly-typed declaration must be initialized." />
+            </node>
+            <node concept="2OqwBi" id="4jo$K3ejl_h" role="1urrMF">
+              <node concept="1YBJjd" id="4jo$K3ejl_i" role="2Oq$k0">
+                <ref role="1YBMHb" node="4jo$K3ejl$6" resolve="var" />
+              </node>
+              <node concept="3TrEf2" id="4jo$K3ejl_j" role="2OqNvi">
+                <ref role="3Tt5mk" to="80bi:4jo$K3ejllH" resolve="variable" />
+              </node>
+            </node>
+            <node concept="AMVWg" id="4jo$K3ejl_k" role="lGtFl">
+              <property role="TrG5h" value="VarMustBeInitialized" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4jo$K3ejl$6" role="1YuTPh">
+      <property role="TrG5h" value="var" />
+      <ref role="1YaFvo" to="80bi:4jo$K3ejl4y" resolve="ImplicitLocalVariableDeclaration" />
+    </node>
+  </node>
   <node concept="18kY7G" id="iHtKXP$dvv">
     <property role="TrG5h" value="check_UsingStatement" />
     <property role="3GE5qa" value="Statements.Using" />
@@ -289,265 +536,6 @@
     <node concept="1YaCAy" id="iHtKXP$dvy" role="1YuTPh">
       <property role="TrG5h" value="usingStatement" />
       <ref role="1YaFvo" to="80bi:iHtKXPjP1X" resolve="UsingStatement" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="iSyfcv_hOs">
-    <property role="TrG5h" value="check_LambdaParameterList" />
-    <property role="3GE5qa" value="Expressions.AnonymousFunctions" />
-    <node concept="3clFbS" id="iSyfcv_hOt" role="18ibNy">
-      <node concept="3clFbJ" id="iSyfcv_hTZ" role="3cqZAp">
-        <node concept="3clFbS" id="iSyfcv_hU1" role="3clFbx">
-          <node concept="2MkqsV" id="iSyfcv_j4M" role="3cqZAp">
-            <node concept="Xl_RD" id="iSyfcv_j5v" role="2MkJ7o">
-              <property role="Xl_RC" value="Inconsistent lambda parameter usage; parameter types must be all explicit or all implicit." />
-            </node>
-            <node concept="1YBJjd" id="iSyfcv_jef" role="1urrMF">
-              <ref role="1YBMHb" node="iSyfcv_hOv" resolve="parameters" />
-            </node>
-          </node>
-        </node>
-        <node concept="3fqX7Q" id="iSyfcv_hUG" role="3clFbw">
-          <node concept="2OqwBi" id="iSyfcv_i5D" role="3fr31v">
-            <node concept="1YBJjd" id="iSyfcv_hVq" role="2Oq$k0">
-              <ref role="1YBMHb" node="iSyfcv_hOv" resolve="parameters" />
-            </node>
-            <node concept="2qgKlT" id="iSyfcv_iZ5" role="2OqNvi">
-              <ref role="37wK5l" to="kvwr:iSyfcvcioP" resolve="isValid" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="iSyfcv_hOv" role="1YuTPh">
-      <property role="TrG5h" value="parameters" />
-      <ref role="1YaFvo" to="80bi:7HmXimPhQc$" resolve="LambdaParameterList" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="5xnAHh09lHo">
-    <property role="TrG5h" value="check_AwaitExpression" />
-    <property role="3GE5qa" value="Expressions.Unary" />
-    <node concept="3clFbS" id="5xnAHh09lHp" role="18ibNy">
-      <node concept="3SKdUt" id="7HmXimP2_bS" role="3cqZAp">
-        <node concept="1PaTwC" id="7HmXimP2_bT" role="1aUNEU">
-          <node concept="3oM_SD" id="7HmXimP2_VQ" role="1PaTwD">
-            <property role="3oM_SC" value="TODO:" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_W2" role="1PaTwD">
-            <property role="3oM_SC" value="This" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_d0" role="1PaTwD">
-            <property role="3oM_SC" value="should" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_Wf" role="1PaTwD">
-            <property role="3oM_SC" value="also" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_dl" role="1PaTwD">
-            <property role="3oM_SC" value="check" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_O_" role="1PaTwD">
-            <property role="3oM_SC" value="for" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_Pv" role="1PaTwD">
-            <property role="3oM_SC" value="lock" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_PE" role="1PaTwD">
-            <property role="3oM_SC" value="blocks" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_PQ" role="1PaTwD">
-            <property role="3oM_SC" value="and" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_Q3" role="1PaTwD">
-            <property role="3oM_SC" value="unsafe" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_Qh" role="1PaTwD">
-            <property role="3oM_SC" value="contexts," />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_Wr" role="1PaTwD">
-            <property role="3oM_SC" value="once" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_WC" role="1PaTwD">
-            <property role="3oM_SC" value="those" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_WQ" role="1PaTwD">
-            <property role="3oM_SC" value="are" />
-          </node>
-          <node concept="3oM_SD" id="7HmXimP2_X5" role="1PaTwD">
-            <property role="3oM_SC" value="implemented" />
-          </node>
-        </node>
-      </node>
-      <node concept="3cpWs8" id="1XmGakPSUVn" role="3cqZAp">
-        <node concept="3cpWsn" id="1XmGakPSUVo" role="3cpWs9">
-          <property role="TrG5h" value="function" />
-          <node concept="3Tqbb2" id="1XmGakPSUVp" role="1tU5fm">
-            <ref role="ehGHo" to="80bi:7HmXimRLOdX" resolve="ICanBeAsync" />
-          </node>
-          <node concept="2OqwBi" id="1XmGakPSUVq" role="33vP2m">
-            <node concept="1YBJjd" id="1XmGakPSUVr" role="2Oq$k0">
-              <ref role="1YBMHb" node="5xnAHh09lHr" resolve="await" />
-            </node>
-            <node concept="2Xjw5R" id="1XmGakPSUVs" role="2OqNvi">
-              <node concept="1xMEDy" id="1XmGakPSUVt" role="1xVPHs">
-                <node concept="chp4Y" id="1XmGakPSUVu" role="ri$Ld">
-                  <ref role="cht4Q" to="80bi:7HmXimRLOdX" resolve="ICanBeAsync" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbJ" id="1XmGakPSUVv" role="3cqZAp">
-        <node concept="3fqX7Q" id="1XmGakPSUVw" role="3clFbw">
-          <node concept="2OqwBi" id="1XmGakPSUVx" role="3fr31v">
-            <node concept="37vLTw" id="1XmGakPSUVy" role="2Oq$k0">
-              <ref role="3cqZAo" node="1XmGakPSUVo" resolve="function" />
-            </node>
-            <node concept="3TrcHB" id="1XmGakPSUVz" role="2OqNvi">
-              <ref role="3TsBF5" to="80bi:5xnAHh08MDV" resolve="isAsync" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbS" id="1XmGakPSUV$" role="3clFbx">
-          <node concept="2MkqsV" id="1XmGakPSUV_" role="3cqZAp">
-            <node concept="1YBJjd" id="1XmGakPSUVA" role="1urrMF">
-              <ref role="1YBMHb" node="5xnAHh09lHr" resolve="await" />
-            </node>
-            <node concept="Xl_RD" id="1XmGakPSUVB" role="2MkJ7o">
-              <property role="Xl_RC" value="An await expression is only allowed in the body of an async function" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="1XmGakPSUVC" role="3cqZAp" />
-      <node concept="3cpWs8" id="1XmGakP9cRE" role="3cqZAp">
-        <node concept="3cpWsn" id="1XmGakP9cRH" role="3cpWs9">
-          <property role="TrG5h" value="invalidBlock" />
-          <node concept="2OqwBi" id="1XmGakP9pw5" role="33vP2m">
-            <node concept="2OqwBi" id="1XmGakP9e10" role="2Oq$k0">
-              <node concept="37vLTw" id="1XmGakP9dPQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="1XmGakPSUVo" resolve="function" />
-              </node>
-              <node concept="2Rf3mk" id="1XmGakP9elW" role="2OqNvi">
-                <node concept="3gmYPX" id="1XmGakPa9mY" role="1xVPHs">
-                  <node concept="3gn64h" id="1XmGakP9epz" role="3gmYPZ">
-                    <ref role="3gnhBz" to="80bi:1FYNzU$y59t" resolve="CatchClause" />
-                  </node>
-                  <node concept="3gn64h" id="1XmGakP9esZ" role="3gmYPZ">
-                    <ref role="3gnhBz" to="80bi:1FYNzU$y5eq" resolve="FinallyClause" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1z4cxt" id="1XmGakP9E61" role="2OqNvi">
-              <node concept="1bVj0M" id="1XmGakP9E63" role="23t8la">
-                <node concept="3clFbS" id="1XmGakP9E64" role="1bW5cS">
-                  <node concept="3clFbF" id="1XmGakP9E65" role="3cqZAp">
-                    <node concept="2OqwBi" id="2zxOxSSjRpE" role="3clFbG">
-                      <node concept="2OqwBi" id="2zxOxSSjMyP" role="2Oq$k0">
-                        <node concept="1YBJjd" id="2zxOxSSjM2B" role="2Oq$k0">
-                          <ref role="1YBMHb" node="5xnAHh09lHr" resolve="await" />
-                        </node>
-                        <node concept="z$bX8" id="2zxOxSSjONX" role="2OqNvi" />
-                      </node>
-                      <node concept="3JPx81" id="2zxOxSSjUVf" role="2OqNvi">
-                        <node concept="37vLTw" id="2zxOxSSjUVN" role="25WWJ7">
-                          <ref role="3cqZAo" node="1XmGakP9E6c" resolve="it" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="gl6BB" id="1XmGakP9E6c" role="1bW2Oz">
-                  <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="1XmGakP9E6d" role="1tU5fm" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3Tqbb2" id="1XmGakP9EcY" role="1tU5fm" />
-        </node>
-      </node>
-      <node concept="3clFbJ" id="1XmGakP9eLy" role="3cqZAp">
-        <node concept="3clFbS" id="1XmGakP9eL$" role="3clFbx">
-          <node concept="2MkqsV" id="1XmGakPSUVD" role="3cqZAp">
-            <node concept="1YBJjd" id="1XmGakPSUVE" role="1urrMF">
-              <ref role="1YBMHb" node="5xnAHh09lHr" resolve="await" />
-            </node>
-            <node concept="2OqwBi" id="1XmGakPSUVF" role="2MkJ7o">
-              <node concept="Xl_RD" id="1XmGakPSUVG" role="2Oq$k0">
-                <property role="Xl_RC" value="An await expression is not allowed inside a %s block" />
-              </node>
-              <node concept="2cAKMz" id="1XmGakPSUVH" role="2OqNvi">
-                <node concept="2OqwBi" id="1XmGakPSUVI" role="2cAKU6">
-                  <node concept="2OqwBi" id="1XmGakPSUVJ" role="2Oq$k0">
-                    <node concept="37vLTw" id="1XmGakPSUVK" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1XmGakP9cRH" resolve="invalidBlock" />
-                    </node>
-                    <node concept="2yIwOk" id="1XmGakPSUVL" role="2OqNvi" />
-                  </node>
-                  <node concept="3n3YKJ" id="1XmGakPSUVM" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2OqwBi" id="1XmGakP9frN" role="3clFbw">
-          <node concept="37vLTw" id="1XmGakP9eMQ" role="2Oq$k0">
-            <ref role="3cqZAo" node="1XmGakP9cRH" resolve="invalidBlock" />
-          </node>
-          <node concept="3x8VRR" id="1XmGakP9Fgo" role="2OqNvi" />
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="5xnAHh09lHr" role="1YuTPh">
-      <property role="TrG5h" value="await" />
-      <ref role="1YaFvo" to="80bi:5xnAHgZZgnF" resolve="AwaitExpression" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="4jo$K3ejl$3">
-    <property role="TrG5h" value="check_ImplicitLocalVariableDeclaration" />
-    <property role="3GE5qa" value="Identifiers.Concepts" />
-    <node concept="3clFbS" id="4jo$K3ejl$4" role="18ibNy">
-      <node concept="3clFbJ" id="4jo$K3ejl_6" role="3cqZAp">
-        <node concept="2OqwBi" id="4jo$K3ejl_7" role="3clFbw">
-          <node concept="2OqwBi" id="4jo$K3ejl_8" role="2Oq$k0">
-            <node concept="2OqwBi" id="4jo$K3ejl_9" role="2Oq$k0">
-              <node concept="1YBJjd" id="4jo$K3ejl_a" role="2Oq$k0">
-                <ref role="1YBMHb" node="4jo$K3ejl$6" resolve="var" />
-              </node>
-              <node concept="3TrEf2" id="4jo$K3ejl_b" role="2OqNvi">
-                <ref role="3Tt5mk" to="80bi:4jo$K3ejllH" resolve="variable" />
-              </node>
-            </node>
-            <node concept="3TrEf2" id="4jo$K3ejl_c" role="2OqNvi">
-              <ref role="3Tt5mk" to="80bi:2HvFt1LDv0x" resolve="initializer" />
-            </node>
-          </node>
-          <node concept="3w_OXm" id="4jo$K3ejl_d" role="2OqNvi" />
-        </node>
-        <node concept="3clFbS" id="4jo$K3ejl_e" role="3clFbx">
-          <node concept="2MkqsV" id="4jo$K3ejl_f" role="3cqZAp">
-            <node concept="Xl_RD" id="4jo$K3ejl_g" role="2MkJ7o">
-              <property role="Xl_RC" value="An implicitly-typed declaration must be initialized." />
-            </node>
-            <node concept="2OqwBi" id="4jo$K3ejl_h" role="1urrMF">
-              <node concept="1YBJjd" id="4jo$K3ejl_i" role="2Oq$k0">
-                <ref role="1YBMHb" node="4jo$K3ejl$6" resolve="var" />
-              </node>
-              <node concept="3TrEf2" id="4jo$K3ejl_j" role="2OqNvi">
-                <ref role="3Tt5mk" to="80bi:4jo$K3ejllH" resolve="variable" />
-              </node>
-            </node>
-            <node concept="AMVWg" id="4jo$K3ejl_k" role="lGtFl">
-              <property role="TrG5h" value="VarMustBeInitialized" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4jo$K3ejl$6" role="1YuTPh">
-      <property role="TrG5h" value="var" />
-      <ref role="1YaFvo" to="80bi:4jo$K3ejl4y" resolve="ImplicitLocalVariableDeclaration" />
     </node>
   </node>
 </model>
