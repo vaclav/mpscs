@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage" version="2" />
+    <use id="d74e25c9-4d91-43b6-bad7-d18af7bf6674" name="CsBaseLanguage" version="3" />
   </languages>
   <imports>
     <import index="wqvk" ref="r:a910586b-a575-4ba4-913e-0af654e1c829(CsBaseLanguage.migration)" />
@@ -35,6 +35,9 @@
       <concept id="7486903154347131554" name="CsBaseLanguage.structure.VariableDeclaratorList" flags="ng" index="1ux1y">
         <child id="7486903154347131555" name="VariableDeclarator" index="1ux1z" />
       </concept>
+      <concept id="4960876621219057954" name="CsBaseLanguage.structure.ImplicitLocalVariableDeclaration" flags="ng" index="2a_s8y">
+        <child id="4960876621219059053" name="variable" index="2a_spH" />
+      </concept>
       <concept id="7769220957754731518" name="CsBaseLanguage.structure.VariableDeclaration" flags="ng" index="zF7EM">
         <child id="3125407777189916705" name="initializer" index="1qY_RL" />
       </concept>
@@ -57,6 +60,9 @@
       </concept>
       <concept id="7232527154588443306" name="CsBaseLanguage.structure.FieldDeclaration" flags="ng" index="31KRIa">
         <child id="7232527154588443341" name="variableDeclaratorList" index="31KRJH" />
+      </concept>
+      <concept id="6365726834694825977" name="CsBaseLanguage.structure.ImplicitLocalVariableDeclarationStatement" flags="ng" index="1BvVOH">
+        <child id="6365726834695689697" name="declaration" index="1BoGWP" />
       </concept>
       <concept id="6209812394072707164" name="CsBaseLanguage.structure.IHaveType" flags="ngI" index="3SE3W$">
         <child id="6209812394072710474" name="type" index="3SE38M" />
@@ -235,6 +241,38 @@
         </node>
         <node concept="3UfwP1" id="2ETkgtk0SHL" role="3SE38M">
           <node concept="3UfM66" id="2ETkgtk0SHM" role="3UfBpY" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2lJO3n" id="4jo$K3eo1Kr">
+    <property role="TrG5h" value="UpdateImplicitVarDeclarations_Test" />
+    <node concept="3ea_Bc" id="4jo$K3eo1Ks" role="3ea0P7">
+      <ref role="3ea_Bf" to="wqvk:4jo$K3ejnZW" resolve="UpdateImplicitVarDeclarations" />
+    </node>
+    <node concept="1qefOq" id="4jo$K3eo1Og" role="2lJO3o">
+      <node concept="15s5l7" id="4jo$K3er$dw" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.errors.item.IncompatibleTargetReportItem$IncompatibleContainmentTargetReportItem&quot;;FLAVOUR_MESSAGE=&quot;Incompatible target concept in the child role \&quot;declaration\&quot;: subconcept of \&quot;CsBaseLanguage.structure.ImplicitLocalVariableDeclaration\&quot; expected, \&quot;CsBaseLanguage.structure.VariableDeclaration\&quot; found&quot;;" />
+        <property role="huDt6" value="Incompatible target concept in the child role &quot;declaration&quot;: subconcept of &quot;CsBaseLanguage.structure.ImplicitLocalVariableDeclaration&quot; expected, &quot;CsBaseLanguage.structure.VariableDeclaration&quot; found" />
+      </node>
+      <node concept="1BvVOH" id="4jo$K3eo2fR" role="1qenE9">
+        <node concept="zF7EM" id="4jo$K3err5d" role="1BoGWP">
+          <property role="TrG5h" value="x" />
+          <node concept="3UcVBg" id="4jo$K3err8x" role="1qY_RL">
+            <property role="1pzoAX" value="3" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="4jo$K3erzcj" role="2lJPY$">
+      <node concept="1BvVOH" id="4jo$K3erzcf" role="1qenE9">
+        <node concept="2a_s8y" id="4jo$K3erzcg" role="1BoGWP">
+          <node concept="zF7EM" id="4jo$K3erzch" role="2a_spH">
+            <property role="TrG5h" value="x" />
+            <node concept="3UcVBg" id="4jo$K3erzci" role="1qY_RL">
+              <property role="1pzoAX" value="3" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
