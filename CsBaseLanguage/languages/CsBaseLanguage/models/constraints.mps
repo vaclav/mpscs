@@ -96,7 +96,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -107,7 +107,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
@@ -170,6 +170,7 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
+      <concept id="1173122760281" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorsOperation" flags="nn" index="z$bX8" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -194,6 +195,12 @@
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
       <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz" />
+      <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
+        <child id="1154546920563" name="concept" index="3gmYPZ" />
+      </concept>
+      <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">
+        <reference id="1154546997487" name="concept" index="3gnhBz" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -231,7 +238,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
@@ -1227,7 +1234,7 @@
               <node concept="nLn13" id="2XZTPU1pivX" role="2Oq$k0" />
               <node concept="1mIQ4w" id="2XZTPU1pivY" role="2OqNvi">
                 <node concept="chp4Y" id="2XZTPU1pj3z" role="cj9EA">
-                  <ref role="cht4Q" to="80bi:3zXINoFWW$0" resolve="AcessorDeclaration" />
+                  <ref role="cht4Q" to="80bi:3zXINoFWW$0" resolve="AccessorDeclaration" />
                 </node>
               </node>
             </node>
@@ -2741,6 +2748,51 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5e5Epz9FD0q">
+    <property role="3GE5qa" value="Statements.Yield" />
+    <ref role="1M2myG" to="80bi:5e5Epz9Bpur" resolve="YieldStatement" />
+    <node concept="9S07l" id="5e5Epz9FD0r" role="9Vyp8">
+      <node concept="3clFbS" id="5e5Epz9FD0s" role="2VODD2">
+        <node concept="3SKdUt" id="5e5Epz9GqT_" role="3cqZAp">
+          <node concept="1PaTwC" id="5e5Epz9GqTA" role="1aUNEU">
+            <node concept="3oM_SD" id="5e5Epz9GqV5" role="1PaTwD">
+              <property role="3oM_SC" value="TODO:" />
+            </node>
+            <node concept="3oM_SD" id="5e5Epz9GqV8" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="5e5Epz9GqVg" role="1PaTwD">
+              <property role="3oM_SC" value="include" />
+            </node>
+            <node concept="3oM_SD" id="5e5Epz9GqVp" role="1PaTwD">
+              <property role="3oM_SC" value="operator" />
+            </node>
+            <node concept="3oM_SD" id="1rlUUXHFZo3" role="1PaTwD">
+              <property role="3oM_SC" value="declarations" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5e5Epz9FDfA" role="3cqZAp">
+          <node concept="2OqwBi" id="5e5Epz9FYKe" role="3clFbG">
+            <node concept="2OqwBi" id="5e5Epz9FDNO" role="2Oq$k0">
+              <node concept="nLn13" id="5e5Epz9FDtt" role="2Oq$k0" />
+              <node concept="z$bX8" id="5e5Epz9FE91" role="2OqNvi">
+                <node concept="3gmYPX" id="5e5Epz9FWiq" role="1xVPHs">
+                  <node concept="3gn64h" id="5e5Epz9FWis" role="3gmYPZ">
+                    <ref role="3gnhBz" to="80bi:6hv6i2_B6ci" resolve="MethodDeclaration" />
+                  </node>
+                  <node concept="3gn64h" id="5e5Epz9FWjn" role="3gmYPZ">
+                    <ref role="3gnhBz" to="80bi:3zXINoFWW$0" resolve="AccessorDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3GX2aA" id="5e5Epz9GusY" role="2OqNvi" />
           </node>
         </node>
       </node>
