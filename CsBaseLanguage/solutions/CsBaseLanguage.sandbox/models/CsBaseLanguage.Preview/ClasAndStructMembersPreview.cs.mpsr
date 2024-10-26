@@ -26,7 +26,7 @@
         <child id="7486903154347178702" name="formalParameterList" index="1uUwe" />
         <child id="7486903154347178686" name="body" index="1uUxY" />
       </concept>
-      <concept id="4106644276571785472" name="CsBaseLanguage.structure.AcessorDeclaration" flags="ng" index="j3B8Q">
+      <concept id="4106644276571785472" name="CsBaseLanguage.structure.AccessorDeclaration" flags="ng" index="j3B8Q">
         <child id="4106644276571785475" name="body" index="j3B8P" />
       </concept>
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">

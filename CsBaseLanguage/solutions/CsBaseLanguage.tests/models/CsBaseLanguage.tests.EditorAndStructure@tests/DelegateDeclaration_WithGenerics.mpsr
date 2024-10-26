@@ -41,9 +41,7 @@
       <concept id="3766354144459872182" name="CsBaseLanguage.structure.IFunctionHeader" flags="ngI" index="2qBh2l">
         <child id="7575174424947156020" name="formalParameterList" index="1fIg$P" />
       </concept>
-      <concept id="7232527154588409138" name="CsBaseLanguage.structure.TypeParameter" flags="ng" index="31Lcgi">
-        <property id="9101593583220142807" name="isVarianceAnnotatable" index="ZweBN" />
-      </concept>
+      <concept id="7232527154588409138" name="CsBaseLanguage.structure.TypeParameter" flags="ng" index="31Lcgi" />
       <concept id="7232527154588300036" name="CsBaseLanguage.structure.DelegateDeclaration" flags="ng" index="31LiC$" />
       <concept id="3129541975290303051" name="CsBaseLanguage.structure.VoidType" flags="ng" index="1pH0Yj" />
       <concept id="6167894786982645659" name="CsBaseLanguage.structure.IGenericTypeList" flags="ngI" index="1FzkKU">
@@ -112,11 +110,10 @@
           </node>
         </node>
         <node concept="1pH0Yj" id="3tcg5Ugpy_E" role="3Sw9wT" />
-        <node concept="31Lcgi" id="3tcg5Ugpy_I" role="1Fzgr7">
-          <property role="ZweBN" value="true" />
+        <node concept="31Lcgi" id="UvEqpPOJ9i" role="1Fzgr7">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="31Lcgi" id="3tcg5Ugpy_K" role="1Fzgr7">
+        <node concept="31Lcgi" id="UvEqpPOJ9j" role="1Fzgr7">
           <property role="TrG5h" value="G" />
         </node>
       </node>

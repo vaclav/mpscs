@@ -43,7 +43,7 @@
       <concept id="7486903154347131577" name="CsBaseLanguage.structure.PropertyDeclaration" flags="ng" index="1ux1T">
         <child id="7486903154347131649" name="accessorDeclaration" index="1ux71" />
       </concept>
-      <concept id="4106644276571785472" name="CsBaseLanguage.structure.AcessorDeclaration" flags="ng" index="j3B8Q">
+      <concept id="4106644276571785472" name="CsBaseLanguage.structure.AccessorDeclaration" flags="ng" index="j3B8Q">
         <child id="4106644276571785475" name="body" index="j3B8P" />
       </concept>
       <concept id="3766354144460199614" name="CsBaseLanguage.structure.Public" flags="ng" index="2qAx6t" />
