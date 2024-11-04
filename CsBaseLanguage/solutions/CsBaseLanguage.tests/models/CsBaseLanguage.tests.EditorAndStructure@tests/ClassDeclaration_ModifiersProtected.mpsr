@@ -18,7 +18,6 @@
         <property id="1229194968596" name="caretPosition" index="LIFWa" />
         <property id="1229194968595" name="cellId" index="LIFWd" />
         <property id="1932269937152561478" name="useLabelSelection" index="OXtK3" />
-        <property id="1229432188737" name="isLastPosition" index="ZRATv" />
       </concept>
       <concept id="1227182079811" name="jetbrains.mps.lang.test.structure.TypeKeyStatement" flags="nn" index="2TK7Tu">
         <property id="1227184461946" name="keys" index="2TTd_B" />
@@ -74,15 +73,7 @@
         <property role="TrG5h" value="Foo" />
         <node concept="31LiCz" id="CnxWk9jcuM" role="31Leeq">
           <property role="TrG5h" value="Bar" />
-          <node concept="2qAx7y" id="CnxWk9jcuY" role="3SE3Wx">
-            <node concept="LIFWc" id="CnxWk9jcv7" role="lGtFl">
-              <property role="ZRATv" value="true" />
-              <property role="OXtK3" value="true" />
-              <property role="p6zMq" value="9" />
-              <property role="p6zMs" value="9" />
-              <property role="LIFWd" value="Constant_ccl2n_a" />
-            </node>
-          </node>
+          <node concept="2qAx7y" id="CnxWk9jcuY" role="3SE3Wx" />
         </node>
       </node>
     </node>
@@ -91,12 +82,12 @@
         <property role="TrG5h" value="Foo" />
         <node concept="31LiCz" id="CnxWk9jcuR" role="31Leeq">
           <property role="TrG5h" value="Bar" />
-          <node concept="LIFWc" id="CnxWk9jcuS" role="lGtFl">
+          <node concept="LIFWc" id="AKP4wC34eo" role="lGtFl">
             <property role="LIFWa" value="0" />
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="0" />
             <property role="p6zMs" value="0" />
-            <property role="LIFWd" value="Constant_yk1pkl_b0" />
+            <property role="LIFWd" value="Constant_yk1pkl_c0" />
           </node>
         </node>
       </node>

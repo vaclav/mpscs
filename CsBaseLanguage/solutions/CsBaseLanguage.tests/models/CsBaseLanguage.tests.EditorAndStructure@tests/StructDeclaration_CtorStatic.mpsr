@@ -81,13 +81,6 @@
           <node concept="1ux1M" id="3tcg5UgqaHy" role="1uUBl">
             <node concept="31KRCQ" id="3tcg5UgqaHz" role="1ux1N" />
           </node>
-          <node concept="LIFWc" id="3tcg5UgqaHB" role="lGtFl">
-            <property role="ZRATv" value="true" />
-            <property role="OXtK3" value="true" />
-            <property role="p6zMq" value="0" />
-            <property role="p6zMs" value="0" />
-            <property role="LIFWd" value="Constant_bk8szz_a0a" />
-          </node>
         </node>
       </node>
     </node>
