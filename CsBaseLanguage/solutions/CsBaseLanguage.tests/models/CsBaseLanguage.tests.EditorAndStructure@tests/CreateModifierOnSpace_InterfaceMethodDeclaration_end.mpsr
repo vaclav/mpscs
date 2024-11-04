@@ -85,7 +85,7 @@
         <node concept="1ux1I" id="3tcg5Ugp48n" role="1fIg$P" />
         <node concept="3UfwP1" id="3tcg5Ugp48u" role="3Sw9wT">
           <node concept="3UfM66" id="3tcg5Ugp48z" role="3UfBpY">
-            <node concept="LIFWc" id="3tcg5Ugp493" role="lGtFl">
+            <node concept="LIFWc" id="AKP4wC3drn" role="lGtFl">
               <property role="ZRATv" value="true" />
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="3" />
@@ -103,15 +103,7 @@
         <node concept="3UfwP1" id="3tcg5Ugp48D" role="3Sw9wT">
           <node concept="3UfM66" id="3tcg5Ugp48E" role="3UfBpY" />
         </node>
-        <node concept="2qAx6t" id="3tcg5Ugp48M" role="3SE3Wx">
-          <node concept="LIFWc" id="3tcg5Ugp48V" role="lGtFl">
-            <property role="ZRATv" value="true" />
-            <property role="OXtK3" value="true" />
-            <property role="p6zMq" value="6" />
-            <property role="p6zMs" value="6" />
-            <property role="LIFWd" value="Constant_7b68ld_a" />
-          </node>
-        </node>
+        <node concept="2qAx6t" id="3tcg5Ugp48M" role="3SE3Wx" />
       </node>
     </node>
   </node>
